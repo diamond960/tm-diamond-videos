@@ -1,0 +1,12 @@
+Your PC takes forever to start... and this is why.
+Every app you install wants to launch with Windows.
+And each one slows your startup down.
+Here's the fix.
+Press Control, Shift, Escape to open Task Manager.
+Click Startup apps.
+Look at the Startup impact column.
+See an app marked High that you don't need right away?
+Right-click it... and choose Disable.
+Restart, and feel the difference.
+Follow for more Windows fixes that actually work.
+Because your PC shouldn't take forever to start.
