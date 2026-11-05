@@ -8,4 +8,4 @@ names = {"HOOK": "9 apps, 1 chat"}
 for i, (name, li) in enumerate(tl.sections):
     t = 0 if i == 0 else tl.line_start(li)
     m, s = divmod(int(t), 60)
-    print(f"{m}:{s:02d} {names.get(name, name.title().replace('Ai ', 'AI ').replace('Vidiq', 'vidIQ').replace('Opusclip', 'OpusClip').replace('Hyperframes', 'HyperFrames').replace('Heygen', 'HeyGen'))}")
+    print(f"{m}:{s:02d} {names.get(name, name.title().replace("'S", "'s").replace('Ai ', 'AI ').replace('Vidiq', 'vidIQ').replace('Opusclip', 'OpusClip').replace('Hyperframes', 'HyperFrames').replace('Heygen', 'HeyGen'))}")

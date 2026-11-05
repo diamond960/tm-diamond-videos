@@ -150,7 +150,7 @@ class HookText(Scene):
         self.emojis = [(emoji_sprite(e["e"], e.get("size", 220)), self.T(e["at"]), e) for e in p.get("emoji", [])]
 
     def draw(self, cv, t):
-        total = sum(sp.height for sp, _, _ in self.items) + 18 * (len(self.items) - 1)
+        total = sum(sp.height for sp, _, _ in self.items) + 38 * (len(self.items) - 1)
         y = STAGE_CY + 40 - total / 2
         for sp, ta, ln in self.items:
             k, a = pop(t, ta, 0.2)
@@ -164,7 +164,7 @@ class HookText(Scene):
                     bar, d = canvas(sp.width + 40, 26)
                     rrect(d, (0, 0, (sp.width + 40) * pr, 26), 13, fill=C("red"))
                     paste(cv, done(bar), W / 2, y + sp.height / 2)
-            y += sp.height + 18
+            y += sp.height + 38
         for em, ta, e in self.emojis:
             k, a = pop(t, ta, 0.28)
             paste(cv, em, W / 2 + e.get("x", 0), STAGE_CY + e.get("y", -260) + 8 * math.sin(t * 2.5), k, a)
