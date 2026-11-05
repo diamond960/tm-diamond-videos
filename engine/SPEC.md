@@ -1,6 +1,6 @@
 # TM_Diamond Shorts pipeline (free)
 
-Everything here runs for free: GitHub Actions makes the voice and word timings, `engine/shorts.py` renders the video in the Claude workspace, and Make (free plan, files under 5 MB) uploads it to YouTube.
+Everything here runs for free: GitHub Actions makes the voice and word timings, `engine/shorts.py` renders the video in the Claude workspace, and `engine/UPLOAD.md` uploads it to YouTube (a Make upload session plus a GitHub Action, any file size) and cross-posts it to Instagram.
 
 ## 1. Voice + word timings (GitHub Actions)
 
@@ -69,6 +69,6 @@ python3 engine/shorts.py shorts/NN/spec.json /tmp/sheet.png --preview 0.3,2.0,..
 python3 engine/shorts.py shorts/NN/spec.json videos/shortNN.mp4                     # ~1 min; prints size_bytes
 ```
 
-- The file must be under 5,000,000 bytes. If it isn't, add `"max_video_kbps": 450` and render again.
-- Commit and push `videos/shortNN.mp4` and the spec.
-- The video URL for Make is `https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<commit sha>/videos/shortNN.mp4`.
+- Default quality is crf 21 with a 3000 kbps peak (sharp on phones, under Instagram's 5 Mbps limit); a 50 s Short is about 8 MB.
+- Commit and push `videos/shortNN.mp4`, the spec and the voice files, then publish with `engine/UPLOAD.md`.
+- The public file link (for Instagram) is `https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<commit sha>/videos/shortNN.mp4`.

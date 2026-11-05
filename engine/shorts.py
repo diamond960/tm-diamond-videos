@@ -1132,11 +1132,14 @@ def render(spec_path, out_path, preview=None):
     wav = out_path + ".wav"
     build_audio(spec, dur, wav)
     nfr = int(round(dur * FPS))
-    vb = spec.get("max_video_kbps", 560)
+    # Uploads go through a YouTube resumable session (no Make file limit), so Shorts can be sharp.
+    # 3000 kbps peak also stays under Instagram's 5 Mbps Reel limit.
+    vb = spec.get("max_video_kbps", 3000)
+    crf = str(spec.get("crf", 21))
     cmd = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-           "-i", "-", "-i", wav, "-c:v", "libx264", "-preset", "veryfast", "-crf", "27",
+           "-i", "-", "-i", wav, "-c:v", "libx264", "-preset", "veryfast", "-crf", crf,
            "-maxrate", f"{vb}k", "-bufsize", f"{vb * 2}k", "-pix_fmt", "yuv420p", "-g", "60",
-           "-c:a", "aac", "-b:a", "96k", "-shortest", "-movflags", "+faststart", out_path]
+           "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out_path]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for i in range(nfr):
         p.stdin.write(r.frame(i / FPS).tobytes())

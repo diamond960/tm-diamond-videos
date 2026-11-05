@@ -43,4 +43,4 @@ python3 engine/chapters.py long/NN/script.txt long/NN/voice.words.json    # chap
 python3 engine/thumbnail.py long/NN/thumb.json long/NN/thumbnail.jpg
 ```
 
-Commit `videos/longNN.mp4` (must be under 95 MB), the script, build, thumb.json, thumbnail and voice files.
+Commit `videos/longNN.mp4` (must be under 95 MB), the script, build, thumb.json, thumbnail and voice files, then publish with `engine/UPLOAD.md` (upload session, thumbnail, playlist).
