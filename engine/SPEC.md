@@ -1,0 +1,72 @@
+# TM_Diamond Shorts pipeline (free)
+
+Everything here runs for free: GitHub Actions makes the voice and word timings, `engine/shorts.py` renders the video in the Claude workspace, and Make (free plan, files under 5 MB) uploads it to YouTube.
+
+## 1. Voice + word timings (GitHub Actions)
+
+Commit a job file `jobs/<name>.json` and push. The "Voice and timings" workflow runs it, then commits `<out>.mp3` and `<out>.words.json` and deletes the job. It takes about 4-8 minutes. Poll with `git pull` until the `.words.json` file appears, or check `https://api.github.com/repos/diamond960/tm-diamond-videos/actions/runs?per_page=3`.
+
+- Free voice (Kokoro, open source):
+  `{"out": "shorts/03/voice", "tts": {"engine": "kokoro", "voice": "<VOICE>", "speed": 1.05, "text": "<script, one sentence per line>"}}`
+- Existing audio file, e.g. a Higgsfield Grady MP3 URL:
+  `{"out": "shorts/03/voice", "url": "https://.../file.mp3"}`
+
+To get any public file into the repo without timings, use `requests/<name>.json`:
+`{"files": [{"url": "...", "path": "inbox/x.mp3"}]}` (the "Fetch media" workflow).
+
+Run `python3 engine/plan.py shorts/03/voice.words.json` to print each sentence with its start and end time, plus every word's time.
+
+## 2. Spec (`shorts/NN/spec.json`)
+
+```json
+{
+  "title": "...",
+  "duration": <narration duration + 0.4>,
+  "narration": "voice.mp3",
+  "bpm": 118,
+  "music_db": 19,
+  "captions": {"auto": true, "words": "voice.words.json", "highlight": ["itself", "free", "..."]},
+  "visuals": [ {"type": "...", "t0": <sentence start>, "t1": <next sentence start>, ...}, ... ],
+  "sfx": [ {"t": 0.0, "type": "bass"}, ... ]
+}
+```
+
+Visuals must tile the whole timeline with no gaps: each `t1` equals the next `t0`, the first starts at 0.0, and the last ends at `duration`. Use one visual per sentence, and two for long sentences. For the loop, the last 0.5 s should repeat the first visual.
+
+Visual types (all centred in the upper-middle area; captions go below):
+
+- `card`: YouTube Studio card with a SCHEDULED badge. `{"crash": true}`
+- `emoji`: `{"items": [{"e": "🤖", "t": 1.2, "size": 380, "x": 0, "y": 0}], "cross": {"t": 2.0, "kind": "x"|"ban", "size": 420, "x": 0, "y": 0}}`. Any emoji works, so use this for almost any idea.
+- `iconx`: `{"icon": "timeline"|"upload", "cross_t": 6.0}` (red X over an editing timeline or upload button)
+- `chat`: `{"name": "Claude", "user": "short user message", "user_t": 9.4}`
+- `search`: `{"query": "...", "type_t": .., "type_dur": 1.6, "rows": [{"text": "...", "t": ..}], "arrow_t": ..}`
+- `page`: `{"label": "THE HOOK", "lines_t": ..}` (a document writing itself)
+- `pills`: `{"items": [{"text": "TEXT", "c": "lime|blue|pink|cyan|yellow|orange", "t": ..}]}` (max 5)
+- `waveform`: animated voice bars
+- `progress`: `{"fill_t": .., "fill_dur": 2.2, "checks": [{"text": "TITLE", "show": .., "tick": ..}]}`
+- `clock`: `{"label": "6:00 PM", "land_t": .., "viewers_t": [..]}`
+- `calendar`: `{"pages": [{"t": .., "head": "NOV", "num": "6"}]}`
+- `follow`: `{"name": "TM_Diamond", "label": "Follow", "done_label": "Following", "tap_t": ..}` (use for the CTA)
+- `bigtext`: `{"text": "3", "c": "lime", "size": 300, "sub": "FREE AI TOOLS", "sub_t": ..}`
+- `list`: `{"items": [{"text": "...", "t": .., "e": "🎬", "c": "lime"}]}` (max 4 rows)
+- `versus`: `{"cols": [{"title": "ChatGPT", "e": "💬", "c": "green", "t": .., "line": "Best for ...", "line_t": .., "win_t": ..}]}` (2-3 columns)
+
+Colours: w, lime, orange (Claude), red (negatives), blue, pink, cyan, yellow, green.
+
+Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch, flip, typing, riser.
+
+- A whoosh is added automatically at every visual change.
+- Add a bass on the hook (t=0) and on the twist line.
+- Add a pop on each reveal (pill, list row, emoji), ticks on checks, typing under search or page, a click on the follow tap, and a ding on a time reveal.
+- A `glitch` sfx also makes a visual RGB glitch and flash.
+
+## 3. Render, check, publish
+
+```
+python3 engine/shorts.py shorts/NN/spec.json /tmp/sheet.png --preview 0.3,2.0,...   # contact sheet to look at
+python3 engine/shorts.py shorts/NN/spec.json videos/shortNN.mp4                     # ~1 min; prints size_bytes
+```
+
+- The file must be under 5,000,000 bytes. If it isn't, add `"max_video_kbps": 450` and render again.
+- Commit and push `videos/shortNN.mp4` and the spec.
+- The video URL for Make is `https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<commit sha>/videos/shortNN.mp4`.
