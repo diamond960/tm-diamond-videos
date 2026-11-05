@@ -1,0 +1,35 @@
+name: Fetch media
+on:
+  push:
+    paths:
+      - 'requests/**.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download requested files
+        run: |
+          set -e
+          shopt -s nullglob
+          for req in requests/*.json; do
+            n=$(jq '.files | length' "$req")
+            for i in $(seq 0 $((n-1))); do
+              url=$(jq -r ".files[$i].url" "$req")
+              out=$(jq -r ".files[$i].path" "$req")
+              mkdir -p "$(dirname "$out")"
+              curl -fsSL --retry 3 -o "$out" "$url"
+              echo "saved $out ($(stat -c%s "$out") bytes)"
+            done
+            git rm -q "$req"
+          done
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Fetch requested media"
+          git push
