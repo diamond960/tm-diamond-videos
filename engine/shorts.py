@@ -872,7 +872,110 @@ def sine_glide(f0, f1, dur, curve=3.0):
     return np.sin(ph)
 
 
+def reverb(x, secs=0.7, mix=0.35, seed=4):
+    """Cheap room: convolve with decaying noise."""
+    rng = np.random.default_rng(seed)
+    n = int(secs * SR)
+    ir = rng.standard_normal(n) * np.exp(-np.arange(n) / (0.18 * SR))
+    ir[0] = 0
+    ir /= np.sqrt(np.sum(ir ** 2)) + 1e-9
+    m = len(x) + n
+    wet = np.fft.irfft(np.fft.rfft(x, m) * np.fft.rfft(ir, m), m)
+    out = np.zeros(m)
+    out[:len(x)] += x
+    return out + wet * mix
+
+
+def saw(f, n):
+    tt = np.arange(n) / SR
+    return 2 * ((tt * f) % 1) - 1
+
+
+def viral_sfx(kind, rng):
+    """Meme-style effects, synthesized here (no copied recordings)."""
+    if kind == "boom":  # deep cinematic 'vine boom' style hit
+        n = int(1.1 * SR)
+        y = np.sin(2 * np.pi * np.cumsum(np.linspace(62, 38, n)) / SR) * env_exp(n, 0.32)
+        y = np.tanh(2.6 * y) * np.minimum(1, (n - np.arange(n)) / (0.25 * SR))
+        y[:900] += rng.standard_normal(900) * np.linspace(0.6, 0, 900)
+        return reverb(lp_fast(y, 900), 0.9, 0.5) * 0.6
+    if kind == "scratch":  # record scratch: zig-zag pitch on noisy tone
+        n = int(0.42 * SR)
+        tt = np.arange(n) / SR
+        rate = np.where((tt * 9) % 1 < 0.5, 1.0, -0.7)
+        ph = np.cumsum(280 * (1 + 1.6 * rate * np.sin(np.pi * tt / tt[-1]))) / SR
+        y = np.sign(np.sin(2 * np.pi * ph)) * 0.35 + hp_fast(rng.standard_normal(n), 1500) * 0.35
+        return lp_fast(y, 4200) * np.minimum(1, (tt[-1] - tt) / 0.05) * 0.55
+    if kind == "cash":  # cha-ching
+        out = np.zeros(int(0.9 * SR))
+        for k, (t0, f0) in enumerate([(0.0, 2350), (0.13, 3150)]):
+            n = int(0.7 * SR)
+            tt = np.arange(n) / SR
+            bell = sum(a * np.sin(2 * np.pi * f0 * r * tt) for r, a in [(1, 0.5), (1.5, 0.3), (2.76, 0.2)])
+            bell *= np.exp(-tt / (0.18 if k == 0 else 0.3))
+            j = int(t0 * SR)
+            out[j:j + n] += bell[: len(out) - j]
+        for _ in range(10):  # coins
+            j = int(rng.uniform(0.12, 0.6) * SR)
+            m = int(0.03 * SR)
+            out[j:j + m] += hp_fast(rng.standard_normal(m), 5000) * env_exp(m, 0.006) * 0.25
+        return out * 0.8
+    if kind == "shutter":  # camera shutter
+        out = np.zeros(int(0.16 * SR))
+        for t0, g in [(0.0, 1.0), (0.075, 0.7)]:
+            m = int(0.05 * SR)
+            j = int(t0 * SR)
+            out[j:j + m] += lp_fast(hp_fast(rng.standard_normal(m), 1200), 7000) * env_exp(m, 0.008) * g
+        return out
+    if kind == "dun":  # dramatic 'dun dun duuun' sting
+        out = np.zeros(int(2.0 * SR))
+        for t0, f, d in [(0.0, 146.8, 0.22), (0.3, 138.6, 0.22), (0.62, 110.0, 1.1)]:
+            n = int(d * SR) + int(0.3 * SR)
+            y = (saw(f, n) + saw(f * 1.005, n) + 0.5 * saw(f * 2, n)) / 2.5
+            env = np.minimum(1, np.arange(n) / (0.01 * SR)) * np.exp(-np.arange(n) / ((d * 0.9) * SR))
+            y = lp_fast(y * env, 1400)
+            j = int(t0 * SR)
+            out[j:j + n] += y[: len(out) - j]
+        return reverb(out, 0.8, 0.4)[: int(2.2 * SR)] * 0.9
+    if kind == "buzzer":  # wrong-answer game-show buzzer
+        n = int(0.6 * SR)
+        y = (np.sign(np.sin(2 * np.pi * 105 * np.arange(n) / SR)) + np.sign(np.sin(2 * np.pi * 111 * np.arange(n) / SR))) / 2
+        return lp_fast(y, 2500) * np.minimum(1, (n - np.arange(n)) / (0.04 * SR)) * 0.3
+    if kind == "correct":  # quiz-show correct answer
+        out = np.zeros(int(0.7 * SR))
+        for t0, f in [(0.0, 1046.5), (0.11, 1568.0)]:
+            n = int(0.5 * SR)
+            tt = np.arange(n) / SR
+            y = (np.sin(2 * np.pi * f * tt) + 0.3 * np.sin(2 * np.pi * 2 * f * tt)) * np.exp(-tt / 0.16)
+            j = int(t0 * SR)
+            out[j:j + n] += y[: len(out) - j]
+        return out * 0.7
+    if kind == "airhorn":  # short airhorn blast (use rarely)
+        n = int(0.55 * SR)
+        y = sum(saw(f, n) for f in (466, 470, 698, 702)) / 4
+        y = lp_fast(hp_fast(y, 300), 3500) * np.minimum(1, np.arange(n) / (0.02 * SR)) * np.minimum(1, (n - np.arange(n)) / (0.05 * SR))
+        return y * 0.6
+    if kind == "tada":  # quick bright fanfare arpeggio
+        out = np.zeros(int(1.0 * SR))
+        for i, f in enumerate([523.3, 659.3, 784.0, 1046.5]):
+            n = int(0.6 * SR)
+            tt = np.arange(n) / SR
+            y = (np.sin(2 * np.pi * f * tt) + 0.4 * np.sin(2 * np.pi * 2 * f * tt)) * np.exp(-tt / 0.25)
+            j = int(i * 0.07 * SR)
+            out[j:j + n] += y[: len(out) - j] * 0.5
+        return out * 0.8
+    if kind == "swipe":  # fast swipe-up
+        n = int(0.22 * SR)
+        tt = np.arange(n) / n
+        y = hp_fast(rng.standard_normal(n), 2500) * np.sin(np.pi * tt) ** 2
+        return y * 0.28
+    return None
+
+
 def sfx(kind, rng):
+    v = viral_sfx(kind, rng)
+    if v is not None:
+        return v
     if kind == "whoosh":
         n = int(0.42 * SR)
         x = rng.standard_normal(n)
@@ -1071,7 +1174,7 @@ class Renderer:
             cls = VISUALS[v["type"]]
             self.vis.append(cls(v, v["t0"], v["t1"]))
         self.cuts = sorted(v["t0"] for v in spec["visuals"])
-        self.bass = [e["t"] for e in spec.get("sfx", []) if e["type"] in ("bass",)]
+        self.bass = [e["t"] for e in spec.get("sfx", []) if e["type"] in ("bass", "boom", "dun")]
         self.glitch = [e["t"] for e in spec.get("sfx", []) if e["type"] == "glitch"]
         self.zooms = sorted(e["t"] for e in spec.get("sfx", []) if e["type"] == "zoom")
         self.rng = random.Random(5)

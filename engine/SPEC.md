@@ -55,7 +55,24 @@ Visual types (all centred in the upper-middle area; captions go below):
 
 Colours: w, lime, orange (Claude), red (negatives), blue, pink, cyan, yellow, green.
 
-Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch, flip, typing, riser, zoom.
+Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch, flip, typing, riser, zoom,
+plus the **viral meme-style pack** (all synthesized here, no copied recordings):
+
+| sfx | sounds like | use it on |
+|---|---|---|
+| `boom` | deep "vine boom" hit (also shakes the camera) | the hook word, a shocking fact, the twist |
+| `scratch` | record scratch | "Wait..." / "Stop!" / a sudden turn |
+| `dun` | dramatic "dun dun duuun" (shakes) | a reveal, "this is why" |
+| `buzzer` | wrong-answer game-show buzzer | "you're doing it wrong" / the bad way |
+| `correct` | quiz "correct!" chime | the right way / the fix working |
+| `cash` | cha-ching | money, "free", saving time or money |
+| `shutter` | camera click | screenshots, "save this" |
+| `tada` | quick fanfare | the final result / payoff |
+| `swipe` | fast swipe | quick list items, page changes |
+| `airhorn` | short airhorn | at most once, on a big win |
+
+Use 2-4 viral sounds per video, on the moments that matter (hook, twist, wrong way, right way, payoff) -
+not on every line, or they stop working.
 
 - A whoosh is added automatically at every visual change.
 - Add a bass on the hook (t=0) and on the twist line.
@@ -64,6 +81,14 @@ Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch
 - A `zoom` sfx also makes an emphasis punch-in (snap in, hold, ease out). They are added automatically on every
   highlighted caption line (lime/orange/red words) that isn't within 0.7 s of a cut or another hit, so every
   zoom comes with a sound. Turn off with `"auto_zoom": false`.
+
+## Captions and hashtags (owner's rule)
+
+- Hashtags only when they help people find the video: 0-4 specific, searchable ones that match the topic
+  (#windows11, #chatgpt, #pctips, #claudeai, #techtips). Never #reels, #viral, #fyp, #foryou or long tag walls.
+- The caption's first line repeats the hook with the main search keyword in plain words (Instagram, Facebook and
+  TikTok search read captions). Add a question that invites a comment.
+- On TikTok, adding a trending sound in the app at very low volume (about 5%) under the voice can help reach.
 
 ## Platform versions
 

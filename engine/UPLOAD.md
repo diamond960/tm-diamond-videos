@@ -66,8 +66,8 @@ Instagram's API publishes immediately (no scheduling), so Reels are posted by th
 3. `mcp__vidIQ__vidiq_instagram_publish_reel {platformAccountId, videoUrl, caption}`, then keep calling it with the
    returned `containerId` (or `mcpJobId` after `vidiq_job_poll` says ready) every ~5 s until `PUBLISHED`.
    Never start a second container for the same video.
-4. Caption: hook line, 2-4 short value lines, "Full tutorials on YouTube: TM_Diamond", then 5-8 hashtags
-   (mix of broad and niche, e.g. #ai #claudeai #aitools #techtips #windows11 #productivity).
+4. Caption: hook line with the keyword, 2-4 short value lines, a question, "Full tutorials on YouTube: TM_Diamond",
+   then 0-4 specific hashtags only if they help search (see "Captions and hashtags" in SPEC.md).
 5. Record it in `shorts/NN/posted.json` as `"instagram": {"posted_at": "...", "permalink": "..."}`.
 
 ## 4. Facebook Reels (Make, free)
@@ -81,7 +81,7 @@ which manages the Page; nothing is ever posted to his personal profile).
    Reel for up to a minute, so the MCP call can time out with "Bad Gateway" while the run keeps going: then wait
    ~60 s and check `executions_list` / the data store. Record key `fb-<name>` -> `session_url` = Facebook video id.
    The Reel is at `https://www.facebook.com/reel/<video id>`. Never post the same video twice.
-3. Caption: hook line, 2-4 short value lines, a question that asks for a comment, "Follow for daily Windows + AI
-   tips", 4-6 hashtags (#windows11 #pctips #techtips #windows #chatgpt #ai). No "AI voice"/AI labels.
+3. Caption: hook line with the keyword, 2-4 short value lines, a question that asks for a comment, "Follow for daily
+   Windows + AI tips", then 0-4 specific hashtags only if they help search (SPEC.md). No "AI voice"/AI labels.
 4. Study the Page: run 6912009 `{job: "fb-study-<date>", job_type: "fb_study"}` -> the record lists the last 40
    videos (date | length | title/description). Facebook doesn't give view counts through this route.
