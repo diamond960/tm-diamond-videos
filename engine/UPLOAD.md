@@ -60,7 +60,8 @@ Instagram's API publishes immediately (no scheduling), so Reels are posted by th
 
 1. `mcp__vidIQ__vidiq_instagram_connected_accounts`: use the account with `publishingAvailable: true`. If there is
    none, skip Instagram (the owner has to connect it with `vidiq_connect_instagram_account` mode oauth).
-2. `mcp__vidIQ__vidiq_video_upload {url: "https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<sha>/videos/shortNN.mp4", title}`
+2. `mcp__vidIQ__vidiq_video_upload {url: "https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<sha>/videos/shortNN_social.mp4", title}`
+   (the no-beat version; `social_file_url` in posted.json)
    gives a hosted `videoUrl` (free).
 3. `mcp__vidIQ__vidiq_instagram_publish_reel {platformAccountId, videoUrl, caption}`, then keep calling it with the
    returned `containerId` (or `mcpJobId` after `vidiq_job_poll` says ready) every ~5 s until `PUBLISHED`.

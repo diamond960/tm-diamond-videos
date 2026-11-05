@@ -55,18 +55,30 @@ Visual types (all centred in the upper-middle area; captions go below):
 
 Colours: w, lime, orange (Claude), red (negatives), blue, pink, cyan, yellow, green.
 
-Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch, flip, typing, riser.
+Sound effects (`sfx`): whoosh, pop, click, bass, tick, ding, error, ping, glitch, flip, typing, riser, zoom.
 
 - A whoosh is added automatically at every visual change.
 - Add a bass on the hook (t=0) and on the twist line.
 - Add a pop on each reveal (pill, list row, emoji), ticks on checks, typing under search or page, a click on the follow tap, and a ding on a time reveal.
 - A `glitch` sfx also makes a visual RGB glitch and flash.
+- A `zoom` sfx also makes an emphasis punch-in (snap in, hold, ease out). They are added automatically on every
+  highlighted caption line (lime/orange/red words) that isn't within 0.7 s of a cut or another hit, so every
+  zoom comes with a sound. Turn off with `"auto_zoom": false`.
+
+## Platform versions
+
+- **YouTube Shorts**: with the background beat (default render) -> `videos/shortNN.mp4`.
+- **Instagram Reels / Facebook Reels**: NO background beat; voice + every zoom and sound effect stays
+  (`--no-music`; effects are mixed a little louder) -> `videos/shortNN_social.mp4`.
+- Length: 18-35 s is the sweet spot for Reels and Shorts (quick reveals 18-25 s, lists/comparisons 28-35 s).
+- TikTok (when connected): 61+ s, no beat, because TikTok's Creator Rewards only pay for videos over 1 minute.
 
 ## 3. Render, check, publish
 
 ```
 python3 engine/shorts.py shorts/NN/spec.json /tmp/sheet.png --preview 0.3,2.0,...   # contact sheet to look at
 python3 engine/shorts.py shorts/NN/spec.json videos/shortNN.mp4                     # ~1 min; prints size_bytes
+python3 engine/shorts.py shorts/NN/spec.json videos/shortNN_social.mp4 --no-music   # Instagram/Facebook version
 ```
 
 - Default quality is crf 21 with a 3000 kbps peak (sharp on phones, under Instagram's 5 Mbps limit); a 50 s Short is about 8 MB.

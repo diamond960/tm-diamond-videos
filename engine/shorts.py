@@ -941,6 +941,16 @@ def sfx(kind, rng):
             y[pos:pos + len(c)] += c
             pos += int(rng.uniform(0.06, 0.13) * SR)
         return y
+    if kind == "zoom":
+        n = int(0.26 * SR)
+        tt = np.arange(n) / n
+        sw = hp_fast(rng.standard_normal(n), 1800) * tt ** 2.2 * 0.55
+        k = int(0.2 * SR)
+        th = np.tanh(1.8 * sine_glide(140, 55, 0.2, 1.6) * env_exp(k, 0.07)) * 0.75
+        y = np.zeros(int(0.46 * SR))
+        y[:n] += sw
+        y[n - int(0.02 * SR):n - int(0.02 * SR) + k] += th
+        return y
     if kind == "riser":
         n = int(1.0 * SR)
         tt = np.arange(n) / n
@@ -1018,12 +1028,14 @@ def build_audio(spec, dur, out_wav):
         v = read_audio(spec["narration"])
         v = v / (np.max(np.abs(v)) + 1e-9) * 0.92
         narr[: min(n, len(v))] = v[:n]
-    mus = music(dur, spec.get("bpm", 118))
+    use_music = spec.get("music", True)
+    mus = music(dur, spec.get("bpm", 118)) if use_music else np.zeros(n)
     if np.any(narr):
         rms_v = np.sqrt(np.mean(narr[np.abs(narr) > 0.02] ** 2))
     else:
         rms_v = 0.25
-    mus *= rms_v * 10 ** (-spec.get("music_db", 19) / 20) / (np.sqrt(np.mean(mus ** 2)) + 1e-9)
+    if use_music:
+        mus *= rms_v * 10 ** (-spec.get("music_db", 19) / 20) / (np.sqrt(np.mean(mus ** 2)) + 1e-9)
     env = np.abs(narr)
     k = int(0.08 * SR)
     env = np.convolve(env, np.ones(k) / k, mode="same")
@@ -1035,7 +1047,7 @@ def build_audio(spec, dur, out_wav):
         j = int(ev["t"] * SR)
         if j < n:
             fx[j:j + len(y)] += y[: n - j]
-    fx *= rms_v * 1.1
+    fx *= rms_v * (1.1 if use_music else 1.3)  # no beat: effects carry the energy
     mix = narr + mus + fx
     fade = int(0.04 * SR)
     mix[-fade:] *= np.linspace(1, 0.6, fade)
@@ -1061,6 +1073,7 @@ class Renderer:
         self.cuts = sorted(v["t0"] for v in spec["visuals"])
         self.bass = [e["t"] for e in spec.get("sfx", []) if e["type"] in ("bass",)]
         self.glitch = [e["t"] for e in spec.get("sfx", []) if e["type"] == "glitch"]
+        self.zooms = sorted(e["t"] for e in spec.get("sfx", []) if e["type"] == "zoom")
         self.rng = random.Random(5)
 
     def frame(self, t):
@@ -1073,6 +1086,12 @@ class Renderer:
         last_cut = max([c for c in self.cuts if c <= t] or [0])
         dt = t - last_cut
         z = 1.0 + 0.11 * (1 - ease_out_cubic(dt / 0.32)) + 0.025 * clamp(dt / 4)
+        # emphasis zoom: snap in on the keyword, hold, ease back out (the "zoom" sfx plays with it)
+        for zt in self.zooms:
+            dz = t - zt
+            if 0 <= dz < 0.9 and zt >= last_cut:
+                k = ease_out_cubic(clamp(dz / 0.12)) * (1 - ease_out_cubic(clamp((dz - 0.45) / 0.45)))
+                z = max(z, 1.0 + 0.15 * k + 0.025 * clamp(dt / 4))
         sx = sy = 0.0
         for b in self.bass:
             if 0 <= t - b < 0.3:
@@ -1101,13 +1120,24 @@ class Renderer:
         return img
 
 
-def render(spec_path, out_path, preview=None):
+def render(spec_path, out_path, preview=None, no_music=False):
     spec = json.load(open(spec_path))
     base = os.path.dirname(os.path.abspath(spec_path))
     if spec.get("narration") and not os.path.isabs(spec["narration"]):
         spec["narration"] = os.path.join(base, spec["narration"])
     if isinstance(spec.get("captions"), dict) and spec["captions"].get("auto"):
         spec["captions"] = auto_captions(spec["captions"], base)
+    if no_music:
+        spec["music"] = False
+    if spec.get("auto_zoom", True) and isinstance(spec.get("captions"), list):
+        cuts = [v["t0"] for v in spec["visuals"]]
+        busy = cuts + [e["t"] for e in spec.get("sfx", []) if e["type"] in ("zoom", "bass", "glitch")]
+        for g in spec["captions"]:
+            for ln in g["lines"]:
+                t = ln.get("t", g["t"])
+                if ln.get("c", "w") != "w" and all(abs(t - b) > 0.7 for b in busy) and t < spec["duration"] - 0.8:
+                    spec.setdefault("sfx", []).append({"t": round(t, 3), "type": "zoom", "vol": 0.8})
+                    busy.append(t)
     if spec.get("auto_sfx", True):
         have = {(round(e["t"], 2), e["type"]) for e in spec.get("sfx", [])}
         extra = [{"t": v["t0"], "type": "whoosh", "vol": 0.7} for v in spec["visuals"]
@@ -1153,6 +1183,7 @@ def render(spec_path, out_path, preview=None):
 
 if __name__ == "__main__":
     pv = None
-    if len(sys.argv) > 3 and sys.argv[3].startswith("--preview"):
-        pv = [float(x) for x in sys.argv[4].split(",")]
-    render(sys.argv[1], sys.argv[2], pv)
+    args = sys.argv[3:]
+    if "--preview" in args:
+        pv = [float(x) for x in args[args.index("--preview") + 1].split(",")]
+    render(sys.argv[1], sys.argv[2], pv, no_music="--no-music" in args)
