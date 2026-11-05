@@ -1,0 +1,42 @@
+name: YouTube upload
+on:
+  push:
+    paths:
+      - 'uploads/**.job.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: youtube-upload
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload video bytes to the YouTube upload session
+        run: |
+          set -e
+          shopt -s nullglob
+          for job in uploads/*.job.json; do
+            url=$(jq -r '.session_url' "$job")
+            file=$(jq -r '.file' "$job")
+            out="${job%.job.json}.result.json"
+            echo "uploading $file ($(stat -c%s "$file") bytes)"
+            code=$(curl -sS -o /tmp/resp.json -w '%{http_code}' -X PUT -H "Content-Type: video/mp4" --upload-file "$file" "$url" || echo 000)
+            echo "http $code"
+            jq -n --arg code "$code" --slurpfile body <(cat /tmp/resp.json 2>/dev/null | jq -c . 2>/dev/null || echo '{}') \
+              '{http: ($code|tonumber), video_id: ($body[0].id // null), status: ($body[0].status // null), error: ($body[0].error // null)}' > "$out" || \
+              echo "{\"http\": $code, \"raw\": $(jq -Rs . < /tmp/resp.json)}" > "$out"
+            cat "$out"
+            git rm -q "$job"
+          done
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "YouTube upload result"
+          git pull --rebase -q || true
+          git push
