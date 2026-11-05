@@ -84,3 +84,17 @@ python3 engine/shorts.py shorts/NN/spec.json videos/shortNN_social.mp4 --no-musi
 - Default quality is crf 21 with a 3000 kbps peak (sharp on phones, under Instagram's 5 Mbps limit); a 50 s Short is about 8 MB.
 - Commit and push `videos/shortNN.mp4`, the spec and the voice files, then publish with `engine/UPLOAD.md`.
 - The public file link (for Instagram) is `https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<commit sha>/videos/shortNN.mp4`.
+
+## TikTok daily pack (posted by the owner)
+
+TikTok can't be posted to automatically for free, so every morning the pack goes to the owner's phone:
+
+- **Video** (`tiktok/NN/`): 61-75 s (TikTok only pays for videos over 1 minute), no beat, same pipeline as a Short
+  (voice job with `"out": "tiktok/NN/voice"`, spec, `--no-music` render to `videos/tiktokNN.mp4`). Script 170-200 words.
+  Check the real duration is over 61 s; if not, add a sentence and redo the voice.
+- **Photo carousel**: `python3 engine/carousel.py tiktok/NN/carousel.json tiktok/NN/slides/` makes 1080x1920 JPEG
+  slides: a cover, 3-6 tip slides (`kicker` number, `title` up to ~6 words, `body` up to ~20 words, `e` emoji)
+  and an end slide. See the docstring in `engine/carousel.py`.
+- **Text post**: a hook line plus 3-6 short lines, written for TikTok's text post (the owner pastes it).
+- Record everything in `tiktok/NN/pack.json` (`topic`, `video_title`, `caption_video`, `carousel_title`,
+  `caption_carousel`, `text_post`, `sent_at`).
