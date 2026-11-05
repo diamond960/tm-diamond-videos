@@ -1,0 +1,327 @@
+{
+ "title": "Your PC takes forever to start",
+ "duration": 38.66,
+ "narration": "voice.mp3",
+ "captions": {
+  "auto": true,
+  "words": "voice.words.json",
+  "highlight": [
+   "forever",
+   "slows",
+   "fix",
+   "task",
+   "startup",
+   "impact",
+   "high",
+   "disable",
+   "restart"
+  ]
+ },
+ "visuals": [
+  {
+   "type": "clock",
+   "label": "LOADING...",
+   "land_t": 1.2,
+   "viewers_t": [],
+   "t0": 0.0,
+   "t1": 4.44
+  },
+  {
+   "type": "pills",
+   "items": [
+    {
+     "text": "SPOTIFY",
+     "c": "lime",
+     "t": 4.64
+    },
+    {
+     "text": "TEAMS",
+     "c": "blue",
+     "t": 5.2
+    },
+    {
+     "text": "STEAM",
+     "c": "pink",
+     "t": 6.12
+    },
+    {
+     "text": "UPDATERS",
+     "c": "orange",
+     "t": 6.56
+    }
+   ],
+   "t0": 4.44,
+   "t1": 7.92
+  },
+  {
+   "type": "emoji",
+   "items": [
+    {
+     "e": "🐢",
+     "t": 7.92,
+     "size": 420
+    }
+   ],
+   "t0": 7.92,
+   "t1": 11.24
+  },
+  {
+   "type": "bigtext",
+   "text": "FIX",
+   "c": "lime",
+   "size": 300,
+   "sub": "NO APP NEEDED",
+   "sub_t": 11.62,
+   "t0": 11.24,
+   "t1": 13.08
+  },
+  {
+   "type": "pills",
+   "items": [
+    {
+     "text": "CTRL",
+     "c": "cyan",
+     "t": 13.22
+    },
+    {
+     "text": "SHIFT",
+     "c": "cyan",
+     "t": 13.6
+    },
+    {
+     "text": "ESC",
+     "c": "cyan",
+     "t": 14.7
+    },
+    {
+     "text": "TASK MANAGER",
+     "c": "lime",
+     "t": 15.26
+    }
+   ],
+   "t0": 13.08,
+   "t1": 17.12
+  },
+  {
+   "type": "search",
+   "query": "Startup apps",
+   "type_t": 17.17,
+   "type_dur": 0.8,
+   "rows": [
+    {
+     "text": "Task Manager > Startup apps",
+     "t": 17.8
+    }
+   ],
+   "t0": 17.12,
+   "t1": 19.3
+  },
+  {
+   "type": "list",
+   "items": [
+    {
+     "text": "Startup impact: High",
+     "t": 19.68,
+     "e": "🔴",
+     "c": "red"
+    },
+    {
+     "text": "Medium",
+     "t": 20.04,
+     "e": "🟠",
+     "c": "orange"
+    },
+    {
+     "text": "Low",
+     "t": 20.46,
+     "e": "🟢",
+     "c": "lime"
+    }
+   ],
+   "t0": 19.3,
+   "t1": 22.02
+  },
+  {
+   "type": "emoji",
+   "items": [
+    {
+     "e": "🤔",
+     "t": 22.02,
+     "size": 380
+    }
+   ],
+   "t0": 22.02,
+   "t1": 24.66
+  },
+  {
+   "type": "progress",
+   "fill_t": 24.66,
+   "fill_dur": 1.2,
+   "checks": [
+    {
+     "text": "RIGHT-CLICK",
+     "show": 24.66,
+     "tick": 25.06
+    },
+    {
+     "text": "DISABLE",
+     "show": 26.92,
+     "tick": 27.42
+    }
+   ],
+   "t0": 24.66,
+   "t1": 28.62
+  },
+  {
+   "type": "emoji",
+   "items": [
+    {
+     "e": "🚀",
+     "t": 28.62,
+     "size": 420
+    }
+   ],
+   "t0": 28.62,
+   "t1": 31.64
+  },
+  {
+   "type": "follow",
+   "name": "TM_Diamond",
+   "label": "Follow",
+   "done_label": "Following",
+   "tap_t": 31.94,
+   "t0": 31.64,
+   "t1": 35.0
+  },
+  {
+   "type": "emoji",
+   "items": [
+    {
+     "e": "⏳",
+     "t": 35.0,
+     "size": 400
+    }
+   ],
+   "t0": 35.0,
+   "t1": 38.16
+  },
+  {
+   "type": "clock",
+   "label": "LOADING...",
+   "land_t": 38.16,
+   "viewers_t": [],
+   "t0": 38.16,
+   "t1": 38.66
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "type": "bass"
+  },
+  {
+   "t": 1.2,
+   "type": "tick"
+  },
+  {
+   "t": 4.64,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 5.2,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 6.12,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 6.56,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 7.92,
+   "type": "error",
+   "vol": 0.7
+  },
+  {
+   "t": 11.24,
+   "type": "bass",
+   "vol": 0.9
+  },
+  {
+   "t": 13.22,
+   "type": "click"
+  },
+  {
+   "t": 13.22,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 13.6,
+   "type": "click"
+  },
+  {
+   "t": 13.6,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 14.7,
+   "type": "click"
+  },
+  {
+   "t": 14.7,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 15.26,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 17.17,
+   "type": "typing",
+   "vol": 0.6
+  },
+  {
+   "t": 19.68,
+   "type": "pop"
+  },
+  {
+   "t": 20.04,
+   "type": "pop"
+  },
+  {
+   "t": 20.46,
+   "type": "pop"
+  },
+  {
+   "t": 25.06,
+   "type": "tick"
+  },
+  {
+   "t": 27.42,
+   "type": "tick"
+  },
+  {
+   "t": 27.82,
+   "type": "riser",
+   "vol": 0.6
+  },
+  {
+   "t": 28.62,
+   "type": "ding"
+  },
+  {
+   "t": 31.94,
+   "type": "click"
+  }
+ ]
+}
