@@ -575,9 +575,146 @@ class Follow(Visual):
         paste(cv, done(cur), cx + 20, cy + 30, 1, a)
 
 
+class BigText(Visual):
+    """A giant word/number (e.g. "3", "FREE", "10X") with optional small label under it."""
+
+    def __init__(self, p, t0, t1):
+        super().__init__(p, t0, t1)
+        self.big = text_sprite(p["text"], p.get("size", 300), p.get("c", "lime"), FONT_BLACK, stroke=6)
+        if self.big.width > 900:
+            k = 900 / self.big.width
+            self.big = self.big.resize((900, int(self.big.height * k)), Image.LANCZOS)
+        self.sub = text_sprite(p["sub"], 54, "w", FONT_XB) if p.get("sub") else None
+
+    def draw(self, cv, t):
+        k, a = pop(t, self.t0, 0.3)
+        paste(cv, self.big, W / 2, VIS_CY - 30 + 6 * math.sin(t * 3), k, a)
+        if self.sub is not None:
+            k2, a2 = pop(t, self.p.get("sub_t", self.t0 + 0.25), 0.22)
+            paste(cv, self.sub, W / 2, VIS_CY + self.big.height / 2 + 30, k2, a2)
+
+
+class ListItems(Visual):
+    """Numbered rows appearing one by one: items [{"text": "...", "t": 1.2, "e": "🎬"}]."""
+
+    def __init__(self, p, t0, t1):
+        super().__init__(p, t0, t1)
+        self.rows = []
+        for i, it in enumerate(p["items"]):
+            w, h = 820, 120
+            img, d = canvas(w, h)
+            rrect(d, (0, 0, w, h), 30, fill=C("card"), outline=C(it.get("c", "card2")), width=3)
+            d.ellipse([s(22), s(22), s(98), s(98)], fill=C(it.get("c", "lime")))
+            row = done(img)
+            num = text_sprite(str(it.get("n", i + 1)), 46, "navy", FONT_BLACK)
+            row.alpha_composite(num, (60 - num.width // 2, 60 - num.height // 2))
+            x = 124
+            if it.get("e"):
+                em = emoji_sprite(it["e"], 70)
+                row.alpha_composite(em, (x, 60 - em.height // 2))
+                x += 90
+            ts = text_sprite(it["text"], 46, "w", FONT_XB)
+            if ts.width > w - x - 30:
+                kk = (w - x - 30) / ts.width
+                ts = ts.resize((int(ts.width * kk), int(ts.height * kk)), Image.LANCZOS)
+            row.alpha_composite(ts, (x, 60 - ts.height // 2))
+            self.rows.append((row, it["t"]))
+
+    def draw(self, cv, t):
+        n = len(self.rows)
+        for i, (row, rt) in enumerate(self.rows):
+            k, a = pop(t, rt, 0.22)
+            paste(cv, row, W / 2, VIS_CY - (n - 1) * 72 + i * 144, k, a)
+
+
+class Versus(Visual):
+    """2-3 columns: cols [{"title": "ChatGPT", "e": "💬", "c": "green", "t": 0.5, "line": "Best for...", "line_t": 1.0}]."""
+
+    def __init__(self, p, t0, t1):
+        super().__init__(p, t0, t1)
+        self.cols = []
+        n = len(p["cols"])
+        cw = 300 if n == 3 else 420
+        for cdef in p["cols"]:
+            img, d = canvas(cw, 470)
+            rrect(d, (0, 0, cw, 470), 34, fill=C("card"), outline=C(cdef.get("c", "lime")), width=5)
+            col = done(img)
+            if cdef.get("e"):
+                em = emoji_sprite(cdef["e"], 130)
+                col.alpha_composite(em, ((cw - em.width) // 2, 40))
+            ts = text_sprite(cdef["title"], 44, cdef.get("c", "lime"), FONT_BLACK)
+            if ts.width > cw - 30:
+                kk = (cw - 30) / ts.width
+                ts = ts.resize((int(ts.width * kk), int(ts.height * kk)), Image.LANCZOS)
+            col.alpha_composite(ts, ((cw - ts.width) // 2, 200))
+            line = None
+            if cdef.get("line"):
+                line = text_sprite(cdef["line"], 34, "w", FONT_BOLD)
+                if line.width > cw - 30:
+                    kk = (cw - 30) / line.width
+                    line = line.resize((int(line.width * kk), int(line.height * kk)), Image.LANCZOS)
+            self.cols.append((col, cdef, line))
+        self.cw = cw
+
+    def draw(self, cv, t):
+        n = len(self.cols)
+        gap = 24
+        total = n * self.cw + (n - 1) * gap
+        for i, (col, cdef, line) in enumerate(self.cols):
+            k, a = pop(t, cdef.get("t", self.t0), 0.25)
+            x = W / 2 - total / 2 + self.cw / 2 + i * (self.cw + gap) - 20
+            win = 1.08 if cdef.get("win_t") is not None and t >= cdef["win_t"] else 1.0
+            paste(cv, col, x, VIS_CY, k * win, a)
+            if line is not None and t >= cdef.get("line_t", 1e9):
+                k2, a2 = pop(t, cdef["line_t"], 0.2)
+                paste(cv, line, x, VIS_CY + 150, k2, a2)
+
+
 VISUALS = {"card": Card, "emoji": Emoji, "iconx": IconX, "chat": Chat, "search": Search, "page": Page,
            "pills": Pills, "waveform": Waveform, "progress": Progress, "clock": Clock, "calendar": Calendar,
-           "follow": Follow}
+           "follow": Follow, "bigtext": BigText, "list": ListItems, "versus": Versus}
+
+
+def auto_captions(cfg, base):
+    """Build caption groups from word timings: 1-3 words per line, 2 lines per group,
+    a new group at every sentence start. Highlight words go lime, 'claude' orange, negatives red."""
+    data = json.load(open(os.path.join(base, cfg["words"])))
+    hl = {w.lower() for w in cfg.get("highlight", [])}
+    neg = {w.lower() for w in cfg.get("negative", ["no", "never", "not", "don't", "stop"])}
+    groups, cur_lines, line = [], [], []
+    def color(word):
+        k = word.lower().strip(".,!?…\"'")
+        if k == "claude":
+            return "orange"
+        if k in hl:
+            return "lime"
+        if k in neg:
+            return "red"
+        return "w"
+    def flush_line():
+        nonlocal line
+        if line:
+            txt = " ".join(w["w"].strip(",") for w in line).upper().replace("...", "").replace("…", "")
+            cols = [color(w["w"]) for w in line]
+            c = next((x for x in cols if x != "w"), "w")
+            cur_lines.append({"text": txt.strip(), "t": line[0]["s"], "c": c})
+            line = []
+    def flush_group():
+        nonlocal cur_lines
+        flush_line()
+        if cur_lines:
+            groups.append({"t": cur_lines[0]["t"], "lines": cur_lines})
+            cur_lines = []
+    for wd in data["words"]:
+        line.append(wd)
+        txt = " ".join(x["w"] for x in line)
+        end_sentence = wd["w"].rstrip().endswith((".", "?", "!", "…"))
+        if len(line) >= 3 or len(txt) >= 13 or end_sentence or wd["w"].endswith(","):
+            flush_line()
+            if len(cur_lines) >= 2 or end_sentence:
+                flush_group()
+    flush_group()
+    return groups
 
 
 # ---------------------------------------------------------------- captions
@@ -647,7 +784,7 @@ class Background:
         for x, y, r, sp, al in self.parts:
             py = (y - t * sp) % H
             px = x + 12 * math.sin(t * 0.7 + y)
-            d.ellipse([px - r, py - r, px + r, py + r], fill=(200, 255, 46, int(255 * al * 0.5)))
+            d.ellipse([px - r, py - r, px + r, py + r], fill=(200, 255, 46, int(255 * al * 0.33)))
         return img
 
 
@@ -859,7 +996,7 @@ def build_audio(spec, dur, out_wav):
     mix = narr + mus + fx
     fade = int(0.04 * SR)
     mix[-fade:] *= np.linspace(1, 0.6, fade)
-    mix = np.tanh(mix * 1.15) / np.tanh(1.15)
+    mix = np.tanh(mix * 1.15) / np.tanh(1.15) * 0.82
     pcm = (np.clip(mix, -1, 1) * 32000).astype(np.int16)
     st = np.repeat(pcm[:, None], 2, axis=1)
     with wave.open(out_wav, "wb") as wf:
@@ -926,6 +1063,13 @@ def render(spec_path, out_path, preview=None):
     base = os.path.dirname(os.path.abspath(spec_path))
     if spec.get("narration") and not os.path.isabs(spec["narration"]):
         spec["narration"] = os.path.join(base, spec["narration"])
+    if isinstance(spec.get("captions"), dict) and spec["captions"].get("auto"):
+        spec["captions"] = auto_captions(spec["captions"], base)
+    if spec.get("auto_sfx", True):
+        have = {(round(e["t"], 2), e["type"]) for e in spec.get("sfx", [])}
+        extra = [{"t": v["t0"], "type": "whoosh", "vol": 0.7} for v in spec["visuals"]
+                 if (round(v["t0"], 2), "whoosh") not in have and v["t0"] > 0.05]
+        spec["sfx"] = spec.get("sfx", []) + extra
     dur = spec["duration"]
     r = Renderer(spec)
     if preview:
