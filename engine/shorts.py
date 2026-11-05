@@ -670,9 +670,446 @@ class Versus(Visual):
                 paste(cv, line, x, VIS_CY + 150, k2, a2)
 
 
+# ---------------------------------------------------------------- Windows UI mockups (screen only)
+WIN = {"bg": (243, 243, 243), "panel": (249, 249, 249), "card": (255, 255, 255), "line": (226, 226, 226),
+       "text": (26, 26, 26), "sub": (96, 96, 96), "accent": (0, 103, 192), "hover": (233, 233, 233),
+       "mark": (235, 38, 38), "arrow": (255, 196, 0)}
+
+
+def wc(name, a=255):
+    c = WIN[name]
+    return (c[0], c[1], c[2], a)
+
+
+def draw_cursor(d, x, y, k=1.0):
+    pts = [(0, 0), (0, 34), (9, 26), (15, 40), (21, 37), (15, 24), (27, 24)]
+    poly = [(s(x + px * k * 1.25), s(y + py * k * 1.25)) for px, py in pts]
+    d.polygon(poly, fill=(255, 255, 255, 255), outline=(0, 0, 0, 255), width=s(2.2))
+
+
+def hand_circle(d, box, prog, width=7, col=None, seed=0):
+    """Marker-style circle drawn progressively (prog 0..1) around box."""
+    if prog <= 0:
+        return
+    x0, y0, x1, y1 = box
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    rx, ry = (x1 - x0) / 2 + 18, (y1 - y0) / 2 + 16
+    rnd = random.Random(seed)
+    wob = [rnd.uniform(-0.05, 0.05) for _ in range(6)]
+    n = 90
+    end = int(n * min(1.0, prog) * 1.08)
+    pts = []
+    for i in range(end + 1):
+        a = -2.3 + 2 * math.pi * i / n
+        w = 1 + wob[i % 6] * math.sin(i / 7)
+        pts.append((s(cx + rx * w * math.cos(a)), s(cy + ry * w * math.sin(a))))
+    if len(pts) > 1:
+        d.line(pts, fill=col or wc("mark"), width=s(width), joint="curve")
+
+
+def draw_arrow(d, tip, frm, col=None, width=14):
+    tx, ty = tip
+    fx, fy = frm
+    ang = math.atan2(ty - fy, tx - fx)
+    L = 30
+    base = (tx - L * math.cos(ang), ty - L * math.sin(ang))
+    for wdt, c in ((width + 8, (255, 255, 255, 255)), (width, col or wc("arrow"))):
+        d.line([(s(fx), s(fy)), (s(base[0]), s(base[1]))], fill=c, width=s(wdt))
+        hw = 22 + (wdt - width) * 0.6
+        p1 = (tx + (4 if wdt > width else 0) * math.cos(ang), ty + (4 if wdt > width else 0) * math.sin(ang))
+        p2 = (base[0] + hw * math.cos(ang + math.pi / 2), base[1] + hw * math.sin(ang + math.pi / 2))
+        p3 = (base[0] + hw * math.cos(ang - math.pi / 2), base[1] + hw * math.sin(ang - math.pi / 2))
+        d.polygon([(s(p1[0]), s(p1[1])), (s(p2[0]), s(p2[1])), (s(p3[0]), s(p3[1]))], fill=c)
+
+
+def toggle_draw(d, x, y, on):
+    w, h = 54, 28
+    if on:
+        rrect(d, (x, y, x + w, y + h), 14, fill=wc("accent"))
+        d.ellipse([s(x + w - 24), s(y + 4), s(x + w - 4), s(y + 24)], fill=(255, 255, 255, 255))
+    else:
+        rrect(d, (x, y, x + w, y + h), 14, fill=(255, 255, 255, 255), outline=(110, 110, 110, 255), width=2)
+        d.ellipse([s(x + 7), s(y + 7), s(x + 21), s(y + 21)], fill=(70, 70, 70, 255))
+
+
+class WinUI(Visual):
+    """A Windows 11 window (screen only) with a cursor that clicks, marker circles, arrows and zooms.
+
+    p: title, icon, sidebar [{text, e}], active, header, sub, columns [..], col_x [fractions],
+       rows [{e, cells [..], toggle: bool, sub}], steps [{t, target, action, menu, set, arrow}],
+       zoom [{t, target, k, dur}]
+    targets: "sidebar:i", "row:i", "cell:i:j", "toggle:i", "menu:i", "header"
+    actions: click, rightclick, hover, circle
+    """
+    WW, WH = 980, 860
+
+    def __init__(self, p, t0, t1):
+        super().__init__(p, t0, t1)
+        self.steps = sorted(p.get("steps", []), key=lambda st: st["t"])
+        self.cache = {}
+        self.layout()
+
+    # -- layout ---------------------------------------------------------
+    def layout(self):
+        p = self.p
+        self.side = p.get("sidebar") or []
+        self.sx1 = 250 if self.side else 0
+        self.cx0 = self.sx1 + 26
+        self.cx1 = self.WW - 26
+        self.rects = {"header": (self.cx0, 70, self.cx1, 118)}
+        for i, _ in enumerate(self.side):
+            self.rects[f"sidebar:{i}"] = (10, 70 + i * 56, self.sx1 - 10, 70 + i * 56 + 48)
+        top = 140 if p.get("sub") else 130
+        if p.get("columns"):
+            top += 40
+        self.row_top = top
+        rows = p.get("rows", [])
+        rh = p.get("row_h", 74 if any("sub" in r for r in rows) else 66)
+        self.rh = rh
+        fr = p.get("col_x") or ([0.0] + [0.52 + 0.24 * k for k in range(max(0, len(p.get("columns", [0])) - 1))])
+        self.colx = [self.cx0 + 18 + f * (self.cx1 - self.cx0 - 36) for f in fr]
+        for i, r in enumerate(rows):
+            y0 = top + i * (rh + 8)
+            self.rects[f"row:{i}"] = (self.cx0, y0, self.cx1, y0 + rh)
+            for j, _ in enumerate(r.get("cells", [])):
+                x0 = self.colx[j] - 8
+                x1 = (self.colx[j + 1] - 12) if j + 1 < len(self.colx) else self.cx1 - 10
+                if r.get("toggle") is not None and j == 0:
+                    x1 = self.cx1 - 110
+                self.rects[f"cell:{i}:{j}"] = (x0, y0 + 8, x1, y0 + rh - 8)
+            if r.get("toggle") is not None:
+                self.rects[f"toggle:{i}"] = (self.cx1 - 84, y0 + rh / 2 - 14, self.cx1 - 30, y0 + rh / 2 + 14)
+
+    # -- state -------------------------------------------------------------
+    def state_at(self, t):
+        active = self.p.get("active", -1)
+        cells, toggles = {}, {}
+        menu = None
+        for st in self.steps:
+            if t < st["t"]:
+                break
+            tg = st.get("target", "")
+            if st.get("action") == "click" and tg.startswith("sidebar:") and t >= st["t"] + 0.08:
+                active = int(tg.split(":")[1])
+            if t >= st["t"] + 0.12:
+                for k, v in (st.get("set") or {}).items():
+                    if k.startswith("cell:"):
+                        cells[k] = v
+                    elif k.startswith("toggle:"):
+                        toggles[k] = v
+            if st.get("action") == "rightclick":
+                menu = {"items": st.get("menu", []), "t": st["t"], "anchor": self.center(tg)}
+            elif menu is not None and tg.startswith("menu:") and t >= st["t"] + 0.22:
+                menu = None
+        return active, cells, toggles, menu
+
+    def center(self, tg):
+        r = self.rects.get(tg)
+        if r is None:
+            return (self.WW / 2, self.WH / 2)
+        return ((r[0] + r[2]) / 2, (r[1] + r[3]) / 2)
+
+    def menu_rects(self, menu):
+        ax, ay = menu["anchor"]
+        mw, ih = 330, 50
+        x0 = min(ax + 10, self.WW - mw - 16)
+        y0 = min(ay + 6, self.WH - ih * len(menu["items"]) - 30)
+        return [(x0 + 8, y0 + 8 + i * ih, x0 + mw - 8, y0 + 8 + (i + 1) * ih) for i in range(len(menu["items"]))], (x0, y0, x0 + mw, y0 + 16 + ih * len(menu["items"]))
+
+    # -- static window -------------------------------------------------------
+    def base(self, active, cells, toggles):
+        key = (active, tuple(sorted(cells.items())), tuple(sorted(toggles.items())))
+        if key in self.cache:
+            return self.cache[key]
+        p = self.p
+        img, d = canvas(self.WW, self.WH)
+        rrect(d, (0, 0, self.WW, self.WH), 16, fill=wc("bg"), outline=(200, 200, 200, 255), width=2)
+        # title bar
+        if p.get("icon"):
+            img.alpha_composite(emoji_sprite(p["icon"], 26 * SS), (s(20), s(13)))
+        d.text((s(58), s(14)), p.get("title", ""), font=font(FONT_SEMI, s(20)), fill=wc("text"))
+        bx = self.WW - 150
+        d.line([(s(bx), s(26)), (s(bx + 16), s(26))], fill=wc("text"), width=s(2))
+        rrect(d, (bx + 50, 18, bx + 66, 34), 2, outline=wc("text"), width=2)
+        d.line([(s(bx + 102), s(18)), (s(bx + 118), s(34))], fill=wc("text"), width=s(2))
+        d.line([(s(bx + 118), s(18)), (s(bx + 102), s(34))], fill=wc("text"), width=s(2))
+        # sidebar
+        for i, it in enumerate(self.side):
+            x0, y0, x1, y1 = self.rects[f"sidebar:{i}"]
+            if i == active:
+                rrect(d, (x0, y0, x1, y1), 8, fill=wc("hover"))
+                rrect(d, (x0 + 2, y0 + 13, x0 + 6, y1 - 13), 2, fill=wc("accent"))
+            if it.get("e"):
+                img.alpha_composite(emoji_sprite(it["e"], 24 * SS), (s(x0 + 18), s(y0 + 12)))
+            d.text((s(x0 + 54), s(y0 + 12)), it["text"], font=font(FONT_SEMI if i == active else FONT_BOLD, s(19)),
+                   fill=wc("text"))
+        # content panel
+        rrect(d, (self.sx1, 56, self.WW - 2, self.WH - 2), 12, fill=wc("panel"))
+        d.text((s(self.cx0), s(70)), p.get("header", ""), font=font(FONT_XB, s(34)), fill=wc("text"))
+        if p.get("sub"):
+            d.text((s(self.cx0), s(116)), p["sub"], font=font(FONT_SEMI, s(18)), fill=wc("sub"))
+        if p.get("columns"):
+            hy = self.row_top - 34
+            for j, col in enumerate(p["columns"]):
+                d.text((s(self.colx[j]), s(hy)), col, font=font(FONT_BOLD, s(17)), fill=wc("sub"))
+        for i, r in enumerate(p.get("rows", [])):
+            x0, y0, x1, y1 = self.rects[f"row:{i}"]
+            rrect(d, (x0, y0, x1, y1), 10, fill=wc("card"), outline=wc("line"), width=2)
+            for j, cell in enumerate(r.get("cells", [])):
+                txt = cells.get(f"cell:{i}:{j}", cell)
+                cx = self.colx[j]
+                ty = y0 + (self.rh - 22) / 2 - (10 if (j == 0 and r.get("sub")) else 0)
+                if j == 0 and r.get("e"):
+                    img.alpha_composite(emoji_sprite(r["e"], 30 * SS), (s(cx), s(y0 + (self.rh - 30) / 2)))
+                    cx += 44
+                colr = wc("text")
+                if txt in ("High",):
+                    colr = (196, 43, 28, 255)
+                elif txt in ("Disabled", "Off"):
+                    colr = (120, 120, 120, 255)
+                d.text((s(cx), s(ty)), txt, font=font(FONT_SEMI if j else FONT_BOLD, s(20)), fill=colr)
+                if j == 0 and r.get("sub"):
+                    d.text((s(cx), s(ty + 28)), r["sub"], font=font(FONT_SEMI, s(15)), fill=wc("sub"))
+            if r.get("toggle") is not None:
+                on = toggles.get(f"toggle:{i}", r["toggle"])
+                tx0, ty0, _, _ = self.rects[f"toggle:{i}"]
+                toggle_draw(d, tx0, ty0, on)
+                d.text((s(tx0 - 44), s(ty0 + 2)), "On" if on else "Off", font=font(FONT_SEMI, s(18)), fill=wc("sub"))
+        out = done(img)
+        self.cache[key] = out
+        return out
+
+    # -- cursor path --------------------------------------------------------
+    def cursor_at(self, t, menu_r):
+        pos = (self.WW * 0.82, self.WH * 0.92)
+        prev_t = self.t0
+        for st in self.steps:
+            tg = st.get("target", "")
+            if st.get("action") == "circle" and not st.get("cursor"):
+                continue
+            if tg.startswith("menu:") and menu_r is not None:
+                i = int(tg.split(":")[1])
+                rr = menu_r[0][i] if i < len(menu_r[0]) else menu_r[0][0]
+                tgt = ((rr[0] + rr[2]) / 2 - 60, (rr[1] + rr[3]) / 2)
+            else:
+                c = self.center(tg)
+                r = self.rects.get(tg, (0, 0, 0, 0))
+                tgt = (min(c[0], r[0] + 70) if tg.startswith(("row:", "sidebar:")) else c[0], c[1])
+            move0 = max(prev_t, st["t"] - 0.6)
+            arrive = st["t"] - 0.06
+            if t < move0:
+                return pos
+            if t < arrive:
+                k = ease_in_out((t - move0) / max(0.05, arrive - move0))
+                return (pos[0] + (tgt[0] - pos[0]) * k, pos[1] + (tgt[1] - pos[1]) * k)
+            pos = tgt
+            prev_t = st["t"]
+        return pos
+
+    # -- frame --------------------------------------------------------------
+    def draw(self, cv, t):
+        active, cells, toggles, menu = self.state_at(t)
+        win = self.base(active, cells, toggles).copy()
+        ov, d = canvas(self.WW, self.WH)
+        menu_r = None
+        if menu is not None:
+            menu_r = self.menu_rects(menu)
+            ma = clamp((t - menu["t"] - 0.05) / 0.12)
+            if ma > 0:
+                (mx0, my0, mx1, my1) = menu_r[1]
+                rrect(d, (mx0 + 4, my0 + 8, mx1 + 4, my1 + 8), 12, fill=(0, 0, 0, int(40 * ma)))
+                rrect(d, (mx0, my0, mx1, my1), 12, fill=(252, 252, 252, int(255 * ma)), outline=(205, 205, 205, int(255 * ma)), width=2)
+                hov = None
+                for st in self.steps:
+                    if st["t"] - 0.35 <= t and st.get("target", "").startswith("menu:") and st["t"] >= menu["t"]:
+                        hov = int(st["target"].split(":")[1])
+                        break
+                for i, (rx0, ry0, rx1, ry1) in enumerate(menu_r[0]):
+                    if i == hov:
+                        rrect(d, (rx0, ry0, rx1, ry1), 6, fill=(232, 232, 232, int(255 * ma)))
+                    d.text((s(rx0 + 18), s(ry0 + 13)), menu["items"][i], font=font(FONT_SEMI, s(19)),
+                           fill=(26, 26, 26, int(255 * ma)))
+        # marker circles + arrows
+        for n, st in enumerate(self.steps):
+            act = st.get("action", "click")
+            if act == "hover":
+                continue
+            tg = st.get("target", "")
+            if tg.startswith("menu:"):
+                if menu_r is None:
+                    continue
+                i = int(tg.split(":")[1])
+                box = menu_r[0][i] if i < len(menu_r[0]) else None
+            else:
+                box = self.rects.get(tg)
+            if box is None:
+                continue
+            nxt = self.steps[n + 1]["t"] if n + 1 < len(self.steps) else self.t1
+            start = st["t"] - (0.4 if act != "circle" else 0.0)
+            end = max(st["t"] + 0.9, nxt - 0.1) if act == "circle" else st["t"] + 0.9
+            if start <= t < end:
+                hand_circle(d, box, (t - start) / 0.38, seed=n)
+                if act == "circle" or st.get("arrow"):
+                    bob = 10 * math.sin((t - start) * 9)
+                    tip = (box[2] + 14, box[1] - 6)
+                    frm = (min(self.WW - 20, tip[0] + 120), max(20, tip[1] - 110))
+                    if tip[0] > self.WW - 150:
+                        tip = (box[0] - 14, box[1] - 6)
+                        frm = (max(20, tip[0] - 120), max(20, tip[1] - 110))
+                    k = ease_out_back(clamp((t - start - 0.15) / 0.3))
+                    if k > 0.01:
+                        f2 = (tip[0] + (frm[0] - tip[0]) * k + bob * 0.5, tip[1] + (frm[1] - tip[1]) * k - bob)
+                        draw_arrow(d, (tip[0] + bob * 0.3, tip[1] - bob * 0.6), f2)
+        # cursor + click ripple
+        cx, cy = self.cursor_at(t, menu_r)
+        for st in self.steps:
+            if st.get("action") in ("click", "rightclick") or (st.get("action") == "circle" and st.get("cursor")):
+                dt = t - st["t"]
+                if 0 <= dt < 0.4 and st.get("action") != "circle":
+                    rr = 12 + 46 * ease_out_cubic(dt / 0.4)
+                    a = int(200 * (1 - dt / 0.4))
+                    col = (0, 103, 192, a) if st["action"] == "click" else (235, 38, 38, a)
+                    d.ellipse([s(cx - rr), s(cy - rr), s(cx + rr), s(cy + rr)], outline=col, width=s(5))
+        press = any(0 <= t - st["t"] < 0.12 for st in self.steps if st.get("action") in ("click", "rightclick"))
+        draw_cursor(d, cx, cy, 0.9 if press else 1.0)
+        win.alpha_composite(done(ov))
+        # zoom toward a target
+        zk, zc = 1.0, (self.WW / 2, self.WH / 2)
+        for z in self.p.get("zoom", []):
+            dur = z.get("dur", 1.8)
+            if z["t"] <= t < z["t"] + dur + 0.5:
+                kin = ease_in_out((t - z["t"]) / 0.45)
+                kout = 1 - ease_in_out((t - z["t"] - dur) / 0.5)
+                zk = 1 + (z.get("k", 1.4) - 1) * min(kin, kout)
+                zc = self.center(z["target"])
+        if zk > 1.001:
+            cw, ch = self.WW / zk, self.WH / zk
+            x0 = clamp(zc[0] - cw / 2, 0, self.WW - cw)
+            y0 = clamp(zc[1] - ch / 2, 0, self.WH - ch)
+            win = win.resize((self.WW, self.WH), Image.BILINEAR, box=(x0, y0, x0 + cw, y0 + ch))
+        # window entrance + soft shadow
+        k, a = pop(t, self.t0, 0.32)
+        k = 0.9 + 0.1 * (k - 0.35) / 0.65 if k > 0 else 0
+        sh = self.shadow()
+        paste(cv, sh, W / 2, VIS_CY + 22, k, a * 0.55)
+        paste(cv, win, W / 2, VIS_CY, k, a)
+
+    def shadow(self):
+        if getattr(self, "_sh", None) is None:
+            im = Image.new("RGBA", (self.WW + 120, self.WH + 120), (0, 0, 0, 0))
+            ImageDraw.Draw(im).rounded_rectangle([60, 60, self.WW + 60, self.WH + 60], radius=24, fill=(0, 0, 0, 150))
+            self._sh = im.filter(ImageFilter.GaussianBlur(26))
+        return self._sh
+
+
+class Keys(Visual):
+    """Keyboard keys that press down in turn: {"keys": ["Ctrl", "Shift", "Esc"], "press_t": [..]}"""
+
+    def __init__(self, p, t0, t1):
+        super().__init__(p, t0, t1)
+        self.keys = p["keys"]
+        self.press = p.get("press_t") or [t0 + 0.3 + 0.35 * i for i in range(len(self.keys))]
+
+    def keycap(self, label, down):
+        f = font(FONT_XB, s(46))
+        tw = ImageDraw.Draw(Image.new("RGBA", (1, 1))).textlength(label, font=f) / SS
+        w, h, depth = max(150, tw + 70), 150, 18
+        img, d = canvas(int(w) + 8, h + depth + 8)
+        dy = depth - 6 if down else 0
+        rrect(d, (4, 4 + depth, w + 4, h + depth + 4), 26, fill=(150, 150, 160, 255))
+        rrect(d, (4, 4 + dy, w + 4, h + 4 + dy), 26, fill=(250, 250, 252, 255) if not down else (200, 255, 46, 255),
+              outline=(170, 170, 180, 255), width=3)
+        d.text((s(4 + w / 2), s(4 + dy + h / 2)), label, font=f, fill=(20, 24, 40, 255), anchor="mm")
+        return done(img)
+
+    def draw(self, cv, t):
+        sprites = []
+        for i, kname in enumerate(self.keys):
+            pt = self.press[i] if i < len(self.press) else self.t1
+            down = pt <= t < pt + 0.16 or (t >= pt + 0.16 and self.p.get("hold", True))
+            sprites.append((self.keycap(kname, down), pt))
+        plus = text_sprite("+", 70, (40, 40, 60), FONT_BLACK)
+        total = sum(sp.width for sp, _ in sprites) + (len(sprites) - 1) * (plus.width + 10)
+        scale = min(1.0, 1000 / max(1, total))
+        x = W / 2 - total * scale / 2
+        for i, (sp, pt) in enumerate(sprites):
+            k, a = pop(t, min(pt - 0.3, self.t0 + 0.1 * i), 0.25)
+            paste(cv, sp, x + sp.width * scale / 2, VIS_CY, k * scale, a)
+            x += sp.width * scale
+            if i + 1 < len(sprites):
+                k2, a2 = pop(t, self.t0 + 0.1 * i + 0.05, 0.2)
+                paste(cv, plus, x + (plus.width + 10) * scale / 2, VIS_CY, k2 * scale, a2)
+                x += (plus.width + 10) * scale
+
+
+# ---------------------------------------------------------------- paper background
+class PaperBackground:
+    """Crumpled paper with marker doodles; slow drift so the frame never sits still."""
+
+    def __init__(self, seed=3, color=(246, 240, 228)):
+        rnd = np.random.default_rng(seed)
+        PW, PH = W + 120, H + 160
+        field = np.zeros((PH, PW), np.float32)
+        for sigma, amp in ((70, 1.0), (22, 0.55), (6, 0.25)):
+            small = (rnd.random((PH // 4, PW // 4)) * 255).astype(np.uint8)
+            im = Image.fromarray(small, "L").resize((PW, PH), Image.BICUBIC).filter(ImageFilter.GaussianBlur(sigma / 2))
+            a = np.asarray(im, np.float32) / 255.0
+            field += amp * (a - a.mean())
+        gy, gx = np.gradient(field)
+        shade = np.clip(1.0 + (gx * -0.9 + gy * -1.2) * 9.0, 0.82, 1.1)
+        grain = rnd.normal(0, 3.0, (PH, PW)).astype(np.float32)
+        base = np.empty((PH, PW, 3), np.float32)
+        for c in range(3):
+            base[..., c] = color[c] * shade + grain
+        yy, xx = np.mgrid[0:PH, 0:PW].astype(np.float32)
+        vign = np.clip(1.08 - np.sqrt(((xx - PW / 2) / PW) ** 2 + ((yy - PH / 2) / PH) ** 2) * 0.55, 0.78, 1.0)
+        base *= vign[..., None]
+        self.paper = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), "RGB").convert("RGBA")
+        r = random.Random(seed)
+        cols = [(200, 255, 46), (255, 122, 200), (63, 160, 255), (255, 196, 0), (255, 110, 80)]
+        self.doodles = []
+        for i in range(14):
+            side = i % 2
+            x = r.uniform(30, 190) if side == 0 else r.uniform(W - 190, W - 30)
+            y = r.uniform(80, H - 80)
+            self.doodles.append((r.choice(["star", "circle", "zig", "plus", "dots"]), x, y, r.uniform(28, 56),
+                                 r.choice(cols), r.uniform(0, 6.28), r.uniform(-0.6, 0.6)))
+        self.cache = {}
+
+    def frame(self, t, tint=None):
+        ox = 60 + 40 * math.sin(t * 0.13)
+        oy = 80 + 60 * math.sin(t * 0.09 + 1)
+        img = self.paper.crop((int(ox), int(oy), int(ox) + W, int(oy) + H))
+        d = ImageDraw.Draw(img)
+        for kind, x, y, sz, col, ph, rot in self.doodles:
+            yy = y + 10 * math.sin(t * 0.8 + ph)
+            a = ph + t * rot
+            c = col + (150,)
+            if kind == "star":
+                pts = []
+                for k in range(10):
+                    rr = sz if k % 2 == 0 else sz * 0.45
+                    an = a + k * math.pi / 5
+                    pts.append((x + rr * math.cos(an), yy + rr * math.sin(an)))
+                d.line(pts + [pts[0]], fill=c, width=5, joint="curve")
+            elif kind == "circle":
+                d.ellipse([x - sz * 0.6, yy - sz * 0.6, x + sz * 0.6, yy + sz * 0.6], outline=c, width=5)
+            elif kind == "zig":
+                pts = [(x - sz + k * sz / 2.5, yy + (12 if k % 2 else -12)) for k in range(6)]
+                d.line(pts, fill=c, width=5, joint="curve")
+            elif kind == "plus":
+                d.line([(x - sz / 2, yy), (x + sz / 2, yy)], fill=c, width=6)
+                d.line([(x, yy - sz / 2), (x, yy + sz / 2)], fill=c, width=6)
+            else:
+                for k in range(3):
+                    d.ellipse([x - 6 + k * 18, yy - 6, x + 6 + k * 18, yy + 6], fill=c)
+        return img
+
+
 VISUALS = {"card": Card, "emoji": Emoji, "iconx": IconX, "chat": Chat, "search": Search, "page": Page,
            "pills": Pills, "waveform": Waveform, "progress": Progress, "clock": Clock, "calendar": Calendar,
-           "follow": Follow, "bigtext": BigText, "list": ListItems, "versus": Versus}
+           "follow": Follow, "bigtext": BigText, "list": ListItems, "versus": Versus,
+           "winui": WinUI, "keys": Keys}
 
 
 def _norm(w):
@@ -1168,7 +1605,7 @@ def build_audio(spec, dur, out_wav):
 class Renderer:
     def __init__(self, spec):
         self.spec = spec
-        self.bg = Background()
+        self.bg = PaperBackground() if spec.get("bg") == "paper" else Background()
         self.vis = []
         for v in spec["visuals"]:
             cls = VISUALS[v["type"]]
