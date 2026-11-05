@@ -69,3 +69,19 @@ Instagram's API publishes immediately (no scheduling), so Reels are posted by th
 4. Caption: hook line, 2-4 short value lines, "Full tutorials on YouTube: TM_Diamond", then 5-8 hashtags
    (mix of broad and niche, e.g. #ai #claudeai #aitools #techtips #windows11 #productivity).
 5. Record it in `shorts/NN/posted.json` as `"instagram": {"posted_at": "...", "permalink": "..."}`.
+
+## 4. Facebook Reels (Make, free)
+
+Page: **TMDiamond** (page id 572956285911279), through Make connection 12169332 (the owner's Facebook login,
+which manages the Page; nothing is ever posted to his personal profile).
+
+1. Video: the NO-BEAT version, 9:16, 3-90 s. Link it through jsDelivr (Facebook needs a proper video/mp4 link):
+   `https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@<sha>/videos/<file>.mp4` (files must be under 20 MB).
+2. Run 6912009 `{job: "fb-<name>", job_type: "fb_reel", video_url, title, caption}`. Facebook processes the
+   Reel for up to a minute, so the MCP call can time out with "Bad Gateway" while the run keeps going: then wait
+   ~60 s and check `executions_list` / the data store. Record key `fb-<name>` -> `session_url` = Facebook video id.
+   The Reel is at `https://www.facebook.com/reel/<video id>`. Never post the same video twice.
+3. Caption: hook line, 2-4 short value lines, a question that asks for a comment, "Follow for daily Windows + AI
+   tips", 4-6 hashtags (#windows11 #pctips #techtips #windows #chatgpt #ai). No "AI voice"/AI labels.
+4. Study the Page: run 6912009 `{job: "fb-study-<date>", job_type: "fb_study"}` -> the record lists the last 40
+   videos (date | length | title/description). Facebook doesn't give view counts through this route.
