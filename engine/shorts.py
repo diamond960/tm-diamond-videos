@@ -745,6 +745,7 @@ class WinUI(Visual):
 
     def __init__(self, p, t0, t1):
         super().__init__(p, t0, t1)
+        self.WW, self.WH = p.get("w", 980), p.get("h", 860)
         self.steps = sorted(p.get("steps", []), key=lambda st: st["t"])
         self.cache = {}
         self.layout()
@@ -768,9 +769,15 @@ class WinUI(Visual):
         self.rh = rh
         fr = p.get("col_x") or ([0.0] + [0.52 + 0.24 * k for k in range(max(0, len(p.get("columns", [0])) - 1))])
         self.colx = [self.cx0 + 18 + f * (self.cx1 - self.cx0 - 36) for f in fr]
+        for i, b in enumerate(p.get("buttons", [])):
+            bw = 60 + len(b["text"]) * 17
+            by = b.get("y", top)
+            self.rects[f"btn:{i}"] = (self.cx0, by, self.cx0 + bw, by + 58)
         for i, r in enumerate(rows):
             y0 = top + i * (rh + 8)
             self.rects[f"row:{i}"] = (self.cx0, y0, self.cx1, y0 + rh)
+            if r.get("pin") is not None:
+                self.rects[f"pin:{i}"] = (self.cx1 - 70, y0 + rh / 2 - 24, self.cx1 - 22, y0 + rh / 2 + 24)
             for j, _ in enumerate(r.get("cells", [])):
                 x0 = self.colx[j] - 8
                 x1 = (self.colx[j + 1] - 12) if j + 1 < len(self.colx) else self.cx1 - 10
@@ -784,6 +791,7 @@ class WinUI(Visual):
     def state_at(self, t):
         active = self.p.get("active", -1)
         cells, toggles = {}, {}
+        appear = self.p.get("rows_t")
         menu = None
         for st in self.steps:
             if t < st["t"]:
@@ -795,7 +803,7 @@ class WinUI(Visual):
                 for k, v in (st.get("set") or {}).items():
                     if k.startswith("cell:"):
                         cells[k] = v
-                    elif k.startswith("toggle:"):
+                    elif k.startswith(("toggle:", "pin:")):
                         toggles[k] = v
             if st.get("action") == "rightclick":
                 menu = {"items": st.get("menu", []), "t": st["t"], "anchor": self.center(tg)}
@@ -877,6 +885,18 @@ class WinUI(Visual):
                 tx0, ty0, _, _ = self.rects[f"toggle:{i}"]
                 toggle_draw(d, tx0, ty0, on)
                 d.text((s(tx0 - 50), s(ty0 - 1)), "On" if on else "Off", font=font(FONT_BOLD, s(22)), fill=wc("sub"))
+            if r.get("pin") is not None:
+                pinned = toggles.get(f"pin:{i}", r["pin"])
+                px0, py0, px1, py1 = self.rects[f"pin:{i}"]
+                if pinned:
+                    rrect(d, (px0, py0, px1, py1), 10, fill=(204, 228, 247, 255))
+                pin = with_alpha(emoji_sprite("📌", 30 * SS), 1.0 if pinned else 0.3)
+                img.alpha_composite(pin, (s(px0 + 9), s(py0 + 9)))
+        for i, b in enumerate(p.get("buttons", [])):
+            bx0, by0, bx1, by1 = self.rects[f"btn:{i}"]
+            rrect(d, (bx0, by0, bx1, by1), 8, fill=wc("accent"))
+            d.text((s((bx0 + bx1) / 2), s((by0 + by1) / 2)), b["text"], font=font(FONT_BOLD, s(25)),
+                   fill=(255, 255, 255, 255), anchor="mm")
         out = done(img)
         self.cache[key] = out
         return out
