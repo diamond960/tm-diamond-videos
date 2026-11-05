@@ -33,6 +33,9 @@ Run `python3 engine/plan.py shorts/03/voice.words.json` to print each sentence w
 }
 ```
 
+**Background:** use `"bg": "paper"` (bright crumpled paper with floating marker doodles) - the owner's chosen look.
+The old dark space background is the default only when `bg` is missing.
+
 Visuals must tile the whole timeline with no gaps: each `t1` equals the next `t0`, the first starts at 0.0, and the last ends at `duration`. Use one visual per sentence, and two for long sentences. For the loop, the last 0.5 s should repeat the first visual.
 
 Visual types (all centred in the upper-middle area; captions go below):
@@ -51,6 +54,16 @@ Visual types (all centred in the upper-middle area; captions go below):
 - `follow`: `{"name": "TM_Diamond", "label": "Follow", "done_label": "Following", "tap_t": ..}` (use for the CTA)
 - `bigtext`: `{"text": "3", "c": "lime", "size": 300, "sub": "FREE AI TOOLS", "sub_t": ..}`
 - `list`: `{"items": [{"text": "...", "t": .., "e": "🎬", "c": "lime"}]}` (max 4 rows)
+- `winui` (**use for every Windows how-to**): a Windows 11 window, screen only (no laptop), with a moving cursor that
+  clicks, red marker circles, bouncing arrows and zoom-ins on what to click. See `fb/01/make_spec.py` (Task Manager)
+  and `fb/02/make_spec.py` (Clipboard) for complete examples. Params: `title`, `icon`, `w`/`h` (default 980x860),
+  `sidebar` [{text, e}], `active`, `headers` {"<sidebar index>": "Header"}, `rows_on` (show rows only when that
+  sidebar item is active), `sub`, `columns`, `col_x` (fractions), `rows` [{e, cells, sub, toggle: bool, pin: bool}],
+  `buttons` [{text, y}], `steps` [{t, target, action, menu, set, arrow, cursor}], `zoom` [{t, target, k, dur}].
+  Targets: `sidebar:i`, `row:i`, `cell:i:j`, `toggle:i`, `pin:i`, `btn:i`, `menu:i`, `header`. Actions: `click`,
+  `rightclick` (opens `menu` items), `hover`, `circle` (marker circle, add `"arrow": true` for an arrow).
+  `set` changes the UI at that moment, e.g. {"cell:0:1": "Disabled"}, {"toggle:2": false}, {"pin:0": true}.
+- `keys`: `{"keys": ["Ctrl", "Shift", "Esc"], "press_t": [..]}` 3D keycaps that press down (add click sfx).
 - `versus`: `{"cols": [{"title": "ChatGPT", "e": "💬", "c": "green", "t": .., "line": "Best for ...", "line_t": .., "win_t": ..}]}` (2-3 columns)
 
 Colours: w, lime, orange (Claude), red (negatives), blue, pink, cyan, yellow, green.
