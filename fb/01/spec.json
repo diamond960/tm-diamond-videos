@@ -1,5 +1,6 @@
 {
  "title": "Your PC takes forever to start",
+ "bg": "paper",
  "duration": 38.66,
  "narration": "voice.mp3",
  "captions": {
@@ -76,100 +77,159 @@
    "t1": 13.08
   },
   {
-   "type": "pills",
-   "items": [
-    {
-     "text": "CTRL",
-     "c": "cyan",
-     "t": 13.22
-    },
-    {
-     "text": "SHIFT",
-     "c": "cyan",
-     "t": 13.6
-    },
-    {
-     "text": "ESC",
-     "c": "cyan",
-     "t": 14.7
-    },
-    {
-     "text": "TASK MANAGER",
-     "c": "lime",
-     "t": 15.26
-    }
+   "type": "keys",
+   "keys": [
+    "Ctrl",
+    "Shift",
+    "Esc"
+   ],
+   "press_t": [
+    13.22,
+    13.6,
+    14.7
    ],
    "t0": 13.08,
    "t1": 17.12
   },
   {
-   "type": "search",
-   "query": "Startup apps",
-   "type_t": 17.17,
-   "type_dur": 0.8,
+   "type": "winui",
+   "title": "Task Manager",
+   "icon": "📊",
+   "sidebar": [
+    {
+     "text": "Processes",
+     "e": "🧩"
+    },
+    {
+     "text": "Performance",
+     "e": "📈"
+    },
+    {
+     "text": "App history",
+     "e": "🕘"
+    },
+    {
+     "text": "Startup apps",
+     "e": "🚀"
+    },
+    {
+     "text": "Users",
+     "e": "👥"
+    },
+    {
+     "text": "Details",
+     "e": "📋"
+    },
+    {
+     "text": "Services",
+     "e": "⚙️"
+    }
+   ],
+   "active": 0,
+   "headers": {
+    "0": "Processes",
+    "3": "Startup apps"
+   },
+   "rows_on": 3,
+   "columns": [
+    "Name",
+    "Status",
+    "Startup impact"
+   ],
+   "col_x": [
+    0.0,
+    0.45,
+    0.7
+   ],
    "rows": [
     {
-     "text": "Task Manager > Startup apps",
-     "t": 17.8
+     "e": "🎵",
+     "cells": [
+      "Spotify",
+      "Enabled",
+      "High"
+     ]
+    },
+    {
+     "e": "💬",
+     "cells": [
+      "Teams",
+      "Enabled",
+      "High"
+     ]
+    },
+    {
+     "e": "🎮",
+     "cells": [
+      "Steam",
+      "Enabled",
+      "Medium"
+     ]
+    },
+    {
+     "e": "☁️",
+     "cells": [
+      "OneDrive",
+      "Enabled",
+      "Low"
+     ]
+    },
+    {
+     "e": "🔊",
+     "cells": [
+      "Audio helper",
+      "Enabled",
+      "Low"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "t": 17.4,
+     "target": "sidebar:3",
+     "action": "click"
+    },
+    {
+     "t": 20.04,
+     "target": "cell:0:2",
+     "action": "circle",
+     "arrow": true
+    },
+    {
+     "t": 22.88,
+     "target": "cell:1:2",
+     "action": "circle",
+     "arrow": true
+    },
+    {
+     "t": 24.66,
+     "target": "row:0",
+     "action": "rightclick",
+     "menu": [
+      "Disable",
+      "Open file location",
+      "Search online",
+      "Properties"
+     ]
+    },
+    {
+     "t": 27.12,
+     "target": "menu:0",
+     "action": "click",
+     "set": {
+      "cell:0:1": "Disabled"
+     }
+    }
+   ],
+   "zoom": [
+    {
+     "t": 19.68,
+     "target": "cell:0:2",
+     "k": 1.45,
+     "dur": 2.2
     }
    ],
    "t0": 17.12,
-   "t1": 19.3
-  },
-  {
-   "type": "list",
-   "items": [
-    {
-     "text": "Startup impact: High",
-     "t": 19.68,
-     "e": "🔴",
-     "c": "red"
-    },
-    {
-     "text": "Medium",
-     "t": 20.04,
-     "e": "🟠",
-     "c": "orange"
-    },
-    {
-     "text": "Low",
-     "t": 20.46,
-     "e": "🟢",
-     "c": "lime"
-    }
-   ],
-   "t0": 19.3,
-   "t1": 22.02
-  },
-  {
-   "type": "emoji",
-   "items": [
-    {
-     "e": "🤔",
-     "t": 22.02,
-     "size": 380
-    }
-   ],
-   "t0": 22.02,
-   "t1": 24.66
-  },
-  {
-   "type": "progress",
-   "fill_t": 24.66,
-   "fill_dur": 1.2,
-   "checks": [
-    {
-     "text": "RIGHT-CLICK",
-     "show": 24.66,
-     "tick": 25.06
-    },
-    {
-     "text": "DISABLE",
-     "show": 26.92,
-     "tick": 27.42
-    }
-   ],
-   "t0": 24.66,
    "t1": 28.62
   },
   {
@@ -217,11 +277,12 @@
  "sfx": [
   {
    "t": 0.0,
-   "type": "bass"
+   "type": "boom"
   },
   {
-   "t": 1.2,
-   "type": "tick"
+   "t": 2.52,
+   "type": "dun",
+   "vol": 0.8
   },
   {
    "t": 4.64,
@@ -244,80 +305,51 @@
    "vol": 0.6
   },
   {
-   "t": 7.92,
-   "type": "error",
-   "vol": 0.7
+   "t": 8.78,
+   "type": "buzzer",
+   "vol": 0.8
   },
   {
    "t": 11.24,
-   "type": "bass",
-   "vol": 0.9
+   "type": "scratch",
+   "vol": 0.8
   },
   {
    "t": 13.22,
    "type": "click"
   },
   {
-   "t": 13.22,
-   "type": "pop",
-   "vol": 0.6
-  },
-  {
    "t": 13.6,
    "type": "click"
-  },
-  {
-   "t": 13.6,
-   "type": "pop",
-   "vol": 0.6
   },
   {
    "t": 14.7,
    "type": "click"
   },
   {
-   "t": 14.7,
-   "type": "pop",
-   "vol": 0.6
-  },
-  {
-   "t": 15.26,
-   "type": "pop",
-   "vol": 0.6
-  },
-  {
-   "t": 17.17,
-   "type": "typing",
-   "vol": 0.6
-  },
-  {
-   "t": 19.68,
-   "type": "pop"
+   "t": 17.4,
+   "type": "click"
   },
   {
    "t": 20.04,
    "type": "pop"
   },
   {
-   "t": 20.46,
-   "type": "pop"
+   "t": 22.88,
+   "type": "boom",
+   "vol": 0.7
   },
   {
-   "t": 25.06,
-   "type": "tick"
+   "t": 24.66,
+   "type": "click"
   },
   {
-   "t": 27.42,
-   "type": "tick"
-  },
-  {
-   "t": 27.82,
-   "type": "riser",
-   "vol": 0.6
+   "t": 27.12,
+   "type": "correct"
   },
   {
    "t": 28.62,
-   "type": "ding"
+   "type": "tada"
   },
   {
    "t": 31.94,

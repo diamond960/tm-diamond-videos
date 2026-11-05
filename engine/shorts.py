@@ -584,7 +584,7 @@ class BigText(Visual):
         if self.big.width > 900:
             k = 900 / self.big.width
             self.big = self.big.resize((900, int(self.big.height * k)), Image.LANCZOS)
-        self.sub = text_sprite(p["sub"], 54, "w", FONT_XB) if p.get("sub") else None
+        self.sub = text_sprite(p["sub"], 58, "w", FONT_BLACK, stroke=6) if p.get("sub") else None
 
     def draw(self, cv, t):
         k, a = pop(t, self.t0, 0.3)
@@ -753,18 +753,18 @@ class WinUI(Visual):
     def layout(self):
         p = self.p
         self.side = p.get("sidebar") or []
-        self.sx1 = 250 if self.side else 0
+        self.sx1 = 236 if self.side else 0
         self.cx0 = self.sx1 + 26
         self.cx1 = self.WW - 26
         self.rects = {"header": (self.cx0, 70, self.cx1, 118)}
         for i, _ in enumerate(self.side):
-            self.rects[f"sidebar:{i}"] = (10, 70 + i * 56, self.sx1 - 10, 70 + i * 56 + 48)
-        top = 140 if p.get("sub") else 130
+            self.rects[f"sidebar:{i}"] = (8, 70 + i * 66, self.sx1 - 8, 70 + i * 66 + 58)
+        top = 160 if p.get("sub") else 140
         if p.get("columns"):
-            top += 40
+            top += 44
         self.row_top = top
         rows = p.get("rows", [])
-        rh = p.get("row_h", 74 if any("sub" in r for r in rows) else 66)
+        rh = p.get("row_h", 92 if any("sub" in r for r in rows) else 80)
         self.rh = rh
         fr = p.get("col_x") or ([0.0] + [0.52 + 0.24 * k for k in range(max(0, len(p.get("columns", [0])) - 1))])
         self.colx = [self.cx0 + 18 + f * (self.cx1 - self.cx0 - 36) for f in fr]
@@ -811,7 +811,7 @@ class WinUI(Visual):
 
     def menu_rects(self, menu):
         ax, ay = menu["anchor"]
-        mw, ih = 330, 50
+        mw, ih = 400, 62
         x0 = min(ax + 10, self.WW - mw - 16)
         y0 = min(ay + 6, self.WH - ih * len(menu["items"]) - 30)
         return [(x0 + 8, y0 + 8 + i * ih, x0 + mw - 8, y0 + 8 + (i + 1) * ih) for i in range(len(menu["items"]))], (x0, y0, x0 + mw, y0 + 16 + ih * len(menu["items"]))
@@ -826,8 +826,8 @@ class WinUI(Visual):
         rrect(d, (0, 0, self.WW, self.WH), 16, fill=wc("bg"), outline=(200, 200, 200, 255), width=2)
         # title bar
         if p.get("icon"):
-            img.alpha_composite(emoji_sprite(p["icon"], 26 * SS), (s(20), s(13)))
-        d.text((s(58), s(14)), p.get("title", ""), font=font(FONT_SEMI, s(20)), fill=wc("text"))
+            img.alpha_composite(emoji_sprite(p["icon"], 28 * SS), (s(20), s(12)))
+        d.text((s(60), s(12)), p.get("title", ""), font=font(FONT_BOLD, s(24)), fill=wc("text"))
         bx = self.WW - 150
         d.line([(s(bx), s(26)), (s(bx + 16), s(26))], fill=wc("text"), width=s(2))
         rrect(d, (bx + 50, 18, bx + 66, 34), 2, outline=wc("text"), width=2)
@@ -838,43 +838,45 @@ class WinUI(Visual):
             x0, y0, x1, y1 = self.rects[f"sidebar:{i}"]
             if i == active:
                 rrect(d, (x0, y0, x1, y1), 8, fill=wc("hover"))
-                rrect(d, (x0 + 2, y0 + 13, x0 + 6, y1 - 13), 2, fill=wc("accent"))
+                rrect(d, (x0 + 2, y0 + 16, x0 + 7, y1 - 16), 3, fill=wc("accent"))
             if it.get("e"):
-                img.alpha_composite(emoji_sprite(it["e"], 24 * SS), (s(x0 + 18), s(y0 + 12)))
-            d.text((s(x0 + 54), s(y0 + 12)), it["text"], font=font(FONT_SEMI if i == active else FONT_BOLD, s(19)),
+                img.alpha_composite(emoji_sprite(it["e"], 28 * SS), (s(x0 + 16), s(y0 + 15)))
+            d.text((s(x0 + 54), s(y0 + 15)), it["text"], font=font(FONT_XB if i == active else FONT_BOLD, s(23)),
                    fill=wc("text"))
         # content panel
         rrect(d, (self.sx1, 56, self.WW - 2, self.WH - 2), 12, fill=wc("panel"))
-        d.text((s(self.cx0), s(70)), p.get("header", ""), font=font(FONT_XB, s(34)), fill=wc("text"))
+        header = (p.get("headers") or {}).get(str(active), p.get("header", ""))
+        show_rows = p.get("rows_on") is None or active == p.get("rows_on")
+        d.text((s(self.cx0), s(68)), header, font=font(FONT_XB, s(44)), fill=wc("text"))
         if p.get("sub"):
-            d.text((s(self.cx0), s(116)), p["sub"], font=font(FONT_SEMI, s(18)), fill=wc("sub"))
-        if p.get("columns"):
-            hy = self.row_top - 34
+            d.text((s(self.cx0), s(124)), p["sub"], font=font(FONT_SEMI, s(22)), fill=wc("sub"))
+        if p.get("columns") and show_rows:
+            hy = self.row_top - 36
             for j, col in enumerate(p["columns"]):
-                d.text((s(self.colx[j]), s(hy)), col, font=font(FONT_BOLD, s(17)), fill=wc("sub"))
-        for i, r in enumerate(p.get("rows", [])):
+                d.text((s(self.colx[j]), s(hy)), col, font=font(FONT_BOLD, s(21)), fill=wc("sub"))
+        for i, r in enumerate(p.get("rows", []) if show_rows else []):
             x0, y0, x1, y1 = self.rects[f"row:{i}"]
             rrect(d, (x0, y0, x1, y1), 10, fill=wc("card"), outline=wc("line"), width=2)
             for j, cell in enumerate(r.get("cells", [])):
                 txt = cells.get(f"cell:{i}:{j}", cell)
                 cx = self.colx[j]
-                ty = y0 + (self.rh - 22) / 2 - (10 if (j == 0 and r.get("sub")) else 0)
+                ty = y0 + (self.rh - 30) / 2 - (13 if (j == 0 and r.get("sub")) else 0)
                 if j == 0 and r.get("e"):
-                    img.alpha_composite(emoji_sprite(r["e"], 30 * SS), (s(cx), s(y0 + (self.rh - 30) / 2)))
-                    cx += 44
+                    img.alpha_composite(emoji_sprite(r["e"], 34 * SS), (s(cx), s(y0 + (self.rh - 34) / 2)))
+                    cx += 48
                 colr = wc("text")
                 if txt in ("High",):
                     colr = (196, 43, 28, 255)
                 elif txt in ("Disabled", "Off"):
                     colr = (120, 120, 120, 255)
-                d.text((s(cx), s(ty)), txt, font=font(FONT_SEMI if j else FONT_BOLD, s(20)), fill=colr)
+                d.text((s(cx), s(ty)), txt, font=font(FONT_BOLD if j else FONT_XB, s(26)), fill=colr)
                 if j == 0 and r.get("sub"):
-                    d.text((s(cx), s(ty + 28)), r["sub"], font=font(FONT_SEMI, s(15)), fill=wc("sub"))
+                    d.text((s(cx), s(ty + 34)), r["sub"], font=font(FONT_SEMI, s(19)), fill=wc("sub"))
             if r.get("toggle") is not None:
                 on = toggles.get(f"toggle:{i}", r["toggle"])
                 tx0, ty0, _, _ = self.rects[f"toggle:{i}"]
                 toggle_draw(d, tx0, ty0, on)
-                d.text((s(tx0 - 44), s(ty0 + 2)), "On" if on else "Off", font=font(FONT_SEMI, s(18)), fill=wc("sub"))
+                d.text((s(tx0 - 50), s(ty0 - 1)), "On" if on else "Off", font=font(FONT_BOLD, s(22)), fill=wc("sub"))
         out = done(img)
         self.cache[key] = out
         return out
@@ -927,7 +929,7 @@ class WinUI(Visual):
                 for i, (rx0, ry0, rx1, ry1) in enumerate(menu_r[0]):
                     if i == hov:
                         rrect(d, (rx0, ry0, rx1, ry1), 6, fill=(232, 232, 232, int(255 * ma)))
-                    d.text((s(rx0 + 18), s(ry0 + 13)), menu["items"][i], font=font(FONT_SEMI, s(19)),
+                    d.text((s(rx0 + 20), s(ry0 + 15)), menu["items"][i], font=font(FONT_BOLD, s(25)),
                            fill=(26, 26, 26, int(255 * ma)))
         # marker circles + arrows
         for n, st in enumerate(self.steps):
@@ -1050,14 +1052,14 @@ class PaperBackground:
         rnd = np.random.default_rng(seed)
         PW, PH = W + 120, H + 160
         field = np.zeros((PH, PW), np.float32)
-        for sigma, amp in ((70, 1.0), (22, 0.55), (6, 0.25)):
+        for sigma, amp in ((80, 1.0), (26, 0.4)):
             small = (rnd.random((PH // 4, PW // 4)) * 255).astype(np.uint8)
             im = Image.fromarray(small, "L").resize((PW, PH), Image.BICUBIC).filter(ImageFilter.GaussianBlur(sigma / 2))
             a = np.asarray(im, np.float32) / 255.0
             field += amp * (a - a.mean())
         gy, gx = np.gradient(field)
-        shade = np.clip(1.0 + (gx * -0.9 + gy * -1.2) * 9.0, 0.82, 1.1)
-        grain = rnd.normal(0, 3.0, (PH, PW)).astype(np.float32)
+        shade = np.clip(1.0 + (gx * -0.9 + gy * -1.2) * 4.0, 0.9, 1.05)
+        grain = rnd.normal(0, 1.6, (PH, PW)).astype(np.float32)
         base = np.empty((PH, PW, 3), np.float32)
         for c in range(3):
             base[..., c] = color[c] * shade + grain
