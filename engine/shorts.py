@@ -675,10 +675,53 @@ VISUALS = {"card": Card, "emoji": Emoji, "iconx": IconX, "chat": Chat, "search":
            "follow": Follow, "bigtext": BigText, "list": ListItems, "versus": Versus}
 
 
+def _norm(w):
+    return "".join(ch for ch in w.lower() if ch.isalnum())
+
+
+def aligned_words(data):
+    """Word timings using the script's own words and punctuation when the job stored the script
+    ("text"); whisper's words keep their timings, script words are matched to them in order."""
+    ws = data["words"]
+    text = data.get("text")
+    if not text:
+        return ws
+    import difflib
+    toks = text.replace("\n", " ").split()
+    a = [_norm(t) for t in toks]
+    b = [_norm(w["w"]) for w in ws]
+    sm = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
+    times = [None] * len(toks)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            w = ws[blk.b + k]
+            times[blk.a + k] = (w["s"], w["e"])
+    known = [i for i, tm in enumerate(times) if tm]
+    if not known:
+        return ws
+    for i in range(len(toks)):
+        if times[i] is None:
+            prev = max([k for k in known if k < i], default=None)
+            nxt = min([k for k in known if k > i], default=None)
+            if prev is None:
+                s0 = 0.0
+            else:
+                s0 = times[prev][1]
+            e0 = times[nxt][0] if nxt is not None else s0 + 0.35
+            span = [j for j in range(prev + 1 if prev is not None else 0, nxt if nxt is not None else len(toks))]
+            k = span.index(i)
+            step = (e0 - s0) / max(1, len(span))
+            times[i] = (s0 + k * step, s0 + (k + 1) * step)
+    return [{"w": t, "s": round(tm[0], 3), "e": round(tm[1], 3)} for t, tm in zip(toks, times)]
+
+
 def auto_captions(cfg, base):
     """Build caption groups from word timings: 1-3 words per line, 2 lines per group,
     a new group at every sentence start. Highlight words go lime, 'claude' orange, negatives red."""
     data = json.load(open(os.path.join(base, cfg["words"])))
+    if cfg.get("text") and not data.get("text"):
+        data["text"] = cfg["text"]
+    data = dict(data, words=aligned_words(data))
     hl = {w.lower() for w in cfg.get("highlight", [])}
     neg = {w.lower() for w in cfg.get("negative", ["no", "never", "not", "don't", "stop"])}
     groups, cur_lines, line = [], [], []

@@ -9,7 +9,9 @@ Commit a job file `jobs/<name>.json` and push. The "Voice and timings" workflow 
 - Free voice (Kokoro, open source):
   `{"out": "shorts/03/voice", "tts": {"engine": "kokoro", "voice": "<VOICE>", "speed": 1.05, "text": "<script, one sentence per line>"}}`
 - Existing audio file, e.g. a Higgsfield Grady MP3 URL:
-  `{"out": "shorts/03/voice", "url": "https://.../file.mp3"}`
+  `{"out": "shorts/03/voice", "url": "https://.../file.mp3", "text": "<the exact script, one sentence per line>"}`
+
+Always include the script (`text`). The engine then uses the script's own words and punctuation for captions and sentence breaks, and keeps Whisper's timings.
 
 To get any public file into the repo without timings, use `requests/<name>.json`:
 `{"files": [{"url": "...", "path": "inbox/x.mp3"}]}` (the "Fetch media" workflow).

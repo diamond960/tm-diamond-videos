@@ -50,6 +50,7 @@ for job in sorted(glob.glob("jobs/*.json")):
         os.remove(wav)
     if spec.get("timings", True):
         ws, dur = words(mp3)
-        json.dump({"duration": dur, "words": ws}, open(out + ".words.json", "w"), indent=0)
+        text = spec.get("text") or spec.get("tts", {}).get("text")
+        json.dump({"duration": dur, "words": ws, "text": text}, open(out + ".words.json", "w"), indent=0)
     os.remove(job)
     print("done", out)

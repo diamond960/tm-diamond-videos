@@ -1,7 +1,13 @@
 """Print the sentences of a narration with start/end times, from <voice>.words.json.
-Usage: python3 engine/plan.py shorts/03/voice.words.json"""
-import json, sys
+Usage: python3 engine/plan.py shorts/03/voice.words.json [script.txt]
+(the script is used for sentence breaks; jobs made with "text" store it automatically)"""
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from shorts import aligned_words
 d = json.load(open(sys.argv[1]))
+if len(sys.argv) > 2:
+    d["text"] = open(sys.argv[2]).read()
+d["words"] = aligned_words(d)
 sent, out = [], []
 for w in d["words"]:
     sent.append(w)
