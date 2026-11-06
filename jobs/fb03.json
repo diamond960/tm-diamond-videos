@@ -1,0 +1,9 @@
+{
+ "out": "fb/03/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "Stop dragging windows around on Windows 11.\nPress Windows and Z.\nPick a layout, then pick a spot.\nClick another app to fill the gap.\nNot working?\nGo to Settings, System, Multitasking, and turn on Snap windows.\nFollow for more Windows tips.\nAnd stop dragging windows around."
+ }
+}

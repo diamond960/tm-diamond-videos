@@ -1,0 +1,8 @@
+Stop dragging windows around on Windows 11.
+Press Windows and Z.
+Pick a layout, then pick a spot.
+Click another app to fill the gap.
+Not working?
+Go to Settings, System, Multitasking, and turn on Snap windows.
+Follow for more Windows tips.
+And stop dragging windows around.
