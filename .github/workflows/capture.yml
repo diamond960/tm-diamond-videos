@@ -20,12 +20,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 30
       - name: Pick scripts
         shell: bash
         run: |
-          if [ -n "${{ github.event.inputs.script }}" ]; then echo "${{ github.event.inputs.script }}" > changed.txt
-          else git diff --name-only HEAD~1 HEAD -- 'capture/*.ps1' > changed.txt || true; fi
+          if [ -n "${{ github.event.inputs.script }}" ]; then echo "${{ github.event.inputs.script }}" > changed.txt; else
+            git fetch -q --depth=30 origin main || true
+            git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'capture/*.ps1' 2>/dev/null > changed.txt || true
+            # also any capture script that has never produced shots
+            for f in capture/*.ps1; do n=$(basename "$f" .ps1); [ -f "captures/$n/shots.json" ] || echo "$f" >> changed.txt; done
+            sort -u changed.txt -o changed.txt
+          fi
           cat changed.txt
       - name: Capture
         shell: powershell
