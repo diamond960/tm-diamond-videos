@@ -1,0 +1,365 @@
+{
+ "title": "Never retype a table from a screenshot again",
+ "style": "studio",
+ "series": "ai tools",
+ "duration": 27.79,
+ "narration": "voice.mp3",
+ "presenter": {
+  "side": "right",
+  "poses": [
+   [
+    0.0,
+    "shocked"
+   ],
+   [
+    3.38,
+    "point"
+   ],
+   [
+    6.46,
+    "phone"
+   ],
+   [
+    7.92,
+    "talk"
+   ],
+   [
+    10.24,
+    "shocked"
+   ],
+   [
+    14.14,
+    "think"
+   ],
+   [
+    15.52,
+    "idea"
+   ],
+   [
+    18.78,
+    "point"
+   ],
+   [
+    21.62,
+    "thumbs"
+   ],
+   [
+    23.36,
+    "thumbs"
+   ],
+   [
+    25.36,
+    "talk"
+   ]
+  ]
+ },
+ "captions": {
+  "words": "voice.words.json",
+  "highlight": [
+   "retype",
+   "plus",
+   "table",
+   "seconds",
+   "csv",
+   "check",
+   "claude"
+  ],
+  "underline": [
+   "retype",
+   "csv"
+  ]
+ },
+ "visuals": [
+  {
+   "type": "note",
+   "label": "screenshot → table",
+   "title": "Still retyping tables by hand?",
+   "tag": "never again",
+   "tag_t": 2.44,
+   "rows": [
+    {
+     "e": "🖼️",
+     "text": "a table in a screenshot",
+     "t": 1.32
+    },
+    {
+     "e": "⌨️",
+     "text": "typing it all out",
+     "t": 2.04
+    }
+   ],
+   "t0": 0.0,
+   "t1": 3.38
+  },
+  {
+   "type": "note",
+   "label": "chatgpt",
+   "title": "Click the + button",
+   "tag": "step 1",
+   "tag_t": 5.4,
+   "rows": [
+    {
+     "e": "💬",
+     "text": "open ChatGPT",
+     "t": 3.58
+    },
+    {
+     "e": "➕",
+     "text": "the + next to the message box",
+     "t": 5.4
+    }
+   ],
+   "t0": 3.38,
+   "t1": 6.46
+  },
+  {
+   "type": "note",
+   "label": "chatgpt",
+   "title": "Upload your screenshot",
+   "rows": [
+    {
+     "e": "🖼️",
+     "text": "screenshot.png",
+     "t": 6.94
+    }
+   ],
+   "t0": 6.46,
+   "t1": 7.92
+  },
+  {
+   "type": "note",
+   "label": "type this",
+   "title": "“Turn this into a table”",
+   "tag": "step 2",
+   "tag_t": 8.46,
+   "rows": [
+    {
+     "e": "🖼️",
+     "text": "screenshot.png",
+     "t": 7.92
+    },
+    {
+     "e": "💬",
+     "text": "turn this into a table",
+     "t": 8.46
+    }
+   ],
+   "t0": 7.92,
+   "t1": 10.24
+  },
+  {
+   "type": "winui",
+   "w": 900,
+   "h": 560,
+   "title": "ChatGPT",
+   "icon": "💬",
+   "header": "Your table",
+   "columns": [
+    "Item",
+    "Qty",
+    "Price"
+   ],
+   "col_x": [
+    0.0,
+    0.55,
+    0.75
+   ],
+   "rows": [
+    {
+     "e": "☕",
+     "cells": [
+      "Coffee",
+      "2",
+      "$7.00"
+     ]
+    },
+    {
+     "e": "🥐",
+     "cells": [
+      "Croissant",
+      "1",
+      "$4.50"
+     ]
+    },
+    {
+     "e": "🧃",
+     "cells": [
+      "Juice",
+      "3",
+      "$9.00"
+     ]
+    }
+   ],
+   "steps": [
+    {
+     "t": 11.54,
+     "target": "row:0",
+     "action": "circle"
+    },
+    {
+     "t": 12.02,
+     "target": "cell:1:2",
+     "action": "circle",
+     "arrow": true
+    }
+   ],
+   "zoom": [
+    {
+     "t": 12.58,
+     "target": "row:1",
+     "k": 1.25,
+     "dur": 0.9
+    }
+   ],
+   "t0": 10.24,
+   "t1": 14.14
+  },
+  {
+   "type": "note",
+   "label": "excel",
+   "title": "Want it in Excel?",
+   "rows": [
+    {
+     "e": "📊",
+     "text": "open it in Excel",
+     "t": 14.74
+    }
+   ],
+   "t0": 14.14,
+   "t1": 15.52
+  },
+  {
+   "type": "note",
+   "label": "ask chatgpt",
+   "title": "Ask for a CSV file",
+   "tag": "download",
+   "tag_t": 17.48,
+   "rows": [
+    {
+     "e": "💬",
+     "text": "give me this as a CSV file",
+     "t": 16.14
+    },
+    {
+     "e": "📄",
+     "text": "table.csv",
+     "t": 17.48
+    }
+   ],
+   "t0": 15.52,
+   "t1": 18.78
+  },
+  {
+   "type": "note",
+   "label": "important",
+   "title": "Check the numbers first",
+   "tag": "always",
+   "tag_t": 18.88,
+   "rows": [
+    {
+     "e": "🔍",
+     "text": "compare with the screenshot",
+     "t": 19.64
+    }
+   ],
+   "t0": 18.78,
+   "t1": 21.62
+  },
+  {
+   "type": "note",
+   "label": "claude",
+   "title": "Works in Claude too",
+   "rows": [
+    {
+     "e": "📎",
+     "text": "attach it, same prompt",
+     "t": 22.46
+    }
+   ],
+   "t0": 21.62,
+   "t1": 23.36
+  },
+  {
+   "type": "follow",
+   "name": "TMDiamond",
+   "label": "Follow",
+   "done_label": "Following",
+   "tap_t": 23.66,
+   "t0": 23.36,
+   "t1": 25.36
+  },
+  {
+   "type": "note",
+   "label": "screenshot → table",
+   "title": "Still retyping tables by hand?",
+   "tag": "never again",
+   "tag_t": 26.14,
+   "t0": 25.36,
+   "t1": 27.79
+  }
+ ],
+ "sfx": [
+  {
+   "t": 2.44,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 3.58,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 5.4,
+   "type": "click"
+  },
+  {
+   "t": 6.94,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 8.46,
+   "type": "typing",
+   "vol": 0.5
+  },
+  {
+   "t": 10.52,
+   "type": "correct",
+   "vol": 0.55
+  },
+  {
+   "t": 14.74,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 16.14,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 17.48,
+   "type": "click"
+  },
+  {
+   "t": 18.88,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 22.46,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 23.66,
+   "type": "click"
+  },
+  {
+   "t": 26.14,
+   "type": "pop",
+   "vol": 0.5
+  }
+ ]
+}
