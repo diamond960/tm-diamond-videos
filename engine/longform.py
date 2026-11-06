@@ -749,24 +749,15 @@ def build_audio(spec, tl, dur, out_wav):
     v = v / (np.max(np.abs(v)) + 1e-9) * 0.92
     narr[: min(n, len(v))] = v[:n]
     rms_v = np.sqrt(np.mean(narr[np.abs(narr) > 0.02] ** 2))
-    mus = sh.music(dur, spec.get("bpm", 100))
-    # give the music some arrangement: drop to 55% every 4th phrase
-    seg = int(16 * 60 / spec.get("bpm", 100) * SR)
-    for i in range(0, n, seg * 4):
-        mus[i + seg * 3: i + seg * 4] *= 0.55
-    mus *= rms_v * 10 ** (-spec.get("music_db", 23) / 20) / (np.sqrt(np.mean(mus ** 2)) + 1e-9)
-    env = np.abs(narr)
-    k = int(0.1 * SR)
-    env = np.convolve(env, np.ones(k) / k, mode="same")
-    env /= env.max() + 1e-9
-    mus *= 1 - 0.35 * np.clip(env * 3, 0, 1)
+    # OWNER RULE (permanent, 2026-11-05): no background music, beats, ambience or sound beds - ever.
+    mus = np.zeros(n)
     fx = np.zeros(n)
     for ev in spec["sfx_resolved"]:
         y = sh.sfx(ev["type"], rng) * ev.get("vol", 1.0)
         j = int(ev["t"] * SR)
         if 0 <= j < n:
             fx[j:j + len(y)] += y[: n - j]
-    fx *= rms_v * 0.8
+    fx *= rms_v * spec.get("sfx_gain", 1.0)
     mix = narr + mus + fx
     fade = int(1.5 * SR)
     mix[-fade:] *= np.linspace(1, 0, fade)

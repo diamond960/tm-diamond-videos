@@ -1,0 +1,328 @@
+{
+ "title": "Stop losing the things you copy",
+ "style": "studio",
+ "series": "windows fix",
+ "duration": 36.32,
+ "narration": "voice.mp3",
+ "presenter": {
+  "side": "right",
+  "poses": [
+   [
+    0.0,
+    "shocked"
+   ],
+   [
+    3.88,
+    "idea"
+   ],
+   [
+    8.6,
+    "point"
+   ],
+   [
+    13.36,
+    "thumbs"
+   ],
+   [
+    14.78,
+    "phone"
+   ],
+   [
+    18.98,
+    "point"
+   ],
+   [
+    21.66,
+    "shocked"
+   ],
+   [
+    24.9,
+    "idea"
+   ],
+   [
+    29.34,
+    "thumbs"
+   ],
+   [
+    32.34,
+    "talk"
+   ]
+  ]
+ },
+ "captions": {
+  "words": "voice.words.json",
+  "highlight": [
+   "losing",
+   "history",
+   "turn",
+   "boom,",
+   "boom",
+   "pin",
+   "restart",
+   "never"
+  ],
+  "underline": [
+   "history",
+   "never"
+  ]
+ },
+ "visuals": [
+  {
+   "type": "note",
+   "label": "windows 11",
+   "title": "You copy something new...",
+   "tag": "the old one is gone",
+   "tag_t": 0.62,
+   "rows": [
+    {
+     "e": "🔗",
+     "text": "a link",
+     "t": 1.22
+    },
+    {
+     "e": "❌",
+     "text": "overwritten",
+     "t": 1.62
+    }
+   ],
+   "t0": 0.0,
+   "t1": 3.88
+  },
+  {
+   "type": "note",
+   "label": "settings · clipboard",
+   "title": "Windows can keep a history",
+   "tag": "but it's off",
+   "tag_t": 6.88,
+   "t0": 3.88,
+   "t1": 8.6
+  },
+  {
+   "type": "keys",
+   "keys": [
+    "Win",
+    "V"
+   ],
+   "press_t": [
+    8.96,
+    9.8
+   ],
+   "t0": 8.6,
+   "t1": 11.04
+  },
+  {
+   "type": "winui",
+   "w": 900,
+   "h": 560,
+   "title": "Clipboard",
+   "icon": "📋",
+   "header": "Clipboard",
+   "sub": "Clipboard history is turned off.",
+   "buttons": [
+    {
+     "text": "Turn on",
+     "y": 250
+    }
+   ],
+   "steps": [
+    {
+     "t": 11.54,
+     "target": "btn:0",
+     "action": "circle",
+     "arrow": true
+    },
+    {
+     "t": 13.36,
+     "target": "btn:0",
+     "action": "click"
+    }
+   ],
+   "zoom": [
+    {
+     "t": 11.04,
+     "target": "btn:0",
+     "k": 1.35,
+     "dur": 1.6
+    }
+   ],
+   "t0": 11.04,
+   "t1": 14.78
+  },
+  {
+   "type": "note",
+   "label": "copy (ctrl + c)",
+   "title": "Copy a few things",
+   "rows": [
+    {
+     "e": "🔗",
+     "text": "a link",
+     "t": 16.28
+    },
+    {
+     "e": "🖼️",
+     "text": "a photo",
+     "t": 16.76
+    },
+    {
+     "e": "📝",
+     "text": "some text",
+     "t": 17.42
+    }
+   ],
+   "t0": 14.78,
+   "t1": 18.98
+  },
+  {
+   "type": "keys",
+   "keys": [
+    "Win",
+    "V"
+   ],
+   "press_t": [
+    19.14,
+    19.86
+   ],
+   "t0": 18.98,
+   "t1": 21.66
+  },
+  {
+   "type": "winui",
+   "w": 900,
+   "h": 640,
+   "title": "Clipboard",
+   "icon": "📋",
+   "header": "Clipboard history",
+   "rows": [
+    {
+     "e": "📝",
+     "cells": [
+      "Meeting moved to 5 PM"
+     ],
+     "pin": false
+    },
+    {
+     "e": "🖼️",
+     "cells": [
+      "photo.png"
+     ],
+     "pin": false
+    },
+    {
+     "e": "🔗",
+     "cells": [
+      "youtube.com/@TM_Diamond"
+     ],
+     "pin": false
+    }
+   ],
+   "col_x": [
+    0.0
+   ],
+   "steps": [
+    {
+     "t": 22.14,
+     "target": "row:0",
+     "action": "circle"
+    },
+    {
+     "t": 24.9,
+     "target": "pin:0",
+     "action": "click",
+     "arrow": true,
+     "set": {
+      "pin:0": true
+     }
+    },
+    {
+     "t": 28.2,
+     "target": "pin:0",
+     "action": "circle"
+    }
+   ],
+   "zoom": [
+    {
+     "t": 24.6,
+     "target": "row:0",
+     "k": 1.3,
+     "dur": 2.4
+    }
+   ],
+   "t0": 21.66,
+   "t1": 29.34
+  },
+  {
+   "type": "follow",
+   "name": "TM_Diamond",
+   "label": "Follow",
+   "done_label": "Following",
+   "tap_t": 29.64,
+   "t0": 29.34,
+   "t1": 36.32
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.62,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 6.88,
+   "type": "pop",
+   "vol": 0.6
+  },
+  {
+   "t": 8.96,
+   "type": "click"
+  },
+  {
+   "t": 9.8,
+   "type": "click"
+  },
+  {
+   "t": 11.54,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 13.36,
+   "type": "click"
+  },
+  {
+   "t": 13.51,
+   "type": "correct",
+   "vol": 0.6
+  },
+  {
+   "t": 16.28,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 16.76,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 17.42,
+   "type": "pop",
+   "vol": 0.5
+  },
+  {
+   "t": 19.14,
+   "type": "click"
+  },
+  {
+   "t": 19.86,
+   "type": "click"
+  },
+  {
+   "t": 24.9,
+   "type": "click"
+  },
+  {
+   "t": 29.64,
+   "type": "click"
+  }
+ ]
+}

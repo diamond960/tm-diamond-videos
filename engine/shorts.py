@@ -1,8 +1,8 @@
 """TM_Diamond free Shorts renderer.
 
 Renders a 1080x1920 vertical Short from a JSON spec: animated visuals,
-kinetic captions, camera punch-ins, shake, flashes, synthesized sound
-effects and music, mixed under a narration track. Output is an H.264 MP4
+kinetic captions, camera punch-ins, shake, flashes and synthesized sound
+effects, mixed with a narration track. NO background music (owner rule). Output is an H.264 MP4
 kept small enough for Make's free plan (5 MB).
 
 Usage: python3 engine/shorts.py spec.json out.mp4 [--preview t1,t2,...]
@@ -1590,8 +1590,10 @@ def build_audio(spec, dur, out_wav):
         v = read_audio(spec["narration"])
         v = v / (np.max(np.abs(v)) + 1e-9) * 0.92
         narr[: min(n, len(v))] = v[:n]
-    use_music = spec.get("music", True)
-    mus = music(dur, spec.get("bpm", 118)) if use_music else np.zeros(n)
+    # OWNER RULE (permanent, 2026-11-05): no background music, beats, ambience or sound beds - ever.
+    # Only narration + short sound effects synced to what happens on screen.
+    use_music = False
+    mus = np.zeros(n)
     if np.any(narr):
         rms_v = np.sqrt(np.mean(narr[np.abs(narr) > 0.02] ** 2))
     else:
@@ -1609,7 +1611,7 @@ def build_audio(spec, dur, out_wav):
         j = int(ev["t"] * SR)
         if j < n:
             fx[j:j + len(y)] += y[: n - j]
-    fx *= rms_v * (1.1 if use_music else 1.3)  # no beat: effects carry the energy
+    fx *= rms_v * spec.get("sfx_gain", 1.3)  # no music: effects carry the energy
     mix = narr + mus + fx
     fade = int(0.04 * SR)
     mix[-fade:] *= np.linspace(1, 0.6, fade)
@@ -1687,7 +1689,10 @@ def render(spec_path, out_path, preview=None, no_music=False):
     base = os.path.dirname(os.path.abspath(spec_path))
     if spec.get("narration") and not os.path.isabs(spec["narration"]):
         spec["narration"] = os.path.join(base, spec["narration"])
-    if isinstance(spec.get("captions"), dict) and spec["captions"].get("auto"):
+    if spec.get("style") == "studio":
+        import studio
+        studio.prepare(spec, base)
+    elif isinstance(spec.get("captions"), dict) and spec["captions"].get("auto"):
         spec["captions"] = auto_captions(spec["captions"], base)
     if no_music:
         spec["music"] = False
@@ -1706,7 +1711,11 @@ def render(spec_path, out_path, preview=None, no_music=False):
                  if (round(v["t0"], 2), "whoosh") not in have and v["t0"] > 0.05]
         spec["sfx"] = spec.get("sfx", []) + extra
     dur = spec["duration"]
-    r = Renderer(spec)
+    if spec.get("style") == "studio":
+        import studio  # presenter + paper studio look (engine/studio.py)
+        r = studio.StudioRenderer(spec)
+    else:
+        r = Renderer(spec)
     if preview:
         frames = [r.frame(t) for t in preview]
         cols = min(6, len(frames))
