@@ -117,7 +117,28 @@ def draw_text_stroke(d, xy, text, f, fill, stroke=7, sfill=(0, 0, 0), anchor="la
     d.text(xy, text, font=f, fill=fill, stroke_width=stroke, stroke_fill=sfill, anchor=anchor)
 
 
-def caption_layer(words, t, highlight):
+def sentence_ends(script_text, n_words):
+    """Indices of the last word of each sentence, by matching the script to the timed words.
+    Spelled-out letters ("C M D", "I P") count as one word, as the timing tool writes them."""
+    import re
+    ends, count = set(), 0
+    for line in script_text.splitlines():
+        for sent in re.split(r"(?<=[.?!])\s+", line.strip()):
+            toks = [x for x in re.split(r"\s+", sent) if re.search(r"\w", x)]
+            merged, run = [], False
+            for tk in toks:
+                single = len(re.sub(r"\W", "", tk)) == 1 and tk.strip(",.?!").isupper()
+                if single and run:
+                    continue
+                merged.append(tk)
+                run = single
+            count += len(merged)
+            if merged:
+                ends.add(count - 1)
+    return ends if count == n_words else None
+
+
+def caption_layer(words, t, highlight, ends=None):
     """Word-by-word captions in groups of up to 3 words: white, black stroke, current word yellow."""
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     if not words:
@@ -125,7 +146,7 @@ def caption_layer(words, t, highlight):
     groups, cur = [], []
     for i, w in enumerate(words):
         cur.append(i)
-        end_sent = w["w"].rstrip().endswith((".", "?", "!", ","))
+        end_sent = (i in ends) if ends else w["w"].rstrip().endswith((".", "?", "!", ","))
         gap = (words[i + 1]["s"] - w["e"]) if i + 1 < len(words) else 9
         if len(cur) == 3 or end_sent or gap > 0.28:
             groups.append(cur)
@@ -343,6 +364,10 @@ class Cut:
         self.cam = Camera(spec["cam"], self.sw, self.sh)
         self.words = json.load(open(os.path.join(base, spec["words"])))["words"] if spec.get("words") else []
         self.hl = set(w.lower() for w in spec.get("highlight", []))
+        self.ends = None
+        if spec.get("script") and self.words:
+            self.ends = sentence_ends(open(os.path.join(base, spec["script"])).read(), len(self.words))
+            print("sentence breaks:", "matched" if self.ends else "script/word mismatch, using pauses")
         self.handle_l = handle_layer(spec.get("handle", "TM_Diamond"))
 
     def shot_at(self, t):
@@ -358,8 +383,8 @@ class Cut:
         c2 = self.cam.at(t + 1 / FPS)
         speed = abs(c2[0] - cam[0]) + abs(c2[1] - cam[1]) + abs(c2[2] - cam[2])
         img = self.shot_at(t)
-        if speed > 18:
-            fr = [np.asarray(render_screen(img, self.cam.at(t + k / (3 * FPS))), dtype=np.float32) for k in range(3)]
+        if speed > 30:
+            fr = [np.asarray(render_screen(img, self.cam.at(t + k / (8 * FPS))), dtype=np.float32) for k in range(3)]
             base = Image.fromarray(np.clip(sum(fr) / 3, 0, 255).astype(np.uint8))
         else:
             base = render_screen(img, cam)
@@ -369,7 +394,7 @@ class Cut:
         base.alpha_composite(callouts_layer(self.spec, t, cam))
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
-        base.alpha_composite(caption_layer(self.words, t, self.hl))
+        base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends))
         base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
         base.alpha_composite(self.handle_l)
         return base.convert("RGB")
@@ -410,11 +435,13 @@ def kenney(name):
 
 
 SOUNDS = {
-    "click": (["click_002", "mouseclick1", "click_001"], 0.55),
-    "key": (["switch1", "switch2", "switch3", "switch5", "switch7", "click1", "click2"], 0.22),
-    "pop": (["drop_002", "pluck_001", "drop_001"], 0.35),
-    "ding": (["confirmation_002", "confirmation_001"], 0.45),
-    "open": (["maximize_006", "maximize_008", "open_002"], 0.30),
+    # Kenney "Interface Sounds" (CC0), engine/sfx/kenney/interface-sounds
+    "click": (["click_004", "select_001", "select_002"], 0.42),
+    "key": (["tick_001", "tick_004", "toggle_004", "click_001"], 0.17),
+    "shortcut": (["toggle_001", "toggle_002", "click_001"], 0.30),
+    "pop": (["drop_002", "pluck_002", "drop_001"], 0.26),
+    "ding": (["confirmation_001", "confirmation_003"], 0.38),
+    "open": (["open_002", "maximize_003", "open_004"], 0.24),
 }
 
 
@@ -480,7 +507,7 @@ def build_sfx(spec, duration):
     for k in spec.get("keys", []):
         kt, names = k[0], k[1]
         for i in range(len(names)):
-            events.append([kt + 0.25 + 0.12 * i, "key"])
+            events.append([kt + 0.25 + 0.12 * i, "shortcut"])
         events.append([kt, "pop"])
     for t0, t1, n in spec.get("typing", []):
         for i in range(int(n)):

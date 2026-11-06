@@ -1,9 +1,10 @@
 {
-  "title": "Website won't load? Try this one command",
-  "category": "E",
-  "caption": "Website won't load? Try ipconfig /flushdns on Windows 💻\n\n#windows11 #cmd #pctips",
-  "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@390339b5676a539953400252e8e010aff9e673a7/videos/fb05.mp4",
-  "length_s": 39.4,
-  "status": "queued",
-  "made_at": "2026-11-06T07:30:10Z"
+ "title": "Website won't load? Try this one command",
+ "category": "E",
+ "caption": "Website won't load? Try ipconfig /flushdns on Windows 💻\n\n#windows11 #cmd #pctips",
+ "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@390339b5676a539953400252e8e010aff9e673a7/videos/fb05.mp4",
+ "length_s": 39.4,
+ "status": "replaced",
+ "made_at": "2026-11-06T07:30:10Z",
+ "note": "redone as fb06 with real Windows screens"
 }

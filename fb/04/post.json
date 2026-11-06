@@ -1,9 +1,10 @@
 {
-  "title": "Never retype a table from a screenshot again",
-  "category": "D",
-  "caption": "Turn any screenshot into a table with ChatGPT 📊\n\n#chatgpt #exceltips #aitools",
-  "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@390339b5676a539953400252e8e010aff9e673a7/videos/fb04.mp4",
-  "length_s": 27.8,
-  "status": "queued",
-  "made_at": "2026-11-06T07:30:10Z"
+ "title": "Never retype a table from a screenshot again",
+ "category": "D",
+ "caption": "Turn any screenshot into a table with ChatGPT 📊\n\n#chatgpt #exceltips #aitools",
+ "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@390339b5676a539953400252e8e010aff9e673a7/videos/fb04.mp4",
+ "length_s": 27.8,
+ "status": "hold",
+ "made_at": "2026-11-06T07:30:10Z",
+ "note": "drawn ChatGPT mock-up; owner wants the real interface only"
 }
