@@ -1,0 +1,44 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "combo":  null,
+                      "mode":  null
+                  },
+        "cursor":  [
+                       1483,
+                       187
+                   ],
+        "note":  "",
+        "label":  "power_page",
+        "file":  "001_power_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "mode":  null,
+                      "combo":  null
+                  },
+        "cursor":  [
+                       1483,
+                       187
+                   ],
+        "note":  "",
+        "label":  "best_set",
+        "file":  "002_best_set.png"
+    }
+]

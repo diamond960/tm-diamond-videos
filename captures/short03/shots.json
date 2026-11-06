@@ -1,0 +1,285 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "mem":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "Memory 17%. Press Enter to change sorting.",
+                                  "x":  645
+                              }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "opened",
+        "file":  "001_opened.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              }
+                  },
+        "cursor":  [
+                       608,
+                       238
+                   ],
+        "note":  "",
+        "label":  "hover_cpu",
+        "file":  "002_hover_cpu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "hog":  {
+                                  "y":  179,
+                                  "w":  616,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  248
+                              },
+                      "mem":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "Memory 17%. Press Enter to change sorting.",
+                                  "x":  645
+                              }
+                  },
+        "cursor":  [
+                       608,
+                       238
+                   ],
+        "note":  "",
+        "label":  "sorted_cpu",
+        "file":  "003_sorted_cpu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "hog":  {
+                                  "y":  179,
+                                  "w":  616,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  248
+                              },
+                      "mem":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "Memory 17%. Press Enter to change sorting.",
+                                  "x":  645
+                              }
+                  },
+        "cursor":  [
+                       608,
+                       238
+                   ],
+        "note":  "",
+        "label":  "sorted_cpu2",
+        "file":  "004_sorted_cpu2.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "mem":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "Memory 17%. Press Enter to change sorting.",
+                                  "x":  645
+                              }
+                  },
+        "cursor":  [
+                       682,
+                       238
+                   ],
+        "note":  "",
+        "label":  "sorted_mem",
+        "file":  "005_sorted_mem.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "hog":  {
+                                  "y":  179,
+                                  "w":  616,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  248
+                              }
+                  },
+        "cursor":  [
+                       608,
+                       238
+                   ],
+        "note":  "",
+        "label":  "back_cpu",
+        "file":  "006_back_cpu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "end":  {
+                                  "y":  163,
+                                  "w":  94,
+                                  "h":  48,
+                                  "name":  "End task",
+                                  "x":  1436
+                              },
+                      "hog":  {
+                                  "y":  179,
+                                  "w":  616,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  248
+                              }
+                  },
+        "cursor":  [
+                       368,
+                       193
+                   ],
+        "note":  "",
+        "label":  "selected",
+        "file":  "007_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "end":  {
+                                  "y":  163,
+                                  "w":  94,
+                                  "h":  48,
+                                  "name":  "End task",
+                                  "x":  1436
+                              }
+                  },
+        "cursor":  [
+                       1483,
+                       187
+                   ],
+        "note":  "",
+        "label":  "hover_end",
+        "file":  "008_hover_end.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "x":  572
+                              }
+                  },
+        "cursor":  [
+                       1483,
+                       187
+                   ],
+        "note":  "",
+        "label":  "ended",
+        "file":  "009_ended.png"
+    }
+]
