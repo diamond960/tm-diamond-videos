@@ -1,0 +1,35 @@
+name: Channel audit data
+on:
+  push:
+    paths:
+      - 'audit/request.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install yt-dlp
+        run: pip install -q -U yt-dlp
+      - name: Dump public channel data
+        run: |
+          set +e
+          ch=$(jq -r '.channel' audit/request.json)
+          mkdir -p audit/data
+          for tab in videos shorts streams playlists; do
+            yt-dlp --flat-playlist -J --extractor-args "youtubetab:approximate_date" "https://www.youtube.com/channel/$ch/$tab" > "audit/data/$tab.json" 2> "audit/data/$tab.err"
+            echo "$tab: $(jq '.entries | length' audit/data/$tab.json 2>/dev/null) entries"
+          done
+          jq -r '.images[]? | .url + " " + .path' audit/request.json | while read url path; do
+            curl -fsSL --retry 3 -o "$path" "$url" && echo "saved $path"
+          done
+          git rm -q audit/request.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A audit
+          git commit -qm "Channel audit data" && git push -q || echo "nothing to commit"
