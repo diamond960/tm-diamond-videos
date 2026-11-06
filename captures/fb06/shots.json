@@ -1,0 +1,614 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -32000,
+                   "w":  160,
+                   "h":  28,
+                   "title":  "C:\\ProgramData\\GitHub\\HostedComputeAgent\\hosted-compute-agent",
+                   "x":  -32000
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "desktop",
+        "file":  "001_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1936,
+                   "h":  1048,
+                   "title":  "my-favourite-site.invalid - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "edge_error",
+        "file":  "002_edge_error.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1936,
+                   "h":  1048,
+                   "title":  "my-favourite-site.invalid - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "edge_error2",
+        "file":  "003_edge_error2.png"
+    },
+    {
+        "fg":  {
+                   "y":  792,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  4,
+        "rects":  {
+                      "ok":  {
+                                 "y":  977,
+                                 "w":  88,
+                                 "h":  26,
+                                 "name":  "OK",
+                                 "x":  125
+                             },
+                      "open":  {
+                                   "y":  896,
+                                   "w":  49,
+                                   "h":  19,
+                                   "name":  "Open:",
+                                   "x":  28
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "run",
+        "file":  "004_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  792,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  5,
+        "rects":  {
+                      "ok":  {
+                                 "y":  977,
+                                 "w":  88,
+                                 "h":  26,
+                                 "name":  "OK",
+                                 "x":  125
+                             },
+                      "open":  {
+                                   "y":  896,
+                                   "w":  49,
+                                   "h":  19,
+                                   "name":  "Open:",
+                                   "x":  28
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:c",
+        "label":  "run_type",
+        "file":  "005_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  792,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  6,
+        "rects":  {
+                      "ok":  {
+                                 "y":  977,
+                                 "w":  88,
+                                 "h":  26,
+                                 "name":  "OK",
+                                 "x":  125
+                             },
+                      "open":  {
+                                   "y":  896,
+                                   "w":  49,
+                                   "h":  19,
+                                   "name":  "Open:",
+                                   "x":  28
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:m",
+        "label":  "run_type",
+        "file":  "006_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  792,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  7,
+        "rects":  {
+                      "ok":  {
+                                 "y":  977,
+                                 "w":  88,
+                                 "h":  26,
+                                 "name":  "OK",
+                                 "x":  125
+                             },
+                      "open":  {
+                                   "y":  896,
+                                   "w":  49,
+                                   "h":  19,
+                                   "name":  "Open:",
+                                   "x":  28
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:d",
+        "label":  "run_type",
+        "file":  "007_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "cmd_open",
+        "file":  "008_cmd_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:i",
+        "label":  "cmd_type",
+        "file":  "009_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:p",
+        "label":  "cmd_type",
+        "file":  "010_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:c",
+        "label":  "cmd_type",
+        "file":  "011_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:o",
+        "label":  "cmd_type",
+        "file":  "012_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:n",
+        "label":  "cmd_type",
+        "file":  "013_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:f",
+        "label":  "cmd_type",
+        "file":  "014_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:i",
+        "label":  "cmd_type",
+        "file":  "015_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  16,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:g",
+        "label":  "cmd_type",
+        "file":  "016_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed: ",
+        "label":  "cmd_type",
+        "file":  "017_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:/",
+        "label":  "cmd_type",
+        "file":  "018_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:f",
+        "label":  "cmd_type",
+        "file":  "019_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:l",
+        "label":  "cmd_type",
+        "file":  "020_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:u",
+        "label":  "cmd_type",
+        "file":  "021_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:s",
+        "label":  "cmd_type",
+        "file":  "022_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:h",
+        "label":  "cmd_type",
+        "file":  "023_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:d",
+        "label":  "cmd_type",
+        "file":  "024_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:n",
+        "label":  "cmd_type",
+        "file":  "025_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:s",
+        "label":  "cmd_type",
+        "file":  "026_cmd_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "cmd_result",
+        "file":  "027_cmd_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1320,
+                   "h":  720,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  300
+               },
+        "i":  28,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "cmd_result2",
+        "file":  "028_cmd_result2.png"
+    }
+]
