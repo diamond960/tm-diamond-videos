@@ -1,0 +1,26 @@
+[
+ {
+  "platform": "YouTube",
+  "metric": "Subscribers",
+  "value": 2440,
+  "note": "291,230 total views, 171 public videos"
+ },
+ {
+  "platform": "Facebook",
+  "metric": "Page likes",
+  "value": 36300,
+  "note": "4,227 talking about this"
+ },
+ {
+  "platform": "Instagram",
+  "metric": "Followers",
+  "value": 81,
+  "note": "842 views, 634 reached (Oct 7 - Nov 5)"
+ },
+ {
+  "platform": "TikTok",
+  "metric": "Followers",
+  "value": null,
+  "note": "Not connected for reading yet"
+ }
+]

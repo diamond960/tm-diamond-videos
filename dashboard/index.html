@@ -1,0 +1,163 @@
+<meta name="dash-one-writer">
+<style>
+  .tm { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+  .tm-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+  .tm-take { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); }
+  .tm .tm-take b { color: var(--color-fg); font-weight: 600; }
+  .tm-tiles { display: grid; gap: var(--cds-gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); }
+  .tm-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .tm-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .tm-note { margin: var(--cds-gap-xs) 0 var(--cds-gap-md); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .tm-label { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0; }
+  .tm-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin: var(--cds-gap-xs) 0; min-height: 1.3em; }
+  .tm-small { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0; }
+  .tm-chart { position: relative; min-height: 330px; }
+  .tm-tip { position: absolute; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); pointer-events: none; white-space: nowrap; }
+  .tm-tools { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-bottom: var(--cds-gap-md); }
+  .tm-search { flex: 1 1 14rem; min-width: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); font: inherit; }
+  .tm-scroll { max-height: 34rem; overflow: auto; }
+  .tm-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .tm-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .tm-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .tm-table td.tm-t { min-width: 14rem; }
+  .tm-pill { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid var(--color-border-line); white-space: nowrap; }
+  .tm-ok { color: var(--color-ok); }
+  .tm-warn { color: var(--color-warn); }
+  .tm-mute { color: var(--color-fg-muted); }
+  @media (max-width: 40rem) { .tm-hide { display: none; } }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="tm">
+  <header>
+    <h1 class="tm-title" id="top">TM Diamond Production Dashboard</h1>
+    <p class="tm-take"><b data-draw="sum-prod" data-source="summary" data-field="in_production">—</b> videos in production, <b data-draw="sum-ideas" data-source="summary" data-field="ideas">—</b> ideas waiting, <b data-draw="sum-pub" data-source="summary" data-field="published">—</b> published or scheduled.</p>
+  </header>
+
+  <section class="tm-tiles" id="audience" aria-label="Audience">
+    <div class="tm-card"><p class="tm-label">YouTube subscribers</p><p class="tm-big" data-draw="aud-yt" data-source="audience" data-field="value" data-where="platform=YouTube">—</p><p class="tm-small">291,230 views, 171 public videos</p></div>
+    <div class="tm-card"><p class="tm-label">Facebook page likes</p><p class="tm-big" data-draw="aud-fb" data-source="audience" data-field="value" data-where="platform=Facebook">—</p><p class="tm-small">4,227 talking about this</p></div>
+    <div class="tm-card"><p class="tm-label">Instagram followers</p><p class="tm-big" data-draw="aud-ig" data-source="audience" data-field="value" data-where="platform=Instagram">—</p><p class="tm-small">842 views in the 30 days to Nov 5</p></div>
+    <div class="tm-card"><p class="tm-label">TikTok followers</p><p class="tm-big" data-draw="aud-tt" data-source="audience" data-field="value" data-where="platform=TikTok">—</p><p class="tm-small">Not connected for reading yet</p></div>
+  </section>
+
+  <section class="tm-card" id="stages">
+    <h2>Where every video is</h2>
+    <p class="tm-note">Count of videos and ideas in each of the ten production stages.</p>
+    <div class="tm-chart" data-draw="stagechart" data-source="stages"></div>
+  </section>
+
+  <section class="tm-card" id="pipeline">
+    <h2>Video pipeline</h2>
+    <p class="tm-note">Every video and idea, newest date first. Platform columns show where each one is posted.</p>
+    <div class="tm-tools"><input class="tm-search" id="tm-search" type="search" placeholder="Search titles, categories, stages" aria-label="Search the pipeline"></div>
+    <div class="tm-scroll">
+      <table class="tm-table" data-source="pipeline" data-row-key="id">
+        <thead><tr>
+          <th data-field="date">Date</th><th data-field="slot" class="tm-hide">Slot</th><th data-field="category">Category</th><th data-field="title">Title</th><th data-field="format" class="tm-hide">Format</th><th data-field="stage">Stage</th><th data-field="youtube">YouTube</th><th data-field="facebook">Facebook</th><th data-field="instagram">Instagram</th><th data-field="tiktok">TikTok</th>
+        </tr></thead>
+        <tbody data-draw="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details class="tm-card">
+    <summary>About these numbers</summary>
+    <p class="tm-small">Audience figures are a snapshot read from each platform on Nov 5, 2026. Views, watch time, retention, shares, saves and follower growth per video are added in the Monday performance review, only from numbers the platforms report. TikTok numbers appear once TikTok is connected for reading.</p>
+  </details>
+</div>
+
+<script>
+  dash.calc('stages', {
+    inputs: ['pipeline'],
+    title: 'Videos per stage',
+    description: 'How many pipeline rows sit in each of the ten production stages.',
+    fn: (pipeline) => ['IDEAS', 'RESEARCH', 'SCRIPT', 'PRODUCTION', 'EDITING', 'REVIEW', 'THUMBNAILS', 'APPROVED', 'PUBLISHED', 'PERFORMANCE REVIEW']
+      .map((stage) => ({stage, videos: pipeline.filter((r) => r.stage === stage).length}))
+  });
+  dash.calc('summary', {
+    inputs: ['pipeline'],
+    title: 'Pipeline summary',
+    description: 'Ideas = IDEAS stage; published = PUBLISHED or PERFORMANCE REVIEW; in production = everything between.',
+    fn: (pipeline) => {
+      const ideas = pipeline.filter((r) => r.stage === 'IDEAS').length;
+      const published = pipeline.filter((r) => r.stage === 'PUBLISHED' || r.stage === 'PERFORMANCE REVIEW').length;
+      return [{ideas, published, in_production: pipeline.length - ideas - published}];
+    }
+  });
+
+  const fmt = d3.format(',');
+  const one = (id, field, where) => {
+    const d = dash.data(id);
+    if (d.status !== 'ok') return null;
+    const row = where ? d.data.find((r) => r[where[0]] === where[1]) : d.data[0];
+    return row ? row[field] : null;
+  };
+  const num = (el, v) => { el.textContent = v == null ? '—' : fmt(v); };
+  dash.draw('sum-prod', (el) => num(el, one('summary', 'in_production')));
+  dash.draw('sum-ideas', (el) => num(el, one('summary', 'ideas')));
+  dash.draw('sum-pub', (el) => num(el, one('summary', 'published')));
+  [['aud-yt', 'YouTube'], ['aud-fb', 'Facebook'], ['aud-ig', 'Instagram'], ['aud-tt', 'TikTok']]
+    .forEach(([name, p]) => dash.draw(name, (el) => num(el, one('audience', 'value', ['platform', p]))));
+
+  dash.draw('stagechart', (el) => {
+    el.replaceChildren();
+    const d = dash.data('stages');
+    if (d.status !== 'ok') { el.textContent = ''; return; }
+    const rows = d.data;
+    const W = el.clientWidth || 600, rowH = 30, H = rows.length * rowH + 8;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Videos per stage');
+    const lab = svg.append('g').attr('font-size', 12).attr('fill', 'var(--color-fg-muted)');
+    const t = lab.selectAll('text').data(rows).join('text').attr('y', (r, i) => i * rowH + 19).text((r) => r.stage);
+    let lw = 0; t.each(function () { lw = Math.max(lw, this.getComputedTextLength()); });
+    const left = lw + 12, right = 34;
+    const x = d3.scaleLinear([0, Math.max(1, d3.max(rows, (r) => r.videos))], [0, Math.max(40, W - left - right)]);
+    const tip = d3.select(el).append('div').attr('class', 'tm-tip').style('opacity', 0);
+    svg.append('g').selectAll('rect').data(rows).join('rect')
+      .attr('x', left).attr('y', (r, i) => i * rowH + 6).attr('height', 18).attr('rx', 3)
+      .attr('width', (r) => Math.max(r.videos ? 3 : 0, x(r.videos)))
+      .attr('fill', (r) => r.stage === 'PUBLISHED' ? dash.colors[0] : (r.stage === 'IDEAS' ? 'var(--cds-chart-muted)' : dash.colors[1]))
+      .on('mousemove', function (ev, r) {
+        const [mx, my] = d3.pointer(ev, el);
+        tip.style('opacity', 1).style('left', Math.min(mx + 12, W - 160) + 'px').style('top', (my - 30) + 'px').text(`${r.stage}: ${fmt(r.videos)}`);
+      })
+      .on('mouseleave', () => tip.style('opacity', 0));
+    svg.append('g').attr('font-size', 12).attr('fill', 'var(--color-fg)').selectAll('text').data(rows).join('text')
+      .attr('x', (r) => left + x(r.videos) + 6).attr('y', (r, i) => i * rowH + 19).text((r) => fmt(r.videos));
+  });
+
+  const cls = (v) => /Published|Scheduled|set|made/i.test(v) ? 'tm-ok' : (/Awaiting|Pack|Planned/i.test(v) ? 'tm-warn' : 'tm-mute');
+  const COLS = ['date', 'slot', 'category', 'title', 'format', 'stage', 'youtube', 'facebook', 'instagram', 'tiktok'];
+  dash.draw('rows', (tbody) => {
+    tbody.replaceChildren();
+    const d = dash.data('pipeline');
+    if (d.status !== 'ok') return;
+    let q = '';
+    document.querySelectorAll('#tm-search').forEach((i) => { q = i.value.trim().toLowerCase(); });
+    const rows = d.data.filter((r) => !q || COLS.some((c) => String(r[c] || '').toLowerCase().includes(q)))
+      .slice().sort((a, b) => (b.date || '').localeCompare(a.date || '') || (a.slot || '').localeCompare(b.slot || ''));
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.id;
+      COLS.forEach((c) => {
+        const td = document.createElement('td');
+        if (c === 'slot' || c === 'format') td.className = 'tm-hide';
+        if (c === 'title') {
+          td.className = 'tm-t';
+          if (r.link) { const a = document.createElement('a'); a.href = r.link; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.title; td.append(a); }
+          else td.textContent = r.title;
+        } else if (c === 'date') {
+          td.textContent = r.date ? d3.utcFormat('%b %-d')(new Date(r.date)) : '';
+        } else if (c === 'stage') {
+          const s = document.createElement('span'); s.className = 'tm-pill'; s.textContent = r.stage; td.append(s);
+        } else if (['youtube', 'facebook', 'instagram', 'tiktok'].includes(c)) {
+          td.textContent = r[c] || ''; td.className = cls(r[c] || '');
+        } else td.textContent = r[c] || '';
+        tr.append(td);
+      });
+      tbody.append(tr);
+    }
+  });
+  document.querySelectorAll('#tm-search').forEach((i) => i.addEventListener('input', () => dash.draw('rows')));
+</script>
