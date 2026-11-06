@@ -1,9 +1,0 @@
-{
- "out": "fb/05/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Website won't load, but everything else works?\nTry this one command.\nYour PC keeps a list of website addresses, called the DNS cache.\nIf an entry goes bad, that site can fail to load.\nClick Start and type CMD.\nRight click Command Prompt and choose Run as administrator.\nType ipconfig, space, slash flushdns, then press Enter.\nYou should see, Successfully flushed the DNS Resolver Cache.\nNow reload the website.\nIt's safe, it only clears that saved list, and Windows rebuilds it as you browse.\nFollow for more Windows command tips.\nAnd next time a site won't load, try this one command."
- }
-}

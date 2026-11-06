@@ -1,9 +1,0 @@
-{
- "out": "fb/04/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Never retype a table from a screenshot again.\nOpen ChatGPT and click the plus button.\nUpload your screenshot.\nThen type, turn this into a table.\nIn seconds, every row and column is typed out for you.\nWant it in Excel?\nAsk for a CSV file, then download it.\nAlways check the numbers before you use them.\nIt works in Claude too.\nFollow for more AI tips.\nNext time, don't retype it."
- }
-}
