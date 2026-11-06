@@ -11,6 +11,9 @@ These rules override anything older in SPEC.md, LONGFORM.md or a task prompt.
 
 ## THE TEAM DIAMOND TEMPLATE (owner's own format, 2026-11-06 - every vertical video uses it)
 The owner sent his own example video; every vertical video (Facebook, Instagram, TikTok, YouTube Shorts) now copies it.
+OWNER APPROVED (2026-11-06, 8:25 AM): "This is how I want the edit to look ... keep it that way" - videos/fb07.mp4 is the
+approved look. Copy it exactly (layout, zoom, hook card, green/red boxes, cursor, keycaps, sounds, no captions, no music);
+do not experiment with new styles or effects unless the owner asks.
 Spec: `"layout": "tmd"` in realcut (fb/07/make_spec.py is the reference).
 - Three bands on 1080x1920: top 0-312 = his red-grid TEAM DIAMOND logo strip (templates/tmd/top.png);
   middle 313-1292 = the REAL screen, zoomed so text is easy to read (camera height 300-520 screen px);
