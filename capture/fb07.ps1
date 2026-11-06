@@ -36,19 +36,23 @@ if ($view) {
   $show = Find-Rect 'Show'
   Shot 'view_menu' @{ view = $view; show = $show }
   if ($show) {
-    Move-To ([int]($show.x + $show.w / 2)) ([int]($show.y + $show.h / 2))
+    # hovering alone does not open the submenu on the runner: click "Show", then fall back to the Right arrow key
+    Click ([int]($show.x + $show.w / 2)) ([int]($show.y + $show.h / 2))
     Start-Sleep -Milliseconds 1200
     $ext = Find-Rect 'File name extensions'
+    if (-not $ext) { Key-Combo @([byte]0x27); Start-Sleep -Milliseconds 1200; $ext = Find-Rect 'File name extensions' }
     Shot 'show_menu' @{ show = $show; ext = $ext }
     if ($ext) {
-      Move-To ([int]($ext.x + 40)) ([int]($ext.y + $ext.h / 2)); Shot 'hover_ext' @{ ext = $ext }
-      Click ([int]($ext.x + 40)) ([int]($ext.y + $ext.h / 2))
+      Move-To ([int]($ext.x + 60)) ([int]($ext.y + $ext.h / 2)); Start-Sleep -Milliseconds 300
+      Shot 'hover_ext' @{ ext = $ext }
+      Click ([int]($ext.x + 60)) ([int]($ext.y + $ext.h / 2))
       Start-Sleep -Seconds 2
-    }
+    } else { Write-Host 'File name extensions item not found' }
   }
 }
 Move-To 1500 700
 $inv2 = Find-Rect 'invoice.pdf.exe'
+if (-not $inv2) { Key-Combo @([byte]0x74); Start-Sleep -Seconds 2; $inv2 = Find-Rect 'invoice.pdf.exe' }
 Shot 'shown' @{ invoice = $inv2 }
 Start-Sleep -Seconds 1
 Shot 'shown2' @{ invoice = (Find-Rect 'invoice.pdf.exe') }

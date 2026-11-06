@@ -28,7 +28,13 @@ spec.json:
   "titles": [[t, "Chapter title", dur], ...],
   "caption_y": [[t, 0.72], [t2, 0.17]],                # optional: caption height (fraction of frame) from time t           # chapter cards (long videos)
   "size": [1920, 1080],                                 # landscape for long YouTube videos (default 1080x1920)
-  "handle": "TM_Diamond"
+  "handle": "TM_Diamond",
+  "layout": "tmd",       # Team Diamond template (the owner's own format): templates/tmd/top.png (red grid + TMD logo),
+                         # the real screen in the middle panel (y 313-1292), the owner's presenter clip below
+                         # (templates/tmd/bottom.mp4, looped); captions off unless "captions": true
+  "card": {"t0": 0, "t1": 2.6, "title": "Where did it go?", "sub": "Sold as a 1 TB SSD", "count": [1000, 953],
+           "suffix": "GB in Windows"}   # or "big": "invoice.pdf", "big2": "invoice.pdf.exe", "swap_t": 1.4
+  "boxes": [[t, [x, y, w, h], dur], ...]  # green highlight box around a real UI element
 }
 """
 import json
@@ -43,6 +49,11 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H = 1080, 1920
+# the real screen is shown inside this viewport (whole frame by default; the TMD template uses a middle panel)
+PX, PY, PW, PH = 0, 0, 1080, 1920
+TMD_PANEL = (0, 313, 1080, 979)   # Team Diamond template: logo strip above, presenter strip below
+GREEN = (52, 211, 104)
+FOLLOW_Y = 0.64
 FPS = 30
 HERE = os.path.dirname(os.path.abspath(__file__))
 F_BLACK = "/usr/share/fonts/opentype/inter/InterDisplay-Black.otf"
@@ -93,10 +104,10 @@ class Camera:
 
     def clamp(self, cx, cy, h):
         h = min(h, self.sh)
-        w = h * W / H
+        w = h * PW / PH
         if w > self.sw:
             w = self.sw
-            h = w * H / W
+            h = w * PH / PW
         cx = min(max(cx, w / 2), self.sw - w / 2)
         cy = min(max(cy, h / 2), self.sh - h / 2)
         return cx, cy, h
@@ -104,15 +115,15 @@ class Camera:
     @staticmethod
     def to_frame(cam, x, y):
         cx, cy, h = cam
-        s = H / h
-        return (x - cx) * s + W / 2, (y - cy) * s + H / 2, s
+        s = PH / h
+        return (x - cx) * s + PX + PW / 2, (y - cy) * s + PY + PH / 2, s
 
 
 def render_screen(img, cam):
     cx, cy, h = cam
-    w = h * W / H
+    w = h * PW / PH
     box = (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2)
-    return img.resize((W, H), Image.LANCZOS, box=box)
+    return img.resize((PW, PH), Image.LANCZOS, box=box)
 
 
 # ------------------------------------------------------------------ overlays
@@ -282,6 +293,80 @@ def callouts_layer(spec, t, cam):
     return layer
 
 
+def boxes_layer(spec, t, cam):
+    """Rounded highlight boxes drawn around a real UI element (TMD style: thin green outline)."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    for b in spec.get("boxes", []):
+        bt, rect, dur = b[0], b[1], b[2]
+        col = tuple(b[3]) if len(b) > 3 else GREEN
+        if not (bt <= t < bt + dur):
+            continue
+        x, y, w, h = rect
+        fx0, fy0, s = Camera.to_frame(cam, x, y)
+        fx1, fy1, _ = Camera.to_frame(cam, x + w, y + h)
+        pad = 6
+        p = ease((t - bt) / 0.3)
+        out = min(1.0, (bt + dur - t) / 0.2)
+        x0, y0, x1, y1 = fx0 - pad, fy0 - pad, fx1 + pad, fy1 + pad
+        # grow from the centre line outwards
+        cx = (x0 + x1) / 2
+        x0p, x1p = cx - (cx - x0) * p, cx + (x1 - cx) * p
+        d.rounded_rectangle((x0p, y0, x1p, y1), radius=10, outline=col + (int(255 * out),), width=6)
+    return layer
+
+
+def card_layer(card, t):
+    """Hook card (TMD style): dark glass panel with a teal glow, icon + title, grey subtitle, a big number
+    that counts (count: [from, to]) or a big text that changes (big -> big2 at swap_t, the new part in red)."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    if not card or not (card["t0"] <= t < card["t1"]):
+        return layer
+    a = min(ease((t - card["t0"]) / 0.3), ease((card["t1"] - t) / 0.25))
+    x0, x1 = 22, W - 22
+    y0 = card.get("y", PY + PH * 0.30)
+    hgt = 300
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(glow).rounded_rectangle((x0 - 6, y0 - 6, x1 + 6, y0 + hgt + 6), 26, fill=(40, 190, 170, int(150 * a)))
+    layer.alpha_composite(glow.filter(ImageFilter.GaussianBlur(14)))
+    d = ImageDraw.Draw(layer)
+    d.rounded_rectangle((x0, y0, x1, y0 + hgt), 22, fill=(22, 26, 30, int(235 * a)), outline=(70, 200, 185, int(160 * a)), width=2)
+    # icon: a small drive / file glyph
+    ix, iy = x0 + 40, y0 + 52
+    d.rounded_rectangle((ix, iy - 12, ix + 46, iy + 12), 6, outline=(120, 200, 255, int(255 * a)), width=4)
+    d.line((ix + 10, iy, ix + 22, iy), fill=(120, 200, 255, int(255 * a)), width=4)
+    d.text((ix + 66, iy), card.get("title", ""), font=font(F_BOLD, 50), fill=(255, 255, 255, int(255 * a)), anchor="lm")
+    d.text((x0 + 40, y0 + 108), card.get("sub", ""), font=font(F_SEMI, 34), fill=(150, 156, 165, int(255 * a)), anchor="lm")
+    by = y0 + 210
+    if "count" in card:
+        c0, c1 = card["count"]
+        ct0 = card.get("count_t", card["t0"] + 0.4)
+        p = ease((t - ct0) / card.get("count_dur", 1.6))
+        num = str(int(round(c0 + (c1 - c0) * p)))
+        fbig = font(F_BLACK, 150)
+        d.text((x0 + 36, by), num, font=fbig, fill=(255, 255, 255, int(255 * a)), anchor="lm")
+        nw = d.textlength(num, font=fbig)
+        d.text((x0 + 60 + nw, by + 22), card.get("suffix", ""), font=font(F_BOLD, 54), fill=(225, 228, 232, int(255 * a)), anchor="lm")
+    else:
+        big, big2 = card.get("big", ""), card.get("big2")
+        swapped = big2 is not None and t >= card.get("swap_t", 1e9)
+        size = 120
+        dd = ImageDraw.Draw(Image.new("L", (1, 1)))
+        while size > 50 and dd.textlength(big2 or big, font=font(F_BLACK, size)) > (x1 - x0 - 80):
+            size -= 4
+        fbig = font(F_BLACK, size)
+        if swapped:
+            d.text((x0 + 36, by), big, font=fbig, fill=(255, 255, 255, int(255 * a)), anchor="lm")
+            extra = big2[len(big):] if big2.startswith(big) else big2
+            ex = x0 + 36 + d.textlength(big, font=fbig)
+            p = ease_out_back((t - card["swap_t"]) / 0.3)
+            fe = font(F_BLACK, int(fbig.size * (0.6 + 0.4 * p)))
+            d.text((ex, by), extra, font=fe, fill=(255, 70, 70, int(255 * a)), anchor="lm")
+        else:
+            d.text((x0 + 36, by), big, font=fbig, fill=(255, 255, 255, int(255 * a)), anchor="lm")
+    return layer
+
+
 ARROW = [(0, 0), (0, 34), (8, 26), (14, 40), (19, 38), (13, 24), (24, 24)]
 
 
@@ -327,7 +412,7 @@ def follow_layer(t, t0, handle):
     d = ImageDraw.Draw(layer)
     cw, ch = 760, 170
     x0 = (W - cw) / 2
-    y0 = H * 0.64 + (1 - a) * 120
+    y0 = H * FOLLOW_Y + (1 - a) * 120
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(sh).rounded_rectangle((x0, y0 + 16, x0 + cw, y0 + ch + 16), 85, fill=(0, 0, 0, 120))
     layer.alpha_composite(sh.filter(ImageFilter.GaussianBlur(14)))
@@ -392,6 +477,16 @@ class Cut:
             self.ends = sentence_ends(open(os.path.join(base, spec["script"])).read(), len(self.words))
             print("sentence breaks:", "matched" if self.ends else "script/word mismatch, using pauses")
         self.handle_l = handle_layer(spec.get("handle", "TM_Diamond"))
+        self.tmd = spec.get("layout") == "tmd"
+        if self.tmd:
+            tdir = os.path.join(HERE, "..", "templates", "tmd")
+            self.top = Image.open(os.path.join(tdir, "top.png")).convert("RGB")
+            self.strip_path = os.path.join(tdir, "bottom.mp4")
+            self.strip_w, self.strip_h = 1080, 628
+            dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", self.strip_path],
+                                       capture_output=True, text=True).stdout.strip())
+            self.strip_n = int(dur * FPS) - 2
+            self.strip_proc, self.strip_idx, self.strip_img = None, -1, None
 
     def caption_y(self, t):
         # optional "caption_y": [[t, frac], ...] moves the captions (e.g. down while the camera is on an address bar)
@@ -408,7 +503,30 @@ class Cut:
                 cur = f
         return self.images[cur]
 
+    def strip_at(self, t):
+        """The owner's presenter strip (templates/tmd/bottom.mp4), looped."""
+        idx = int(round(t * FPS)) % self.strip_n
+        if self.strip_proc is None or idx < self.strip_idx:
+            if self.strip_proc:
+                self.strip_proc.kill()
+            ss = idx / FPS
+            self.strip_proc = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{ss:.3f}", "-i", self.strip_path, "-f", "rawvideo",
+                                                "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+            self.strip_idx = idx - 1
+            self.strip_img = None
+        while self.strip_idx < idx:
+            raw = self.strip_proc.stdout.read(self.strip_w * self.strip_h * 3)
+            if len(raw) < self.strip_w * self.strip_h * 3:
+                self.strip_proc.kill()
+                self.strip_proc = None
+                return self.strip_at(0) if idx else self.strip_img
+            self.strip_img = Image.frombytes("RGB", (self.strip_w, self.strip_h), raw)
+            self.strip_idx += 1
+        return self.strip_img
+
     def frame(self, t):
+        if self.tmd:
+            return self.frame_tmd(t)
         cam = self.cam.at(t)
         # motion blur while the camera moves fast
         c2 = self.cam.at(t + 1 / FPS)
@@ -429,6 +547,30 @@ class Cut:
         base.alpha_composite(titles_layer(self.spec.get("titles"), t))
         base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
         base.alpha_composite(self.handle_l)
+        return base.convert("RGB")
+
+    def frame_tmd(self, t):
+        cam = self.cam.at(t)
+        c2 = self.cam.at(t + 1 / FPS)
+        speed = abs(c2[0] - cam[0]) + abs(c2[1] - cam[1]) + abs(c2[2] - cam[2])
+        img = self.shot_at(t)
+        if speed > 30:
+            fr = [np.asarray(render_screen(img, self.cam.at(t + k / (8 * FPS))), dtype=np.float32) for k in range(3)]
+            panel = Image.fromarray(np.clip(sum(fr) / 3, 0, 255).astype(np.uint8))
+        else:
+            panel = render_screen(img, cam)
+        base = Image.new("RGBA", (W, H), (0, 0, 0, 255))
+        base.paste(self.top, (0, 0))
+        base.paste(self.strip_at(t), (0, PY + PH))
+        base.paste(panel, (PX, PY))
+        base.alpha_composite(boxes_layer(self.spec, t, cam))
+        base.alpha_composite(callouts_layer(self.spec, t, cam))
+        base.alpha_composite(cursor_layer(self.spec, t, cam))
+        base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
+        base.alpha_composite(card_layer(self.spec.get("card"), t))
+        if self.spec.get("captions", False):
+            base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends, self.caption_y(t)))
+        base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
         return base.convert("RGB")
 
     @property
@@ -576,9 +718,13 @@ def write_wav(path, data):
 def main():
     spec_path, out = sys.argv[1], sys.argv[2]
     spec = json.load(open(spec_path))
-    global W, H
+    global W, H, PX, PY, PW, PH, FOLLOW_Y
     if spec.get("size"):
         W, H = int(spec["size"][0]), int(spec["size"][1])
+    PX, PY, PW, PH = 0, 0, W, H
+    if spec.get("layout") == "tmd":
+        PX, PY, PW, PH = TMD_PANEL
+        FOLLOW_Y = spec.get("follow_y", 0.55)
     base = os.getcwd()
     cut = Cut(spec, base)
     dur = spec["duration"]
