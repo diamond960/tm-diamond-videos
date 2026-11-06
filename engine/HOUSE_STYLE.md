@@ -2,6 +2,16 @@
 
 These rules override anything older in SPEC.md, LONGFORM.md or a task prompt.
 
+## REAL INTERFACE ONLY (owner rule, 2026-11-06 - overrides the studio-style rules below)
+- Every tutorial shows the REAL interface: real screenshots taken on a real Windows PC, edited with zooms,
+  a cursor, keycaps, red circles and captions. Follow engine/REALCAPTURE.md (wincap.ps1 -> tighten.py -> realcut.py;
+  fb/06 is the reference). Drawn mock-ups (`winui`, `app` rows, cards pretending to be windows) are banned for steps.
+- The real screen fills the whole 9:16 frame edge to edge with constant gentle camera motion: no paper margins,
+  no borders, no letterbox (Facebook flagged our framed videos as "has a border").
+- Until the phone/Mac/AI-app capture pipelines exist, make only Windows/PC topics that a Windows runner can show.
+- Sound: narration + real recorded CC0 UI sounds (engine/sfx/kenney) on the exact actions. No music.
+- Pacing: tighten the narration (no dead air); hook in the first second; most Facebook Reels 10-15 s.
+
 ## Audio (never break)
 - NO background music of any kind: no beats, instrumentals, cinematic, ambient, lo-fi or sound beds.
   The renderers hard-disable music; never add a music file, and never tell the owner to add a trending sound.
