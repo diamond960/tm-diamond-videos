@@ -17,6 +17,11 @@ Make scenario **6912009** (team 3369346, on demand), run with `mcp__Make__scenar
 | `thumbnail` | `video_id`, `thumbnail_url` (public jpg, e.g. raw.githubusercontent.com/...<sha>/long/NN/thumbnail.jpg) | `note` "thumbnail set" |
 | `api` | `api_path` (after https://www.googleapis.com/youtube, e.g. `/v3/playlistItems?part=snippet`), `api_method`, `metadata_json` (request body) | `session_url` = returned id, `status` |
 
+| `api_json` | `api_path` (GET only, e.g. `/v3/videos?part=snippet,status,statistics&id=<id1>,<id2>` or `/v3/playlistItems?part=contentDetails,status&playlistId=UUy7l_3L65Us6BTwlYHwb5Eg&maxResults=10`) | `session_url` = the full JSON response (read it with data-store-records_list); use `fields=` to keep it small |
+
+Duplicate check: before any upload, read the latest uploads (`api_json` on the uploads playlist above) and make sure the
+same video isn't already on the channel. Every upload: `"embeddable": true` in status.
+
 Use a unique `job` key every time (e.g. `long02-session`, `short05-session`, `long02-thumbnail`, `playlist-add-long02`).
 
 ## 1. YouTube upload (Shorts and long videos)
