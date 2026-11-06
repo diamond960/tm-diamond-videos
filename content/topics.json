@@ -1228,6 +1228,24 @@
    "category": "A",
    "source": "fb/02/post.json",
    "url": "https://www.facebook.com/reel/963825496411488"
+  },
+  {
+   "topic": "Snap layouts with Windows + Z (Settings > System > Multitasking > Snap windows)",
+   "category": "A",
+   "source": "fb/03",
+   "date": "2026-11-06"
+  },
+  {
+   "topic": "Turn a screenshot into a table with ChatGPT (CSV for Excel), works in Claude too",
+   "category": "D",
+   "source": "fb/04",
+   "date": "2026-11-06"
+  },
+  {
+   "topic": "ipconfig /flushdns: clear the DNS cache when one website won't load",
+   "category": "E",
+   "source": "fb/05",
+   "date": "2026-11-06"
   }
  ]
 }

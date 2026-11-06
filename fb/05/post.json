@@ -1,0 +1,9 @@
+{
+ "title": "Website won't load? Try this one command",
+ "category": "E",
+ "caption": "Website won't load but everything else works? Try ipconfig /flushdns 💻\n\n✅ Start > type CMD > right-click Command Prompt > Run as administrator\n✅ Type: ipconfig /flushdns and press Enter\n✅ You should see: Successfully flushed the DNS Resolver Cache\n✅ Reload the website\nIt only clears Windows' saved list of website addresses, and Windows rebuilds it as you browse.\n\nWhich site keeps failing for you? 👇\nFollow for daily Windows + AI tips.\n\n#windows11 #cmd #pctips",
+ "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@390339b5676a539953400252e8e010aff9e673a7/videos/fb05.mp4",
+ "length_s": 39.4,
+ "status": "queued",
+ "made_at": "2026-11-06T07:30:10Z"
+}

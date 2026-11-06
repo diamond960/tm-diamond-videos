@@ -9,8 +9,8 @@
    "idea": "Snap Layouts with Win + Z",
    "hook": "Stop dragging windows around.",
    "length": "20-30 s",
-   "stage": "IDEAS",
-   "used_by": null
+   "stage": "QUEUED",
+   "used_by": "fb/03"
   },
   {
    "date": "2026-11-06",
@@ -19,8 +19,8 @@
    "idea": "Turn a screenshot into a table with ChatGPT or Claude",
    "hook": "Never retype a table again.",
    "length": "30-40 s",
-   "stage": "IDEAS",
-   "used_by": null
+   "stage": "QUEUED",
+   "used_by": "fb/04"
   },
   {
    "date": "2026-11-06",
@@ -29,8 +29,8 @@
    "idea": "ipconfig /flushdns: what it does and when it helps",
    "hook": "Website won't load? Try this one command.",
    "length": "30-40 s",
-   "stage": "IDEAS",
-   "used_by": null
+   "stage": "QUEUED",
+   "used_by": "fb/05"
   },
   {
    "date": "2026-11-07",
