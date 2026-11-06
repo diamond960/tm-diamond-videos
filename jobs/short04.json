@@ -1,9 +1,0 @@
-{
- "out": "shorts/04/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Windows hides a faster power mode.\nOpen Settings, then System, then Power.\nFind Power mode.\nIt's on Balanced by default.\nSwitch it to Best performance.\nNow your PC puts speed first.\nOn a laptop, it uses more battery.\nFollow for more Windows fixes."
- }
-}

@@ -1,0 +1,206 @@
+{
+"duration": 22.665,
+"words": [
+{
+"w": "Turn",
+"s": 0.0,
+"e": 0.54
+},
+{
+"w": "off",
+"s": 0.54,
+"e": 0.74
+},
+{
+"w": "these",
+"s": 0.74,
+"e": 0.98
+},
+{
+"w": "animations",
+"s": 0.98,
+"e": 1.42
+},
+{
+"w": "for",
+"s": 1.42,
+"e": 1.78
+},
+{
+"w": "a",
+"s": 1.78,
+"e": 1.92
+},
+{
+"w": "faster",
+"s": 1.92,
+"e": 2.22
+},
+{
+"w": "PC.",
+"s": 2.22,
+"e": 2.72
+},
+{
+"w": "Open",
+"s": 4.02,
+"e": 4.2
+},
+{
+"w": "Settings,",
+"s": 4.2,
+"e": 4.52
+},
+{
+"w": "then",
+"s": 4.84,
+"e": 4.88
+},
+{
+"w": "Accessibility,",
+"s": 4.88,
+"e": 5.68
+},
+{
+"w": "then",
+"s": 5.98,
+"e": 6.18
+},
+{
+"w": "Visual",
+"s": 6.18,
+"e": 6.58
+},
+{
+"w": "Effects.",
+"s": 6.58,
+"e": 6.94
+},
+{
+"w": "Turn",
+"s": 8.16,
+"e": 8.36
+},
+{
+"w": "off",
+"s": 8.36,
+"e": 8.56
+},
+{
+"w": "Animation",
+"s": 8.56,
+"e": 9.06
+},
+{
+"w": "Effects.",
+"s": 9.06,
+"e": 9.48
+},
+{
+"w": "Then",
+"s": 10.7,
+"e": 10.8
+},
+{
+"w": "turn",
+"s": 10.8,
+"e": 11.02
+},
+{
+"w": "off",
+"s": 11.02,
+"e": 11.26
+},
+{
+"w": "Transparency",
+"s": 11.26,
+"e": 11.82
+},
+{
+"w": "Effects.",
+"s": 11.82,
+"e": 12.44
+},
+{
+"w": "Windows",
+"s": 13.62,
+"e": 13.9
+},
+{
+"w": "stops",
+"s": 13.9,
+"e": 14.2
+},
+{
+"w": "spending",
+"s": 14.2,
+"e": 14.58
+},
+{
+"w": "power",
+"s": 14.58,
+"e": 14.96
+},
+{
+"w": "on",
+"s": 14.96,
+"e": 15.18
+},
+{
+"w": "iCandy.",
+"s": 15.18,
+"e": 15.84
+},
+{
+"w": "Menus",
+"s": 17.16,
+"e": 17.38
+},
+{
+"w": "and",
+"s": 17.38,
+"e": 17.56
+},
+{
+"w": "Windows",
+"s": 17.56,
+"e": 17.98
+},
+{
+"w": "open",
+"s": 17.98,
+"e": 18.58
+},
+{
+"w": "instantly.",
+"s": 18.58,
+"e": 19.18
+},
+{
+"w": "Follow",
+"s": 20.4,
+"e": 20.62
+},
+{
+"w": "for",
+"s": 20.62,
+"e": 20.86
+},
+{
+"w": "more",
+"s": 20.86,
+"e": 21.04
+},
+{
+"w": "Windows",
+"s": 21.04,
+"e": 21.44
+},
+{
+"w": "fixes.",
+"s": 21.44,
+"e": 21.68
+}
+],
+"text": "Turn off these animations for a faster PC.\nOpen Settings, then Accessibility, then Visual effects.\nTurn off Animation effects.\nThen turn off Transparency effects.\nWindows stops spending power on eye candy.\nMenus and windows open instantly.\nFollow for more Windows fixes."
+}
