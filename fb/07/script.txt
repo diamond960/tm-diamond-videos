@@ -1,0 +1,7 @@
+This file looks like a PDF.
+But it's actually a program.
+Open File Explorer, and click View.
+Then Show, and turn on File name extensions.
+Now Windows shows the real file type.
+If a document ends in dot E X E, don't open it.
+Follow for more Windows tips.
