@@ -1,3 +1,4 @@
+# NOTE: never use $n/$out/$log as variable names here (PowerShell names are case-insensitive: they clash with wincap.ps1)
 # tiktok01: "5 File Explorer tricks" - real File Explorer on a real Windows PC
 . "$PSScriptRoot/../engine/wincap.ps1"
 Init-Capture 'tiktok01'
@@ -57,14 +58,14 @@ Start-Sleep -Milliseconds 1500
 Shot 'ext_on'
 Key-Combo @($VK.ESC)
 Start-Sleep -Milliseconds 800
-$n = Find-Rect 'notes.txt'; if (-not $n) { $n = Find-Rect 'notes' }
+$notesR = Find-Rect 'notes.txt'; if (-not $notesR) { $notesR = Find-Rect 'notes' }
 $p = Find-Rect 'photo.png'; $b = Find-Rect 'budget.csv'; $t = Find-Rect 'trip plan.txt'
-Shot 'ext_on2' @{ notes = $n; photo = $p; budget = $b; trip = $t }
+Shot 'ext_on2' @{ notes = $notesR; photo = $p; budget = $b; trip = $t }
 # click notes.txt, Alt + P
-$c = Center $n
+$c = Center $notesR
 if ($c) { Click $c[0] $c[1] }
 Start-Sleep -Milliseconds 800
-Shot 'notes_selected' @{ notes = $n }
+Shot 'notes_selected' @{ notes = $notesR }
 Key-Combo @($VK.ALT, [byte]0x50)
 Start-Sleep -Seconds 2
 Shot 'preview'
