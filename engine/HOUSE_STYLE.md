@@ -73,17 +73,16 @@ These rules override the topic lists inside the Shorts and long-video task promp
 - What failed: videos about our own setup ("9 Apps I Connected to Claude", 8 views; "My YouTube Channel Posts Videos By Itself"). NEVER make videos about the TM Diamond pipeline, "my channel runs itself" or "apps I connected". AI videos must be a practical how-to the viewer can copy: a prompt, a feature, a fix.
 - Titles: the problem or task in the viewer's own words first ("Windows 11 slow?", "How to publish an app on the App Store"), then the promise. Under 60 characters. No vague curiosity-only titles.
 - Every upload: embeddable true, publicStatsViewable true, containsSyntheticMedia false. Never upload the same video twice; check the channel's latest uploads before uploading.
-- Long-video order (replaces the list in the long-video task; skip any already made):
-  1. How to Publish an App on the Apple App Store in 2026 (Step by Step)
-  2. Windows 11 Running Slow? 12 Fixes That Actually Work
-  3. How to Publish an App on Google Play in 2026 (Step by Step)
-  4. ChatGPT vs Gemini vs Claude: Which AI Should You Use?
-  5. Wi-Fi Not Showing on Windows 11? Every Fix, Step by Step
-  6. 25 Claude Prompts for Beginners (Copy and Paste)
-  7. 10 Windows 11 Settings You Should Change Right Now
-  8. How to Install Windows 11 from a USB Drive (2026 Guide)
-  9. 15 Windows Keyboard Shortcuts That Save Hours
-  10. MacBook or Windows Laptop for Students and Creators? (Buying Guide)
-
-  After that, choose search-led topics in the same style. Video 01's "what's next" promise is dropped.
+- Long-video order (replaces the list in the long-video task; skip any already made). Real screens only, so only
+  topics a Windows PC can show for real (REALCAPTURE.md):
+  1. Windows 11 Running Slow? 12 Fixes That Actually Work
+  2. 15 Command Prompt Commands Every Windows User Should Know
+  3. Wi-Fi or Internet Problems on Windows 11? Every Fix, Step by Step
+  4. 10 Windows 11 Settings You Should Change Right Now
+  5. Free Up Disk Space on Windows 11 (Every Safe Method)
+  6. 15 Windows Keyboard Shortcuts That Save Hours
+  7. Task Manager Explained: Hidden Features Most People Miss
+  8. How to Back Up Your Windows PC for Free (Built-in Tools)
+  App Store / Google Play publishing (the channel's best long video ever) needs real App Store Connect / Play Console
+  screens: make it only when the owner sends his own screen recording of those pages.
 - Shorts topics: take them from the formats that worked above (Windows problem + fix, iPhone/Android mistakes and hidden settings, AI prompt tips), 15-35 s.
