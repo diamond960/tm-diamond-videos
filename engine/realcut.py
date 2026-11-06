@@ -125,16 +125,17 @@ def caption_layer(words, t, highlight):
     groups, cur = [], []
     for i, w in enumerate(words):
         cur.append(i)
-        end_sent = w["word"].rstrip().endswith((".", "?", "!", ","))
-        if len(cur) == 3 or end_sent:
+        end_sent = w["w"].rstrip().endswith((".", "?", "!", ","))
+        gap = (words[i + 1]["s"] - w["e"]) if i + 1 < len(words) else 9
+        if len(cur) == 3 or end_sent or gap > 0.28:
             groups.append(cur)
             cur = []
     if cur:
         groups.append(cur)
     g = None
     for grp in groups:
-        s = words[grp[0]]["start"] - 0.05
-        e = words[grp[-1]]["end"] + 0.25
+        s = words[grp[0]]["s"] - 0.05
+        e = words[grp[-1]]["e"] + 0.25
         if s <= t < e:
             g = grp
             break
@@ -144,11 +145,11 @@ def caption_layer(words, t, highlight):
     d = ImageDraw.Draw(layer)
     toks = []
     for i in g:
-        raw = words[i]["word"].strip()
+        raw = words[i]["w"].strip()
         clean = raw.strip(".,?!").lower()
-        col = YELLOW if (clean in highlight or t >= words[i]["start"] and t < words[i]["end"] + 0.05 and False) else (255, 255, 255)
-        shown = t >= words[i]["start"] - 0.04
-        toks.append((raw.upper(), col if clean in highlight else (255, 255, 255), shown, words[i]["start"]))
+        col = YELLOW if (clean in highlight or t >= words[i]["s"] and t < words[i]["e"] + 0.05 and False) else (255, 255, 255)
+        shown = t >= words[i]["s"] - 0.04
+        toks.append((raw.upper(), col if clean in highlight else (255, 255, 255), shown, words[i]["s"]))
     # layout on up to 2 lines
     space = 26
     widths = [d.textlength(tk[0], font=f) for tk in toks]
@@ -178,7 +179,9 @@ def caption_layer(words, t, highlight):
 
 def keycaps_layer(keys, t):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    for kt, names, dur in keys:
+    for k in keys:
+        kt, names, dur = k[0], k[1], k[2]
+        yfrac = k[3] if len(k) > 3 else 0.70
         if not (kt <= t < kt + dur):
             continue
         a = ease_out_back((t - kt) / 0.22)
@@ -192,7 +195,7 @@ def keycaps_layer(keys, t):
         gap = 70
         total = sum(c[1] for c in caps) + gap * (len(caps) - 1)
         x = (W - total) / 2
-        y = int(H * 0.70 + (1 - a) * 60)
+        y = int(H * yfrac + (1 - a) * 60)
         for i, (n, cw) in enumerate(caps):
             pressed = (t - kt) > 0.25 + 0.12 * i
             dy = 10 if pressed else 0
@@ -433,6 +436,30 @@ def synth_whoosh(dur=0.32):
     return out * env * 0.5
 
 
+def synth(kind, rng):
+    """Fallback UI sounds made from filtered noise and short tones (used only if the CC0 packs are absent)."""
+    t = lambda d: np.arange(int(SR * d)) / SR
+    g = np.random.default_rng(rng.randint(0, 9999))
+    if kind in ("click", "key"):
+        d = 0.045 if kind == "key" else 0.06
+        x = t(d)
+        n = g.standard_normal(len(x)).astype(np.float32)
+        hp = np.diff(n, prepend=0)  # bright click
+        env = np.exp(-x * (160 if kind == "key" else 110))
+        body = np.sin(2 * np.pi * (1900 if kind == "key" else 1400) * x) * np.exp(-x * 220)
+        return ((hp * 0.5 + body * 0.6) * env).astype(np.float32)
+    if kind == "pop":
+        x = t(0.12)
+        f = 520 + 900 * np.exp(-x * 40)
+        return (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-x * 30) * 0.8).astype(np.float32)
+    if kind in ("ding", "open"):
+        x = t(0.7 if kind == "ding" else 0.25)
+        base = 1318.5 if kind == "ding" else 880.0
+        y = np.sin(2 * np.pi * base * x) + 0.5 * np.sin(2 * np.pi * base * 1.5 * x)
+        return (y * np.exp(-x * (6 if kind == "ding" else 18)) * 0.45).astype(np.float32)
+    return synth_whoosh()
+
+
 def build_sfx(spec, duration):
     total = np.zeros(int(SR * (duration + 1)), dtype=np.float32)
     rng = random.Random(7)
@@ -442,7 +469,7 @@ def build_sfx(spec, duration):
         names, vol = SOUNDS.get(kind, ([], 0.3))
         avail = [n for n in names if kenney(n)]
         if not avail:
-            return None, vol
+            return synth(kind, rng), vol
         n = rng.choice(avail)
         if n not in cache:
             cache[n] = load_wav(kenney(n))
@@ -450,7 +477,8 @@ def build_sfx(spec, duration):
 
     events = list(spec.get("sfx", []))
     events += [[c, "click"] for c in spec.get("clicks", [])]
-    for kt, names, dur in spec.get("keys", []):
+    for k in spec.get("keys", []):
+        kt, names = k[0], k[1]
         for i in range(len(names)):
             events.append([kt + 0.25 + 0.12 * i, "key"])
         events.append([kt, "pop"])

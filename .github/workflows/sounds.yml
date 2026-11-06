@@ -31,7 +31,7 @@ jobs:
             mkdir -p engine/sfx/kenney/$name
             find /tmp/k/$name -name '*.ogg' | while read f; do
               b=$(basename "$f" .ogg)
-              ffmpeg -v error -y -i "$f" -ac 1 -ar 48000 "engine/sfx/kenney/$name/$b.wav"
+              ffmpeg -nostdin -v error -y -i "$f" -ac 1 -ar 48000 "engine/sfx/kenney/$name/$b.wav"
             done
             find /tmp/k/$name -iname 'license*' -exec cp {} engine/sfx/kenney/$name/ \; || true
             ls engine/sfx/kenney/$name | head -100
