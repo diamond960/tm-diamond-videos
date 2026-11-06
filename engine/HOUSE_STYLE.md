@@ -2,12 +2,26 @@
 
 These rules override anything older in SPEC.md, LONGFORM.md or a task prompt.
 
+## THE TEAM DIAMOND TEMPLATE (owner's own format, 2026-11-06 - every vertical video uses it)
+The owner sent his own example video; every vertical video (Facebook, Instagram, TikTok, YouTube Shorts) now copies it.
+Spec: `"layout": "tmd"` in realcut (fb/07/make_spec.py is the reference).
+- Three bands on 1080x1920: top 0-312 = his red-grid TEAM DIAMOND logo strip (templates/tmd/top.png);
+  middle 313-1292 = the REAL screen, zoomed so text is easy to read (camera height 300-520 screen px);
+  bottom 1292-1920 = his presenter clip (templates/tmd/bottom.mp4, looped). Never cover or replace the bands.
+- Windows in dark mode (set the theme in the capture script). Keep the camera inside the app window
+  (no desktop wallpaper, no "Test Mode/Windows Server" watermark, no desktop icons).
+- Hook card in the first 3 s (`card`): title + grey sub + a big word that changes on the reveal word
+  (`big` -> `big2`, the new part in red) or a number that counts up (`count`).
+- Thin green rounded boxes (`boxes`) on each thing to click, red boxes on the danger/answer; a yellow click ring
+  under the cursor; white keycaps for shortcuts; no on-screen captions (`"captions": false`).
+- The follow pill at the end. Narration tightened with engine/tighten.py. No music.
+
 ## REAL INTERFACE ONLY (owner rule, 2026-11-06 - overrides the studio-style rules below)
 - Every tutorial shows the REAL interface: real screenshots taken on a real Windows PC, edited with zooms,
   a cursor, keycaps, red circles and captions. Follow engine/REALCAPTURE.md (wincap.ps1 -> tighten.py -> realcut.py;
   fb/06 is the reference). Drawn mock-ups (`winui`, `app` rows, cards pretending to be windows) are banned for steps.
-- The real screen fills the whole 9:16 frame edge to edge with constant gentle camera motion: no paper margins,
-  no borders, no letterbox (Facebook flagged our framed videos as "has a border").
+- Vertical videos use the Team Diamond template above (real screen in the middle band). No extra paper margins,
+  white frames or letterbox around the screen (Facebook flagged our old framed videos as "has a border").
 - Until the phone/Mac/AI-app capture pipelines exist, make only Windows/PC topics that a Windows runner can show.
 - Sound: narration + real recorded CC0 UI sounds (engine/sfx/kenney) on the exact actions. No music.
 - Pacing: tighten the narration (no dead air); hook in the first second; most Facebook Reels 10-15 s.

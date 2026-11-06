@@ -32,6 +32,17 @@ The owner wants every Windows, PC, Mac, phone and app tutorial to show the actua
 Sounds: real recorded CC0 UI sounds in `engine/sfx/kenney/interface-sounds` (Kenney, CC0): clicks, keyboard ticks,
 pops, confirmation ding, window open. No music, no loud "viral" effects.
 
+## Team Diamond template (`"layout": "tmd"`, the owner's format - use it for every vertical video)
+- realcut puts the real screen in the middle panel (1080x979 at y 313), his logo strip on top
+  (templates/tmd/top.png) and his presenter clip below (templates/tmd/bottom.mp4).
+- Spec extras: `card` {t0, t1, y, title, sub, big, big2, swap_t | count:[a,b], suffix}, `boxes` [[t, [x,y,w,h], dur, (rgb)]]
+  in screen pixels (green by default, red for the answer), `captions` false, `follow_y` 0.55.
+- Camera `h` = visible screen height; width = h x 1.103. Use 300-520 so text is readable on a phone.
+- Capture tips learned on fb07: Explorer submenus open on a click, not a hover (click the item, fall back to the
+  Right arrow key); find each element with Find-Rect and log it so the spec can box it exactly; measure text
+  edges from the PNG for tight boxes.
+- Reference: fb/07 (capture/fb07.ps1 -> fb/07/make_spec.py -> videos/fb07.mp4).
+
 ## iPhone, Android, Mac (not built yet)
 Planned: iOS Simulator and Android Emulator screenshots on GitHub runners, and macOS screenshots on a macOS runner.
 Until they exist, do not make iPhone, Android or Mac tutorials with drawn screens. Pick a Windows topic instead.
