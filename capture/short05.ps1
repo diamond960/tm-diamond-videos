@@ -16,11 +16,11 @@ function Get-Toggle([string]$Pattern) {
 }
 # This PC (a virtual machine) starts with both effects off; switch them on first, the way a normal PC ships,
 # so the video shows the real "turn off" click.
-foreach ($n in @('^Animation effects', '^Transparency effects')) {
-  $el = Get-Toggle $n
+foreach ($tname in @('^Animation effects', '^Transparency effects')) {
+  $el = Get-Toggle $tname
   if ($el) {
     try { $tp = $el.GetCurrentPattern([System.Windows.Automation.TogglePattern]::Pattern)
-      if ($tp.Current.ToggleState -eq [System.Windows.Automation.ToggleState]::Off) { $tp.Toggle(); Start-Sleep -Seconds 2 } } catch { Write-Host "toggle failed $n" }
+      if ($tp.Current.ToggleState -eq [System.Windows.Automation.ToggleState]::Off) { $tp.Toggle(); Start-Sleep -Seconds 2 } } catch { Write-Host "toggle failed $tname" }
   }
 }
 Start-Sleep -Seconds 1

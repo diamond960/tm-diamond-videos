@@ -44,7 +44,7 @@ public static class W {
 
 $script:Out = $null
 $script:Log = New-Object System.Collections.ArrayList
-$script:N = 0
+$script:N = 0  # NOTE: PowerShell names are case-insensitive - never use $n in capture scripts
 
 function Init-Capture([string]$Name, [int]$Width = 1920, [int]$Height = 1080) {
   $r = [W]::SetRes($Width, $Height)
