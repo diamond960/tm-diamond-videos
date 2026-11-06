@@ -101,7 +101,13 @@
                },
         "i":  4,
         "rects":  {
-                      "ext":  null,
+                      "ext":  {
+                                  "y":  687,
+                                  "w":  207,
+                                  "h":  28,
+                                  "name":  "File name extensions",
+                                  "x":  788
+                              },
                       "show":  {
                                    "y":  582,
                                    "w":  179,
@@ -128,15 +134,21 @@
                },
         "i":  5,
         "rects":  {
-                      "invoice":  null
+                      "ext":  {
+                                  "y":  687,
+                                  "w":  207,
+                                  "h":  28,
+                                  "name":  "File name extensions",
+                                  "x":  788
+                              }
                   },
         "cursor":  [
-                       1500,
-                       700
+                       848,
+                       701
                    ],
         "note":  "",
-        "label":  "shown",
-        "file":  "005_shown.png"
+        "label":  "hover_ext",
+        "file":  "005_hover_ext.png"
     },
     {
         "fg":  {
@@ -148,7 +160,39 @@
                },
         "i":  6,
         "rects":  {
-                      "invoice":  null
+                      "invoice":  {
+                                      "y":  416,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "invoice.pdf.exe",
+                                      "x":  342
+                                  }
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "shown",
+        "file":  "006_shown.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "invoice":  {
+                                      "y":  416,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "invoice.pdf.exe",
+                                      "x":  342
+                                  }
                   },
         "cursor":  [
                        1500,
@@ -156,6 +200,6 @@
                    ],
         "note":  "",
         "label":  "shown2",
-        "file":  "006_shown2.png"
+        "file":  "007_shown2.png"
     }
 ]
