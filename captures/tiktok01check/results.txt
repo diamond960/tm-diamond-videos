@@ -1,0 +1,6 @@
+﻿ctrl_shift_esc fg='Task Manager' taskmgr_running=True
+win_prtscn folder=C:\Users\runneradmin\Pictures\Screenshots before=0 after=1 files=Screenshot (1).png
+alt_prtscn clipboard=886x593 window=900x600 title='Untitled - Notepad'
+prtscn clipboard=EMPTY fg='Screen Snipping'
+win_shift_s fg='Screen Snipping' procs=ScreenClippingHost
+win_shift_s clipboard=401x221

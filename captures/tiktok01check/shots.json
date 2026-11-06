@@ -1,0 +1,142 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  156,
+                   "w":  780,
+                   "h":  590,
+                   "title":  "Task Manager",
+                   "x":  156
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "ctrl_shift_esc",
+        "file":  "001_ctrl_shift_esc.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "win_prtscn",
+        "file":  "002_win_prtscn.png"
+    },
+    {
+        "fg":  {
+                   "y":  200,
+                   "w":  900,
+                   "h":  600,
+                   "title":  "Untitled - Notepad",
+                   "x":  300
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "alt_prtscn",
+        "file":  "003_alt_prtscn.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Screen Snipping",
+                   "x":  0
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "prtscn_alone",
+        "file":  "004_prtscn_alone.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Screen Snipping",
+                   "x":  0
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "win_shift_s",
+        "file":  "005_win_shift_s.png"
+    },
+    {
+        "fg":  {
+                   "y":  200,
+                   "w":  900,
+                   "h":  600,
+                   "title":  "Untitled - Notepad",
+                   "x":  300
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       800,
+                       520
+                   ],
+        "note":  "",
+        "label":  "win_shift_s_after",
+        "file":  "006_win_shift_s_after.png"
+    },
+    {
+        "fg":  {
+                   "y":  200,
+                   "w":  900,
+                   "h":  600,
+                   "title":  "Untitled - Notepad",
+                   "x":  300
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       800,
+                       520
+                   ],
+        "note":  "",
+        "label":  "win_period",
+        "file":  "007_win_period.png"
+    }
+]
