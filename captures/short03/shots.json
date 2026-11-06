@@ -13,7 +13,7 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               },
                       "mem":  {
@@ -46,7 +46,7 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               }
                   },
@@ -72,15 +72,15 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               },
                       "hog":  {
-                                  "y":  179,
-                                  "w":  616,
+                                  "y":  263,
+                                  "w":  646,
                                   "h":  28,
                                   "name":  "HeavyApp",
-                                  "x":  248
+                                  "x":  218
                               },
                       "mem":  {
                                   "y":  214,
@@ -112,15 +112,15 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               },
                       "hog":  {
-                                  "y":  179,
-                                  "w":  616,
+                                  "y":  263,
+                                  "w":  646,
                                   "h":  28,
                                   "name":  "HeavyApp",
-                                  "x":  248
+                                  "x":  218
                               },
                       "mem":  {
                                   "y":  214,
@@ -178,15 +178,15 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               },
                       "hog":  {
-                                  "y":  179,
-                                  "w":  616,
+                                  "y":  263,
+                                  "w":  646,
                                   "h":  28,
                                   "name":  "HeavyApp",
-                                  "x":  248
+                                  "x":  218
                               }
                   },
         "cursor":  [
@@ -215,16 +215,16 @@
                                   "x":  1436
                               },
                       "hog":  {
-                                  "y":  179,
-                                  "w":  616,
+                                  "y":  263,
+                                  "w":  646,
                                   "h":  28,
                                   "name":  "HeavyApp",
-                                  "x":  248
+                                  "x":  218
                               }
                   },
         "cursor":  [
-                       368,
-                       193
+                       338,
+                       277
                    ],
         "note":  "",
         "label":  "selected",
@@ -270,7 +270,7 @@
                                   "y":  214,
                                   "w":  73,
                                   "h":  48,
-                                  "name":  "CPU 46%. Press Enter to change sorting.",
+                                  "name":  "CPU 44%. Press Enter to change sorting.",
                                   "x":  572
                               }
                   },
