@@ -32,3 +32,9 @@ pops, confirmation ding, window open. No music, no loud "viral" effects.
 Planned: iOS Simulator and Android Emulator screenshots on GitHub runners, and macOS screenshots on a macOS runner.
 Until they exist, do not make iPhone, Android or Mac tutorials with drawn screens. Pick a Windows topic instead.
 AI apps that need a login (ChatGPT, Claude, Gemini) can't be recorded here either: no such tutorials with fake screens.
+
+## Long YouTube videos (16:9)
+Same pipeline with `"size": [1920, 1080]` in the spec: the camera crops the real 1920x1080 screen at 16:9 (wide shots =
+the whole screen, focus shots = height 500-700), captions sit at the bottom, `"titles": [[t, "Fix 3: Startup apps", 2.0]]`
+gives chapter cards over the real screen. Write one capture script per chapter (capture/longNN_01.ps1, ...) so a failed
+step only needs that chapter re-captured. Render time is about 2-3 minutes per minute of video.

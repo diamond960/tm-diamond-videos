@@ -25,6 +25,8 @@ spec.json:
   "highlight": ["words", ...],                          # caption words shown in yellow
   "sfx": [[t, "pop"|"ding"|"whoosh"|"click"|"key"], ...],
   "follow": t,                                           # follow card from t to the end
+  "titles": [[t, "Chapter title", dur], ...],           # chapter cards (long videos)
+  "size": [1920, 1080],                                 # landscape for long YouTube videos (default 1080x1920)
   "handle": "TM_Diamond"
 }
 """
@@ -162,7 +164,8 @@ def caption_layer(words, t, highlight, ends=None):
             break
     if g is None:
         return layer
-    f = font(F_BLACK, 92)
+    CS = int(max(64, 92 * H / 1920))
+    f = font(F_BLACK, CS)
     d = ImageDraw.Draw(layer)
     toks = []
     for i in g:
@@ -183,18 +186,18 @@ def caption_layer(words, t, highlight, ends=None):
         lw += wd + (space if len(line) > 1 else 0)
     if line:
         lines.append(line)
-    y = int(H * 0.17)
+    y = int(H * (0.17 if H > W else 0.80))
     for ln in lines:
         total = sum(wd for _, wd in ln) + space * (len(ln) - 1)
         x = (W - total) / 2
         for (txt, col, shown, ws), wd in ln:
             if shown:
                 pop = ease_out_back((t - ws + 0.04) / 0.16)
-                size = int(92 * (0.82 + 0.18 * pop))
+                size = int(CS * (0.82 + 0.18 * pop))
                 ff = font(F_BLACK, size)
                 draw_text_stroke(d, (x + wd / 2, y + 50), txt, ff, col, stroke=9, anchor="mm")
             x += wd + space
-        y += 112
+        y += int(CS * 1.22)
     return layer
 
 
@@ -338,6 +341,25 @@ def follow_layer(t, t0, handle):
     return layer
 
 
+def titles_layer(titles, t):
+    """Chapter titles: a dark glass band across the middle with big white text (the real screen stays visible)."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    for tt in titles or []:
+        t0, text, dur = tt[0], tt[1], tt[2]
+        if not (t0 <= t < t0 + dur):
+            continue
+        a = min(ease((t - t0) / 0.25), ease((t0 + dur - t) / 0.25))
+        d = ImageDraw.Draw(layer)
+        size = int(max(70, 110 * H / 1920))
+        f = font(F_BLACK, size)
+        bh = int(size * 2.1)
+        y0 = int(H * 0.5 - bh / 2)
+        d.rectangle((0, y0, W, y0 + bh), fill=(10, 12, 18, int(200 * a)))
+        d.rectangle((0, y0, int(W * 0.012), y0 + bh), fill=(232, 33, 39, int(255 * a)))
+        draw_text_stroke(d, (W / 2, y0 + bh / 2), text.upper(), f, (255, 255, 255, int(255 * a)), stroke=0, anchor="mm")
+    return layer
+
+
 def handle_layer(handle):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
@@ -395,6 +417,7 @@ class Cut:
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
         base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends))
+        base.alpha_composite(titles_layer(self.spec.get("titles"), t))
         base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
         base.alpha_composite(self.handle_l)
         return base.convert("RGB")
@@ -544,6 +567,9 @@ def write_wav(path, data):
 def main():
     spec_path, out = sys.argv[1], sys.argv[2]
     spec = json.load(open(spec_path))
+    global W, H
+    if spec.get("size"):
+        W, H = int(spec["size"][0]), int(spec["size"][1])
     base = os.getcwd()
     cut = Cut(spec, base)
     dur = spec["duration"]
@@ -551,14 +577,16 @@ def main():
         ts = [float(x) for x in sys.argv[sys.argv.index("--preview") + 1].split(",")]
         thumbs = []
         for t in ts:
-            fr = cut.frame(t).resize((270, 480))
+            tw, th = (270, 480) if H > W else (480, 270)
+            fr = cut.frame(t).resize((tw, th))
             ImageDraw.Draw(fr).text((8, 6), f"{t:.2f}s", fill=(255, 255, 0), font=font(F_BOLD, 26), stroke_width=3, stroke_fill=(0, 0, 0))
             thumbs.append(fr)
         cols = min(6, len(thumbs))
         rows = math.ceil(len(thumbs) / cols)
-        sheet = Image.new("RGB", (cols * 274, rows * 484), (0, 0, 0))
-        for i, th in enumerate(thumbs):
-            sheet.paste(th, ((i % cols) * 274, (i // cols) * 484))
+        tw, th = thumbs[0].size
+        sheet = Image.new("RGB", (cols * (tw + 4), rows * (th + 4)), (0, 0, 0))
+        for i, im in enumerate(thumbs):
+            sheet.paste(im, ((i % cols) * (tw + 4), (i // cols) * (th + 4)))
         sheet.save(out)
         print(out)
         return
