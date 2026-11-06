@@ -19,10 +19,14 @@ jobs:
           grep -v '^#' engine/sfx_sources.txt | while read page; do
             [ -z "$page" ] && continue
             name=$(basename "$page")
-            zip=$(curl -fsSL "$page" | grep -oE 'https://kenney\.nl/media/pages/assets/[^"]+\.zip' | head -1)
+            zip=$(curl -fsSL "$page" | grep -oE 'https://kenney\.nl/media/pages/assets/[^"]+\.zip' | head -1 || true)
+            if [ -z "$zip" ]; then
+              # the same CC0 pack is also published on OpenGameArt
+              zip=$(curl -fsSL "https://opengameart.org/content/$name" | grep -oE 'https://opengameart\.org/sites/default/files/[^"]+\.zip' | head -1 || true)
+            fi
             echo "$name -> $zip"
             [ -z "$zip" ] && continue
-            curl -fsSL -o /tmp/k/$name.zip "$zip"
+            curl -fsSL -o /tmp/k/$name.zip "$zip" || continue
             mkdir -p /tmp/k/$name && unzip -q -o /tmp/k/$name.zip -d /tmp/k/$name
             mkdir -p engine/sfx/kenney/$name
             find /tmp/k/$name -name '*.ogg' | while read f; do
