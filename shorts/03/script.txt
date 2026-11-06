@@ -1,0 +1,8 @@
+Your PC is slow, and you don't know why?
+Press Control, Shift, Escape.
+Task Manager opens.
+Click CPU to sort by what's working hardest.
+The app at the top is slowing you down.
+Check Memory the same way.
+Don't need it? Save your work, then click End task.
+Follow for more Windows fixes.

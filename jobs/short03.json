@@ -1,0 +1,9 @@
+{
+ "out": "shorts/03/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "Your PC is slow, and you don't know why?\nPress Control, Shift, Escape.\nTask Manager opens.\nClick CPU to sort by what's working hardest.\nThe app at the top is slowing you down.\nCheck Memory the same way.\nDon't need it? Save your work, then click End task.\nFollow for more Windows fixes."
+ }
+}

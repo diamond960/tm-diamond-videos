@@ -125,3 +125,37 @@ function Type-Shots([string]$Text, [string]$Label, [hashtable]$Rects = @{}) {
 function Place-Foreground([int]$X, [int]$Y, [int]$Wd, [int]$Ht) {
   $h = [W]::GetForegroundWindow(); [void][W]::MoveWindow($h, $X, $Y, $Wd, $Ht, $true); Start-Sleep -Milliseconds 500
 }
+
+function Find-RectLike([string]$Pattern, [string]$Type = '') {
+  # bounding box of the first UI element in the foreground window whose accessible name matches the regex
+  # (optionally only of one control type, e.g. 'HeaderItem', 'Button', 'TreeItem', 'ListItem', 'DataItem')
+  try {
+    $h = [W]::GetForegroundWindow()
+    $root = [System.Windows.Automation.AutomationElement]::FromHandle($h)
+    $all = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition)
+    foreach ($el in $all) {
+      $n = $el.Current.Name
+      if (-not $n) { continue }
+      if ($Type -and $el.Current.ControlType.ProgrammaticName -ne "ControlType.$Type") { continue }
+      if ($n -match $Pattern) {
+        $b = $el.Current.BoundingRectangle
+        if ($b.Width -le 0) { continue }
+        return @{ x = [int]$b.X; y = [int]$b.Y; w = [int]$b.Width; h = [int]$b.Height; name = $n }
+      }
+    }
+  } catch { }
+  return $null
+}
+
+function Set-DarkMode {
+  # dark mode like the owner's own PC, then restart Explorer so the taskbar follows
+  $p = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize'
+  New-Item -Path $p -Force | Out-Null
+  Set-ItemProperty -Path $p -Name AppsUseLightTheme -Value 0 -Type DWord
+  Set-ItemProperty -Path $p -Name SystemUsesLightTheme -Value 0 -Type DWord
+  Get-Process explorer -ErrorAction SilentlyContinue | Stop-Process -Force
+  Start-Sleep -Seconds 4
+  (New-Object -ComObject Shell.Application).MinimizeAll()
+  Start-Sleep -Seconds 1
+}
+function Center($r) { return @([int]($r.x + $r.w / 2), [int]($r.y + $r.h / 2)) }
