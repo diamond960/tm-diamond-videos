@@ -41,5 +41,8 @@ reference example.
 - Every video: hook (first second), accurate script, one clear objective, captions, ending, CTA.
 - Never: FRP bypass, iCloud unlock, jailbreak, free Windows/Office activation or any security/licence bypass;
   fake hands-on reviews; invented stats; AI-generated labels or "AI voice" lines.
+- Calendar: content/calendar.json holds the week's planned ideas. Before inventing a topic, take the next unused idea
+  ("used_by": null) whose category fits your slot (A/B morning, C/D afternoon, E/F evening; any category for
+  Facebook/TikTok), set its "used_by" to your folder (e.g. "shorts/05") and its "stage" as it moves.
 - Topic database: content/topics.json. Check it before picking a topic (no repeats by meaning) and append
   every new topic with its category, date and platform links.

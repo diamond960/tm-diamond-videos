@@ -1,0 +1,216 @@
+{
+ "about": "TM Diamond 7-day calendar. Scheduled tasks use the next unused idea whose category fits their slot before inventing a new topic; mark used ideas with \"used_by\" (folder) when picked. Re-check every menu path/command against official docs before scripting.",
+ "week": "2026-11-06..2026-11-12",
+ "ideas": [
+  {
+   "date": "2026-11-06",
+   "slot": "AM",
+   "category": "A",
+   "idea": "Snap Layouts with Win + Z",
+   "hook": "Stop dragging windows around.",
+   "length": "20-30 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "PM",
+   "category": "D",
+   "idea": "Turn a screenshot into a table with ChatGPT or Claude",
+   "hook": "Never retype a table again.",
+   "length": "30-40 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "EVE",
+   "category": "E",
+   "idea": "ipconfig /flushdns: what it does and when it helps",
+   "hook": "Website won't load? Try this one command.",
+   "length": "30-40 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "AM",
+   "category": "B",
+   "idea": "Mac: Cmd + Shift + 5 screenshot and screen-record toolbar",
+   "hook": "Your Mac has a hidden recorder.",
+   "length": "20-30 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "PM",
+   "category": "C",
+   "idea": "iPhone Back Tap: double-tap the back for a screenshot",
+   "hook": "Your iPhone has a secret button.",
+   "length": "15-25 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "EVE",
+   "category": "F",
+   "idea": "Make games use your fast GPU (Settings > Display > Graphics)",
+   "hook": "Your game might be using the wrong GPU.",
+   "length": "30-45 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "AM",
+   "category": "A",
+   "idea": "Add End task to the taskbar right-click (Settings > System > For developers)",
+   "hook": "Close frozen apps without Task Manager.",
+   "length": "20-30 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "PM",
+   "category": "D",
+   "idea": "ChatGPT vs Gemini vs Claude: which one for which job (teaser for Monday's long video)",
+   "hook": "You're using the wrong AI for this.",
+   "length": "40-60 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "EVE",
+   "category": "E",
+   "idea": "netstat -b (admin): see which apps use your internet",
+   "hook": "See what's using your internet right now.",
+   "length": "40-60 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "AM",
+   "category": "A",
+   "idea": "Live Captions: Win + Ctrl + L for any video or call",
+   "hook": "Subtitles for anything on your PC.",
+   "length": "20-30 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "PM",
+   "category": "C",
+   "idea": "Android: share your Wi-Fi with a QR code (menu names vary by brand)",
+   "hook": "Stop spelling out your Wi-Fi password.",
+   "length": "20-30 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-09",
+   "slot": "EVE",
+   "category": "F",
+   "idea": "5 laptop spec words explained: CPU generation, RAM, SSD, nits, Wh",
+   "hook": "Don't buy a laptop before you know these 5 words.",
+   "length": "45-60 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "AM",
+   "category": "B",
+   "idea": "Mac Spotlight tricks: math, conversions, opening settings",
+   "hook": "Spotlight does more than search.",
+   "length": "25-35 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "PM",
+   "category": "D",
+   "idea": "Make the AI remember your style: Claude Projects / ChatGPT custom instructions",
+   "hook": "Stop explaining yourself to ChatGPT every time.",
+   "length": "30-45 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "EVE",
+   "category": "E",
+   "idea": "Windows Terminal: CMD, PowerShell and WSL in tabs",
+   "hook": "Still using the old black CMD window?",
+   "length": "30-40 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "AM",
+   "category": "A",
+   "idea": "Windows Sandbox: open a suspicious file safely (Pro/Enterprise/Education only)",
+   "hook": "Test that download without risking your PC.",
+   "length": "30-45 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "PM",
+   "category": "C",
+   "idea": "iPhone Live Text: copy text from any photo",
+   "hook": "Copy text straight out of a photo.",
+   "length": "15-25 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "EVE",
+   "category": "F",
+   "idea": "DLSS vs FSR vs XeSS explained, with one sourced benchmark",
+   "hook": "Free FPS your graphics card already has.",
+   "length": "45-60 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "AM",
+   "category": "A",
+   "idea": "Phone Link: texts and calls on your PC",
+   "hook": "Answer texts without picking up your phone.",
+   "length": "25-35 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "PM",
+   "category": "D",
+   "idea": "NotebookLM: turn a PDF into a podcast-style audio overview",
+   "hook": "Make any PDF talk to you.",
+   "length": "30-45 s",
+   "stage": "IDEAS",
+   "used_by": null
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "EVE",
+   "category": "E",
+   "idea": "tasklist + taskkill: close a frozen app from CMD",
+   "hook": "When Task Manager won't open, type this.",
+   "length": "30-40 s",
+   "stage": "IDEAS",
+   "used_by": null
+  }
+ ]
+}
