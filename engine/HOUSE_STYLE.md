@@ -2,6 +2,11 @@
 
 These rules override anything older in SPEC.md, LONGFORM.md or a task prompt.
 
+## ORGANIZED, NOT RANDOM (owner rule, 2026-11-06)
+- Every topic comes from content/plan.json, in order: one theme at a time (block), one long YouTube video per block
+  and short "One-Minute Tech Fixes" episodes taken from it. Never pick a random or trending topic outside the plan.
+  Shorts/Facebook/TikTok mention the full video on the channel when the block's long video is live.
+
 ## FACEBOOK: THE OWNER UPLOADS IT HIMSELF (owner rule, 2026-11-06)
 - Never post to Facebook automatically (no Make `fb_reel` jobs). The owner uploads Facebook videos himself so he can
   put them in his Page playlist "One-Minute Tech Fixes". The Facebook task sends him each new video file + a
@@ -99,14 +104,15 @@ These rules override the topic lists inside the Shorts and long-video task promp
 - Every upload: embeddable true, publicStatsViewable true, containsSyntheticMedia false. Never upload the same video twice; check the channel's latest uploads before uploading.
 - Long-video order (replaces the list in the long-video task; skip any already made). Real screens only, so only
   topics a Windows PC can show for real (REALCAPTURE.md):
+  (content/plan.json blocks 1-5 follow this order)
   1. Windows 11 Running Slow? 12 Fixes That Actually Work
   2. 15 Command Prompt Commands Every Windows User Should Know
-  3. Wi-Fi or Internet Problems on Windows 11? Every Fix, Step by Step
-  4. 10 Windows 11 Settings You Should Change Right Now
-  5. Free Up Disk Space on Windows 11 (Every Safe Method)
-  6. 15 Windows Keyboard Shortcuts That Save Hours
-  7. Task Manager Explained: Hidden Features Most People Miss
-  8. How to Back Up Your Windows PC for Free (Built-in Tools)
+  3. 10 Windows 11 Settings You Should Change Right Now
+  4. Free Up Disk Space on Windows 11 (Every Safe Method)
+  5. 15 Windows Keyboard Shortcuts That Save Hours
+  6. Task Manager Explained: Hidden Features Most People Miss
+  7. How to Back Up Your Windows PC for Free (Built-in Tools)
+  8. Wi-Fi or Internet Problems on Windows 11? Every Fix, Step by Step (needs real Wi-Fi screens)
   App Store / Google Play publishing (the channel's best long video ever) needs real App Store Connect / Play Console
   screens: make it only when the owner sends his own screen recording of those pages.
 - Shorts topics: take them from the formats that worked above (Windows problem + fix, iPhone/Android mistakes and hidden settings, AI prompt tips), 15-35 s.

@@ -1,5 +1,5 @@
 {
- "about": "TM Diamond 7-day calendar. Scheduled tasks use the next unused idea whose category fits their slot before inventing a new topic; mark used ideas with \"used_by\" (folder) when picked. Re-check every menu path/command against official docs before scripting.",
+ "about": "RETIRED 2026-11-06: use content/plan.json (the organized plan). Kept only as history. TM Diamond 7-day calendar. Scheduled tasks use the next unused idea whose category fits their slot before inventing a new topic; mark used ideas with \"used_by\" (folder) when picked. Re-check every menu path/command against official docs before scripting.",
  "week": "2026-11-06..2026-11-12",
  "ideas": [
   {
