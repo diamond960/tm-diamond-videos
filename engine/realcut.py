@@ -25,7 +25,8 @@ spec.json:
   "highlight": ["words", ...],                          # caption words shown in yellow
   "sfx": [[t, "pop"|"ding"|"whoosh"|"click"|"key"], ...],
   "follow": t,                                           # follow card from t to the end
-  "titles": [[t, "Chapter title", dur], ...],           # chapter cards (long videos)
+  "titles": [[t, "Chapter title", dur], ...],
+  "caption_y": [[t, 0.72], [t2, 0.17]],                # optional: caption height (fraction of frame) from time t           # chapter cards (long videos)
   "size": [1920, 1080],                                 # landscape for long YouTube videos (default 1080x1920)
   "handle": "TM_Diamond"
 }
@@ -140,7 +141,7 @@ def sentence_ends(script_text, n_words):
     return ends if count == n_words else None
 
 
-def caption_layer(words, t, highlight, ends=None):
+def caption_layer(words, t, highlight, ends=None, cy=None):
     """Word-by-word captions in groups of up to 3 words: white, black stroke, current word yellow."""
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     if not words:
@@ -186,7 +187,7 @@ def caption_layer(words, t, highlight, ends=None):
         lw += wd + (space if len(line) > 1 else 0)
     if line:
         lines.append(line)
-    y = int(H * (0.17 if H > W else 0.80))
+    y = int(H * (cy if cy is not None else (0.17 if H > W else 0.80)))
     for ln in lines:
         total = sum(wd for _, wd in ln) + space * (len(ln) - 1)
         x = (W - total) / 2
@@ -392,6 +393,14 @@ class Cut:
             print("sentence breaks:", "matched" if self.ends else "script/word mismatch, using pauses")
         self.handle_l = handle_layer(spec.get("handle", "TM_Diamond"))
 
+    def caption_y(self, t):
+        # optional "caption_y": [[t, frac], ...] moves the captions (e.g. down while the camera is on an address bar)
+        y = None
+        for ct, frac in self.spec.get("caption_y", []):
+            if t >= ct:
+                y = frac
+        return y
+
     def shot_at(self, t):
         cur = self.spec["shots"][0][1]
         for st, f in self.spec["shots"]:
@@ -416,7 +425,7 @@ class Cut:
         base.alpha_composite(callouts_layer(self.spec, t, cam))
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
-        base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends))
+        base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends, self.caption_y(t)))
         base.alpha_composite(titles_layer(self.spec.get("titles"), t))
         base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
         base.alpha_composite(self.handle_l)

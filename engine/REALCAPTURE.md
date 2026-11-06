@@ -10,6 +10,8 @@ The owner wants every Windows, PC, Mac, phone and app tutorial to show the actua
      character), `Key-Combo @($VK.WIN, $VK.R)`, `Click x y`, `Find-Rect 'Accessible name'` (screen rectangle of a real
      button/box for zooms and circles), `Place-Foreground x y w h`, `Save-Log`.
    - Open things the real way: `Start-Process 'ms-settings:display'`, `taskmgr`, `explorer`, Win+R, `msedge <url>`.
+   - PowerShell variable names are case-insensitive: never name a variable `$n`, `$out` or `$log` in a capture script
+     (they overwrite wincap.ps1's `$script:N`/`Out`/`Log` and the run stops). shots.json is UTF-8 with a BOM (`utf-8-sig`).
    - Push it: the "Capture real Windows screens" workflow runs it and commits `captures/<name>/*.png` + `shots.json`
      (cursor position, foreground window rectangle and title, rects) in ~3 minutes.
    - Keep the bottom-right corner (it shows "Windows Server 2025 / Test Mode") and the desktop icons out of every crop.
@@ -18,7 +20,9 @@ The owner wants every Windows, PC, Mac, phone and app tutorial to show the actua
    - Things a Windows Server runner can't show honestly (Microsoft Store, Copilot, Widgets, Phone Link, consumer-only
      Settings pages, BIOS): don't make that topic.
 2. Voice: `jobs/<name>.json` as before, then `python3 engine/tighten.py <dir>/voice.mp3 <dir>/voice.words.json
-   <dir>/script.txt <dir>/tight` (cuts the 1 s pauses, gives exact word/sentence times; one script line = one sentence).
+   <dir>/script.txt <dir>/tight` (cuts the 1 s pauses, gives exact word/sentence times; one script line = one sentence). If it prints
+   "keeping original timing" (pauses inside a sentence, e.g. after a colon), see tiktok/01/tighten_fix.py.
+   `"caption_y": [[t, 0.74], ...]` in the spec moves the captions down while the camera is on an address bar.
 3. `<dir>/make_spec.py` like `fb/06/make_spec.py`: place every screenshot, camera move, keycap, typing burst, circle and
    sound on the spoken words from `tight.json`. Camera = centre + height in screen pixels (full -> focus -> full);
    the real screen always fills the 9:16 frame edge to edge (no borders, no paper margins).

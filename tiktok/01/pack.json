@@ -1,0 +1,19 @@
+{
+ "topic": "5 File Explorer tricks: Alt+D address bar, file name extensions, Alt+P preview pane, Ctrl+Shift+N new folder, Alt+Enter properties",
+ "category": "A",
+ "video_title": "5 File Explorer tricks most people never use",
+ "video_file": "videos/tiktok01.mp4",
+ "video_seconds": 65.9,
+ "caption_video": "5 File Explorer tricks most people never use on Windows #windows11 #fileexplorer #pctips",
+ "carousel_title": "Screenshot on Windows like a pro (Win+Shift+S, Win+PrtScn, Alt+PrtScn, Ctrl+V)",
+ "caption_carousel": "4 ways to screenshot on Windows without any extra app #windows11 #screenshot #pctips",
+ "text_post": "Stop opening Task Manager the slow way.\nPress Ctrl + Shift + Esc.\nTask Manager opens straight away.\nNo Ctrl + Alt + Delete screen.\nNo right-clicking the taskbar.\nWhat's the Windows shortcut you use every day? 👇",
+ "text_post_topic": "Ctrl + Shift + Esc opens Task Manager directly",
+ "post_times_new_york": {
+  "video": "7:00 AM",
+  "carousel": "1:00 PM",
+  "text": "8:00 PM"
+ },
+ "fact_check": "Every shortcut was performed on a real Windows PC: captures/tiktok01 (video steps) and captures/tiktok01check/results.txt (Ctrl+Shift+Esc, Win+PrtScn -> Pictures\\Screenshots, Alt+PrtScn -> active window on clipboard, Win+Shift+S -> snip on clipboard).",
+ "sent_at": "2026-11-06T06:00:00-05:00"
+}

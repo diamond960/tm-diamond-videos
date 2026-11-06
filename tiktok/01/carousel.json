@@ -1,0 +1,12 @@
+{
+ "handle": "TM_Diamond",
+ "accent": "cyan",
+ "cover": {"title": "Screenshot on Windows like a pro", "sub": "4 shortcuts, no extra app needed", "e": "📸"},
+ "slides": [
+  {"kicker": "1", "title": "Win + Shift + S", "body": "Drag over any part of the screen. The snip is copied, ready to paste.", "e": "✂️"},
+  {"kicker": "2", "title": "Win + PrtScn", "body": "Grabs the whole screen and saves it to Pictures > Screenshots automatically.", "e": "🖥️"},
+  {"kicker": "3", "title": "Alt + PrtScn", "body": "Copies only the window you are using. No cropping needed.", "e": "🪟"},
+  {"kicker": "4", "title": "Ctrl + V", "body": "Paste your screenshot straight into a chat, an email or a document.", "e": "📋"}
+ ],
+ "end": {"title": "Save this for later", "sub": "Follow for daily Windows tips", "e": "🔖"}
+}
