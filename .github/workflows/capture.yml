@@ -42,6 +42,7 @@ jobs:
             try { & powershell -NoProfile -ExecutionPolicy Bypass -File $f } catch { Write-Host "FAILED $f : $_" }
           }
       - name: Commit
+        if: always()
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
