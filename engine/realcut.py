@@ -722,6 +722,8 @@ def main():
     if spec.get("size"):
         W, H = int(spec["size"][0]), int(spec["size"][1])
     PX, PY, PW, PH = 0, 0, W, H
+    # the owner's Team Diamond template is the default for every vertical video ("layout": "full" opts out)
+    spec.setdefault("layout", "tmd" if H > W else "full")
     if spec.get("layout") == "tmd":
         PX, PY, PW, PH = TMD_PANEL
         FOLLOW_Y = spec.get("follow_y", 0.55)

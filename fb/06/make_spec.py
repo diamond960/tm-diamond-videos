@@ -1,4 +1,4 @@
-"""fb06: Website won't load? Flush DNS.
+"""fb06: Website won't load? Flush DNS.  (OLD full-frame look - new vertical videos copy fb/07, the Team Diamond template)
 Real Windows screens (captures/fb06, taken on a real Windows PC by engine/wincap.ps1), edited by engine/realcut.py.
 Narration tightened with engine/tighten.py (fb/06/tight.wav + tight.json): every event is placed on the spoken words."""
 import json, os

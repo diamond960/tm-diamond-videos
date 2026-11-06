@@ -4,7 +4,7 @@ The owner wants every Windows, PC, Mac, phone and app tutorial to show the actua
 (`winui`, `app` rows, note cards pretending to be windows) are no longer allowed for steps.
 
 ## Windows (working now)
-1. Write `capture/<name>.ps1` (example: `capture/fb06.ps1`). It dot-sources `engine/wincap.ps1` and drives a real
+1. Write `capture/<name>.ps1` (examples: `capture/fb07.ps1`, `capture/fb06.ps1`). It dot-sources `engine/wincap.ps1` and drives a real
    Windows PC (GitHub Actions `windows-2025` runner, Windows 11 interface, 1920x1080):
    - `Init-Capture '<name>'`, `Shot '<label>' @{rects}`, `Type-Shots 'text' '<label>'` (one real screenshot per
      character), `Key-Combo @($VK.WIN, $VK.R)`, `Click x y`, `Find-Rect 'Accessible name'` (screen rectangle of a real
@@ -23,7 +23,7 @@ The owner wants every Windows, PC, Mac, phone and app tutorial to show the actua
    <dir>/script.txt <dir>/tight` (cuts the 1 s pauses, gives exact word/sentence times; one script line = one sentence). If it prints
    "keeping original timing" (pauses inside a sentence, e.g. after a colon), see tiktok/01/tighten_fix.py.
    `"caption_y": [[t, 0.74], ...]` in the spec moves the captions down while the camera is on an address bar.
-3. `<dir>/make_spec.py` like `fb/06/make_spec.py`: place every screenshot, camera move, keycap, typing burst, circle and
+3. `<dir>/make_spec.py` like `fb/07/make_spec.py` (Team Diamond template; `"layout": "tmd"`): place every screenshot, camera move, keycap, typing burst, circle and
    sound on the spoken words from `tight.json`. Camera = centre + height in screen pixels (full -> focus -> full);
    the real screen always fills the 9:16 frame edge to edge (no borders, no paper margins).
 4. `python3 engine/realcut.py <dir>/spec.json /tmp/sheet.png --preview t1,t2,...` (look at it), then render

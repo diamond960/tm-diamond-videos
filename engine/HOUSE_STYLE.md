@@ -19,7 +19,7 @@ Spec: `"layout": "tmd"` in realcut (fb/07/make_spec.py is the reference).
 ## REAL INTERFACE ONLY (owner rule, 2026-11-06 - overrides the studio-style rules below)
 - Every tutorial shows the REAL interface: real screenshots taken on a real Windows PC, edited with zooms,
   a cursor, keycaps, red circles and captions. Follow engine/REALCAPTURE.md (wincap.ps1 -> tighten.py -> realcut.py;
-  fb/06 is the reference). Drawn mock-ups (`winui`, `app` rows, cards pretending to be windows) are banned for steps.
+  fb/07 is the reference - fb/06 used the old full-frame look). Drawn mock-ups (`winui`, `app` rows, cards pretending to be windows) are banned for steps.
 - Vertical videos use the Team Diamond template above (real screen in the middle band). No extra paper margins,
   white frames or letterbox around the screen (Facebook flagged our old framed videos as "has a border").
 - Until the phone/Mac/AI-app capture pipelines exist, make only Windows/PC topics that a Windows runner can show.
