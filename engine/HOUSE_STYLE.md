@@ -32,6 +32,12 @@ reference example.
   on sentence starts, pointing toward the content. It only appears once engine/brand.json has
   `"presenter_approved": true` (the renderer enforces this). It must never cover instructions.
 
+## Captions, length and posting times (owner rule, 2026-11-06, from his Facebook Creator Dashboard)
+- Captions on every platform: ONE line of 50-100 characters (hook + main keyword) and exactly 2-3 specific
+  hashtags. No long captions, lists, "follow for" lines or tag walls. Titles short.
+- Facebook Reels: two of every three are 10-14 s (one quick fix, 28-38 spoken words); the third 20-30 s.
+- Facebook posts go out between 6:00 and 10:00 PM New York (his prime time).
+
 ## Content rules
 - Categories: A Windows/PC, B MacBook/macOS, C iPhone/Android, D AI tools, E CMD/PowerShell/coding,
   F laptops/gaming/hardware. Slots: morning A/B, afternoon C/D, evening E/F.

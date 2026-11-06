@@ -97,19 +97,22 @@ clicks, typing, pops, notification dings, short whooshes and soft zooms, synced 
   highlighted caption line (lime/orange/red words) that isn't within 0.7 s of a cut or another hit, so every
   zoom comes with a sound. Turn off with `"auto_zoom": false`.
 
-## Captions and hashtags (owner's rule)
+## Captions and hashtags (owner's rule, updated 2026-11-06)
 
-- Hashtags only when they help people find the video: 0-4 specific, searchable ones that match the topic
-  (#windows11, #chatgpt, #pctips, #claudeai, #techtips). Never #reels, #viral, #fyp, #foryou or long tag walls.
-- The caption's first line repeats the hook with the main search keyword in plain words (Instagram, Facebook and
-  TikTok search read captions). Add a question that invites a comment.
+- Keep it short (owner: "you don't need to write a lot"). Facebook's Creator Dashboard for his page: captions of
+  50-100 characters get far more views, and posts with 2-3 hashtags do best.
+- Caption = ONE line of 50-100 characters: the hook with the main search keyword in plain words. Then exactly
+  2-3 specific, searchable hashtags that match the topic (#windows11, #chatgpt, #pctips, #claudeai, #techtips).
+  No value lists, no "follow for..." lines, no questions or extra lines. Never #reels, #viral, #fyp, #foryou.
+- Titles: short, under ~60 characters (YouTube titles still need the keyword first).
 - No music or trending sounds under the voice on any platform (owner rule).
 
 ## Platform versions
 
 - ONE file for every platform: `videos/shortNN.mp4` (no music exists anywhere any more). Set
   `social_file_url` to the same link as `file_url`.
-- Length: 18-35 s is the sweet spot for Reels and Shorts (quick reveals 18-25 s, lists/comparisons 28-35 s).
+- Length: Facebook reports his Reels under 15 s get far more views, so two of every three Facebook Reels are
+  10-14 s (one quick fix); YouTube Shorts and the rest stay 18-35 s.
 - TikTok: 61+ s, because TikTok's Creator Rewards only pay for videos over 1 minute.
 
 ## 3. Render, check, publish
