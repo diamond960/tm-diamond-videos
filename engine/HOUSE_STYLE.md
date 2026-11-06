@@ -2,6 +2,13 @@
 
 These rules override anything older in SPEC.md, LONGFORM.md or a task prompt.
 
+## FACEBOOK: THE OWNER UPLOADS IT HIMSELF (owner rule, 2026-11-06)
+- Never post to Facebook automatically (no Make `fb_reel` jobs). The owner uploads Facebook videos himself so he can
+  put them in his Page playlist "One-Minute Tech Fixes". The Facebook task sends him each new video file + a
+  ready caption at 5:37 PM New York, and marks it `"status": "sent_to_owner"`.
+- Instagram keeps posting automatically. TikTok: a ready-to-post pack goes to the owner (automatic TikTok posting
+  needs his approval of the publish step).
+
 ## THE TEAM DIAMOND TEMPLATE (owner's own format, 2026-11-06 - every vertical video uses it)
 The owner sent his own example video; every vertical video (Facebook, Instagram, TikTok, YouTube Shorts) now copies it.
 Spec: `"layout": "tmd"` in realcut (fb/07/make_spec.py is the reference).

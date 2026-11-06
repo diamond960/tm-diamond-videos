@@ -84,7 +84,8 @@ which manages the Page; nothing is ever posted to his personal profile).
 
 1. Video: the NO-BEAT version, 9:16, 3-90 s. Link it through jsDelivr (Facebook needs a proper video/mp4 link):
    `https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@<sha>/videos/<file>.mp4` (files must be under 20 MB).
-2. Run 6912009 `{job: "fb-<name>", job_type: "fb_reel", video_url, title, caption}`. Facebook processes the
+2. OWNER RULE 2026-11-06: do NOT run fb_reel any more - the owner uploads Facebook videos himself (HOUSE_STYLE.md).
+   (Old route, kept for reference only:) Run 6912009 `{job: "fb-<name>", job_type: "fb_reel", video_url, title, caption}`. Facebook processes the
    Reel for up to a minute, so the MCP call can time out with "Bad Gateway" while the run keeps going: then wait
    ~60 s and check `executions_list` / the data store. Record key `fb-<name>` -> `session_url` = Facebook video id.
    The Reel is at `https://www.facebook.com/reel/<video id>`. Never post the same video twice.
