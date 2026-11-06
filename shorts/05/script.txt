@@ -2,6 +2,6 @@ Turn off these animations for a faster PC.
 Open Settings, then Accessibility, then Visual effects.
 Turn off Animation effects.
 Then turn off Transparency effects.
-Windows stops spending power on eye candy.
-Menus and windows open instantly.
+Windows skips the fade and slide animations.
+So menus and windows feel snappier.
 Follow for more Windows fixes.
