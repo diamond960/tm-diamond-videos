@@ -52,3 +52,28 @@ reference example.
   Facebook/TikTok), set its "used_by" to your folder (e.g. "shorts/05") and its "stage" as it moves.
 - Topic database: content/topics.json. Check it before picking a topic (no repeats by meaning) and append
   every new topic with its category, date and platform links.
+
+## YouTube: what to make (from this channel's own numbers, 2026-11-06)
+These rules override the topic lists inside the Shorts and long-video task prompts.
+- What has worked on this channel. Shorts:
+  - problem + fix: "White Screen with Cursor? FIX It in Seconds!" (4.1K views), "How to delete any file that refuses to delete" (4.1K), "Slow Internet on Your Laptop? This Setting Is Killing Your Speed!" (2.9K);
+  - iPhone mistakes and iOS comparisons: "Don't Do This to Your iPhone Screen!" (6.9K), "iOS 26 vs iOS 18 Ringtones" (8K);
+  - practical AI prompt tips: "Claude Prompts You Don't Wanna Skip!" (1.2K), "Secret Commands for Anthropic's Claude" (1.3K).
+- What has worked for long videos: step-by-step how-tos for a task people search: "How to Submit/Publish an App to the Apple App Store" (25K), "Publish Your App" (4.8K), "How to Build an IPA File on Xcode" (3.7K), Windows install and Wi-Fi fixes.
+- What failed: videos about our own setup ("9 Apps I Connected to Claude", 8 views; "My YouTube Channel Posts Videos By Itself"). NEVER make videos about the TM Diamond pipeline, "my channel runs itself" or "apps I connected". AI videos must be a practical how-to the viewer can copy: a prompt, a feature, a fix.
+- Titles: the problem or task in the viewer's own words first ("Windows 11 slow?", "How to publish an app on the App Store"), then the promise. Under 60 characters. No vague curiosity-only titles.
+- Every upload: embeddable true, publicStatsViewable true, containsSyntheticMedia false. Never upload the same video twice; check the channel's latest uploads before uploading.
+- Long-video order (replaces the list in the long-video task; skip any already made):
+  1. How to Publish an App on the Apple App Store in 2026 (Step by Step)
+  2. Windows 11 Running Slow? 12 Fixes That Actually Work
+  3. How to Publish an App on Google Play in 2026 (Step by Step)
+  4. ChatGPT vs Gemini vs Claude: Which AI Should You Use?
+  5. Wi-Fi Not Showing on Windows 11? Every Fix, Step by Step
+  6. 25 Claude Prompts for Beginners (Copy and Paste)
+  7. 10 Windows 11 Settings You Should Change Right Now
+  8. How to Install Windows 11 from a USB Drive (2026 Guide)
+  9. 15 Windows Keyboard Shortcuts That Save Hours
+  10. MacBook or Windows Laptop for Students and Creators? (Buying Guide)
+
+  After that, choose search-led topics in the same style. Video 01's "what's next" promise is dropped.
+- Shorts topics: take them from the formats that worked above (Windows problem + fix, iPhone/Android mistakes and hidden settings, AI prompt tips), 15-35 s.
