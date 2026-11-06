@@ -20,19 +20,19 @@
      "n": 2,
      "title": "What's slowing your PC? Check this",
      "show": "Task Manager > Processes, sort by CPU and Memory, End task on a hog",
-     "used_by": null
+     "used_by": "shorts/03"
     },
     {
      "n": 3,
      "title": "Windows hides a faster power mode",
      "show": "Settings > System > Power (& battery) > Power mode: Best performance",
-     "used_by": null
+     "used_by": "skipped: Power mode is not shown on the capture PC (virtual machine, no power plans page)"
     },
     {
      "n": 4,
      "title": "Turn off these animations for a faster PC",
      "show": "Settings > Accessibility > Visual effects: Animation effects and Transparency off",
-     "used_by": null
+     "used_by": "shorts/05"
     },
     {
      "n": 5,

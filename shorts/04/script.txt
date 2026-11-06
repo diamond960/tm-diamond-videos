@@ -1,8 +1,0 @@
-Windows hides a faster power mode.
-Open Settings, then System, then Power.
-Find Power mode.
-It's on Balanced by default.
-Switch it to Best performance.
-Now your PC puts speed first.
-On a laptop, it uses more battery.
-Follow for more Windows fixes.

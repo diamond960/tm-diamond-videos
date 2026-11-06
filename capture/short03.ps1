@@ -5,8 +5,9 @@ Set-DarkMode
 # a real app hogging the CPU (a small busy program named HeavyApp), so there is something to find.
 # Never touch powershell processes: the runner's own shell is one of them.
 $src = 'using System; using System.Threading; public static class P { public static void Main() { for (int i = 0; i < 2; i++) { var t = new Thread(() => { while (true) { } }); t.Start(); } } }'
-Add-Type -TypeDefinition $src -OutputAssembly "$env:TEMP\HeavyApp.exe" -OutputType ConsoleApplication
-$hogp = Start-Process "$env:TEMP\HeavyApp.exe" -WindowStyle Hidden -PassThru
+# a GUI-subsystem exe (no window) started through Explorer, so Task Manager lists it on its own like any app
+Add-Type -TypeDefinition $src -OutputAssembly "$env:TEMP\HeavyApp.exe" -OutputType WindowsApplication
+Start-Process explorer.exe "$env:TEMP\HeavyApp.exe"
 Start-Sleep -Seconds 3
 Key-Combo @($VK.CTRL, $VK.SHIFT, $VK.ESC)
 Start-Sleep -Seconds 4
@@ -40,7 +41,7 @@ if ($hog) {
     Click $e[0] $e[1]; Start-Sleep -Seconds 3
   }
 }
-if ($hogp -and -not $hogp.HasExited) { Stop-Process -Id $hogp.Id -Force -ErrorAction SilentlyContinue }
+Get-Process HeavyApp -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 Start-Sleep -Seconds 2
 Shot 'ended' @{ cpu = $cpu }
 Save-Log
