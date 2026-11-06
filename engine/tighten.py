@@ -13,7 +13,7 @@ import subprocess
 import sys
 
 
-def speech_segments(path, merge_gap=0.32):
+def speech_segments(path, merge_gap=0.6):
     out = subprocess.run(["ffmpeg", "-i", path, "-af", "silencedetect=noise=-35dB:d=0.18", "-f", "null", "-"],
                          capture_output=True, text=True).stderr
     dur = float(re.search(r"Duration: (\d+):(\d+):([\d.]+)", out).group(3)) + 60 * int(re.search(r"Duration: (\d+):(\d+)", out).group(2))
@@ -61,6 +61,17 @@ def main():
     segs, dur = speech_segments(voice)
     words = json.load(open(words_p))["words"]
     lines = line_word_counts(open(script_p).read())
+    # Kokoro leaves ~1 s between script lines and < 0.5 s inside a line, so each line is one speech part.
+    # Words go to the speech part their time falls in (whisper may merge "dot E X E" into ".exe").
+    if len(lines) == len(segs):
+        groups = [[] for _ in segs]
+        for w in words:
+            mid = (w["s"] + w["e"]) / 2
+            i = min(range(len(segs)), key=lambda k: 0 if segs[k][0] <= mid <= segs[k][1] else min(abs(mid - segs[k][0]), abs(mid - segs[k][1])))
+            groups[i].append(w)
+        if all(groups):
+            words = [w for g in groups for w in g]
+            lines = [(text, len(g)) for (text, _), g in zip(lines, groups)]
     if len(lines) != len(segs) or sum(n for _, n in lines) != len(words):
         print(f"WARNING: {len(lines)} lines vs {len(segs)} speech parts, {sum(n for _, n in lines)} vs {len(words)} words; keeping original timing")
         segs = [[0, dur]]
