@@ -1,0 +1,161 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               },
+                      "invoice":  {
+                                      "y":  416,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "invoice.pdf",
+                                      "x":  342
+                                  }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "hidden",
+        "file":  "001_hidden.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "hover_view",
+        "file":  "002_hover_view.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               },
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "view_menu",
+        "file":  "003_view_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "ext":  null,
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       596
+                   ],
+        "note":  "",
+        "label":  "show_menu",
+        "file":  "004_show_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "invoice":  null
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "shown",
+        "file":  "005_shown.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "invoice":  null
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "shown2",
+        "file":  "006_shown2.png"
+    }
+]
