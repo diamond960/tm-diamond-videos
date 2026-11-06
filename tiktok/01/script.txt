@@ -1,0 +1,22 @@
+Your File Explorer can do way more than you think.
+Here are five tricks most people never use.
+The last one saves the most time.
+First, press Windows and E to open File Explorer.
+Trick one: press Alt and D to jump straight to the address bar.
+Type any path, like C colon backslash Work, and press Enter.
+You're there instantly.
+Trick two: see what your files really are.
+Click View, then Show, then File name extensions.
+Now every file shows its real type, like dot T X T or dot P N G.
+That helps you spot a file pretending to be something else.
+Trick three: click a file and press Alt and P.
+The preview pane opens, so you can read it without opening it.
+Trick four: press Control, Shift and N.
+A new folder appears, ready to name.
+Type a name and press Enter.
+Trick five saves the most time.
+Select any file and press Alt and Enter.
+Its properties open right away, with the size, location and dates.
+Save this so you remember all five.
+Follow for more Windows tips.
+And next time you need a folder fast, start with Alt and D.
