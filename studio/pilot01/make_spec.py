@@ -79,7 +79,7 @@ sfx = [
     {"t": at(8, "pin"), "type": "click"},
     {"t": at(9, "follow", 0.3), "type": "click"},
 ]
-spec = {"title": "Stop losing the things you copy", "style": "studio", "series": "windows fix", "duration": DUR,
+spec = {"title": "Stop losing the things you copy", "style": "studio", "presenter_preview": True, "series": "windows fix", "duration": DUR,
         "narration": "voice.mp3", "presenter": {"side": "right", "poses": poses},
         "captions": {"words": "voice.words.json",
                      "highlight": ["losing", "history", "turn", "boom,", "boom", "pin", "restart", "never"],

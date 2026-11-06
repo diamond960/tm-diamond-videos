@@ -1,0 +1,10 @@
+{
+  "brand": "TM Diamond",
+  "handle_label": "// tm_diamond",
+  "presenter_approved": false,
+  "presenter_note": "Cartoon presenter built from the owner's photo (presenter/poses). Shown in videos only after the owner approves it; set presenter_approved to true when he does.",
+  "colors": {"paper": "#EFEAE0", "ink": "#1C1B1E", "red": "#D62424", "navy": "#1F2A4A", "lime": "#7AC943"},
+  "fonts": {"sans": "Inter Bold", "serif_accent": "Instrument Serif Italic (engine/fonts)", "mono": "JetBrains Mono (engine/fonts)"},
+  "voice": "kokoro am_michael (natural American-English male), speed 1.0-1.05",
+  "music": "NEVER. Narration + subtle synced sound effects only (owner rule, permanent)"
+}

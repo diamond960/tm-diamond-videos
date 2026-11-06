@@ -41,6 +41,11 @@ TYPE_SCALE = {"winui": 0.92, "note": 0.9, "keys": 1.25, "follow": 1.15, "emoji":
 POSES = ["talk", "idea", "point", "think", "thumbs", "shrug", "shocked", "phone"]
 
 sh.WIN["arrow"] = RED     # studio arrows are red marker, like the circles
+try:
+    BRAND = json.load(open(os.path.join(HERE, "brand.json")))
+except Exception:
+    BRAND = {}
+PRESENTER_OK = bool(BRAND.get("presenter_approved"))
 
 
 def font(path, size):
@@ -303,6 +308,12 @@ class StudioRenderer:
         self.zooms = sorted(e["t"] for e in spec.get("sfx", []) if e["type"] == "zoom")
         self.scale = spec.get("content_scale", 0.72)
         pcfg = spec.get("presenter", {"side": "right"})
+        if not PRESENTER_OK and not spec.get("presenter_preview"):
+            pcfg = {"side": "none"}   # owner hasn't approved the cartoon presenter yet
+        global CONTENT_CY
+        if pcfg.get("side") == "none":
+            CONTENT_CY = 1000          # no presenter: content sits lower and larger
+            self.scale = spec.get("content_scale", 0.85)
         narr = None
         if spec.get("narration"):
             try:
@@ -324,7 +335,7 @@ class StudioRenderer:
         k = self.scale
         cur = [v for v in self.vis if v.t0 <= t < v.t1]
         if cur:
-            k = cur[-1].p.get("scale", TYPE_SCALE.get(cur[-1].p.get("type"), self.scale))
+            k = cur[-1].p.get("scale", TYPE_SCALE.get(cur[-1].p.get("type"), self.scale) * (1.0 if self.pres else 1.12))
         bb = layer.getbbox()
         if not bb:
             return None
@@ -401,7 +412,7 @@ def prepare(spec, base):
     spec["_sentences"] = sents
     # a soft pop on every presenter pose change, a click under every caption keyword
     pcfg = spec.get("presenter", {"side": "right"})
-    if pcfg.get("side") != "none":
+    if pcfg.get("side") != "none" and (PRESENTER_OK or spec.get("presenter_preview")):
         poses = pcfg.get("poses") or auto_poses(sents, spec["duration"])
         spec.setdefault("presenter", {})["poses"] = poses
         for t_, _ in poses[1:]:

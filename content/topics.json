@@ -1,0 +1,1233 @@
+{
+ "about": "TM Diamond topic database. Check before choosing any topic (no repeats by meaning); append every new video. Categories: A Windows/PC, B Mac, C iPhone/Android/apps, D AI, E CMD/PowerShell/coding/dev, F laptops/gaming/hardware, X retired (bypass/unlock/activation - never make again).",
+ "updated": "2026-11-06",
+ "topics": [
+  {
+   "topic": "I Connected 9 Apps to Claude and Built an AI Video Studio",
+   "category": "D",
+   "source": "youtube_long",
+   "url": "https://youtu.be/67KjIQHSlUU",
+   "views_at_audit": 3
+  },
+  {
+   "topic": "WiFi Icon Missing in Windows 11 | WiFi Option/Button Not Showing FIX (2025)",
+   "category": "A",
+   "source": "youtube_long",
+   "url": "https://youtu.be/3MxHtN1MohQ",
+   "views_at_audit": 43
+  },
+  {
+   "topic": "Laptop WiFi Missing? 3 Quick Fixes in 60 Seconds (Works on Windows 10 & 11)",
+   "category": "F",
+   "source": "youtube_long",
+   "url": "https://youtu.be/wl6eRV5h3Lc",
+   "views_at_audit": 298
+  },
+  {
+   "topic": "How to Get TikTok Back After Deleting It | Reinstall TikTok (2025 Fix)",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/zrPnHbj2j14",
+   "views_at_audit": 64
+  },
+  {
+   "topic": "How to Install Windows 11 From USB Flash Drive (2025 Easy Step-by-Step Guide)",
+   "category": "A",
+   "source": "youtube_long",
+   "url": "https://youtu.be/aAzsmneC2mw",
+   "views_at_audit": 141
+  },
+  {
+   "topic": "How To Create USA TikTok Account Anywhere In The World",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/ogYotX4QOwc",
+   "views_at_audit": 91
+  },
+  {
+   "topic": "How to Speed up any Wi-Fi internet connection on windows 11/10 2024",
+   "category": "A",
+   "source": "youtube_long",
+   "url": "https://youtu.be/4NOAj29VVxI",
+   "views_at_audit": 108
+  },
+  {
+   "topic": "PUBLISH Your APP in 2024 with This Proven Formula",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/jttGk7SQXb0",
+   "views_at_audit": 4800
+  },
+  {
+   "topic": "How to Bypass or Skip Microsoft Account Sign-in While Installing Windows 11",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/_EZXUTGkXYc",
+   "views_at_audit": 942
+  },
+  {
+   "topic": "How to Activate Windows 10/11 Without Product Key (100% Working in 2026!)",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/7bCZmbB3tIU",
+   "views_at_audit": 27000
+  },
+  {
+   "topic": "Samsung FRP Bypass 2024 ⚡ Android 13/14 New Security 2024 ✅100% Working Solution | Frp Bypass",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/zPqgaUeeGps",
+   "views_at_audit": 171
+  },
+  {
+   "topic": "CapCut Video Editing Tutorial | Color Grade in CapCut PC",
+   "category": "A",
+   "source": "youtube_long",
+   "url": "https://youtu.be/Dv7tocnZRAs",
+   "views_at_audit": 606
+  },
+  {
+   "topic": "[2024] Google Pixel 9 Pro XL vs Samsung Galaxy S24 Ultra - Can Only Be One!",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/5xMppI0OHCE",
+   "views_at_audit": 17
+  },
+  {
+   "topic": "How to Download and Install One UI 7.0 Beta (Android 15) on Galaxy S24, S24 Plus, and S24 Ultra",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/qk-ZeSXX4dI",
+   "views_at_audit": 682
+  },
+  {
+   "topic": "[2024] How To Create A Certificate And Sign Apps With An Apple Developer Account",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/sc1Y5HHRFpI",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "NEW UPDATE : Motorola FRP Bypass Android 13 Without Computer [ Moto G32,G31,G54 ] 100% Worked 2024",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/m2h0wu6NXC4",
+   "views_at_audit": 339
+  },
+  {
+   "topic": "How to Install Google Play Store on Xiaomi 13 Pro (China ROM)",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/e1cPmHlCQIs",
+   "views_at_audit": 730
+  },
+  {
+   "topic": "[2024] How to install Windows on a MacBook step-by-step",
+   "category": "B",
+   "source": "youtube_long",
+   "url": "https://youtu.be/L4ygB2YpMSc",
+   "views_at_audit": 335
+  },
+  {
+   "topic": "Is Installing Windows 11 on a MacBook Pro Worth It?",
+   "category": "B",
+   "source": "youtube_long",
+   "url": "https://youtu.be/rJpKSO3BuYg",
+   "views_at_audit": 403
+  },
+  {
+   "topic": "How to Bypass Samsung FRP Lock Without a Computer",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/X22nymCX_GM",
+   "views_at_audit": 55
+  },
+  {
+   "topic": "Motorola G54 5G Frp Bypass Android 14 | Without Pc",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/mlsSMuAOqRU",
+   "views_at_audit": 268
+  },
+  {
+   "topic": "TECNO POP7 POP7PRO BF7 FRP BYPASS Without PC 2024",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/zkJftRdCBfM",
+   "views_at_audit": 47
+  },
+  {
+   "topic": "infinix note 30i Frp bypass new update",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/SntqhBZj7jc",
+   "views_at_audit": 81
+  },
+  {
+   "topic": "Bypass FRP Lock on Your Tecno BF7 (Easy Method)",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/gtJsAyi7XbA",
+   "views_at_audit": 184
+  },
+  {
+   "topic": "OPPO A53 (CPH2127) Forgot Password FRP Bypass",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/c4uJPhsIhTU",
+   "views_at_audit": 127
+  },
+  {
+   "topic": "Tecno Spark 10c FRP Bypass Without PC Android 12 | Tecno Spark 10C Bypass FRP Google Account",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/ryB0y-jQkMo",
+   "views_at_audit": 231
+  },
+  {
+   "topic": "All Samsung Galaxy Frp Bypass without pc  | New Method | Step By Step",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/wmvNLeq0XBY",
+   "views_at_audit": 59
+  },
+  {
+   "topic": "Samsung A21s Frp Bypass Step by Step, Without a PC",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/QhDaaeQ3tqg",
+   "views_at_audit": 14000
+  },
+  {
+   "topic": "Samsung M21 Frp Bypass Android 12 | Samsung Galaxy M21 Google Lock",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/Dmd_czUeevA",
+   "views_at_audit": 3200
+  },
+  {
+   "topic": "Techno Spark 10c Frp Bypass Without PC 2024 2024 | No PC ❌ No Xshare ❌ | Google Account Unlock",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/UFC5IwuP4so",
+   "views_at_audit": 70
+  },
+  {
+   "topic": "FRP Lock Removal for Samsung S21+ 5G | Easy Bypass Method 2024",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/QCUhtqPTQUg",
+   "views_at_audit": 836
+  },
+  {
+   "topic": "how long does it take to launch application on Apple Store | WATCH THIS!!!",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/J9rEleUryl8",
+   "views_at_audit": 67
+  },
+  {
+   "topic": "HOW TO BYPASS TECNO SPARK 8C KG5j GOOGLE  FRP  WITHOUT PC",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/ZczlslkSgtE",
+   "views_at_audit": 214
+  },
+  {
+   "topic": "Samsung Galaxy A21 How to Hard Reset Removing PIN, Password, and Fingerprint",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/3SGl-VmGSV0",
+   "views_at_audit": 75
+  },
+  {
+   "topic": "Samsung A21s Frp Bypass Android 12 Without Pc",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/CxqSRgHTDM0",
+   "views_at_audit": 13000
+  },
+  {
+   "topic": "SAMSUNG S21+5G FRP BYPASS",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/NgUBuOI5aK0",
+   "views_at_audit": 3100
+  },
+  {
+   "topic": "How to Factory Reset Samsung Galaxy A21S | Hard Reset Samsung Galaxy A21",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/BKiD3A0uOUw",
+   "views_at_audit": 726
+  },
+  {
+   "topic": "How to Hard Reset Samsung Galaxy S21s",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/JQDbQojfNOw",
+   "views_at_audit": 20
+  },
+  {
+   "topic": "How to Hard Reset SAMSUNG Galaxy A52s - Bypass Screen Lock",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/DAnmapswKzk",
+   "views_at_audit": 786
+  },
+  {
+   "topic": "SAMSUNG A52s 5G FRP BYPASS WITHOUT PC",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/CUg0FDEGqBw",
+   "views_at_audit": 3300
+  },
+  {
+   "topic": "SAMSUNG Galaxy A71 [Android 12] Bypass Google (FRP) Lock Without a PC",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/W-mFnC6m9ns",
+   "views_at_audit": 4300
+  },
+  {
+   "topic": "OPPO A54 FRP BYPASS 100% EASY WITHOUT PC ANDROID 11/12 | OPPO A54 GOOGLE ACCOUNT BYPASS |",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/DvSZ8cEhOWY",
+   "views_at_audit": 80
+  },
+  {
+   "topic": "Samsung A14 Frp Bypass / Galaxy Frp Tool 2024 / Chimera Free Tool / A14, A22, A32, A10s, A03s,",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/iKitjoLVU6g",
+   "views_at_audit": 119
+  },
+  {
+   "topic": "Samsung A12 FRP Bypass: New Security Without Talkback | Latest method",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/gpp_kuXk7DY",
+   "views_at_audit": 53
+  },
+  {
+   "topic": "Samsung A33 5G Frp Bypass Without PC | Samsung A33 Frp Unlock",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/rrkVv95bKpQ",
+   "views_at_audit": 774
+  },
+  {
+   "topic": "Samsung A14 FRP Bypass Android 13 NO Code *#0# Talkback Stop",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/HFESEI-4gGg",
+   "views_at_audit": 397
+  },
+  {
+   "topic": "Samsung A32 FRP Bypass Android 13 Without PC | New Method 2024 Android 13 No Code *#0*# |",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/BoW8u505srw",
+   "views_at_audit": 1300
+  },
+  {
+   "topic": "Samsung A13 5G Frp Bypass Android 13 || Samsung A13 Google Account Unlock android 12 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/O4AGx5GznOU",
+   "views_at_audit": 430
+  },
+  {
+   "topic": "Samsung A04 Frp Bypass Without Pc | NEW UPDATE |",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/8O7-v_xPW48",
+   "views_at_audit": 9200
+  },
+  {
+   "topic": "Samsung A03 (A035F) Frp Bypass/Unlock Google Account Lock Without Pc | Without Knox | NEW METHOD |",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/5xicJVbtHr0",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "SAMSUNG A54 5G (A546B) HARD RESET & FRP UNLOCK GOOGLE ACCOUNT REMOVE 2023 ANDROID 13",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/4NpT1y76YW8",
+   "views_at_audit": 9900
+  },
+  {
+   "topic": "Samsung Galaxy A22 5G FRP Bypass Android 12 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/iU3UCARhmB4",
+   "views_at_audit": 532
+  },
+  {
+   "topic": "SAMSUNG GALAXY S8/S8+ FRP Bypass/Google Account Remove 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/hTydr8eldbk",
+   "views_at_audit": 3000
+  },
+  {
+   "topic": "All NEW Tecno Android 11 | 12 Frp Bypass/Remove Google Account Lock 2023 ''WITHOUT PC''",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/iKIfoNLr-Cw",
+   "views_at_audit": 145
+  },
+  {
+   "topic": "Samsung S23/S23+/S23 Ultra FRP Bypass/Unlock Google Account Lock",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/7rudMb7n62Q",
+   "views_at_audit": 18000
+  },
+  {
+   "topic": "samsung s22 ultra frp bypass without pc",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/c32dBYuQU84",
+   "views_at_audit": 882
+  },
+  {
+   "topic": "Samsung Galaxy S21: Bypass Google Account Lock (FRP) Latest Update 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/N3XnEtS4Ul8",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "Samsung A20s Frp Bypass Android 11/12 Without PC, New Method 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/g1pj9ATTjfc",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "How To Create A New Apple ID: A Full Guide  (2023)",
+   "category": "other",
+   "source": "youtube_long",
+   "url": "https://youtu.be/3znYI1P4_UI",
+   "views_at_audit": 103
+  },
+  {
+   "topic": "Step-by-Step Guide: Building a Powerful Grocery Mobile App for WooCommerce",
+   "category": "other",
+   "source": "youtube_long",
+   "url": "https://youtu.be/2GLIO41P6Tk",
+   "views_at_audit": 306
+  },
+  {
+   "topic": "How to Fix iPhone 13 Pro Max White Screen 2023",
+   "category": "C",
+   "source": "youtube_long",
+   "url": "https://youtu.be/F3NWfMHo-pE",
+   "views_at_audit": 58
+  },
+  {
+   "topic": "How to Build an IPA File on Xcode 10 | Step-by-Step Guide for iOS Developers",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/MdMUT2BXFPU",
+   "views_at_audit": 3700
+  },
+  {
+   "topic": "How to Project Set Up – SwiftUI To Do List - Lesson 1",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/emaCTNd9FGo",
+   "views_at_audit": 87
+  },
+  {
+   "topic": "How to Submit | PUBLISH | An APPLICATION to the APPLE STORE! 2023 Tutorial",
+   "category": "E",
+   "source": "youtube_long",
+   "url": "https://youtu.be/dYWu37LCO24",
+   "views_at_audit": 25000
+  },
+  {
+   "topic": "How to Bypass iCloud Activation Lock for FREE in 2023 | IPHONE 5, 5S, 6, 6S, 7, 7PLUS | Permanently",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/YK9LQPQrGlM",
+   "views_at_audit": 45
+  },
+  {
+   "topic": "How to Jailbreak iOS 16 4 1 Untethered No Computer",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/aqKGj0wHzcs",
+   "views_at_audit": 55
+  },
+  {
+   "topic": "How to use Palera1n to Jailbreak  iOS 16.4.1 / 16.4 - Full step guide",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/o0_MpipBAUo",
+   "views_at_audit": 73
+  },
+  {
+   "topic": "NEW Realme 8i RMX3151 latest security frp bypass without pc",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/lP93AMFiuNM",
+   "views_at_audit": 26
+  },
+  {
+   "topic": "Samsung Galaxy S21- Bypass Google Account Lock (FRP) Latest Update 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/0yPPQGXZPXw",
+   "views_at_audit": 174
+  },
+  {
+   "topic": "New Samsung FRP Bypass 2023 ADB Enable Fail New Security | Samfw FRP Tool v4.7 Update | Android 13",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/hsDQPo8CR2g",
+   "views_at_audit": 108
+  },
+  {
+   "topic": "APPLE SECRET LEAKED🫡😲 UNLOCK ICLOUD WITH FILE EDIT 100% FREE AND WORKING TOOLS PART 2",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/0p_WANg8i5M",
+   "views_at_audit": 143
+  },
+  {
+   "topic": "IPHONE XR IOS UNLOCK ICLOUD WITH FILE EDIT 100% FREE AND WORKING TOOLS WITH SIM SERVICE PART 1",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/VbpJrRHRFPU",
+   "views_at_audit": 181
+  },
+  {
+   "topic": "frp bypass Samsung a7 2018 || Samsung a750 google account unlock without PC (2023)",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/m_IOrUhigc4",
+   "views_at_audit": 434
+  },
+  {
+   "topic": "😍NEW TOOL iCloud Bypass iPhone/iPad iOS 16.4.1/15.7.4 + Sim Unlock iCloud Activation Locked 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/YshfYEGG084",
+   "views_at_audit": 50
+  },
+  {
+   "topic": "How To Jailbreak iOS 16.5 🔓 Palera1n iOS 16.5 Jailbreak (NO COMPUTER)",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/V4oNRZeeoKI",
+   "views_at_audit": 189
+  },
+  {
+   "topic": "Jailbreak iOS 16.4.1 Untethered [No Computer] - Unc0ver Jailbreak 16.4.1 To 16.5.1",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/6LLF831qHZo",
+   "views_at_audit": 212
+  },
+  {
+   "topic": "iOS 15.0 - 16.4.1 JAILBREAK News: LibHooker Tweak Injector Code RELEASE! Anybody Can Update It!",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/pZaneNlqOvs",
+   "views_at_audit": 140
+  },
+  {
+   "topic": "Palera1n WINDOWS iOS 16 Jailbreak -FULL TUTORIAL- (iOS 16.4.1 - 15) (Palen1x) 2023",
+   "category": "X",
+   "source": "youtube_long",
+   "url": "https://youtu.be/ECIK_E_cTrM",
+   "views_at_audit": 677
+  },
+  {
+   "topic": "\"From Zero to Success: The Secret to Skyrocketing Your YouTube Channel\"",
+   "category": "other",
+   "source": "youtube_long",
+   "url": "https://youtu.be/AZb98XGf4-M",
+   "views_at_audit": 15
+  },
+  {
+   "topic": "ChatGPT AI Bot: Top 5 Strategies to Earn $100/Day Online for Beginners in 2023",
+   "category": "D",
+   "source": "youtube_long",
+   "url": "https://youtu.be/XTkg8FuyscU",
+   "views_at_audit": 22
+  },
+  {
+   "topic": "9 Apps I Connected to Claude (One Chat Runs Everything) #shorts",
+   "category": "D",
+   "source": "youtube_short",
+   "url": "https://youtu.be/EBleHiT-JSo",
+   "views_at_audit": 6
+  },
+  {
+   "topic": "Turn On This Windows Protection Feature RIGHT NOW!",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/k4eYUr1nb1Y",
+   "views_at_audit": 18
+  },
+  {
+   "topic": "Claude Prompts You Don’t Wanna Skip!",
+   "category": "D",
+   "source": "youtube_short",
+   "url": "https://youtu.be/mf0Ymco5teQ",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "Secret Commands for Anthropic’s Claude You Should Know!",
+   "category": "E",
+   "source": "youtube_short",
+   "url": "https://youtu.be/cp9ikpEqS8w",
+   "views_at_audit": 1300
+  },
+  {
+   "topic": "This One Command Makes Deleted Files UNRECOVERABLE!",
+   "category": "E",
+   "source": "youtube_short",
+   "url": "https://youtu.be/QWGMYQ2-3dU",
+   "views_at_audit": 43
+  },
+  {
+   "topic": "Control Your PC From Your Phone! (Easy Remote Desktop Setup) #Shorts",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/kmwFAO6hkp8",
+   "views_at_audit": 18
+  },
+  {
+   "topic": "Windows Search Not Working? FIX THIS NOW!",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/uofMpUy-IqA",
+   "views_at_audit": 916
+  },
+  {
+   "topic": "How to Monitor FPS, CPU & GPU While Gaming! (Live Stats Overlay)",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/3MJqbKp941U",
+   "views_at_audit": 128
+  },
+  {
+   "topic": "Secret Folder Trick on Windows! (Hide Files Like a PRO)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/RC2qijrE-hU",
+   "views_at_audit": 21
+  },
+  {
+   "topic": "2 Genius Hacks to Use ChatGPT Like a PRO! (Most People Don’t Know)",
+   "category": "D",
+   "source": "youtube_short",
+   "url": "https://youtu.be/_6EOkOFQEVA",
+   "views_at_audit": 16
+  },
+  {
+   "topic": "How to Change Your Mouse Pointer on PC! (Make It Look INSANE",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/WE0sKKKErBY",
+   "views_at_audit": 45
+  },
+  {
+   "topic": "3 Powerful Commands to Free Up Space on Your PC FAST!",
+   "category": "E",
+   "source": "youtube_short",
+   "url": "https://youtu.be/fZD_B_Lo_gg",
+   "views_at_audit": 33
+  },
+  {
+   "topic": "How to Check Your PC Battery Health in Seconds! (Hidden Report)",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/H6nevnXD30A",
+   "views_at_audit": 563
+  },
+  {
+   "topic": "See How Time Changed Everything! (Then vs Now)",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/u3WMql2RK9A",
+   "views_at_audit": 415
+  },
+  {
+   "topic": "Get INSANE 4K Live Wallpapers on Your PC! (Looks Unreal)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/EHhOeUz_cdY",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "How to Reset BitLocker Password (Recovery Key Fix) in Windows!",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Xbt9_6wMXUY",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "Windows PC Shortcuts You MUST Know! (Save Time FAST)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/8IlPR3LePQo",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "Settings Not Opening? Fix It in Seconds! (Windows Fix)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/w53uXgWdAvA",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "How to Check Your PC Performance in Seconds! (Hidden Tool)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/bC0pLjGB6nY",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "How to Fix Internet Connection Error in Seconds! (Easy Fix)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/p2ZSwSf7zus",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "How to Get Lower Ping & Faster Internet Speeds! (Instant Fix) 😳",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/9Uyx3jGLBno",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "Stop Answering Customers Yourself! Let AI Do It 24/7 🤖",
+   "category": "D",
+   "source": "youtube_short",
+   "url": "https://youtu.be/26fl_TcaG9Q",
+   "views_at_audit": 646
+  },
+  {
+   "topic": "White Screen with Cursor? FIX It in Seconds!",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/X4IYCcFuqVE",
+   "views_at_audit": 4100
+  },
+  {
+   "topic": "How to Fix Windows Operating System in Minutes! (Easy Repair Trick)",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/dhIEU9-37rQ",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "This Canva Feature Just Changed Design Forever! (Magic Layers AI Trick)",
+   "category": "D",
+   "source": "youtube_short",
+   "url": "https://youtu.be/2YG8mLoLAxQ",
+   "views_at_audit": 785
+  },
+  {
+   "topic": "Before You Buy More RAM, Try This Windows Setting FIRST!",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/6ADdmpbJAJg",
+   "views_at_audit": 1500
+  },
+  {
+   "topic": "Before You Buy More RAM, Try This Windows Setting FIRST!",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/0mllzzfBNxs",
+   "views_at_audit": 862
+  },
+  {
+   "topic": "iOS 26 vs iOS 18 Ringtones! (All New Sounds Compared) 🔊",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/h_hrpvSukuU",
+   "views_at_audit": 8000
+  },
+  {
+   "topic": "April 15, 2026",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/F7RCdVvq3eU",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "How to Check Your Windows Version & Build in Seconds!",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/U2w8TkEk5kE",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "How to Upgrade ALL Software on Your PC in Seconds! (One Command)",
+   "category": "E",
+   "source": "youtube_short",
+   "url": "https://youtu.be/iKj3WDZCKKI",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "Forgot Your Wi-Fi Password? See It on Your PC! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/0P5IET6jVHE",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "😳 This Website Gives You INSANE 4K Wallpapers for FREE! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/bolXoQcVo8g",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "How to Scan Your Windows System for Hidden Problems! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/NDlkzvyP_ik",
+   "views_at_audit": 969
+  },
+  {
+   "topic": "Find Your Recent Files on PC Instantly! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Mcu3dHZx860",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to Check if Your Laptop Is Hacked in Seconds! #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/xn2Jyue5srM",
+   "views_at_audit": 15
+  },
+  {
+   "topic": "How to transfer files from your phone to pc  #Shorts",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/mr-LGwrZkY4",
+   "views_at_audit": 448
+  },
+  {
+   "topic": "How to Save Space on Your PC in Seconds! (Free Up GB FAST) #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/iBnJlECOcjA",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "The SAFEST Way to Activate Windows (No Risk!)  #Shorts",
+   "category": "X",
+   "source": "youtube_short",
+   "url": "https://youtu.be/hEhtw2nvJgQ",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "Find Your PC’s Secret Performance Score in 10 Seconds #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/rrlkTh_r-tM",
+   "views_at_audit": 421
+  },
+  {
+   "topic": "PC Tips You Should Know (Part 16) Boost up internet speed in seconds! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/zlYVZCVpmyM",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "Simple Windows Shortcuts Every Beginner MUST Know! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/wiOSXpLCtcU",
+   "views_at_audit": 11
+  },
+  {
+   "topic": "How to Change Your Google Name in Seconds! #Shorts",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/gqbNWF-lxoQ",
+   "views_at_audit": 206
+  },
+  {
+   "topic": "Low Volume on Your PC? Fix It NOW! 🔊 #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/qEvuA3qQQqs",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "How to Fix Black Screen on Windows in Seconds! (Easy Fix) #Shorts #windows",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/aaDCkJfwqoA",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "Mind-Blowing Websites That Help Kids With Homework Instantly! #Shorts",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/tqbLeTHLi50",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to Scan Your PC for Viruses & Delete Them FAST! 😳 #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/ZoVof_oVrOU",
+   "views_at_audit": 1800
+  },
+  {
+   "topic": "Simple Windows Shortcuts Every Beginner Must Know! #Shorts #windows",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/tM7Bs9uNqe0",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "Simple Windows Shortcuts Every Beginner Must Know! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/WBHlRgNI-D8",
+   "views_at_audit": 2000
+  },
+  {
+   "topic": "PC Tips You Should Know (Part 12): Protect Your PC from Hackers! 😳 #Shorts #TechTips #WindowsFix",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Y2F1_WUA8L4",
+   "views_at_audit": 386
+  },
+  {
+   "topic": "Turn This OFF Now to Protect Your Personal Info on Windows! 😳 #Shorts #TechTips #WindowsFix",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/4ImY6MlgAdE",
+   "views_at_audit": 1200
+  },
+  {
+   "topic": "Don’t Do This to Your iPhone Screen! (Costly Mistake) 😳 #Shorts",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/ejCgGP9XSSg",
+   "views_at_audit": 6900
+  },
+  {
+   "topic": "How to Check Your Network Activity on PC in Seconds! #Shorts #TechTips #WindowsFix #PCProblems",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/xhVcexXGPe8",
+   "views_at_audit": 1300
+  },
+  {
+   "topic": "Hidden Windows Commands You MUST Know! #Shorts",
+   "category": "E",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Few-arg0eCc",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "How to Scan Your Drive for Hidden Issues in Seconds! #Shorts #TechTips #WindowsFix #PCProblems",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Mjt80qBhAEo",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to Fix Your PC from Crashing & Stuttering Randomly!  #Shorts #TechTips #WindowsFix #PCProblems",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/QGdZ-XmCkf8",
+   "views_at_audit": 1800
+  },
+  {
+   "topic": "How to Fix Your PC from Crashing & Stuttering Randomly! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/CgxGIka37xM",
+   "views_at_audit": 1800
+  },
+  {
+   "topic": "How to Shutdown Your PC with ONE Click! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/UQRSw1YO3D8",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to Fix Blank Icons on PC in 2 Quick Steps! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/oPPkiJPKEJw",
+   "views_at_audit": 1500
+  },
+  {
+   "topic": "How to Enable Hidden “End Task” Feature on Windows! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/VXv62iuZRXw",
+   "views_at_audit": 1600
+  },
+  {
+   "topic": "How to Check a PC Before Buying It #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/qkJIgUCjFsQ",
+   "views_at_audit": 2100
+  },
+  {
+   "topic": "How to Fix Slow & Laggy Apps on PC in Seconds! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Fvgd0rrp8vE",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "How to Manage Your PC Storage & Free Up Space FAST! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/-a7etlNPVzQ",
+   "views_at_audit": 1600
+  },
+  {
+   "topic": "How to Share Your PC Screen to TV in Seconds! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/36lYyqY7Xfk",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to Use Microsoft Office for FREE on Your PC! (100% Legal) #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/4mypLk8vXaA",
+   "views_at_audit": 32
+  },
+  {
+   "topic": "Turn OFF This Windows Setting NOW! It Can Run Harmful Files #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/F3aOqaZl4V4",
+   "views_at_audit": 1600
+  },
+  {
+   "topic": "How to Stop Windows Auto Updates in Seconds! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/JW5BmNdOvL8",
+   "views_at_audit": 1600
+  },
+  {
+   "topic": "How to Create Another Computer Inside Your PC! #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/7jKDkVWm1G4",
+   "views_at_audit": 925
+  },
+  {
+   "topic": "How to Check Your PC Health & Performance in Seconds! #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/Os3UFScB1z0",
+   "views_at_audit": 2000
+  },
+  {
+   "topic": "How to Optimize CPU Power Usage in Seconds! #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/tAkuTGA9pD0",
+   "views_at_audit": 3700
+  },
+  {
+   "topic": "How to install windows drivers on your laptop #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/NDQQj-DLldw",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to improve your laptop performance #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/G1snJ5aEqAo",
+   "views_at_audit": 2900
+  },
+  {
+   "topic": "How to delete any file refuses to remove on laptop or pc #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/HY2s1O55knw",
+   "views_at_audit": 4100
+  },
+  {
+   "topic": "How to copy text from images on laptop #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/MCxlsYwDKTw",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to fix your Slow Internet on Your Laptop?  #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/mFsmG6_FKsc",
+   "views_at_audit": 2200
+  },
+  {
+   "topic": "Slow Internet on Your Laptop? This Setting Is Killing Your Speed! #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/IoL7wePrCOc",
+   "views_at_audit": 2900
+  },
+  {
+   "topic": "how to fix bluetooth not working on windows pc #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/ECPotTvvnxY",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "How to check your pc info #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/clF6VvHn0PM",
+   "views_at_audit": 1600
+  },
+  {
+   "topic": "Your Windows Is Full of Junk! Clean It NOW & Boost Speed Instantly #Shorts",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/MKK7MKlIbY0",
+   "views_at_audit": 1500
+  },
+  {
+   "topic": "MagSafe Test: Which iPhones Actually Work? #Shorts",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/SeQhcrIjAjQ",
+   "views_at_audit": 1000
+  },
+  {
+   "topic": "Upgrade smart. Work faster. No lag 🚀 #Shorts",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/M9GkLNSMBvU",
+   "views_at_audit": 748
+  },
+  {
+   "topic": "HDD Alert Sign SOLVED ⚡ | PC/Laptop Fix",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/sqIw6vywXGM",
+   "views_at_audit": 1900
+  },
+  {
+   "topic": "Fix HDD Alert on Windows PC 💻 (Quick 2025 Fix)",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/A0dZDyaB54k",
+   "views_at_audit": 1100
+  },
+  {
+   "topic": "Laptop WiFi Not Showing? FAST FIX! 💡 #WiFiFix #Shorts",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/vRgjpcOXwc8",
+   "views_at_audit": 1400
+  },
+  {
+   "topic": "Remove Virus from Your Laptop FAST Using MRT Tool + Quick Scan (100% Free & Easy!)",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/QxvZjSpzuls",
+   "views_at_audit": 380
+  },
+  {
+   "topic": "Remove Virus from Your Laptop FAST Using MRT Tool + Quick Scan (100% Free & Easy!)",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/qHklx90nX_g",
+   "views_at_audit": 421
+  },
+  {
+   "topic": "Laptop Slow? Fix It in 30 Seconds With This Trick!",
+   "category": "F",
+   "source": "youtube_short",
+   "url": "https://youtu.be/I-WaTC2KyK0",
+   "views_at_audit": 1700
+  },
+  {
+   "topic": "Wi-Fi Not Working on Windows 11? Here’s How to Fix It Fast! #Shorts #TechShorts #Windows11 #WiFiTips",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/VZxmU03GOog",
+   "views_at_audit": 808
+  },
+  {
+   "topic": "Windows 11 WiFi Not Showing #shots #WiFi fixed #viral #wififix",
+   "category": "A",
+   "source": "youtube_short",
+   "url": "https://youtu.be/CF_JICRJdOc",
+   "views_at_audit": 158
+  },
+  {
+   "topic": "iOS 18 best settings",
+   "category": "C",
+   "source": "youtube_short",
+   "url": "https://youtu.be/8obGfSM5oc4",
+   "views_at_audit": 23
+  },
+  {
+   "topic": "SECRET APPLE DONT WANT US TO KNOW THAT WORKS 100% FREE AND WORKING TOOLS #shorts",
+   "category": "other",
+   "source": "youtube_short",
+   "url": "https://youtu.be/syHDlAMRU3w",
+   "views_at_audit": 68
+  },
+  {
+   "topic": "I Connected 9 Apps to Claude and Built an AI Video Studio",
+   "category": "D",
+   "source": "long/01/posted.json",
+   "url": "https://youtu.be/5TLD0EgClFc"
+  },
+  {
+   "topic": "9 Apps I Connected to Claude (One Chat Runs Everything) #shorts",
+   "category": "D",
+   "source": "shorts/01/posted.json",
+   "url": null
+  },
+  {
+   "topic": "My YouTube Channel Posts Videos By Itself (Claude AI) #shorts",
+   "category": "D",
+   "source": "shorts/02/posted.json",
+   "url": null
+  },
+  {
+   "topic": "Your PC takes forever to start? Do this",
+   "category": "A",
+   "source": "fb/01/post.json",
+   "url": "https://www.facebook.com/reel/2125665794739887"
+  },
+  {
+   "topic": "Stop losing the things you copy on Windows",
+   "category": "A",
+   "source": "fb/02/post.json",
+   "url": "https://www.facebook.com/reel/963825496411488"
+  }
+ ]
+}

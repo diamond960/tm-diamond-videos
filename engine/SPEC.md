@@ -1,3 +1,5 @@
+> **Read engine/HOUSE_STYLE.md first.** Its owner rules (no music ever, studio style, subtle sounds only, one file for all platforms) override anything below that disagrees.
+
 # TM_Diamond Shorts pipeline (free)
 
 Everything here runs for free: GitHub Actions makes the voice and word timings, `engine/shorts.py` renders the video in the Claude workspace, and `engine/UPLOAD.md` uploads it to YouTube (a Make upload session plus a GitHub Action, any file size) and cross-posts it to Instagram.
@@ -84,8 +86,8 @@ plus the **viral meme-style pack** (all synthesized here, no copied recordings):
 | `swipe` | fast swipe | quick list items, page changes |
 | `airhorn` | short airhorn | at most once, on a big win |
 
-Use 2-4 viral sounds per video, on the moments that matter (hook, twist, wrong way, right way, payoff) -
-not on every line, or they stop working.
+**Retired 2026-11-06 (owner rule, see HOUSE_STYLE.md): don't use the loud viral pack in new videos.** Use subtle
+clicks, typing, pops, notification dings, short whooshes and soft zooms, synced to the exact on-screen action.
 
 - A whoosh is added automatically at every visual change.
 - Add a bass on the hook (t=0) and on the twist line.
@@ -101,22 +103,20 @@ not on every line, or they stop working.
   (#windows11, #chatgpt, #pctips, #claudeai, #techtips). Never #reels, #viral, #fyp, #foryou or long tag walls.
 - The caption's first line repeats the hook with the main search keyword in plain words (Instagram, Facebook and
   TikTok search read captions). Add a question that invites a comment.
-- On TikTok, adding a trending sound in the app at very low volume (about 5%) under the voice can help reach.
+- No music or trending sounds under the voice on any platform (owner rule).
 
 ## Platform versions
 
-- **YouTube Shorts**: with the background beat (default render) -> `videos/shortNN.mp4`.
-- **Instagram Reels / Facebook Reels**: NO background beat; voice + every zoom and sound effect stays
-  (`--no-music`; effects are mixed a little louder) -> `videos/shortNN_social.mp4`.
+- ONE file for every platform: `videos/shortNN.mp4` (no music exists anywhere any more). Set
+  `social_file_url` to the same link as `file_url`.
 - Length: 18-35 s is the sweet spot for Reels and Shorts (quick reveals 18-25 s, lists/comparisons 28-35 s).
-- TikTok (when connected): 61+ s, no beat, because TikTok's Creator Rewards only pay for videos over 1 minute.
+- TikTok: 61+ s, because TikTok's Creator Rewards only pay for videos over 1 minute.
 
 ## 3. Render, check, publish
 
 ```
 python3 engine/shorts.py shorts/NN/spec.json /tmp/sheet.png --preview 0.3,2.0,...   # contact sheet to look at
-python3 engine/shorts.py shorts/NN/spec.json videos/shortNN.mp4                     # ~1 min; prints size_bytes
-python3 engine/shorts.py shorts/NN/spec.json videos/shortNN_social.mp4 --no-music   # Instagram/Facebook version
+python3 engine/shorts.py shorts/NN/spec.json videos/shortNN.mp4                     # ~1 min; prints size_bytes (the only render)
 ```
 
 - Default quality is crf 21 with a 3000 kbps peak (sharp on phones, under Instagram's 5 Mbps limit); a 50 s Short is about 8 MB.
@@ -127,8 +127,8 @@ python3 engine/shorts.py shorts/NN/spec.json videos/shortNN_social.mp4 --no-musi
 
 TikTok can't be posted to automatically for free, so every morning the pack goes to the owner's phone:
 
-- **Video** (`tiktok/NN/`): 61-75 s (TikTok only pays for videos over 1 minute), no beat, same pipeline as a Short
-  (voice job with `"out": "tiktok/NN/voice"`, spec, `--no-music` render to `videos/tiktokNN.mp4`). Script 170-200 words.
+- **Video** (`tiktok/NN/`): 61-75 s (TikTok only pays for videos over 1 minute), studio style, same pipeline as a Short
+  (voice job with `"out": "tiktok/NN/voice"`, spec, render to `videos/tiktokNN.mp4`). Script 170-200 words.
   Check the real duration is over 61 s; if not, add a sentence and redo the voice.
 - **Photo carousel**: `python3 engine/carousel.py tiktok/NN/carousel.json tiktok/NN/slides/` makes 1080x1920 JPEG
   slides: a cover, 3-6 tip slides (`kicker` number, `title` up to ~6 words, `body` up to ~20 words, `e` emoji)

@@ -1,5 +1,7 @@
 # Publishing (free): YouTube upload session + Instagram Reels
 
+> Owner rule: there is only ONE video file per video (no music anywhere), so `social_file_url` = `file_url`.
+
 Make's free plan only moves files under 5 MB, so videos never pass through Make. Make only opens a YouTube
 **resumable upload session** (a few hundred bytes of JSON), and a GitHub Action streams the video bytes
 into that session. This works for Shorts and long videos of any size.
@@ -61,7 +63,7 @@ Instagram's API publishes immediately (no scheduling), so Reels are posted by th
 1. `mcp__vidIQ__vidiq_instagram_connected_accounts`: use the account with `publishingAvailable: true`. If there is
    none, skip Instagram (the owner has to connect it with `vidiq_connect_instagram_account` mode oauth).
 2. `mcp__vidIQ__vidiq_video_upload {url: "https://raw.githubusercontent.com/diamond960/tm-diamond-videos/<sha>/videos/shortNN_social.mp4", title}`
-   (the no-beat version; `social_file_url` in posted.json)
+   (`social_file_url` in posted.json; it is the same file as `file_url`)
    gives a hosted `videoUrl` (free).
 3. `mcp__vidIQ__vidiq_instagram_publish_reel {platformAccountId, videoUrl, caption}`, then keep calling it with the
    returned `containerId` (or `mcpJobId` after `vidiq_job_poll` says ready) every ~5 s until `PUBLISHED`.
