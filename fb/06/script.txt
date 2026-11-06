@@ -1,0 +1,7 @@
+Website won't load? Try this.
+Press Windows and R.
+Type C M D, and press Enter.
+Now type I P config, space, slash flush D N S.
+Press Enter.
+Done. Now reload the website.
+Follow for more Windows fixes.
