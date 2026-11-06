@@ -1,0 +1,699 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "desktop",
+        "file":  "001_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "explorer_home",
+        "file":  "002_explorer_home.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "address_sel",
+        "file":  "003_address_sel.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:C",
+        "label":  "addr_type",
+        "file":  "004_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed::",
+        "label":  "addr_type",
+        "file":  "005_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:\\",
+        "label":  "addr_type",
+        "file":  "006_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:W",
+        "label":  "addr_type",
+        "file":  "007_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:o",
+        "label":  "addr_type",
+        "file":  "008_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:r",
+        "label":  "addr_type",
+        "file":  "009_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "This PC - File Explorer",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "typed:k",
+        "label":  "addr_type",
+        "file":  "010_addr_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  11,
+        "rects":  {
+                      "view":  {
+                                   "y":  149,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "work_folder",
+        "file":  "011_work_folder.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  12,
+        "rects":  {
+                      "view":  {
+                                   "y":  149,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               },
+                      "show":  {
+                                   "y":  532,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       172
+                   ],
+        "note":  "",
+        "label":  "view_menu",
+        "file":  "012_view_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  13,
+        "rects":  {
+                      "ext":  {
+                                  "y":  637,
+                                  "w":  207,
+                                  "h":  28,
+                                  "name":  "File name extensions",
+                                  "x":  788
+                              },
+                      "show":  {
+                                   "y":  532,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       546
+                   ],
+        "note":  "",
+        "label":  "show_menu",
+        "file":  "013_show_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "ext_on",
+        "file":  "014_ext_on.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  15,
+        "rects":  {
+                      "trip":  {
+                                   "y":  311,
+                                   "w":  598,
+                                   "h":  24,
+                                   "name":  "trip plan.txt",
+                                   "x":  342
+                               },
+                      "photo":  {
+                                    "y":  283,
+                                    "w":  598,
+                                    "h":  24,
+                                    "name":  "photo.png",
+                                    "x":  342
+                                },
+                      "budget":  {
+                                     "y":  227,
+                                     "w":  598,
+                                     "h":  24,
+                                     "name":  "budget.csv",
+                                     "x":  342
+                                 },
+                      "notes":  {
+                                    "y":  255,
+                                    "w":  598,
+                                    "h":  24,
+                                    "name":  "notes.txt",
+                                    "x":  342
+                                }
+                  },
+        "cursor":  [
+                       892,
+                       651
+                   ],
+        "note":  "",
+        "label":  "ext_on2",
+        "file":  "015_ext_on2.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  16,
+        "rects":  {
+                      "notes":  {
+                                    "y":  255,
+                                    "w":  598,
+                                    "h":  24,
+                                    "name":  "notes.txt",
+                                    "x":  342
+                                }
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "",
+        "label":  "notes_selected",
+        "file":  "016_notes_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "",
+        "label":  "preview",
+        "file":  "017_preview.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "",
+        "label":  "preview2",
+        "file":  "018_preview2.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "",
+        "label":  "new_folder",
+        "file":  "019_new_folder.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:I",
+        "label":  "nf_type",
+        "file":  "020_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:n",
+        "label":  "nf_type",
+        "file":  "021_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:v",
+        "label":  "nf_type",
+        "file":  "022_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:o",
+        "label":  "nf_type",
+        "file":  "023_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:i",
+        "label":  "nf_type",
+        "file":  "024_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:c",
+        "label":  "nf_type",
+        "file":  "025_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:e",
+        "label":  "nf_type",
+        "file":  "026_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "typed:s",
+        "label":  "nf_type",
+        "file":  "027_nf_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  28,
+        "rects":  {
+                      "invoices":  {
+                                       "y":  339,
+                                       "w":  598,
+                                       "h":  24,
+                                       "name":  "Invoices",
+                                       "x":  342
+                                   }
+                  },
+        "cursor":  [
+                       641,
+                       267
+                   ],
+        "note":  "",
+        "label":  "nf_done",
+        "file":  "028_nf_done.png"
+    },
+    {
+        "fg":  {
+                   "y":  60,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Work - File Explorer",
+                   "x":  160
+               },
+        "i":  29,
+        "rects":  {
+                      "photo":  {
+                                    "y":  283,
+                                    "w":  598,
+                                    "h":  24,
+                                    "name":  "photo.png",
+                                    "x":  342
+                                }
+                  },
+        "cursor":  [
+                       641,
+                       295
+                   ],
+        "note":  "",
+        "label":  "photo_selected",
+        "file":  "029_photo_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  295,
+                   "w":  419,
+                   "h":  516,
+                   "title":  "photo.png Properties",
+                   "x":  641
+               },
+        "i":  30,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       295
+                   ],
+        "note":  "",
+        "label":  "props",
+        "file":  "030_props.png"
+    },
+    {
+        "fg":  {
+                   "y":  295,
+                   "w":  419,
+                   "h":  516,
+                   "title":  "photo.png Properties",
+                   "x":  641
+               },
+        "i":  31,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       641,
+                       295
+                   ],
+        "note":  "",
+        "label":  "props2",
+        "file":  "031_props2.png"
+    }
+]
