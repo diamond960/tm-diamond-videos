@@ -1,0 +1,2222 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "empty",
+        "file":  "001_empty.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:G",
+        "label":  "typed1",
+        "file":  "002_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed1",
+        "file":  "003_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:v",
+        "label":  "typed1",
+        "file":  "004_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed1",
+        "file":  "005_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed1",
+        "file":  "006_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:m",
+        "label":  "typed1",
+        "file":  "007_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed1",
+        "file":  "008_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed1",
+        "file":  "009_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:v",
+        "label":  "typed1",
+        "file":  "010_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed1",
+        "file":  "011_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed1",
+        "file":  "012_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed1",
+        "file":  "013_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:o",
+        "label":  "typed1",
+        "file":  "014_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed1",
+        "file":  "015_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  16,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed1",
+        "file":  "016_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed1",
+        "file":  "017_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed1",
+        "file":  "018_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:a",
+        "label":  "typed1",
+        "file":  "019_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:s",
+        "label":  "typed1",
+        "file":  "020_typed1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_1",
+        "file":  "021_answer1_1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_2",
+        "file":  "022_answer1_2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_3",
+        "file":  "023_answer1_3.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_5",
+        "file":  "024_answer1_5.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_8",
+        "file":  "025_answer1_8.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer1_12",
+        "file":  "026_answer1_12.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:G",
+        "label":  "typed2",
+        "file":  "027_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  28,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed2",
+        "file":  "028_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  29,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:v",
+        "label":  "typed2",
+        "file":  "029_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  30,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "030_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  31,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "031_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  32,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:m",
+        "label":  "typed2",
+        "file":  "032_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  33,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "033_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  34,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "034_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  35,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:3",
+        "label":  "typed2",
+        "file":  "035_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  36,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "036_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  37,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:v",
+        "label":  "typed2",
+        "file":  "037_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  38,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed2",
+        "file":  "038_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  39,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed2",
+        "file":  "039_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  40,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "040_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  41,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:o",
+        "label":  "typed2",
+        "file":  "041_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  42,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "042_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  43,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed2",
+        "file":  "043_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  44,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed2",
+        "file":  "044_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  45,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "045_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  46,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:a",
+        "label":  "typed2",
+        "file":  "046_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  47,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:s",
+        "label":  "typed2",
+        "file":  "047_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  48,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "048_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  49,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:f",
+        "label":  "typed2",
+        "file":  "049_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  50,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:o",
+        "label":  "typed2",
+        "file":  "050_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  51,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:r",
+        "label":  "typed2",
+        "file":  "051_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  52,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "052_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  53,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:a",
+        "label":  "typed2",
+        "file":  "053_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  54,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "054_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  55,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:b",
+        "label":  "typed2",
+        "file":  "055_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  56,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "056_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  57,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:g",
+        "label":  "typed2",
+        "file":  "057_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  58,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:i",
+        "label":  "typed2",
+        "file":  "058_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  59,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "059_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  60,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "060_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  61,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "061_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  62,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:r",
+        "label":  "typed2",
+        "file":  "062_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  63,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "063_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  64,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:t",
+        "label":  "typed2",
+        "file":  "064_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  65,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "065_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  66,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:c",
+        "label":  "typed2",
+        "file":  "066_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  67,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:h",
+        "label":  "typed2",
+        "file":  "067_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  68,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "068_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  69,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:c",
+        "label":  "typed2",
+        "file":  "069_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  70,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:h",
+        "label":  "typed2",
+        "file":  "070_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  71,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:a",
+        "label":  "typed2",
+        "file":  "071_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  72,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "072_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  73,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "073_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  74,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "074_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  75,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:l",
+        "label":  "typed2",
+        "file":  "075_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  76,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:,",
+        "label":  "typed2",
+        "file":  "076_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  77,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "077_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  78,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:u",
+        "label":  "typed2",
+        "file":  "078_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  79,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "079_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  80,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed2",
+        "file":  "080_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  81,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "081_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  82,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:r",
+        "label":  "typed2",
+        "file":  "082_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  83,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "083_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  84,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:1",
+        "label":  "typed2",
+        "file":  "084_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  85,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:0",
+        "label":  "typed2",
+        "file":  "085_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  86,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "086_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  87,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:w",
+        "label":  "typed2",
+        "file":  "087_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  88,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:o",
+        "label":  "typed2",
+        "file":  "088_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  89,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:r",
+        "label":  "typed2",
+        "file":  "089_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  90,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed2",
+        "file":  "090_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  91,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:s",
+        "label":  "typed2",
+        "file":  "091_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  92,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "092_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  93,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "093_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  94,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:a",
+        "label":  "typed2",
+        "file":  "094_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  95,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:c",
+        "label":  "typed2",
+        "file":  "095_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  96,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:h",
+        "label":  "typed2",
+        "file":  "096_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  97,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:,",
+        "label":  "typed2",
+        "file":  "097_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  98,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed: ",
+        "label":  "typed2",
+        "file":  "098_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  99,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:n",
+        "label":  "typed2",
+        "file":  "099_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  100,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:u",
+        "label":  "typed2",
+        "file":  "100_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  101,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:m",
+        "label":  "typed2",
+        "file":  "101_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  102,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:b",
+        "label":  "typed2",
+        "file":  "102_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  103,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "103_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  104,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:r",
+        "label":  "typed2",
+        "file":  "104_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  105,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:e",
+        "label":  "typed2",
+        "file":  "105_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  106,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "typed:d",
+        "label":  "typed2",
+        "file":  "106_typed2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  107,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer2_1",
+        "file":  "107_answer2_1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  108,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer2_2",
+        "file":  "108_answer2_2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  109,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer2_3",
+        "file":  "109_answer2_3.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  110,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer2_5",
+        "file":  "110_answer2_5.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  111,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       900,
+                       520
+                   ],
+        "note":  "",
+        "label":  "answer2_8",
+        "file":  "111_answer2_8.png"
+    }
+]
