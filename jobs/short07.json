@@ -1,0 +1,9 @@
+{
+ "out": "shorts/07/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "You're using ChatGPT wrong, and that's why the answers feel boring.\nI asked it for video ideas, and got a long, generic list.\nNow watch the fix.\nTell it who it's for, what you want, and the format.\nThree video ideas for a beginner tech channel, under ten words each, numbered.\nSame question, a much better answer.\nPart two gets you ten YouTube titles from one prompt.\nFollow so you don't miss it."
+ }
+}

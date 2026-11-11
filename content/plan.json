@@ -18,7 +18,7 @@
      "needs": "chatgpt",
      "title": "You're using ChatGPT wrong (fix your prompt in 10 seconds)",
      "show": "the same request asked two ways in ChatGPT: a vague one-liner, then one with who it's for, the goal and the format; show both real answers",
-     "used_by": null
+     "used_by": "shorts/07"
     },
     {
      "n": 2,
