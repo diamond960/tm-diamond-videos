@@ -63,3 +63,14 @@ streaming in. Real answer in about 2 s. The browser fills the screen, so no desk
 For the full-screen look, try `Init-Capture 'name' 1280 720` so text is bigger relative to the screen (fall back to
 1920x1080 if the display can't change), and/or Edge zoom 125% (Ctrl + plus twice) before typing.
 Claude can't be filmed here (it needs the owner's login): Claude parts use the owner's recordings in footage/partNN/.
+
+### THE ChatGPT recipe (tested 2026-11-11, use this one): capture/aitest03.ps1
+- `Init-Capture 'name' 1280 720` works on the capture PC (screenshots come out 1280x720).
+- Edge maximized on https://chatgpt.com/, wait 15 s, human-check stop, then Edge zoom 125%
+  (`SendWait('^{ADD}')` twice). At 125% the sidebar collapses to icons and the text is big - readable in the
+  full-screen look on a phone.
+- ChatGPT puts the cursor in its box on load: press `{ESC}` once and type straight away (no click needed).
+  Box on the empty page at 125%: about x 195-1150, y 250-310 (centre 680, 279) - animate the realcut cursor
+  there for the viewer. After an answer, the box sits at the bottom (centre about 680, 607).
+- Answer starts within 1 s; take shots at 1, 2, 3, 5, 8 s (more for long answers, scroll with `{PGDN}` and shot).
+- Full-screen camera for 1280x720 captures: `[640, 360, 720]`; small push-in height >= 470.
