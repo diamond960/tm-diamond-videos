@@ -1,0 +1,232 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "hide": [
+  [
+   1722,
+   976,
+   198,
+   54
+  ]
+ ],
+ "captures": "captures/long02_all",
+ "narration": "fb/12/tight.wav",
+ "words": "fb/12/tight.json",
+ "script": "fb/12/script.txt",
+ "duration": 14.42,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "h_006_final.png"
+  ],
+  [
+   2.651,
+   "h_001_page_off.png"
+  ],
+  [
+   5.876,
+   "h_001_page_off.png"
+  ],
+  [
+   6.852,
+   "h_003_on.png"
+  ],
+  [
+   7.767,
+   "h_003_on.png"
+  ],
+  [
+   8.442,
+   "h_004_schedule_open.png"
+  ],
+  [
+   9.094,
+   "h_006_final.png"
+  ],
+  [
+   9.636,
+   "h_006_final.png"
+  ],
+  [
+   12.218,
+   "h_006_final.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   960,
+   540,
+   1080,
+   0
+  ],
+  [
+   5.876,
+   820,
+   420,
+   760,
+   0.5
+  ],
+  [
+   7.767,
+   820,
+   480,
+   760,
+   0.5
+  ],
+  [
+   9.636,
+   960,
+   540,
+   1080,
+   0.5
+  ]
+ ],
+ "cursor": [
+  [
+   6.282,
+   627,
+   387
+  ],
+  [
+   6.882,
+   627,
+   387
+  ],
+  [
+   7.872,
+   731,
+   568
+  ],
+  [
+   8.472,
+   731,
+   568
+  ],
+  [
+   8.524,
+   731,
+   496
+  ],
+  [
+   9.124,
+   731,
+   496
+  ]
+ ],
+ "cursor_on": [
+  [
+   5.982,
+   9.724
+  ]
+ ],
+ "clicks": [
+  6.732,
+  8.322,
+  8.974
+ ],
+ "keys": [
+  [
+   2.821,
+   [
+    "Win",
+    "I"
+   ],
+   1.2,
+   0.37
+  ]
+ ],
+ "boxes": [
+  [
+   2.921,
+   [
+    866,
+    165,
+    180,
+    38
+   ],
+   2.91
+  ],
+  [
+   6.146,
+   [
+    591,
+    367,
+    72,
+    40
+   ],
+   1.57
+  ],
+  [
+   8.037,
+   [
+    587,
+    548,
+    288,
+    40
+   ],
+   1.55
+  ],
+  [
+   9.906,
+   [
+    591,
+    326,
+    436,
+    27
+   ],
+   2.26
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 2.65,
+  "title": "Windows fix",
+  "sub": "Free space without lifting a finger",
+  "big": "Storage Sense"
+ },
+ "steps": [
+  [
+   2.771,
+   5.876,
+   "Step 1",
+   "Settings, System, Storage, Storage Sense"
+  ],
+  [
+   5.996,
+   7.767,
+   "Step 2",
+   "Turn on automatic cleanup"
+  ],
+  [
+   7.887,
+   9.636,
+   "Step 3",
+   "Run it every week"
+  ],
+  [
+   9.756,
+   12.218,
+   "Done",
+   "Windows cleans up for you"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   6.732,
+   "click"
+  ],
+  [
+   8.322,
+   "click"
+  ],
+  [
+   8.974,
+   "click"
+  ]
+ ],
+ "follow": 12.34
+}

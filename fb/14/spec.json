@@ -1,0 +1,183 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "hide": [
+  [
+   1722,
+   976,
+   198,
+   54
+  ]
+ ],
+ "captures": "captures/long02_all",
+ "narration": "fb/14/tight.wav",
+ "words": "fb/14/tight.json",
+ "script": "fb/14/script.txt",
+ "duration": 16.37,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "f_003_best_selected.png"
+  ],
+  [
+   2.821,
+   "f_001_dialog.png"
+  ],
+  [
+   7.404,
+   "f_001_dialog.png"
+  ],
+  [
+   8.536,
+   "f_003_best_selected.png"
+  ],
+  [
+   9.608,
+   "f_003_best_selected.png"
+  ],
+  [
+   10.213,
+   "f_005_applied.png"
+  ],
+  [
+   10.758,
+   "f_005_applied.png"
+  ],
+  [
+   14.172,
+   "f_005_applied.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   960,
+   540,
+   1080,
+   0
+  ],
+  [
+   7.404,
+   900,
+   440,
+   760,
+   0.5
+  ],
+  [
+   9.608,
+   900,
+   580,
+   760,
+   0.5
+  ],
+  [
+   10.758,
+   960,
+   540,
+   1080,
+   0.5
+  ]
+ ],
+ "cursor": [
+  [
+   7.966,
+   648,
+   352
+  ],
+  [
+   8.566,
+   648,
+   352
+  ],
+  [
+   9.643,
+   830,
+   762
+  ],
+  [
+   10.243,
+   830,
+   762
+  ]
+ ],
+ "cursor_on": [
+  [
+   7.666,
+   10.843
+  ]
+ ],
+ "clicks": [
+  8.416,
+  10.093
+ ],
+ "keys": [],
+ "boxes": [
+  [
+   7.674,
+   [
+    636,
+    341,
+    360,
+    22
+   ],
+   1.88
+  ],
+  [
+   9.878,
+   [
+    792,
+    751,
+    75,
+    23
+   ],
+   0.83
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 2.82,
+  "title": "Windows fix",
+  "sub": "Old PC feeling slow?",
+  "big": "Best performance"
+ },
+ "steps": [
+  [
+   2.941,
+   7.404,
+   "Step 1",
+   "Adjust the appearance and performance of Windows"
+  ],
+  [
+   7.524,
+   9.608,
+   "Step 2",
+   "Adjust for best performance"
+  ],
+  [
+   9.728,
+   10.758,
+   "Step 3",
+   "Click OK"
+  ],
+  [
+   10.878,
+   14.172,
+   "Done",
+   "Plainer look, faster PC"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   8.416,
+   "click"
+  ],
+  [
+   10.093,
+   "click"
+  ]
+ ],
+ "follow": 14.29
+}

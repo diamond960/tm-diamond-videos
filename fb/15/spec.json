@@ -1,0 +1,205 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "hide": [
+  [
+   1722,
+   976,
+   198,
+   54
+  ]
+ ],
+ "captures": "captures/long02_all",
+ "narration": "fb/15/tight.wav",
+ "words": "fb/15/tight.json",
+ "script": "fb/15/script.txt",
+ "duration": 16.79,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "j_005_done.png"
+  ],
+  [
+   3.45,
+   "j_001_window.png"
+  ],
+  [
+   7.29,
+   "j_001_window.png"
+  ],
+  [
+   8.085,
+   "j_002_drive_selected.png"
+  ],
+  [
+   8.82,
+   "j_002_drive_selected.png"
+  ],
+  [
+   9.532,
+   "j_004_optimizing.png"
+  ],
+  [
+   10.185,
+   "j_005_done.png"
+  ],
+  [
+   14.594,
+   "j_005_done.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   960,
+   540,
+   1080,
+   0
+  ],
+  [
+   7.29,
+   800,
+   420,
+   760,
+   0.5
+  ],
+  [
+   8.82,
+   800,
+   440,
+   760,
+   0.5
+  ],
+  [
+   10.185,
+   800,
+   460,
+   760,
+   0.5
+  ],
+  [
+   14.594,
+   960,
+   540,
+   1080,
+   0.5
+  ]
+ ],
+ "cursor": [
+  [
+   7.515,
+   450,
+   329
+  ],
+  [
+   8.115,
+   450,
+   329
+  ],
+  [
+   8.962,
+   994,
+   469
+  ],
+  [
+   9.562,
+   994,
+   469
+  ]
+ ],
+ "cursor_on": [
+  [
+   7.215,
+   10.161999999999999
+  ]
+ ],
+ "clicks": [
+  7.965,
+  9.412
+ ],
+ "keys": [],
+ "boxes": [
+  [
+   7.56,
+   [
+    382,
+    320,
+    642,
+    19
+   ],
+   1.21
+  ],
+  [
+   9.09,
+   [
+    933,
+    456,
+    123,
+    26
+   ],
+   1.05
+  ],
+  [
+   10.455,
+   [
+    376,
+    502,
+    540,
+    70
+   ],
+   4.09,
+   [
+    255,
+    70,
+    70
+   ]
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 3.45,
+  "title": "Windows fix",
+  "sub": "Keep your drive fast",
+  "big": "Optimize"
+ },
+ "steps": [
+  [
+   3.57,
+   7.29,
+   "Step 1",
+   "Defragment and Optimize Drives"
+  ],
+  [
+   7.41,
+   8.82,
+   "Step 2",
+   "Select your C drive"
+  ],
+  [
+   8.94,
+   10.185,
+   "Step 3",
+   "Click Optimize"
+  ],
+  [
+   10.305,
+   14.594,
+   "Tip",
+   "SSD? Windows sends trim instead"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   7.965,
+   "click"
+  ],
+  [
+   9.412,
+   "click"
+  ]
+ ],
+ "follow": 14.71
+}

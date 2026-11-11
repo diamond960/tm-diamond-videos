@@ -1,0 +1,198 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "hide": [
+  [
+   1722,
+   976,
+   198,
+   54
+  ]
+ ],
+ "captures": "captures/long02_all",
+ "narration": "fb/11/tight.wav",
+ "words": "fb/11/tight.json",
+ "script": "fb/11/script.txt",
+ "duration": 16.38,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "c_006_after.png"
+  ],
+  [
+   2.984,
+   "c_001_processes.png"
+  ],
+  [
+   6.468,
+   "c_001_processes.png"
+  ],
+  [
+   7.828,
+   "c_003_selected.png"
+  ],
+  [
+   8.925,
+   "c_003_selected.png"
+  ],
+  [
+   9.751,
+   "c_005_restarting.png"
+  ],
+  [
+   10.518,
+   "c_005_restarting.png"
+  ],
+  [
+   12.258,
+   "c_006_after.png"
+  ],
+  [
+   14.178,
+   "c_006_after.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   960,
+   540,
+   1080,
+   0
+  ],
+  [
+   6.468,
+   700,
+   420,
+   760,
+   0.5
+  ],
+  [
+   8.925,
+   960,
+   420,
+   760,
+   0.5
+  ],
+  [
+   10.518,
+   960,
+   540,
+   1080,
+   0.5
+  ]
+ ],
+ "cursor": [
+  [
+   7.258,
+   338,
+   371
+  ],
+  [
+   7.858,
+   338,
+   371
+  ],
+  [
+   9.181,
+   1474,
+   187
+  ],
+  [
+   9.781,
+   1474,
+   187
+  ]
+ ],
+ "cursor_on": [
+  [
+   6.958,
+   10.381
+  ]
+ ],
+ "clicks": [
+  7.708,
+  9.631
+ ],
+ "keys": [
+  [
+   3.154,
+   [
+    "Ctrl",
+    "Shift",
+    "Esc"
+   ],
+   1.2,
+   0.37
+  ]
+ ],
+ "boxes": [
+  [
+   6.738,
+   [
+    218,
+    357,
+    646,
+    28
+   ],
+   2.14
+  ],
+  [
+   9.195,
+   [
+    1419,
+    163,
+    111,
+    48
+   ],
+   1.27
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 2.98,
+  "title": "Windows fix",
+  "sub": "Taskbar or Start menu frozen?",
+  "big": "Don't restart"
+ },
+ "steps": [
+  [
+   3.104,
+   6.468,
+   "Step 1",
+   "Open Task Manager"
+  ],
+  [
+   6.588,
+   8.925,
+   "Step 2",
+   "Select Windows Explorer"
+  ],
+  [
+   9.045,
+   10.518,
+   "Step 3",
+   "Click Restart task"
+  ],
+  [
+   10.638,
+   14.178,
+   "Done",
+   "Taskbar back, apps still open"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   7.708,
+   "click"
+  ],
+  [
+   9.631,
+   "click"
+  ]
+ ],
+ "follow": 14.3
+}
