@@ -159,3 +159,48 @@ function Set-DarkMode {
   Start-Sleep -Seconds 1
 }
 function Center($r) { return @([int]($r.x + $r.w / 2), [int]($r.y + $r.h / 2)) }
+
+function Dump-Names([string]$Tag) {
+  # log every named control in the foreground window (for exact boxes in the spec)
+  $items = @()
+  try {
+    $h = [W]::GetForegroundWindow(); $root = [System.Windows.Automation.AutomationElement]::FromHandle($h)
+    $all = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition)
+    foreach ($el in $all) {
+      $nm = $el.Current.Name; if (-not $nm) { continue }
+      $b = $el.Current.BoundingRectangle; if ($b.Width -le 0) { continue }
+      $items += ('{0} | {1} | {2},{3},{4},{5}' -f $el.Current.ControlType.ProgrammaticName, $nm, [int]$b.X, [int]$b.Y, [int]$b.Width, [int]$b.Height)
+    }
+  } catch { }
+  Set-Content -Encoding utf8 -Path (Join-Path $script:Out "names_$Tag.txt") -Value $items
+}
+
+function Find-Anywhere([string]$Pattern) {
+  # first element anywhere on the desktop (taskbar included) whose name matches the regex
+  try {
+    $root = [System.Windows.Automation.AutomationElement]::RootElement
+    $all = $root.FindAll([System.Windows.Automation.TreeScope]::Descendants, [System.Windows.Automation.Condition]::TrueCondition)
+    foreach ($el in $all) {
+      $nm = $el.Current.Name
+      if ($nm -and $nm -match $Pattern) {
+        $b = $el.Current.BoundingRectangle
+        if ($b.Width -gt 0) { return @{ x = [int]$b.X; y = [int]$b.Y; w = [int]$b.Width; h = [int]$b.Height; name = $nm } }
+      }
+    }
+  } catch { }
+  return $null
+}
+
+function Right-Click([int]$X, [int]$Y) {
+  Move-To $X $Y
+  [W]::mouse_event(0x0008, 0, 0, 0, [IntPtr]::Zero); Start-Sleep -Milliseconds 60
+  [W]::mouse_event(0x0010, 0, 0, 0, [IntPtr]::Zero); Start-Sleep -Milliseconds 600
+}
+
+function New-HeavyApp {
+  # a small real program that keeps the CPU busy (shown as "HeavyApp" in Task Manager)
+  $src = 'using System; using System.Threading; public static class P { public static void Main() { for (int i = 0; i < 2; i++) { var t = new Thread(() => { while (true) { } }); t.Start(); } } }'
+  $exe = "$env:TEMP\HeavyApp.exe"
+  if (-not (Test-Path $exe)) { Add-Type -TypeDefinition $src -OutputAssembly $exe -OutputType WindowsApplication }
+  return $exe
+}
