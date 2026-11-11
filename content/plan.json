@@ -1,7 +1,122 @@
 {
- "about": "THE content plan for TM_Diamond (owner rule 2026-11-06: no random topics). Everything follows one theme at a time. Each block = one long YouTube video (the pillar) + short 'One-Minute Tech Fixes' episodes taken from it, in order. Shorts, Facebook videos and TikTok all take the NEXT unused episode of the CURRENT block (the first block that still has unused episodes); set used_by to your folder (e.g. 'shorts/03'). The long-video task makes the long video of the first block whose long video is not made. Every episode is shown on real Windows screens in the Team Diamond template (fb/07). Fact-check each one; if an episode can't be shown for real on the Windows runner, mark used_by 'skipped: <reason>' and take the next. When the last block runs low, add the next block from HOUSE_STYLE's long-video order in the same shape.",
+ "about": "CURRENT SERIES FIRST (owner rule 2026-11-11: post serially, numbered parts, one series at a time). The first block in this list with unused episodes is the current series. Windows blocks below are paused until the AI series is done. THE content plan for TM_Diamond (owner rule 2026-11-06: no random topics). Everything follows one theme at a time. Each block = one long YouTube video (the pillar) + short 'One-Minute Tech Fixes' episodes taken from it, in order. Shorts, Facebook videos and TikTok all take the NEXT unused episode of the CURRENT block (the first block that still has unused episodes); set used_by to your folder (e.g. 'shorts/03'). The long-video task makes the long video of the first block whose long video is not made. Every episode is shown on real Windows screens in the Team Diamond template (fb/07). Fact-check each one; if an episode can't be shown for real on the Windows runner, mark used_by 'skipped: <reason>' and take the next. When the last block runs low, add the next block from HOUSE_STYLE's long-video order in the same shape.",
  "series": "One-Minute Tech Fixes",
  "blocks": [
+  {
+   "block": 6,
+   "series": "AI for Creators",
+   "theme": "ChatGPT & Claude for creators (owner, 2026-11-11: post serially - how to use ChatGPT and Claude, which is better, Claude to edit and post videos)",
+   "how": "Every part is numbered ('Part N' in the hook card kicker, the title and the caption) and ends by teasing the next part. 'chatgpt' parts are filmed for real on the capture PC: chatgpt.com in Edge with NO account (OpenAI's free no-login mode; capture/aitest02.ps1 is the recipe; if a sign-in wall or a human check appears, stop - never work around it). 'owner' parts need the owner's own screen recording of Claude (Claude needs his login): footage/partNN/*.mp4 or *.png in the repo. If it isn't there when the part comes up, post the next 'chatgpt' part instead (keep the part numbers in posting order) and remind him once in the report.",
+   "long": {
+    "title": "ChatGPT for Beginners: 10 Prompts Every Creator Should Know (Real Examples)",
+    "needs": "chatgpt",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "needs": "chatgpt",
+     "title": "You're using ChatGPT wrong (fix your prompt in 10 seconds)",
+     "show": "the same request asked two ways in ChatGPT: a vague one-liner, then one with who it's for, the goal and the format; show both real answers",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "needs": "chatgpt",
+     "title": "Get 10 YouTube title ideas from ChatGPT (copy this prompt)",
+     "show": "type a title prompt with the topic, the audience and 'under 60 characters'; the real list appears",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "needs": "chatgpt",
+     "title": "Turn one idea into a 30-second video script with ChatGPT",
+     "show": "prompt: hook, 3 steps, call to action, under 80 words; the real script appears",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "needs": "chatgpt",
+     "title": "ChatGPT writes your captions and hashtags",
+     "show": "paste a video idea, ask for 3 one-line captions with 3 specific hashtags",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "needs": "chatgpt",
+     "title": "Make ChatGPT answer in a simple table",
+     "show": "ask for a comparison 'as a table'; the real table appears",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "needs": "chatgpt",
+     "title": "Ask ChatGPT to explain anything like you're 10",
+     "show": "a hard tech question asked normally, then 'explain it like I'm 10'",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "needs": "owner",
+     "title": "Claude vs ChatGPT: same prompt, who wins?",
+     "show": "the same prompt in Claude (owner recording) and ChatGPT (capture PC), answers side by side, an honest verdict",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "needs": "owner",
+     "title": "How to start using Claude for free",
+     "show": "owner recording: open Claude, start a chat, one useful first prompt",
+     "used_by": null
+    },
+    {
+     "n": 9,
+     "needs": "owner",
+     "title": "How I use Claude to edit my videos",
+     "show": "owner recording: asking Claude to edit/caption a video with a connected app, and the result",
+     "used_by": null
+    },
+    {
+     "n": 10,
+     "needs": "owner",
+     "title": "How I use Claude to post on YouTube, Instagram and Facebook",
+     "show": "owner recording: asking Claude to post a finished video, and the posted result",
+     "used_by": null
+    },
+    {
+     "n": 11,
+     "needs": "owner",
+     "title": "Claude vs ChatGPT: which is better for beginners?",
+     "show": "owner Claude recording + ChatGPT capture on 3 everyday tasks; verdict per task",
+     "used_by": null
+    },
+    {
+     "n": 12,
+     "needs": "chatgpt",
+     "title": "Make ChatGPT write like you (give it an example)",
+     "show": "paste a sample of your own writing and ask it to match the style",
+     "used_by": null
+    },
+    {
+     "n": 13,
+     "needs": "chatgpt",
+     "title": "Ask ChatGPT for a 7-day posting plan",
+     "show": "prompt for a week of video ideas for one niche, as a table",
+     "used_by": null
+    },
+    {
+     "n": 14,
+     "needs": "chatgpt",
+     "title": "Get better answers: tell ChatGPT what NOT to do",
+     "show": "a prompt with 'don't use jargon, no long intro' vs without",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "same daily part (TikTok gets the day's video, the owner taps post)",
+    "used_by": "n/a"
+   }
+  },
   {
    "block": 1,
    "theme": "Speed up a slow PC",

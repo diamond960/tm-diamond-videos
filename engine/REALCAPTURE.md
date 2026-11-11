@@ -53,3 +53,13 @@ Same pipeline with `"size": [1920, 1080]` in the spec: the camera crops the real
 the whole screen, focus shots = height 500-700), captions sit at the bottom, `"titles": [[t, "Fix 3: Startup apps", 2.0]]`
 gives chapter cards over the real screen. Write one capture script per chapter (capture/longNN_01.ps1, ...) so a failed
 step only needs that chapter re-captured. Render time is about 2-3 minutes per minute of video.
+
+## ChatGPT on the capture PC (no account) - tested 2026-11-11
+
+capture/aitest02.ps1: Edge `--start-maximized https://chatgpt.com/`, wait 15 s, check for a human-check page (stop if
+there is one - never work around it), click the drawn "Ask ChatGPT" box (UIA can't see web content by name: click
+its position from the screenshot), Type-Shots the prompt, Enter, then shots at 1, 2, 3, 5, 8, 12 s to film the answer
+streaming in. Real answer in about 2 s. The browser fills the screen, so no desktop watermark shows.
+For the full-screen look, try `Init-Capture 'name' 1280 720` so text is bigger relative to the screen (fall back to
+1920x1080 if the display can't change), and/or Edge zoom 125% (Ctrl + plus twice) before typing.
+Claude can't be filmed here (it needs the owner's login): Claude parts use the owner's recordings in footage/partNN/.

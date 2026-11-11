@@ -121,3 +121,23 @@ These rules override the topic lists inside the Shorts and long-video task promp
 
 Every long video gets at least one Short cut from one of its fixes (real captures, Team Diamond template), ending on a
 "Fix N of 10" band then a "Full video below" band. The owner links it in Studio (Related video). Reference: shorts/06.
+
+## 2026-11-11 OWNER: ZOOM OUT, ONE SERIES AT A TIME, POST EVERYWHERE (overrides older rules below/above)
+
+- ZOOM OUT: "people don't see the full thing... I want them to see the full laptop screen... zoom out a little bit,
+  not zooming in." Every vertical video uses `"layout": "tmd", "framing": "full"`: the whole 16:9 screen right
+  under the logo strip, an info band under it (hook card first, then a "STEP n" label for each step, then the
+  "Part n of the series" / follow card), the presenter strip at the bottom. Camera = the whole screen
+  `[960, 540, 1080]` (for 1920x1080 captures) most of the time; a small push-in (camera height >= 700 for
+  1920x1080, >= 470 for 1280x720) ONLY when the target is tiny (a taskbar menu, a small button), then back out.
+  Hide the capture PC's desktop watermark with `"hide"` (it says Test Mode / Windows Server) when the desktop shows.
+  Keycaps at y fraction 0.37 (on the screen, not the band). Reference: shorts/06/make_spec_full.py.
+- ONE SERIES AT A TIME, NUMBERED: the current series is the first block in content/plan.json with unused
+  episodes. Today that's "AI for Creators" (ChatGPT & Claude). Every video says its part number (hook card kicker
+  "PART 3", title "... (Part 3)", caption) and the last line teases the next part ("Part 4: ...").
+- WHAT WORKS (research 2026-11-11): viewers decide in about 1.4-2.3 s, so open on the RESULT (the real answer on
+  screen) with a one-line hook; most Reels/TikToks start muted, so every step has its on-screen STEP label; one idea
+  per video; 20-40 s; end with the next part.
+- POST EVERYWHERE: the owner now wants us to post on YouTube Shorts, Facebook Page (Reel, via Make fb_reel) and
+  Instagram (Reel, via vidIQ) ourselves. TikTok needs the owner's tap: send him the file + caption to post.
+  (The 2026-11-06 "owner uploads Facebook himself" rule is replaced.)
