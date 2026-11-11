@@ -141,3 +141,10 @@ Every long video gets at least one Short cut from one of its fixes (real capture
 - POST EVERYWHERE: the owner now wants us to post on YouTube Shorts, Facebook Page (Reel, via Make fb_reel) and
   Instagram (Reel, via vidIQ) ourselves. TikTok needs the owner's tap: send him the file + caption to post.
   (The 2026-11-06 "owner uploads Facebook himself" rule is replaced.)
+
+## 2026-11-11 (later) OWNER: DEVICE SERIES + PLATFORM LENGTHS - see engine/SCHEDULE.md (overrides the AI-series note above)
+
+"Cover everything about Windows, MacBook, iPhone, Android, serially. 5-6 videos on Facebook (15, 20, 25, 30 s depending
+on the tutorial), 1-2 on Instagram, TikTok 1 minute plus (never 15 s), YouTube do the best." Windows first; the AI for
+Creators series is paused after Part 1. Facebook reels end with the follow card (no "full video below" - there is no
+link on Facebook). TikTok = one 61-75 s video a day combining the block's tips (tiktok/03 is the reference).
