@@ -1,0 +1,1148 @@
+﻿ControlType.Button | Open Navigation | 172,168,40,36
+ControlType.ListItem | Processes | 172,208,40,36
+ControlType.ListItem | Performance | 172,248,40,36
+ControlType.ListItem | App history | 172,288,40,36
+ControlType.ListItem | Startup apps | 172,328,40,36
+ControlType.ListItem | Users | 172,368,40,36
+ControlType.ListItem | Details | 172,408,40,36
+ControlType.ListItem | Services | 172,448,40,36
+ControlType.ListItem | Settings | 172,900,40,36
+ControlType.Pane | Filter Control Glass Window | 664,118,520,36
+ControlType.Pane | Glass Window | 1184,118,342,36
+ControlType.Pane | Glass Window | 212,118,452,36
+ControlType.Text | Task Manager | 224,128,99,16
+ControlType.Group | Search box | 665,120,520,32
+ControlType.Edit | Search box | 665,120,520,32
+ControlType.Text | Processes | 233,178,62,19
+ControlType.Button | Run new task | 1311,163,120,48
+ControlType.Button | End task | 1436,163,94,48
+ControlType.Button | Efficiency mode | 1530,163,134,48
+ControlType.Button | More app bar | 1664,163,48,48
+ControlType.Pane | TaskManagerMain | 218,214,1494,728
+ControlType.Header | Column header | 218,214,1494,48
+ControlType.HeaderItem | Name. Press Enter to change sorting. | 218,214,234,48
+ControlType.HeaderItem | Status. Press Enter to change sorting. | 452,214,120,48
+ControlType.HeaderItem | CPU 73% Sorted (descending). Press Enter to change sorting. | 572,214,73,48
+ControlType.Edit | 73% | 605,214,35,26
+ControlType.HeaderItem | Memory 18%. Press Enter to change sorting. | 645,214,73,48
+ControlType.Edit | 18% | 678,214,35,26
+ControlType.HeaderItem | Disk 0%. Press Enter to change sorting. | 718,214,73,48
+ControlType.Edit | 0% | 760,214,26,26
+ControlType.HeaderItem | Network 0%. Press Enter to change sorting. | 791,214,73,48
+ControlType.Edit | 0% | 833,214,26,26
+ControlType.DataGrid | Processes | 218,263,1494,679
+ControlType.ScrollBar | Vertical | 1695,263,17,679
+ControlType.Button | Line up | 1695,263,17,17
+ControlType.Custom | Position | 1695,280,17,110
+ControlType.Button | Page down | 1695,390,17,535
+ControlType.Button | Line down | 1695,925,17,17
+ControlType.TreeItem | HeavyApp | 218,263,646,28
+ControlType.Text | Name | 270,263,67,28
+ControlType.Text | 48.5% | 572,263,72,28
+ControlType.Text | 1.9 MB | 645,263,72,28
+ControlType.Text | 0 MB/s | 718,263,72,28
+ControlType.Text | 0 Mbps | 791,263,72,28
+ControlType.TreeItem | Task Manager | 218,291,646,28
+ControlType.Text | Name | 270,291,85,28
+ControlType.Text | 24.2% | 572,291,72,28
+ControlType.Text | 67.4 MB | 645,291,72,28
+ControlType.Text | 0 MB/s | 718,291,72,28
+ControlType.Text | 0 Mbps | 791,291,72,28
+ControlType.TreeItem | Task Manager | 248,291,616,28
+ControlType.Text | Name | 294,291,85,28
+ControlType.TreeItem | System interrupts | 218,319,646,28
+ControlType.Text | Name | 270,319,104,28
+ControlType.Text | 0% | 572,319,72,28
+ControlType.Text | 0 MB | 645,319,72,28
+ControlType.Text | 0 MB/s | 718,319,72,28
+ControlType.Text | 0 Mbps | 791,319,72,28
+ControlType.TreeItem | Runner.Worker | 218,347,646,28
+ControlType.Text | Name | 270,347,91,28
+ControlType.Text | 0% | 572,347,72,28
+ControlType.Text | 43.9 MB | 645,347,72,28
+ControlType.Text | 0 MB/s | 718,347,72,28
+ControlType.Text | 0 Mbps | 791,347,72,28
+ControlType.TreeItem | svchost.exe | 218,375,646,28
+ControlType.Text | Name | 270,375,72,28
+ControlType.Text | 0% | 572,375,72,28
+ControlType.Text | 3.3 MB | 645,375,72,28
+ControlType.Text | 0 MB/s | 718,375,72,28
+ControlType.Text | 0 Mbps | 791,375,72,28
+ControlType.TreeItem | Windows PowerShell. 2 instances. | 218,403,646,28
+ControlType.Text | Name | 270,403,139,28
+ControlType.Text | 0% | 572,403,72,28
+ControlType.Text | 148.3 MB | 645,403,72,28
+ControlType.Text | 0 MB/s | 718,403,72,28
+ControlType.Text | 0 Mbps | 791,403,72,28
+ControlType.TreeItem | Windows PowerShell | 248,375,616,28
+ControlType.Text | Name | 294,375,122,28
+ControlType.Text | 0% | 572,375,72,28
+ControlType.Text | 106.5 MB | 645,375,72,28
+ControlType.Text | 0 MB/s | 718,375,72,28
+ControlType.Text | 0 Mbps | 791,375,72,28
+ControlType.TreeItem | Windows PowerShell | 248,403,616,28
+ControlType.Text | Name | 294,403,122,28
+ControlType.Text | 0% | 572,403,72,28
+ControlType.Text | 41.8 MB | 645,403,72,28
+ControlType.Text | 0 MB/s | 718,403,72,28
+ControlType.Text | 0 Mbps | 791,403,72,28
+ControlType.TreeItem | WindowsAzureGuestAgent | 218,431,646,28
+ControlType.Text | Name | 270,431,153,28
+ControlType.Text | 0% | 572,431,72,28
+ControlType.Text | 23.8 MB | 645,431,72,28
+ControlType.Text | 0 MB/s | 718,431,72,28
+ControlType.Text | 0 Mbps | 791,431,72,28
+ControlType.TreeItem | Windows Azure Guest Agent | 248,431,616,28
+ControlType.Text | Name | 294,431,154,28
+ControlType.TreeItem | Runtime Broker | 218,459,646,28
+ControlType.Text | Name | 270,459,94,28
+ControlType.Text | 0% | 572,459,72,28
+ControlType.Text | 1.3 MB | 645,459,72,28
+ControlType.Text | 0 MB/s | 718,459,72,28
+ControlType.Text | 0 Mbps | 791,459,72,28
+ControlType.TreeItem | Runtime Broker | 248,459,616,28
+ControlType.Text | Name | 294,459,94,28
+ControlType.Text | 0% | 572,459,72,28
+ControlType.Text | 1.3 MB | 645,459,72,28
+ControlType.Text | 0 MB/s | 718,459,72,28
+ControlType.Text | 0 Mbps | 791,459,72,28
+ControlType.TreeItem | wsappx | 218,487,646,28
+ControlType.Text | Name | 270,487,51,28
+ControlType.Text | 0% | 572,487,72,28
+ControlType.Text | 24.6 MB | 645,487,72,28
+ControlType.Text | 0 MB/s | 718,487,72,28
+ControlType.Text | 0 Mbps | 791,487,72,28
+ControlType.TreeItem | AppX Deployment Service (AppXSVC) | 248,487,616,28
+ControlType.Text | Name | 294,487,152,28
+ControlType.TreeItem | Windows Start-Up Application | 218,515,646,28
+ControlType.Text | Name | 270,515,172,28
+ControlType.Text | 0% | 572,515,72,28
+ControlType.Text | 1.2 MB | 645,515,72,28
+ControlType.Text | 0 MB/s | 718,515,72,28
+ControlType.Text | 0 Mbps | 791,515,72,28
+ControlType.TreeItem | Windows Session Manager | 218,543,646,28
+ControlType.Text | Name | 270,543,153,28
+ControlType.Text | 0% | 572,543,72,28
+ControlType.Text | 0.3 MB | 645,543,72,28
+ControlType.Text | 0 MB/s | 718,543,72,28
+ControlType.Text | 0 Mbps | 791,543,72,28
+ControlType.TreeItem | Windows Logon Application | 218,571,646,28
+ControlType.Text | Name | 270,571,162,28
+ControlType.Text | 0% | 572,571,72,28
+ControlType.Text | 1.6 MB | 645,571,72,28
+ControlType.Text | 0 MB/s | 718,571,72,28
+ControlType.Text | 0 Mbps | 791,571,72,28
+ControlType.TreeItem | Windows Explorer | 218,599,646,28
+ControlType.Text | Name | 270,599,106,28
+ControlType.Text | 0% | 572,599,72,28
+ControlType.Text | 5.8 MB | 645,599,72,28
+ControlType.Text | 0 MB/s | 718,599,72,28
+ControlType.Text | 0 Mbps | 791,599,72,28
+ControlType.TreeItem | System | 218,627,646,28
+ControlType.Text | Name | 270,627,50,28
+ControlType.Text | 0% | 572,627,72,28
+ControlType.Text | 0.1 MB | 645,627,72,28
+ControlType.Text | 0.3 MB/s | 718,627,72,28
+ControlType.Text | 0 Mbps | 791,627,72,28
+ControlType.TreeItem | Shell Infrastructure Host | 218,655,646,28
+ControlType.Text | Name | 270,655,139,28
+ControlType.Text | 0% | 572,655,72,28
+ControlType.Text | 5.4 MB | 645,655,72,28
+ControlType.Text | 0 MB/s | 718,655,72,28
+ControlType.Text | 0 Mbps | 791,655,72,28
+ControlType.TreeItem | Services and Controller app | 218,683,646,28
+ControlType.Text | Name | 270,683,156,28
+ControlType.Text | 0% | 572,683,72,28
+ControlType.Text | 4.3 MB | 645,683,72,28
+ControlType.Text | 0 MB/s | 718,683,72,28
+ControlType.Text | 0 Mbps | 791,683,72,28
+ControlType.TreeItem | Service Host: WSAIFabricSvc | 218,711,646,28
+ControlType.Text | Name | 270,711,161,28
+ControlType.Text | 0% | 572,711,72,28
+ControlType.Text | 1.3 MB | 645,711,72,28
+ControlType.Text | 0 MB/s | 718,711,72,28
+ControlType.Text | 0 Mbps | 791,711,72,28
+ControlType.TreeItem | WSAIFabricSvc | 248,711,616,28
+ControlType.Text | Name | 294,711,90,28
+ControlType.TreeItem | Service Host: Workstation | 218,739,646,28
+ControlType.Text | Name | 270,739,147,28
+ControlType.Text | 0% | 572,739,72,28
+ControlType.Text | 1.4 MB | 645,739,72,28
+ControlType.Text | 0 MB/s | 718,739,72,28
+ControlType.Text | 0 Mbps | 791,739,72,28
+ControlType.TreeItem | Workstation | 248,739,616,28
+ControlType.Text | Name | 294,739,76,28
+ControlType.TreeItem | Service Host: Windows Update | 218,767,646,28
+ControlType.Text | Name | 270,767,173,28
+ControlType.Text | 0% | 572,767,72,28
+ControlType.Text | 12.6 MB | 645,767,72,28
+ControlType.Text | 0 MB/s | 718,767,72,28
+ControlType.Text | 0 Mbps | 791,767,72,28
+ControlType.TreeItem | Windows Update | 248,767,616,28
+ControlType.Text | Name | 294,767,102,28
+ControlType.TreeItem | Service Host: Windows Time | 218,795,646,28
+ControlType.Text | Name | 270,795,162,28
+ControlType.Text | 0% | 572,795,72,28
+ControlType.Text | 1.5 MB | 645,795,72,28
+ControlType.Text | 0 MB/s | 718,795,72,28
+ControlType.Text | 0 Mbps | 791,795,72,28
+ControlType.TreeItem | Windows Time | 248,795,616,28
+ControlType.Text | Name | 294,795,91,28
+ControlType.TreeItem | Service Host: Windows Remote Management (WS-Management) | 218,823,646,28
+ControlType.Text | Name | 270,823,179,28
+ControlType.Text | 0% | 572,823,72,28
+ControlType.Text | 3.2 MB | 645,823,72,28
+ControlType.Text | 0 MB/s | 718,823,72,28
+ControlType.Text | 0 Mbps | 791,823,72,28
+ControlType.TreeItem | Windows Remote Management (WS-Management) | 248,823,616,28
+ControlType.Text | Name | 294,823,154,28
+ControlType.TreeItem | Service Host: Windows Push Notifications User Service_d9e65 | 218,851,646,28
+ControlType.Text | Name | 270,851,173,28
+ControlType.Text | 0% | 572,851,72,28
+ControlType.Text | 6.5 MB | 645,851,72,28
+ControlType.Text | 0 MB/s | 718,851,72,28
+ControlType.Text | 0 Mbps | 791,851,72,28
+ControlType.TreeItem | Windows Push Notifications User Service_d9e65 | 248,851,616,28
+ControlType.Text | Name | 294,851,151,28
+ControlType.TreeItem | Service Host: Windows Push Notifications System Service | 218,879,646,28
+ControlType.Text | Name | 270,879,173,28
+ControlType.Text | 0% | 572,879,72,28
+ControlType.Text | 3.4 MB | 645,879,72,28
+ControlType.Text | 0 MB/s | 718,879,72,28
+ControlType.Text | 0 Mbps | 791,879,72,28
+ControlType.TreeItem | Windows Push Notifications System Service | 248,879,616,28
+ControlType.Text | Name | 294,879,151,28
+ControlType.TreeItem | Service Host: Windows Management Instrumentation | 218,907,646,28
+ControlType.Text | Name | 270,907,181,28
+ControlType.Text | 0% | 572,907,72,28
+ControlType.Text | 7.3 MB | 645,907,72,28
+ControlType.Text | 0 MB/s | 718,907,72,28
+ControlType.Text | 0 Mbps | 791,907,72,28
+ControlType.TreeItem | Windows Management Instrumentation | 248,907,616,28
+ControlType.Text | Name | 294,907,157,28
+ControlType.TreeItem | Service Host: Windows License Manager Service | 218,935,646,28
+ControlType.Text | Name | 270,935,177,28
+ControlType.Text | 0% | 572,935,72,28
+ControlType.Text | 1.1 MB | 645,935,72,28
+ControlType.Text | 0 MB/s | 718,935,72,28
+ControlType.Text | 0 Mbps | 791,935,72,28
+ControlType.TreeItem | Windows License Manager Service | 248,935,616,28
+ControlType.Text | Name | 294,935,152,28
+ControlType.TreeItem | Service Host: Windows Font Cache Service | 218,963,646,28
+ControlType.Text | Name | 270,963,179,28
+ControlType.Text | 0% | 572,963,72,28
+ControlType.Text | 1.3 MB | 645,963,72,28
+ControlType.Text | 0 MB/s | 718,963,72,28
+ControlType.Text | 0 Mbps | 791,963,72,28
+ControlType.TreeItem | Windows Font Cache Service | 248,963,616,28
+ControlType.Text | Name | 294,963,152,28
+ControlType.TreeItem | Service Host: Windows Event Log | 218,991,646,28
+ControlType.Text | Name | 270,991,176,28
+ControlType.Text | 0% | 572,991,72,28
+ControlType.Text | 17.8 MB | 645,991,72,28
+ControlType.Text | 0 MB/s | 718,991,72,28
+ControlType.Text | 0 Mbps | 791,991,72,28
+ControlType.TreeItem | Windows Event Log | 248,991,616,28
+ControlType.Text | Name | 294,991,116,28
+ControlType.TreeItem | Service Host: Windows Connection Manager | 218,1019,646,28
+ControlType.Text | Name | 270,1019,179,28
+ControlType.Text | 0% | 572,1019,72,28
+ControlType.Text | 1.8 MB | 645,1019,72,28
+ControlType.Text | 0 MB/s | 718,1019,72,28
+ControlType.Text | 0 Mbps | 791,1019,72,28
+ControlType.TreeItem | Windows Connection Manager | 248,1019,616,28
+ControlType.Text | Name | 294,1019,155,28
+ControlType.TreeItem | Service Host: Windows Audio Endpoint Builder | 218,1047,646,28
+ControlType.Text | Name | 270,1047,179,28
+ControlType.Text | 0% | 572,1047,72,28
+ControlType.Text | 1.2 MB | 645,1047,72,28
+ControlType.Text | 0 MB/s | 718,1047,72,28
+ControlType.Text | 0 Mbps | 791,1047,72,28
+ControlType.TreeItem | Windows Audio Endpoint Builder | 248,1047,616,28
+ControlType.Text | Name | 294,1047,156,28
+ControlType.TreeItem | Service Host: Web Account Manager | 218,1075,646,28
+ControlType.Text | Name | 270,1075,178,28
+ControlType.Text | 0% | 572,1075,72,28
+ControlType.Text | 2.8 MB | 645,1075,72,28
+ControlType.Text | 0 MB/s | 718,1075,72,28
+ControlType.Text | 0 Mbps | 791,1075,72,28
+ControlType.TreeItem | Web Account Manager | 248,1075,616,28
+ControlType.Text | Name | 294,1075,134,28
+ControlType.TreeItem | MoUSO Core Worker Process | 218,1103,646,28
+ControlType.Text | Name | 270,1103,165,28
+ControlType.Text | 0% | 572,1103,72,28
+ControlType.Text | 3.9 MB | 645,1103,72,28
+ControlType.Text | 0 MB/s | 718,1103,72,28
+ControlType.Text | 0 Mbps | 791,1103,72,28
+ControlType.TreeItem | Service Host: User Profile Service | 218,1131,646,28
+ControlType.Text | Name | 270,1131,180,28
+ControlType.Text | 0% | 572,1131,72,28
+ControlType.Text | 2.0 MB | 645,1131,72,28
+ControlType.Text | 0 MB/s | 718,1131,72,28
+ControlType.Text | 0 Mbps | 791,1131,72,28
+ControlType.TreeItem | User Profile Service | 248,1131,616,28
+ControlType.Text | Name | 294,1131,112,28
+ControlType.TreeItem | Service Host: User Manager | 218,1159,646,28
+ControlType.Text | Name | 270,1159,156,28
+ControlType.Text | 0% | 572,1159,72,28
+ControlType.Text | 2.0 MB | 645,1159,72,28
+ControlType.Text | 0 MB/s | 718,1159,72,28
+ControlType.Text | 0 Mbps | 791,1159,72,28
+ControlType.TreeItem | User Manager | 248,1159,616,28
+ControlType.Text | Name | 294,1159,85,28
+ControlType.TreeItem | Service Host: User Access Logging Service | 218,1187,646,28
+ControlType.Text | Name | 270,1187,177,28
+ControlType.Text | 0% | 572,1187,72,28
+ControlType.Text | 3.7 MB | 645,1187,72,28
+ControlType.Text | 0 MB/s | 718,1187,72,28
+ControlType.Text | 0 Mbps | 791,1187,72,28
+ControlType.TreeItem | User Access Logging Service | 248,1187,616,28
+ControlType.Text | Name | 294,1187,155,28
+ControlType.TreeItem | Service Host: Update Orchestrator Service | 218,1215,646,28
+ControlType.Text | Name | 270,1215,178,28
+ControlType.Text | 0% | 572,1215,72,28
+ControlType.Text | 2.8 MB | 645,1215,72,28
+ControlType.Text | 0 MB/s | 718,1215,72,28
+ControlType.Text | 0 Mbps | 791,1215,72,28
+ControlType.TreeItem | Update Orchestrator Service | 248,1215,616,28
+ControlType.Text | Name | 294,1215,156,28
+ControlType.TreeItem | Service Host: Udk User Service_d9e65 | 218,1243,646,28
+ControlType.Text | Name | 270,1243,179,28
+ControlType.Text | 0% | 572,1243,72,28
+ControlType.Text | 2.8 MB | 645,1243,72,28
+ControlType.Text | 0 MB/s | 718,1243,72,28
+ControlType.Text | 0 Mbps | 791,1243,72,28
+ControlType.TreeItem | Udk User Service_d9e65 | 248,1243,616,28
+ControlType.Text | Name | 294,1243,135,28
+ControlType.TreeItem | Service Host: Time Broker | 218,1271,646,28
+ControlType.Text | Name | 270,1271,147,28
+ControlType.Text | 0% | 572,1271,72,28
+ControlType.Text | 1.5 MB | 645,1271,72,28
+ControlType.Text | 0 MB/s | 718,1271,72,28
+ControlType.Text | 0 Mbps | 791,1271,72,28
+ControlType.TreeItem | Time Broker | 248,1271,616,28
+ControlType.Text | Name | 294,1271,76,28
+ControlType.TreeItem | Service Host: Themes | 218,1299,646,28
+ControlType.Text | Name | 270,1299,125,28
+ControlType.Text | 0% | 572,1299,72,28
+ControlType.Text | 1.0 MB | 645,1299,72,28
+ControlType.Text | 0 MB/s | 718,1299,72,28
+ControlType.Text | 0 Mbps | 791,1299,72,28
+ControlType.TreeItem | Themes | 248,1299,616,28
+ControlType.Text | Name | 294,1299,54,28
+ControlType.TreeItem | Service Host: Text Input Management Service | 218,1327,646,28
+ControlType.Text | Name | 270,1327,177,28
+ControlType.Text | 0% | 572,1327,72,28
+ControlType.Text | 1.2 MB | 645,1327,72,28
+ControlType.Text | 0 MB/s | 718,1327,72,28
+ControlType.Text | 0 Mbps | 791,1327,72,28
+ControlType.TreeItem | Text Input Management Service | 248,1327,616,28
+ControlType.Text | Name | 294,1327,156,28
+ControlType.TreeItem | Service Host: TCP/IP NetBIOS Helper | 218,1355,646,28
+ControlType.Text | Name | 270,1355,178,28
+ControlType.Text | 0% | 572,1355,72,28
+ControlType.Text | 0.9 MB | 645,1355,72,28
+ControlType.Text | 0 MB/s | 718,1355,72,28
+ControlType.Text | 0 Mbps | 791,1355,72,28
+ControlType.TreeItem | TCP/IP NetBIOS Helper | 248,1355,616,28
+ControlType.Text | Name | 294,1355,133,28
+ControlType.TreeItem | Service Host: Task Scheduler | 218,1383,646,28
+ControlType.Text | Name | 270,1383,161,28
+ControlType.Text | 0% | 572,1383,72,28
+ControlType.Text | 4.5 MB | 645,1383,72,28
+ControlType.Text | 0 MB/s | 718,1383,72,28
+ControlType.Text | 0 Mbps | 791,1383,72,28
+ControlType.TreeItem | Task Scheduler | 248,1383,616,28
+ControlType.Text | Name | 294,1383,90,28
+ControlType.TreeItem | Service Host: System Event Notification Service | 218,1411,646,28
+ControlType.Text | Name | 270,1411,181,28
+ControlType.Text | 0% | 572,1411,72,28
+ControlType.Text | 1.5 MB | 645,1411,72,28
+ControlType.Text | 0 MB/s | 718,1411,72,28
+ControlType.Text | 0 Mbps | 791,1411,72,28
+ControlType.TreeItem | System Event Notification Service | 248,1411,616,28
+ControlType.Text | Name | 294,1411,157,28
+ControlType.TreeItem | Service Host: State Repository Service | 218,1439,646,28
+ControlType.Text | Name | 270,1439,180,28
+ControlType.Text | 0% | 572,1439,72,28
+ControlType.Text | 8.9 MB | 645,1439,72,28
+ControlType.Text | 0 MB/s | 718,1439,72,28
+ControlType.Text | 0 Mbps | 791,1439,72,28
+ControlType.TreeItem | State Repository Service | 248,1439,616,28
+ControlType.Text | Name | 294,1439,137,28
+ControlType.TreeItem | Service Host: Special Administration Console Helper | 218,1467,646,28
+ControlType.Text | Name | 270,1467,180,28
+ControlType.Text | 0% | 572,1467,72,28
+ControlType.Text | 0.9 MB | 645,1467,72,28
+ControlType.Text | 0 MB/s | 718,1467,72,28
+ControlType.Text | 0 Mbps | 791,1467,72,28
+ControlType.TreeItem | Special Administration Console Helper | 248,1467,616,28
+ControlType.Text | Name | 294,1467,151,28
+ControlType.TreeItem | Service Host: Shell Hardware Detection | 218,1495,646,28
+ControlType.Text | Name | 270,1495,174,28
+ControlType.Text | 0% | 572,1495,72,28
+ControlType.Text | 2.0 MB | 645,1495,72,28
+ControlType.Text | 0 MB/s | 718,1495,72,28
+ControlType.Text | 0 Mbps | 791,1495,72,28
+ControlType.TreeItem | Shell Hardware Detection | 248,1495,616,28
+ControlType.Text | Name | 294,1495,145,28
+ControlType.TreeItem | Service Host: Server | 218,1523,646,28
+ControlType.Text | Name | 270,1523,115,28
+ControlType.Text | 0% | 572,1523,72,28
+ControlType.Text | 1.7 MB | 645,1523,72,28
+ControlType.Text | 0 MB/s | 718,1523,72,28
+ControlType.Text | 0 Mbps | 791,1523,72,28
+ControlType.TreeItem | Server | 248,1523,616,28
+ControlType.Text | Name | 294,1523,44,28
+ControlType.TreeItem | Service Host: Remote Procedure Call. 2 instances. | 218,1551,646,28
+ControlType.Text | Name | 270,1551,180,28
+ControlType.Text | 0% | 572,1551,72,28
+ControlType.Text | 5.2 MB | 645,1551,72,28
+ControlType.Text | 0 MB/s | 718,1551,72,28
+ControlType.Text | 0 Mbps | 791,1551,72,28
+ControlType.TreeItem | Remote Procedure Call (RPC) | 248,1523,616,28
+ControlType.Text | Name | 294,1523,156,28
+ControlType.TreeItem | RPC Endpoint Mapper | 248,1551,616,28
+ControlType.Text | Name | 294,1551,129,28
+ControlType.TreeItem | Service Host: Remote Desktop Services UserMode Port Redirector | 218,1579,646,28
+ControlType.Text | Name | 270,1579,179,28
+ControlType.Text | 0% | 572,1579,72,28
+ControlType.Text | 1.1 MB | 645,1579,72,28
+ControlType.Text | 0 MB/s | 718,1579,72,28
+ControlType.Text | 0 Mbps | 791,1579,72,28
+ControlType.TreeItem | Remote Desktop Services UserMode Port Redirector | 248,1579,616,28
+ControlType.Text | Name | 294,1579,156,28
+ControlType.TreeItem | Service Host: Remote Desktop Services | 218,1607,646,28
+ControlType.Text | Name | 270,1607,179,28
+ControlType.Text | 0% | 572,1607,72,28
+ControlType.Text | 3.4 MB | 645,1607,72,28
+ControlType.Text | 0 MB/s | 718,1607,72,28
+ControlType.Text | 0 Mbps | 791,1607,72,28
+ControlType.TreeItem | Remote Desktop Services | 248,1607,616,28
+ControlType.Text | Name | 294,1607,144,28
+ControlType.TreeItem | Service Host: Remote Desktop Configuration | 218,1635,646,28
+ControlType.Text | Name | 270,1635,179,28
+ControlType.Text | 0% | 572,1635,72,28
+ControlType.Text | 1.6 MB | 645,1635,72,28
+ControlType.Text | 0 MB/s | 718,1635,72,28
+ControlType.Text | 0 Mbps | 791,1635,72,28
+ControlType.TreeItem | Remote Desktop Configuration | 248,1635,616,28
+ControlType.Text | Name | 294,1635,154,28
+ControlType.TreeItem | Service Host: Radio Management Service | 218,1663,646,28
+ControlType.Text | Name | 270,1663,179,28
+ControlType.Text | 0% | 572,1663,72,28
+ControlType.Text | 1.4 MB | 645,1663,72,28
+ControlType.Text | 0 MB/s | 718,1663,72,28
+ControlType.Text | 0 Mbps | 791,1663,72,28
+ControlType.TreeItem | Radio Management Service | 248,1663,616,28
+ControlType.Text | Name | 294,1663,156,28
+ControlType.TreeItem | Service Host: Program Compatibility Assistant Service | 218,1691,646,28
+ControlType.Text | Name | 270,1691,180,28
+ControlType.Text | 0% | 572,1691,72,28
+ControlType.Text | 2.9 MB | 645,1691,72,28
+ControlType.Text | 0 MB/s | 718,1691,72,28
+ControlType.Text | 0 Mbps | 791,1691,72,28
+ControlType.TreeItem | Program Compatibility Assistant Service | 248,1691,616,28
+ControlType.Text | Name | 294,1691,153,28
+ControlType.TreeItem | Service Host: Performance Logs & Alerts | 218,1719,646,28
+ControlType.Text | Name | 270,1719,176,28
+ControlType.Text | 0% | 572,1719,72,28
+ControlType.Text | 1.1 MB | 645,1719,72,28
+ControlType.Text | 0 MB/s | 718,1719,72,28
+ControlType.Text | 0 Mbps | 791,1719,72,28
+ControlType.TreeItem | Performance Logs & Alerts | 248,1719,616,28
+ControlType.Text | Name | 294,1719,154,28
+ControlType.TreeItem | Service Host: Network Virtualization Service | 218,1747,646,28
+ControlType.Text | Name | 270,1747,177,28
+ControlType.Text | 0% | 572,1747,72,28
+ControlType.Text | 1.2 MB | 645,1747,72,28
+ControlType.Text | 0 MB/s | 718,1747,72,28
+ControlType.Text | 0 Mbps | 791,1747,72,28
+ControlType.TreeItem | Network Virtualization Service | 248,1747,616,28
+ControlType.Text | Name | 294,1747,157,28
+ControlType.TreeItem | Service Host: Network Store Interface Service | 218,1775,646,28
+ControlType.Text | Name | 270,1775,180,28
+ControlType.Text | 0% | 572,1775,72,28
+ControlType.Text | 3.8 MB | 645,1775,72,28
+ControlType.Text | 0 MB/s | 718,1775,72,28
+ControlType.Text | 0 Mbps | 791,1775,72,28
+ControlType.TreeItem | Network Store Interface Service | 248,1775,616,28
+ControlType.Text | Name | 294,1775,154,28
+ControlType.TreeItem | Service Host: Network Service | 218,1803,646,28
+ControlType.Text | Name | 270,1803,168,28
+ControlType.Text | 0% | 572,1803,72,28
+ControlType.Text | 2.7 MB | 645,1803,72,28
+ControlType.Text | 0 MB/s | 718,1803,72,28
+ControlType.Text | 0 Mbps | 791,1803,72,28
+ControlType.TreeItem | Cryptographic Services | 248,1803,616,28
+ControlType.Text | Name | 294,1803,133,28
+ControlType.TreeItem | Service Host: Network Service | 218,1831,646,28
+ControlType.Text | Name | 270,1831,168,28
+ControlType.Text | 0% | 572,1831,72,28
+ControlType.Text | 2.9 MB | 645,1831,72,28
+ControlType.Text | 0 MB/s | 718,1831,72,28
+ControlType.Text | 0 Mbps | 791,1831,72,28
+ControlType.TreeItem | DNS Client | 248,1831,616,28
+ControlType.Text | Name | 294,1831,69,28
+ControlType.TreeItem | Service Host: Network List Service | 218,1859,646,28
+ControlType.Text | Name | 270,1859,177,28
+ControlType.Text | 0% | 572,1859,72,28
+ControlType.Text | 3.6 MB | 645,1859,72,28
+ControlType.Text | 0 MB/s | 718,1859,72,28
+ControlType.Text | 0 Mbps | 791,1859,72,28
+ControlType.TreeItem | Network List Service | 248,1859,616,28
+ControlType.Text | Name | 294,1859,118,28
+ControlType.TreeItem | Service Host: Network Connection Broker | 218,1887,646,28
+ControlType.Text | Name | 270,1887,181,28
+ControlType.Text | 0% | 572,1887,72,28
+ControlType.Text | 1.9 MB | 645,1887,72,28
+ControlType.Text | 0 MB/s | 718,1887,72,28
+ControlType.Text | 0 Mbps | 791,1887,72,28
+ControlType.TreeItem | Network Connection Broker | 248,1887,616,28
+ControlType.Text | Name | 294,1887,152,28
+ControlType.TreeItem | Service Host: Microsoft Software Shadow Copy Provider | 218,1915,646,28
+ControlType.Text | Name | 270,1915,176,28
+ControlType.Text | 0% | 572,1915,72,28
+ControlType.Text | 1.5 MB | 645,1915,72,28
+ControlType.Text | 0 MB/s | 718,1915,72,28
+ControlType.Text | 0 Mbps | 791,1915,72,28
+ControlType.TreeItem | Microsoft Software Shadow Copy Provider | 248,1915,616,28
+ControlType.Text | Name | 294,1915,157,28
+ControlType.TreeItem | Service Host: Local System (Network Restricted) | 218,1943,646,28
+ControlType.Text | Name | 270,1943,177,28
+ControlType.Text | 0% | 572,1943,72,28
+ControlType.Text | 3.0 MB | 645,1943,72,28
+ControlType.Text | 0 MB/s | 718,1943,72,28
+ControlType.Text | 0 Mbps | 791,1943,72,28
+ControlType.TreeItem | Storage Service | 248,1943,616,28
+ControlType.Text | Name | 294,1943,92,28
+ControlType.TreeItem | Service Host: Local System | 218,1971,646,28
+ControlType.Text | Name | 270,1971,152,28
+ControlType.Text | 0% | 572,1971,72,28
+ControlType.Text | 1.2 MB | 645,1971,72,28
+ControlType.Text | 0 MB/s | 718,1971,72,28
+ControlType.Text | 0 Mbps | 791,1971,72,28
+ControlType.TreeItem | Declared Configuration(DC) service | 248,1971,616,28
+ControlType.Text | Name | 294,1971,156,28
+ControlType.TreeItem | Service Host: Local Session Manager | 218,1999,646,28
+ControlType.Text | Name | 270,1999,176,28
+ControlType.Text | 0% | 572,1999,72,28
+ControlType.Text | 2.2 MB | 645,1999,72,28
+ControlType.Text | 0 MB/s | 718,1999,72,28
+ControlType.Text | 0 Mbps | 791,1999,72,28
+ControlType.TreeItem | Local Session Manager | 248,1999,616,28
+ControlType.Text | Name | 294,1999,132,28
+ControlType.TreeItem | Service Host: Local Service (No Network) | 218,2027,646,28
+ControlType.Text | Name | 270,2027,176,28
+ControlType.Text | 0% | 572,2027,72,28
+ControlType.Text | 1.3 MB | 645,2027,72,28
+ControlType.Text | 0 MB/s | 718,2027,72,28
+ControlType.Text | 0 Mbps | 791,2027,72,28
+ControlType.TreeItem | CoreMessaging | 248,2027,616,28
+ControlType.Text | Name | 294,2027,94,28
+ControlType.TreeItem | Service Host: Local Service (Network Restricted) | 218,2055,646,28
+ControlType.Text | Name | 270,2055,176,28
+ControlType.Text | 0% | 572,2055,72,28
+ControlType.Text | 1.6 MB | 645,2055,72,28
+ControlType.Text | 0 MB/s | 718,2055,72,28
+ControlType.Text | 0 Mbps | 791,2055,72,28
+ControlType.TreeItem | Windows Audio | 248,2055,616,28
+ControlType.Text | Name | 294,2055,96,28
+ControlType.TreeItem | Service Host: IP Helper | 218,2083,646,28
+ControlType.Text | Name | 270,2083,131,28
+ControlType.Text | 0% | 572,2083,72,28
+ControlType.Text | 2.3 MB | 645,2083,72,28
+ControlType.Text | 0 MB/s | 718,2083,72,28
+ControlType.Text | 0 Mbps | 791,2083,72,28
+ControlType.TreeItem | IP Helper | 248,2083,616,28
+ControlType.Text | Name | 294,2083,60,28
+ControlType.TreeItem | Service Host: Internet Information Service. 2 instances. | 218,2111,646,28
+ControlType.Text | Name | 270,2111,178,28
+ControlType.Text | 0% | 572,2111,72,28
+ControlType.Text | 3.5 MB | 645,2111,72,28
+ControlType.Text | 0 MB/s | 718,2111,72,28
+ControlType.Text | 0 Mbps | 791,2111,72,28
+ControlType.TreeItem | Windows Process Activation Service | 248,2083,616,28
+ControlType.Text | Name | 294,2083,156,28
+ControlType.TreeItem | World Wide Web Publishing Service | 248,2111,616,28
+ControlType.Text | Name | 294,2111,155,28
+ControlType.TreeItem | Service Host: Internet Connection Sharing (ICS) | 218,2139,646,28
+ControlType.Text | Name | 270,2139,181,28
+ControlType.Text | 0% | 572,2139,72,28
+ControlType.Text | 1.1 MB | 645,2139,72,28
+ControlType.Text | 0 MB/s | 718,2139,72,28
+ControlType.Text | 0 Mbps | 791,2139,72,28
+ControlType.TreeItem | Internet Connection Sharing (ICS) | 248,2139,616,28
+ControlType.Text | Name | 294,2139,156,28
+ControlType.TreeItem | Service Host: Hyper-V Time Synchronization Service | 218,2167,646,28
+ControlType.Text | Name | 270,2167,181,28
+ControlType.Text | 0% | 572,2167,72,28
+ControlType.Text | 1.1 MB | 645,2167,72,28
+ControlType.Text | 0 MB/s | 718,2167,72,28
+ControlType.Text | 0 Mbps | 791,2167,72,28
+ControlType.TreeItem | Hyper-V Time Synchronization Service | 248,2167,616,28
+ControlType.Text | Name | 294,2167,156,28
+ControlType.TreeItem | Service Host: Hyper-V Heartbeat Service | 218,2195,646,28
+ControlType.Text | Name | 270,2195,181,28
+ControlType.Text | 0% | 572,2195,72,28
+ControlType.Text | 1.4 MB | 645,2195,72,28
+ControlType.Text | 0 MB/s | 718,2195,72,28
+ControlType.Text | 0 Mbps | 791,2195,72,28
+ControlType.TreeItem | Hyper-V Heartbeat Service | 248,2195,616,28
+ControlType.Text | Name | 294,2195,151,28
+ControlType.TreeItem | Service Host: Hyper-V Guest Shutdown Service | 218,2223,646,28
+ControlType.Text | Name | 270,2223,178,28
+ControlType.Text | 0% | 572,2223,72,28
+ControlType.Text | 1.1 MB | 645,2223,72,28
+ControlType.Text | 0 MB/s | 718,2223,72,28
+ControlType.Text | 0 Mbps | 791,2223,72,28
+ControlType.TreeItem | Hyper-V Guest Shutdown Service | 248,2223,616,28
+ControlType.Text | Name | 294,2223,155,28
+ControlType.TreeItem | Service Host: Hyper-V Data Exchange Service | 218,2251,646,28
+ControlType.Text | Name | 270,2251,177,28
+ControlType.Text | 0% | 572,2251,72,28
+ControlType.Text | 1.1 MB | 645,2251,72,28
+ControlType.Text | 0 MB/s | 718,2251,72,28
+ControlType.Text | 0 Mbps | 791,2251,72,28
+ControlType.TreeItem | Hyper-V Data Exchange Service | 248,2251,616,28
+ControlType.Text | Name | 294,2251,154,28
+ControlType.TreeItem | Service Host: HV Host Service | 218,2279,646,28
+ControlType.Text | Name | 270,2279,167,28
+ControlType.Text | 0% | 572,2279,72,28
+ControlType.Text | 0.9 MB | 645,2279,72,28
+ControlType.Text | 0 MB/s | 718,2279,72,28
+ControlType.Text | 0 Mbps | 791,2279,72,28
+ControlType.TreeItem | HV Host Service | 248,2279,616,28
+ControlType.Text | Name | 294,2279,96,28
+ControlType.TreeItem | Service Host: Host Network Service | 218,2307,646,28
+ControlType.Text | Name | 270,2307,180,28
+ControlType.Text | 0% | 572,2307,72,28
+ControlType.Text | 3.2 MB | 645,2307,72,28
+ControlType.Text | 0 MB/s | 718,2307,72,28
+ControlType.Text | 0 Mbps | 791,2307,72,28
+ControlType.TreeItem | Host Network Service | 248,2307,616,28
+ControlType.Text | Name | 294,2307,125,28
+ControlType.TreeItem | Service Host: Group Policy | 218,2335,646,28
+ControlType.Text | Name | 270,2335,151,28
+ControlType.Text | 0% | 572,2335,72,28
+ControlType.Text | 1.9 MB | 645,2335,72,28
+ControlType.Text | 0 MB/s | 718,2335,72,28
+ControlType.Text | 0 Mbps | 791,2335,72,28
+ControlType.TreeItem | Group Policy Client | 248,2335,616,28
+ControlType.Text | Name | 294,2335,114,28
+ControlType.TreeItem | Service Host: Distributed Link Tracking Client | 218,2363,646,28
+ControlType.Text | Name | 270,2363,178,28
+ControlType.Text | 0% | 572,2363,72,28
+ControlType.Text | 1.0 MB | 645,2363,72,28
+ControlType.Text | 0 MB/s | 718,2363,72,28
+ControlType.Text | 0 Mbps | 791,2363,72,28
+ControlType.TreeItem | Distributed Link Tracking Client | 248,2363,616,28
+ControlType.Text | Name | 294,2363,155,28
+ControlType.TreeItem | Service Host: Display Policy Service | 218,2391,646,28
+ControlType.Text | Name | 270,2391,180,28
+ControlType.Text | 0% | 572,2391,72,28
+ControlType.Text | 1.1 MB | 645,2391,72,28
+ControlType.Text | 0 MB/s | 718,2391,72,28
+ControlType.Text | 0 Mbps | 791,2391,72,28
+ControlType.TreeItem | Display Policy Service | 248,2391,616,28
+ControlType.Text | Name | 294,2391,125,28
+ControlType.TreeItem | Service Host: Diagnostic System Host | 218,2419,646,28
+ControlType.Text | Name | 270,2419,178,28
+ControlType.Text | 0% | 572,2419,72,28
+ControlType.Text | 1.2 MB | 645,2419,72,28
+ControlType.Text | 0 MB/s | 718,2419,72,28
+ControlType.Text | 0 Mbps | 791,2419,72,28
+ControlType.TreeItem | Diagnostic System Host | 248,2419,616,28
+ControlType.Text | Name | 294,2419,137,28
+ControlType.TreeItem | Service Host: Diagnostic Policy Service | 218,2447,646,28
+ControlType.Text | Name | 270,2447,177,28
+ControlType.Text | 0% | 572,2447,72,28
+ControlType.Text | 8.2 MB | 645,2447,72,28
+ControlType.Text | 0 MB/s | 718,2447,72,28
+ControlType.Text | 0 Mbps | 791,2447,72,28
+ControlType.TreeItem | Diagnostic Policy Service | 248,2447,616,28
+ControlType.Text | Name | 294,2447,143,28
+ControlType.TreeItem | Service Host: DHCP Client | 218,2475,646,28
+ControlType.Text | Name | 270,2475,149,28
+ControlType.Text | 0% | 572,2475,72,28
+ControlType.Text | 1.8 MB | 645,2475,72,28
+ControlType.Text | 0 MB/s | 718,2475,72,28
+ControlType.Text | 0 Mbps | 791,2475,72,28
+ControlType.TreeItem | DHCP Client | 248,2475,616,28
+ControlType.Text | Name | 294,2475,78,28
+ControlType.TreeItem | Service Host: DCOM Server Process Launcher. 5 instances. | 218,2503,646,28
+ControlType.Text | Name | 270,2503,177,28
+ControlType.Text | 0% | 572,2503,72,28
+ControlType.Text | 5.8 MB | 645,2503,72,28
+ControlType.Text | 0 MB/s | 718,2503,72,28
+ControlType.Text | 0 Mbps | 791,2503,72,28
+ControlType.TreeItem | Background Tasks Infrastructure Service | 248,2391,616,28
+ControlType.Text | Name | 294,2391,156,28
+ControlType.TreeItem | DCOM Server Process Launcher | 248,2419,616,28
+ControlType.Text | Name | 294,2419,157,28
+ControlType.TreeItem | Plug and Play | 248,2447,616,28
+ControlType.Text | Name | 294,2447,84,28
+ControlType.TreeItem | Power | 248,2475,616,28
+ControlType.Text | Name | 294,2475,45,28
+ControlType.TreeItem | System Events Broker | 248,2503,616,28
+ControlType.Text | Name | 294,2503,124,28
+ControlType.TreeItem | Service Host: Connected Devices Platform Service | 218,2531,646,28
+ControlType.Text | Name | 270,2531,176,28
+ControlType.Text | 0% | 572,2531,72,28
+ControlType.Text | 1.9 MB | 645,2531,72,28
+ControlType.Text | 0 MB/s | 718,2531,72,28
+ControlType.Text | 0 Mbps | 791,2531,72,28
+ControlType.TreeItem | Connected Devices Platform Service | 248,2531,616,28
+ControlType.Text | Name | 294,2531,156,28
+ControlType.TreeItem | Service Host: COM+ Event System | 218,2559,646,28
+ControlType.Text | Name | 270,2559,180,28
+ControlType.Text | 0% | 572,2559,72,28
+ControlType.Text | 1.7 MB | 645,2559,72,28
+ControlType.Text | 0 MB/s | 718,2559,72,28
+ControlType.Text | 0 Mbps | 791,2559,72,28
+ControlType.TreeItem | COM+ Event System | 248,2559,616,28
+ControlType.Text | Name | 294,2559,121,28
+ControlType.TreeItem | Service Host: Clipboard User Service_d9e65 | 218,2587,646,28
+ControlType.Text | Name | 270,2587,179,28
+ControlType.Text | 0% | 572,2587,72,28
+ControlType.Text | 1.6 MB | 645,2587,72,28
+ControlType.Text | 0 MB/s | 718,2587,72,28
+ControlType.Text | 0 Mbps | 791,2587,72,28
+ControlType.TreeItem | Clipboard User Service_d9e65 | 248,2587,616,28
+ControlType.Text | Name | 294,2587,157,28
+ControlType.TreeItem | Service Host: Certificate Propagation | 218,2615,646,28
+ControlType.Text | Name | 270,2615,180,28
+ControlType.Text | 0% | 572,2615,72,28
+ControlType.Text | 1.2 MB | 645,2615,72,28
+ControlType.Text | 0 MB/s | 718,2615,72,28
+ControlType.Text | 0 Mbps | 791,2615,72,28
+ControlType.TreeItem | Certificate Propagation | 248,2615,616,28
+ControlType.Text | Name | 294,2615,134,28
+ControlType.TreeItem | Service Host: Capability Access Manager Service | 218,2643,646,28
+ControlType.Text | Name | 270,2643,179,28
+ControlType.Text | 0% | 572,2643,72,28
+ControlType.Text | 2.3 MB | 645,2643,72,28
+ControlType.Text | 0 MB/s | 718,2643,72,28
+ControlType.Text | 0 Mbps | 791,2643,72,28
+ControlType.TreeItem | Capability Access Manager Service | 248,2643,616,28
+ControlType.Text | Name | 294,2643,153,28
+ControlType.TreeItem | Service Host: Application Information | 218,2671,646,28
+ControlType.Text | Name | 270,2671,181,28
+ControlType.Text | 0% | 572,2671,72,28
+ControlType.Text | 1.1 MB | 645,2671,72,28
+ControlType.Text | 0 MB/s | 718,2671,72,28
+ControlType.Text | 0 Mbps | 791,2671,72,28
+ControlType.TreeItem | Application Information | 248,2671,616,28
+ControlType.Text | Name | 294,2671,139,28
+ControlType.TreeItem | Service Host: Application Host Helper Service | 218,2699,646,28
+ControlType.Text | Name | 270,2699,181,28
+ControlType.Text | 0% | 572,2699,72,28
+ControlType.Text | 3.5 MB | 645,2699,72,28
+ControlType.Text | 0 MB/s | 718,2699,72,28
+ControlType.Text | 0 Mbps | 791,2699,72,28
+ControlType.TreeItem | Application Host Helper Service | 248,2699,616,28
+ControlType.Text | Name | 294,2699,157,28
+ControlType.TreeItem | Service Host: App Readiness | 218,2727,646,28
+ControlType.Text | Name | 270,2727,160,28
+ControlType.Text | 0% | 572,2727,72,28
+ControlType.Text | 2.8 MB | 645,2727,72,28
+ControlType.Text | 0 MB/s | 718,2727,72,28
+ControlType.Text | 0 Mbps | 791,2727,72,28
+ControlType.TreeItem | App Readiness | 248,2727,616,28
+ControlType.Text | Name | 294,2727,89,28
+ControlType.TreeItem | Secure System | 218,2755,646,28
+ControlType.Text | Name | 270,2755,88,28
+ControlType.Text | 0% | 572,2755,72,28
+ControlType.Text | 52.5 MB | 645,2755,72,28
+ControlType.Text | 0 MB/s | 718,2755,72,28
+ControlType.Text | 0 Mbps | 791,2755,72,28
+ControlType.TreeItem | Registry | 218,2783,646,28
+ControlType.Text | Name | 270,2783,54,28
+ControlType.Text | 0% | 572,2783,72,28
+ControlType.Text | 5.4 MB | 645,2783,72,28
+ControlType.Text | 0 MB/s | 718,2783,72,28
+ControlType.Text | 0 Mbps | 791,2783,72,28
+ControlType.TreeItem | LocalServiceNoNetworkFirewall. 2 instances. | 218,2811,646,28
+ControlType.Text | Name | 270,2811,181,28
+ControlType.Text | 0% | 572,2811,72,28
+ControlType.Text | 9.0 MB | 645,2811,72,28
+ControlType.Text | 0 MB/s | 718,2811,72,28
+ControlType.Text | 0 Mbps | 791,2811,72,28
+ControlType.TreeItem | Base Filtering Engine | 248,2783,616,28
+ControlType.Text | Name | 294,2783,121,28
+ControlType.TreeItem | Windows Defender Firewall | 248,2811,616,28
+ControlType.Text | Name | 294,2811,155,28
+ControlType.TreeItem | LocalServiceHttp | 218,2839,646,28
+ControlType.Text | Name | 270,2839,101,28
+ControlType.Text | 0% | 572,2839,72,28
+ControlType.Text | 1.5 MB | 645,2839,72,28
+ControlType.Text | 0 MB/s | 718,2839,72,28
+ControlType.Text | 0 Mbps | 791,2839,72,28
+ControlType.TreeItem | WinHTTP Web Proxy Auto-Discovery Service | 248,2839,616,28
+ControlType.Text | Name | 294,2839,153,28
+ControlType.TreeItem | Local Security Authority Process. 3 instances. | 218,2867,646,28
+ControlType.Text | Name | 270,2867,180,28
+ControlType.Text | 0% | 572,2867,72,28
+ControlType.Text | 7.2 MB | 645,2867,72,28
+ControlType.Text | 0 MB/s | 718,2867,72,28
+ControlType.Text | 0 Mbps | 791,2867,72,28
+ControlType.TreeItem | CNG Key Isolation | 248,2811,616,28
+ControlType.Text | Name | 294,2811,107,28
+ControlType.TreeItem | Credential Manager | 248,2839,616,28
+ControlType.Text | Name | 294,2839,116,28
+ControlType.TreeItem | Security Accounts Manager | 248,2867,616,28
+ControlType.Text | Name | 294,2867,157,28
+ControlType.TreeItem | Desktop Window Manager | 218,2895,646,28
+ControlType.Text | Name | 270,2895,152,28
+ControlType.Text | 0% | 572,2895,72,28
+ControlType.Text | 53.9 MB | 645,2895,72,28
+ControlType.Text | 0 MB/s | 718,2895,72,28
+ControlType.Text | 0 Mbps | 791,2895,72,28
+ControlType.TreeItem | Console Window Host | 218,2923,646,28
+ControlType.Text | Name | 270,2923,130,28
+ControlType.Text | 0% | 572,2923,72,28
+ControlType.Text | 0.7 MB | 645,2923,72,28
+ControlType.Text | 0 MB/s | 718,2923,72,28
+ControlType.Text | 0 Mbps | 791,2923,72,28
+ControlType.TreeItem | Console Window Host | 218,2951,646,28
+ControlType.Text | Name | 270,2951,130,28
+ControlType.Text | 0% | 572,2951,72,28
+ControlType.Text | 1.1 MB | 645,2951,72,28
+ControlType.Text | 0 MB/s | 718,2951,72,28
+ControlType.Text | 0 Mbps | 791,2951,72,28
+ControlType.TreeItem | Console Window Host | 218,2979,646,28
+ControlType.Text | Name | 270,2979,130,28
+ControlType.Text | 0% | 572,2979,72,28
+ControlType.Text | 0.8 MB | 645,2979,72,28
+ControlType.Text | 0 MB/s | 718,2979,72,28
+ControlType.Text | 0 Mbps | 791,2979,72,28
+ControlType.TreeItem | Client Server Runtime Process | 218,3007,646,28
+ControlType.Text | Name | 270,3007,169,28
+ControlType.Text | 0% | 572,3007,72,28
+ControlType.Text | 1.3 MB | 645,3007,72,28
+ControlType.Text | 0 MB/s | 718,3007,72,28
+ControlType.Text | 0 Mbps | 791,3007,72,28
+ControlType.TreeItem | Client Server Runtime Process | 218,3035,646,28
+ControlType.Text | Name | 270,3035,169,28
+ControlType.Text | 0% | 572,3035,72,28
+ControlType.Text | 1.5 MB | 645,3035,72,28
+ControlType.Text | 0 MB/s | 718,3035,72,28
+ControlType.Text | 0 Mbps | 791,3035,72,28
+ControlType.TreeItem | WMI Provider Host | 218,3063,646,28
+ControlType.Text | Name | 270,3063,112,28
+ControlType.Text | 0% | 572,3063,72,28
+ControlType.Text | 3.4 MB | 645,3063,72,28
+ControlType.Text | 0 MB/s | 718,3063,72,28
+ControlType.Text | 0 Mbps | 791,3063,72,28
+ControlType.TreeItem | WMI Provider Host | 218,3091,646,28
+ControlType.Text | Name | 270,3091,112,28
+ControlType.Text | 0% | 572,3091,72,28
+ControlType.Text | 3.6 MB | 645,3091,72,28
+ControlType.Text | 0 MB/s | 718,3091,72,28
+ControlType.Text | 0 Mbps | 791,3091,72,28
+ControlType.TreeItem | Windows Subsystem for Linux Service | 218,3119,646,28
+ControlType.Text | Name | 270,3119,179,28
+ControlType.Text | 0% | 572,3119,72,28
+ControlType.Text | 4.2 MB | 645,3119,72,28
+ControlType.Text | 0 MB/s | 718,3119,72,28
+ControlType.Text | 0 Mbps | 791,3119,72,28
+ControlType.TreeItem | WSL Service | 248,3119,616,28
+ControlType.Text | Name | 294,3119,75,28
+ControlType.TreeItem | Windows Security Health Service | 218,3147,646,28
+ControlType.Text | Name | 270,3147,181,28
+ControlType.Text | 0% | 572,3147,72,28
+ControlType.Text | 8.0 MB | 645,3147,72,28
+ControlType.Text | 0 MB/s | 718,3147,72,28
+ControlType.Text | 0 Mbps | 791,3147,72,28
+ControlType.TreeItem | Windows Security Service | 248,3147,616,28
+ControlType.Text | Name | 294,3147,146,28
+ControlType.TreeItem | Windows Defender SmartScreen | 218,3175,646,28
+ControlType.Text | Name | 270,3175,181,28
+ControlType.Text | 0% | 572,3175,72,28
+ControlType.Text | 1.6 MB | 645,3175,72,28
+ControlType.Text | 0 MB/s | 718,3175,72,28
+ControlType.Text | 0 Mbps | 791,3175,72,28
+ControlType.TreeItem | Virtual Machine Management Service | 218,3203,646,28
+ControlType.Text | Name | 270,3203,181,28
+ControlType.Text | 0% | 572,3203,72,28
+ControlType.Text | 11.2 MB | 645,3203,72,28
+ControlType.Text | 0 MB/s | 718,3203,72,28
+ControlType.Text | 0 Mbps | 791,3203,72,28
+ControlType.TreeItem | Hyper-V Virtual Machine Management | 248,3203,616,28
+ControlType.Text | Name | 294,3203,154,28
+ControlType.TreeItem | Usermode Font Driver Host | 218,3231,646,28
+ControlType.Text | Name | 270,3231,155,28
+ControlType.Text | 0% | 572,3231,72,28
+ControlType.Text | 1.1 MB | 645,3231,72,28
+ControlType.Text | 0 MB/s | 718,3231,72,28
+ControlType.Text | 0 Mbps | 791,3231,72,28
+ControlType.TreeItem | Usermode Font Driver Host | 218,3259,646,28
+ControlType.Text | Name | 270,3259,155,28
+ControlType.Text | 0% | 572,3259,72,28
+ControlType.Text | 1.5 MB | 645,3259,72,28
+ControlType.Text | 0 MB/s | 718,3259,72,28
+ControlType.Text | 0 Mbps | 791,3259,72,28
+ControlType.TreeItem | User OOBE Broker | 218,3287,646,28
+ControlType.Text | Name | 270,3287,106,28
+ControlType.Text | 0% | 572,3287,72,28
+ControlType.Text | 1.3 MB | 645,3287,72,28
+ControlType.Text | 0 MB/s | 718,3287,72,28
+ControlType.Text | 0 Mbps | 791,3287,72,28
+ControlType.TreeItem | Start | 218,3315,646,28
+ControlType.Text | Name | 270,3315,36,28
+ControlType.Text | 0% | 572,3315,72,28
+ControlType.Text | 32.0 MB | 645,3315,72,28
+ControlType.Text | 0 MB/s | 718,3315,72,28
+ControlType.Text | 0 Mbps | 791,3315,72,28
+ControlType.TreeItem | Start | 248,3315,616,28
+ControlType.Text | Name | 294,3315,36,28
+ControlType.Text | 0% | 572,3315,72,28
+ControlType.Text | 32.0 MB | 645,3315,72,28
+ControlType.Text | 0 MB/s | 718,3315,72,28
+ControlType.Text | 0 Mbps | 791,3315,72,28
+ControlType.TreeItem | sshd | 218,3343,646,28
+ControlType.Text | Name | 270,3343,36,28
+ControlType.Text | 0% | 572,3343,72,28
+ControlType.Text | 1.7 MB | 645,3343,72,28
+ControlType.Text | 0 MB/s | 718,3343,72,28
+ControlType.Text | 0 Mbps | 791,3343,72,28
+ControlType.TreeItem | OpenSSH SSH Server | 248,3343,616,28
+ControlType.Text | Name | 294,3343,121,28
+ControlType.TreeItem | SQL Server VSS Writer - 64 Bit | 218,3371,646,28
+ControlType.Text | Name | 270,3371,165,28
+ControlType.Text | 0% | 572,3371,72,28
+ControlType.Text | 1.3 MB | 645,3371,72,28
+ControlType.Text | 0 MB/s | 718,3371,72,28
+ControlType.Text | 0 Mbps | 791,3371,72,28
+ControlType.TreeItem | SQL Server VSS Writer | 248,3371,616,28
+ControlType.Text | Name | 294,3371,125,28
+ControlType.TreeItem | Spooler SubSystem App | 218,3399,646,28
+ControlType.Text | Name | 270,3399,138,28
+ControlType.Text | 0% | 572,3399,72,28
+ControlType.Text | 4.6 MB | 645,3399,72,28
+ControlType.Text | 0 MB/s | 718,3399,72,28
+ControlType.Text | 0 Mbps | 791,3399,72,28
+ControlType.TreeItem | Print Spooler | 248,3399,616,28
+ControlType.Text | Name | 294,3399,80,28
+ControlType.TreeItem | SMSvcHost.exe. 3 instances. | 218,3427,646,28
+ControlType.Text | Name | 270,3427,109,28
+ControlType.Text | 0% | 572,3427,72,28
+ControlType.Text | 8.0 MB | 645,3427,72,28
+ControlType.Text | 0 MB/s | 718,3427,72,28
+ControlType.Text | 0 Mbps | 791,3427,72,28
+ControlType.TreeItem | Net.Pipe Listener Adapter | 248,3371,616,28
+ControlType.Text | Name | 294,3371,146,28
+ControlType.TreeItem | Net.Tcp Listener Adapter | 248,3399,616,28
+ControlType.Text | Name | 294,3399,142,28
+ControlType.TreeItem | Net.Tcp Port Sharing Service | 248,3427,616,28
+ControlType.Text | Name | 294,3427,155,28
+ControlType.TreeItem | SMSvcHost.exe | 218,3455,646,28
+ControlType.Text | Name | 270,3455,92,28
+ControlType.Text | 0% | 572,3455,72,28
+ControlType.Text | 3.9 MB | 645,3455,72,28
+ControlType.Text | 0 MB/s | 718,3455,72,28
+ControlType.Text | 0 Mbps | 791,3455,72,28
+ControlType.TreeItem | Net.Msmq Listener Adapter | 248,3455,616,28
+ControlType.Text | Name | 294,3455,157,28
+ControlType.TreeItem | ShellHost | 218,3483,646,28
+ControlType.Text | Name | 270,3483,62,28
+ControlType.Text | 0% | 572,3483,72,28
+ControlType.Text | 4.6 MB | 645,3483,72,28
+ControlType.Text | 0 MB/s | 718,3483,72,28
+ControlType.Text | 0 Mbps | 791,3483,72,28
+ControlType.TreeItem | ServiceFabricLocalClusterManager | 218,3511,646,28
+ControlType.Text | Name | 270,3511,179,28
+ControlType.Text | 0% | 572,3511,72,28
+ControlType.Text | 7.2 MB | 645,3511,72,28
+ControlType.Text | 0 MB/s | 718,3511,72,28
+ControlType.Text | 0 Mbps | 791,3511,72,28
+ControlType.TreeItem | Search | 218,3539,646,28
+ControlType.Text | Name | 270,3539,47,28
+ControlType.Text | 0% | 572,3539,72,28
+ControlType.Text | 26.3 MB | 645,3539,72,28
+ControlType.Text | 0 MB/s | 718,3539,72,28
+ControlType.Text | 0 Mbps | 791,3539,72,28
+ControlType.TreeItem | Search | 248,3539,616,28
+ControlType.Text | Name | 294,3539,47,28
+ControlType.Text | 0% | 572,3539,72,28
+ControlType.Text | 26.3 MB | 645,3539,72,28
+ControlType.Text | 0 MB/s | 718,3539,72,28
+ControlType.Text | 0 Mbps | 791,3539,72,28
+ControlType.TreeItem | Runtime Broker | 218,3567,646,28
+ControlType.Text | Name | 270,3567,94,28
+ControlType.Text | 0% | 572,3567,72,28
+ControlType.Text | 5.8 MB | 645,3567,72,28
+ControlType.Text | 0 MB/s | 718,3567,72,28
+ControlType.Text | 0 Mbps | 791,3567,72,28
+ControlType.TreeItem | Runtime Broker | 248,3567,616,28
+ControlType.Text | Name | 294,3567,94,28
+ControlType.Text | 0% | 572,3567,72,28
+ControlType.Text | 5.8 MB | 645,3567,72,28
+ControlType.Text | 0 MB/s | 718,3567,72,28
+ControlType.Text | 0 Mbps | 791,3567,72,28
+ControlType.TreeItem | Runner.Listener | 218,3595,646,28
+ControlType.Text | Name | 270,3595,94,28
+ControlType.Text | 0% | 572,3595,72,28
+ControlType.Text | 18.0 MB | 645,3595,72,28
+ControlType.Text | 0 MB/s | 718,3595,72,28
+ControlType.Text | 0 Mbps | 791,3595,72,28
+ControlType.TreeItem | refs/heads/master security-dsms-client (70078aa3) Microsoft® Azure SecAgent | 218,3623,646,28
+ControlType.Text | Name | 270,3623,178,28
+ControlType.Text | 0% | 572,3623,72,28
+ControlType.Text | 0.7 MB | 645,3623,72,28
+ControlType.Text | 0 MB/s | 718,3623,72,28
+ControlType.Text | 0 Mbps | 791,3623,72,28
+ControlType.TreeItem | provjobd.exe3601269714 | 218,3651,646,28
+ControlType.Text | Name | 270,3651,140,28
+ControlType.Text | 0% | 572,3651,72,28
+ControlType.Text | 13.6 MB | 645,3651,72,28
+ControlType.Text | 0 MB/s | 718,3651,72,28
+ControlType.Text | 0 Mbps | 791,3651,72,28
+ControlType.TreeItem | Microsoft® Volume Shadow Copy Service | 218,3679,646,28
+ControlType.Text | Name | 270,3679,174,28
+ControlType.Text | 0% | 572,3679,72,28
+ControlType.Text | 1.6 MB | 645,3679,72,28
+ControlType.Text | 0 MB/s | 718,3679,72,28
+ControlType.Text | 0 Mbps | 791,3679,72,28
+ControlType.TreeItem | Volume Shadow Copy | 248,3679,616,28
+ControlType.Text | Name | 294,3679,128,28
+ControlType.TreeItem | Microsoft Windows Azure Monitoring Agent | 218,3707,646,28
+ControlType.Text | Name | 270,3707,178,28
+ControlType.Text | 0% | 572,3707,72,28
+ControlType.Text | 36.8 MB | 645,3707,72,28
+ControlType.Text | 0 MB/s | 718,3707,72,28
+ControlType.Text | 0 Mbps | 791,3707,72,28
+ControlType.TreeItem | RdAgent | 248,3707,616,28
+ControlType.Text | Name | 294,3707,58,28
+ControlType.TreeItem | Microsoft Distributed Transaction Coordinator Service | 218,3735,646,28
+ControlType.Text | Name | 270,3735,180,28
+ControlType.Text | 0% | 572,3735,72,28
+ControlType.Text | 2.5 MB | 645,3735,72,28
+ControlType.Text | 0 MB/s | 718,3735,72,28
+ControlType.Text | 0 Mbps | 791,3735,72,28
+ControlType.TreeItem | Distributed Transaction Coordinator | 248,3735,616,28
+ControlType.Text | Name | 294,3735,154,28
+ControlType.TreeItem | Microsoft Defender Session Helper | 218,3763,646,28
+ControlType.Text | Name | 270,3763,177,28
+ControlType.Text | 0% | 572,3763,72,28
+ControlType.Text | 0.8 MB | 645,3763,72,28
+ControlType.Text | 0 MB/s | 718,3763,72,28
+ControlType.Text | 0 Mbps | 791,3763,72,28
+ControlType.TreeItem | Microsoft Defender Core Service | 218,3791,646,28
+ControlType.Text | Name | 270,3791,179,28
+ControlType.Text | 0% | 572,3791,72,28
+ControlType.Text | 10.0 MB | 645,3791,72,28
+ControlType.Text | 0 MB/s | 718,3791,72,28
+ControlType.Text | 0 Mbps | 791,3791,72,28
+ControlType.TreeItem | Microsoft Defender Core Service | 248,3791,616,28
+ControlType.Text | Name | 294,3791,154,28
+ControlType.TreeItem | Microsoft Defender Antimalware Service | 218,3819,646,28
+ControlType.Text | Name | 270,3819,177,28
+ControlType.Text | 0% | 572,3819,72,28
+ControlType.Text | 49.5 MB | 645,3819,72,28
+ControlType.Text | 0 MB/s | 718,3819,72,28
+ControlType.Text | 0 Mbps | 791,3819,72,28
+ControlType.TreeItem | Microsoft Defender Antivirus Service | 248,3819,616,28
+ControlType.Text | Name | 294,3819,157,28
+ControlType.TreeItem | Message Queuing Service | 218,3847,646,28
+ControlType.Text | Name | 270,3847,147,28
+ControlType.Text | 0% | 572,3847,72,28
+ControlType.Text | 3.4 MB | 645,3847,72,28
+ControlType.Text | 0 MB/s | 718,3847,72,28
+ControlType.Text | 0 Mbps | 791,3847,72,28
+ControlType.TreeItem | Message Queuing | 248,3847,616,28
+ControlType.Text | Name | 294,3847,107,28
+ControlType.TreeItem | Hyper-V Host Compute Service | 218,3875,646,28
+ControlType.Text | Name | 270,3875,177,28
+ControlType.Text | 0% | 572,3875,72,28
+ControlType.Text | 1.5 MB | 645,3875,72,28
+ControlType.Text | 0 MB/s | 718,3875,72,28
+ControlType.Text | 0 Mbps | 791,3875,72,28
+ControlType.TreeItem | Hyper-V Host Compute Service | 248,3875,616,28
+ControlType.Text | Name | 294,3875,155,28
+ControlType.TreeItem | hosted-compute-agent | 218,3903,646,28
+ControlType.Text | Name | 270,3903,136,28
+ControlType.Text | 0% | 572,3903,72,28
+ControlType.Text | 7.9 MB | 645,3903,72,28
+ControlType.Text | 0 MB/s | 718,3903,72,28
+ControlType.Text | 0 Mbps | 791,3903,72,28
+ControlType.TreeItem | Host Process for Windows Tasks | 218,3931,646,28
+ControlType.Text | Name | 270,3931,181,28
+ControlType.Text | 0% | 572,3931,72,28
+ControlType.Text | 14.5 MB | 645,3931,72,28
+ControlType.Text | 0 MB/s | 718,3931,72,28
+ControlType.Text | 0 Mbps | 791,3931,72,28
+ControlType.TreeItem | Host Process for Windows Tasks | 218,3959,646,28
+ControlType.Text | Name | 270,3959,181,28
+ControlType.Text | 0% | 572,3959,72,28
+ControlType.Text | 2.8 MB | 645,3959,72,28
+ControlType.Text | 0 MB/s | 718,3959,72,28
+ControlType.Text | 0 Mbps | 791,3959,72,28
+ControlType.TreeItem | Host Process for Windows Tasks | 218,3987,646,28
+ControlType.Text | Name | 270,3987,181,28
+ControlType.Text | 0% | 572,3987,72,28
+ControlType.Text | 2.4 MB | 645,3987,72,28
+ControlType.Text | 0 MB/s | 718,3987,72,28
+ControlType.Text | 0 Mbps | 791,3987,72,28
+ControlType.TreeItem | dockerd | 218,4015,646,28
+ControlType.Text | Name | 270,4015,55,28
+ControlType.Text | 0% | 572,4015,72,28
+ControlType.Text | 14.9 MB | 645,4015,72,28
+ControlType.Text | 0 MB/s | 718,4015,72,28
+ControlType.Text | 0 Mbps | 791,4015,72,28
+ControlType.TreeItem | Docker Engine | 248,4015,616,28
+ControlType.Text | Name | 294,4015,88,28
+ControlType.TreeItem | CTF Loader | 218,4043,646,28
+ControlType.Text | Name | 270,4043,72,28
+ControlType.Text | 0% | 572,4043,72,28
+ControlType.Text | 4.6 MB | 645,4043,72,28
+ControlType.Text | 0 MB/s | 718,4043,72,28
+ControlType.Text | 0 Mbps | 791,4043,72,28
+ControlType.TreeItem | Credential Guard & VBS Key Isolation | 218,4071,646,28
+ControlType.Text | Name | 270,4071,179,28
+ControlType.Text | 0% | 572,4071,72,28
+ControlType.Text | 0.8 MB | 645,4071,72,28
+ControlType.Text | 0 MB/s | 718,4071,72,28
+ControlType.Text | 0 Mbps | 791,4071,72,28
+ControlType.TreeItem | Console Window and PTY Host (Open Source) | 218,4099,646,28
+ControlType.Text | Name | 270,4099,177,28
+ControlType.Text | 0% | 572,4099,72,28
+ControlType.Text | 2.0 MB | 645,4099,72,28
+ControlType.Text | 0 MB/s | 718,4099,72,28
+ControlType.Text | 0 Mbps | 791,4099,72,28
+ControlType.TreeItem | AzureArcSysTray | 218,4127,646,28
+ControlType.Text | Name | 270,4127,99,28
+ControlType.Text | 0% | 572,4127,72,28
+ControlType.Text | 2.9 MB | 645,4127,72,28
+ControlType.Text | 0 MB/s | 718,4127,72,28
+ControlType.Text | 0 Mbps | 791,4127,72,28
+ControlType.TreeItem | Windows Terminal Host | 218,4155,646,28
+ControlType.Text | Name | 270,4155,138,28
+ControlType.Text | 0% | 572,4155,72,28
+ControlType.Text | 14.5 MB | 645,4155,72,28
+ControlType.Text | 0 MB/s | 718,4155,72,28
+ControlType.Text | 0 Mbps | 791,4155,72,28
+ControlType.TreeItem | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | 248,4155,616,28
+ControlType.Text | Name | 294,4155,155,28
+ControlType.TreeItem | Windows Explorer | 218,4183,646,28
+ControlType.Text | Name | 270,4183,106,28
+ControlType.Text | 0% | 572,4183,72,28
+ControlType.Text | 67.3 MB | 645,4183,72,28
+ControlType.Text | 0 MB/s | 718,4183,72,28
+ControlType.Text | 0 Mbps | 791,4183,72,28
+ControlType.TreeItem | Home - File Explorer | 248,4183,616,28
+ControlType.Text | Name | 294,4183,119,28
+ControlType.TreeItem | wusvcs | 218,4211,646,28
+ControlType.Text | Name | 270,4211,50,28
+ControlType.Text | 0% | 572,4211,72,28
+ControlType.Text | 5.9 MB | 645,4211,72,28
+ControlType.Text | 0 MB/s | 718,4211,72,28
+ControlType.Text | 0 Mbps | 791,4211,72,28
+ControlType.TreeItem | WaaSMedicSvc | 248,4211,616,28
+ControlType.Text | Name | 294,4211,92,28
+ControlType.TitleBar | Task Manager | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22
+ControlType.Button | Minimize | 1573,111,47,30
+ControlType.Button | Maximize | 1620,111,46,30
+ControlType.Button | Close | 1666,111,47,30

@@ -1,0 +1,725 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "navp":  {
+                                   "y":  208,
+                                   "w":  40,
+                                   "h":  36,
+                                   "name":  "Processes",
+                                   "x":  172
+                               },
+                      "nav":  {
+                                  "y":  328,
+                                  "w":  40,
+                                  "h":  36,
+                                  "name":  "Startup apps",
+                                  "x":  172
+                              }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "tm_open",
+        "file":  "001_tm_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "nav":  {
+                                  "y":  328,
+                                  "w":  40,
+                                  "h":  36,
+                                  "name":  "Startup apps",
+                                  "x":  172
+                              },
+                      "row":  {
+                                  "y":  322,
+                                  "w":  1494,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       192,
+                       346
+                   ],
+        "note":  "",
+        "label":  "startup_list",
+        "file":  "002_startup_list.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "disable":  {
+                                      "y":  163,
+                                      "w":  88,
+                                      "h":  48,
+                                      "name":  "Disable",
+                                      "x":  1472
+                                  },
+                      "row":  {
+                                  "y":  322,
+                                  "w":  1494,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       336
+                   ],
+        "note":  "",
+        "label":  "startup_selected",
+        "file":  "003_startup_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "row":  {
+                                  "y":  323,
+                                  "w":  1492,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  219
+                              }
+                  },
+        "cursor":  [
+                       1516,
+                       187
+                   ],
+        "note":  "",
+        "label":  "startup_disabled",
+        "file":  "004_startup_disabled.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 52%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "navp":  {
+                                   "y":  208,
+                                   "w":  40,
+                                   "h":  36,
+                                   "name":  "Processes",
+                                   "x":  172
+                               }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "processes",
+        "file":  "005_processes.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 52%. Press Enter to change sorting.",
+                                  "x":  572
+                              },
+                      "hog":  {
+                                  "y":  263,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "sorted_cpu",
+        "file":  "006_sorted_cpu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "end":  {
+                                  "y":  163,
+                                  "w":  94,
+                                  "h":  48,
+                                  "name":  "End task",
+                                  "x":  1436
+                              },
+                      "hog":  {
+                                  "y":  263,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       277
+                   ],
+        "note":  "",
+        "label":  "hog_selected",
+        "file":  "007_hog_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "cpu":  {
+                                  "y":  214,
+                                  "w":  73,
+                                  "h":  48,
+                                  "name":  "CPU 52%. Press Enter to change sorting.",
+                                  "x":  572
+                              }
+                  },
+        "cursor":  [
+                       1483,
+                       187
+                   ],
+        "note":  "",
+        "label":  "hog_ended",
+        "file":  "008_hog_ended.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "wex":  {
+                                  "y":  459,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "Windows Explorer",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "wex_list",
+        "file":  "009_wex_list.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+                      "restart":  {
+                                      "y":  163,
+                                      "w":  111,
+                                      "h":  48,
+                                      "name":  "Restart task",
+                                      "x":  1419
+                                  },
+                      "wex":  {
+                                  "y":  459,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "Windows Explorer",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       473
+                   ],
+        "note":  "",
+        "label":  "wex_selected",
+        "file":  "010_wex_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  11,
+        "rects":  {
+                      "restart":  {
+                                      "y":  163,
+                                      "w":  111,
+                                      "h":  48,
+                                      "name":  "Restart task",
+                                      "x":  1419
+                                  }
+                  },
+        "cursor":  [
+                       1474,
+                       187
+                   ],
+        "note":  "",
+        "label":  "restarting",
+        "file":  "011_restarting.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1474,
+                       187
+                   ],
+        "note":  "",
+        "label":  "after_restart",
+        "file":  "012_after_restart.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  13,
+        "rects":  {
+                      "transparency":  {
+                                           "y":  310,
+                                           "w":  72,
+                                           "h":  40,
+                                           "name":  "Transparency effects",
+                                           "x":  1502
+                                       },
+                      "animation":  {
+                                        "y":  383,
+                                        "w":  72,
+                                        "h":  40,
+                                        "name":  "Animation effects",
+                                        "x":  1502
+                                    }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "visual_on",
+        "file":  "013_visual_on.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  14,
+        "rects":  {
+                      "transparency":  {
+                                           "y":  310,
+                                           "w":  72,
+                                           "h":  40,
+                                           "name":  "Transparency effects",
+                                           "x":  1502
+                                       },
+                      "animation":  {
+                                        "y":  383,
+                                        "w":  72,
+                                        "h":  40,
+                                        "name":  "Animation effects",
+                                        "x":  1502
+                                    }
+                  },
+        "cursor":  [
+                       1538,
+                       403
+                   ],
+        "note":  "",
+        "label":  "animation_off",
+        "file":  "014_animation_off.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  15,
+        "rects":  {
+                      "transparency":  {
+                                           "y":  310,
+                                           "w":  72,
+                                           "h":  40,
+                                           "name":  "Transparency effects",
+                                           "x":  1502
+                                       },
+                      "animation":  {
+                                        "y":  383,
+                                        "w":  72,
+                                        "h":  40,
+                                        "name":  "Animation effects",
+                                        "x":  1502
+                                    }
+                  },
+        "cursor":  [
+                       1538,
+                       330
+                   ],
+        "note":  "",
+        "label":  "transparency_off",
+        "file":  "015_transparency_off.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  16,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "sense_off",
+        "file":  "016_sense_off.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  17,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       627,
+                       387
+                   ],
+        "note":  "",
+        "label":  "sense_on",
+        "file":  "017_sense_on.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  18,
+        "rects":  {
+                      "week":  {
+                                   "y":  479,
+                                   "w":  268,
+                                   "h":  33,
+                                   "name":  "Every week",
+                                   "x":  597
+                               },
+                      "combo":  {
+                                    "y":  548,
+                                    "w":  288,
+                                    "h":  40,
+                                    "name":  "Run Storage Sense",
+                                    "x":  587
+                                }
+                  },
+        "cursor":  [
+                       731,
+                       568
+                   ],
+        "note":  "",
+        "label":  "schedule_open",
+        "file":  "018_schedule_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  19,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 },
+                      "combo":  {
+                                    "y":  548,
+                                    "w":  288,
+                                    "h":  40,
+                                    "name":  "Run Storage Sense",
+                                    "x":  587
+                                }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "sense_final",
+        "file":  "019_sense_final.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  20,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "apps",
+        "file":  "020_apps.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  21,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               },
+                      "big":  {
+                                  "y":  396,
+                                  "w":  148,
+                                  "h":  33,
+                                  "name":  "Size (Large to small)",
+                                  "x":  1460
+                              }
+                  },
+        "cursor":  [
+                       1522,
+                       300
+                   ],
+        "note":  "",
+        "label":  "sort_open",
+        "file":  "021_sort_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  22,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               },
+                      "more":  {
+                                   "y":  344,
+                                   "w":  40,
+                                   "h":  40,
+                                   "name":  "More options",
+                                   "x":  1534
+                               }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "sorted",
+        "file":  "022_sorted.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  23,
+        "rects":  {
+                      "more":  {
+                                   "y":  344,
+                                   "w":  40,
+                                   "h":  40,
+                                   "name":  "More options",
+                                   "x":  1534
+                               },
+                      "uninstall":  {
+                                        "y":  425,
+                                        "w":  262,
+                                        "h":  28,
+                                        "name":  "Uninstall",
+                                        "x":  1307
+                                    }
+                  },
+        "cursor":  [
+                       1554,
+                       364
+                   ],
+        "note":  "",
+        "label":  "menu",
+        "file":  "023_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  24,
+        "rects":  {
+                      "uninstall":  {
+                                        "y":  425,
+                                        "w":  262,
+                                        "h":  28,
+                                        "name":  "Uninstall",
+                                        "x":  1307
+                                    }
+                  },
+        "cursor":  [
+                       1438,
+                       439
+                   ],
+        "note":  "",
+        "label":  "hover_uninstall",
+        "file":  "024_hover_uninstall.png"
+    }
+]
