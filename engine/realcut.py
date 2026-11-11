@@ -53,6 +53,11 @@ W, H = 1080, 1920
 # the real screen is shown inside this viewport (whole frame by default; the TMD template uses a middle panel)
 PX, PY, PW, PH = 0, 0, 1080, 1920
 TMD_PANEL = (0, 313, 1080, 979)   # Team Diamond template: logo strip above, presenter strip below
+# "framing": "full" (owner, 2026-11-11: show the whole laptop screen, don't zoom in): the full 16:9 screen sits
+# right under the logo strip, and an info band (hook card, step labels, titles, follow card) fills the rest of the panel.
+TMD_FULL = (0, 313, 1080, 608)
+TMD_BAND = (0, 921, 1080, 371)
+TITLES_Y = None   # centre line of the titles band (None = middle of the frame)
 GREEN = (52, 211, 104)
 FOLLOW_Y = 0.64
 FPS = 30
@@ -446,10 +451,65 @@ def titles_layer(titles, t):
             size -= 4
             f = font(F_BLACK, size)
         bh = int(size * 2.1)
-        y0 = int(H * 0.5 - bh / 2)
+        y0 = int((TITLES_Y if TITLES_Y else H * 0.5) - bh / 2)
         d.rectangle((0, y0, W, y0 + bh), fill=(10, 12, 18, int(200 * a)))
         d.rectangle((0, y0, int(W * 0.012), y0 + bh), fill=(232, 33, 39, int(255 * a)))
         draw_text_stroke(d, (W / 2, y0 + bh / 2), text.upper(), f, (255, 255, 255, int(255 * a)), stroke=0, anchor="mm")
+    return layer
+
+
+def band_image():
+    """Info band under the full screen: the template's dark-red grid, darker at the top."""
+    bx, by, bw, bh = TMD_BAND
+    a = np.zeros((bh, bw, 3), dtype=np.float32)
+    for y in range(bh):
+        f = y / bh
+        a[y, :] = (14 + 34 * f, 1 + 2 * f, 2 + 5 * f)
+    img = Image.fromarray(a.astype(np.uint8))
+    d = ImageDraw.Draw(img)
+    for x in range(48, bw, 140):
+        d.line((x, 0, x, bh), fill=(58, 58, 60), width=3)
+    for y in range(45, bh, 140):
+        d.line((0, y, bw, y), fill=(58, 58, 60), width=3)
+    return img
+
+
+def steps_layer(steps, t, card):
+    """Step labels in the info band (full framing): a green kicker ("STEP 2") and the step in big white text."""
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    if card and card["t0"] <= t < card["t1"]:
+        return layer
+    bx, by, bw, bh = TMD_BAND
+    for st in steps or []:
+        t0, t1, kicker, text = st[0], st[1], st[2], st[3]
+        if not (t0 <= t < t1):
+            continue
+        a = min(ease((t - t0) / 0.25), ease((t1 - t) / 0.2))
+        d = ImageDraw.Draw(layer)
+        x0, x1, y0, y1 = 30, W - 30, by + 40, by + bh - 40
+        d.rounded_rectangle((x0, y0, x1, y1), 26, fill=(14, 16, 22, int(225 * a)), outline=(122, 201, 67, int(255 * a)), width=4)
+        kf = font(F_BLACK, 46)
+        d.text((x0 + 40, y0 + 34), kicker.upper(), font=kf, fill=(122, 201, 67, int(255 * a)), anchor="lt")
+        size = 74
+        f = font(F_BLACK, size)
+        words, lines = text.split(), []
+        while True:
+            lines, cur = [], ""
+            for w_ in words:
+                nxt = (cur + " " + w_).strip()
+                if d.textlength(nxt, font=f) > (x1 - x0 - 80) and cur:
+                    lines.append(cur); cur = w_
+                else:
+                    cur = nxt
+            lines.append(cur)
+            if len(lines) <= 2 or size <= 48:
+                break
+            size -= 6
+            f = font(F_BLACK, size)
+        ty = y0 + 100
+        for ln in lines[:2]:
+            d.text((x0 + 40, ty), ln, font=f, fill=(255, 255, 255, int(255 * a)), anchor="lt")
+            ty += int(size * 1.12)
     return layer
 
 
@@ -474,6 +534,14 @@ class Cut:
         for _, f in spec["shots"]:
             if f not in self.images:
                 self.images[f] = Image.open(os.path.join(cap, f)).convert("RGB")
+        # "hide": [[x, y, w, h], ...] smears things that are not part of the tutorial (the capture PC's
+        # "Test Mode / Windows Server" desktop watermark, a stranger's name) on every screenshot
+        for f, im in self.images.items():
+            for x, y, w, h in spec.get("hide", []):
+                pad = 40
+                box = (max(0, x - pad), max(0, y - pad), min(im.width, x + w + pad), min(im.height, y + h + pad))
+                region = im.crop(box).filter(ImageFilter.GaussianBlur(22))
+                im.paste(region.crop((x - box[0], y - box[1], x - box[0] + w, y - box[1] + h)), (x, y))
         first = next(iter(self.images.values()))
         self.sw, self.sh = first.size
         self.cam = Camera(spec["cam"], self.sw, self.sh)
@@ -494,6 +562,8 @@ class Cut:
                                        capture_output=True, text=True).stdout.strip())
             self.strip_n = int(dur * FPS) - 2
             self.strip_proc, self.strip_idx, self.strip_img = None, -1, None
+            self.full = spec.get("framing") == "full"
+            self.band = band_image() if self.full else None
 
     def caption_y(self, t):
         # optional "caption_y": [[t, frac], ...] moves the captions (e.g. down while the camera is on an address bar)
@@ -569,12 +639,18 @@ class Cut:
             panel = render_screen(img, cam)
         base = Image.new("RGBA", (W, H), (0, 0, 0, 255))
         base.paste(self.top, (0, 0))
-        base.paste(self.strip_at(t), (0, PY + PH))
+        if self.full:
+            base.paste(self.band, TMD_BAND[:2])
+            base.paste(self.strip_at(t), (0, TMD_PANEL[1] + TMD_PANEL[3]))
+        else:
+            base.paste(self.strip_at(t), (0, PY + PH))
         base.paste(panel, (PX, PY))
         base.alpha_composite(boxes_layer(self.spec, t, cam))
         base.alpha_composite(callouts_layer(self.spec, t, cam))
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
+        if self.full:
+            base.alpha_composite(steps_layer(self.spec.get("steps"), t, self.spec.get("card")))
         base.alpha_composite(card_layer(self.spec.get("card"), t))
         base.alpha_composite(titles_layer(self.spec.get("titles"), t))
         if self.spec.get("captions", False):
@@ -727,7 +803,7 @@ def write_wav(path, data):
 def main():
     spec_path, out = sys.argv[1], sys.argv[2]
     spec = json.load(open(spec_path))
-    global W, H, PX, PY, PW, PH, FOLLOW_Y
+    global W, H, PX, PY, PW, PH, FOLLOW_Y, TITLES_Y
     if spec.get("size"):
         W, H = int(spec["size"][0]), int(spec["size"][1])
     PX, PY, PW, PH = 0, 0, W, H
@@ -736,6 +812,13 @@ def main():
     if spec.get("layout") == "tmd":
         PX, PY, PW, PH = TMD_PANEL
         FOLLOW_Y = spec.get("follow_y", 0.55)
+        if spec.get("framing") == "full":
+            PX, PY, PW, PH = TMD_FULL
+            bx, by, bw, bh = TMD_BAND
+            FOLLOW_Y = spec.get("follow_y", (by + (bh - 170) / 2) / H)
+            TITLES_Y = by + bh / 2
+            if spec.get("card"):
+                spec["card"].setdefault("y", by + (bh - 300) / 2)
     base = os.getcwd()
     cut = Cut(spec, base)
     dur = spec["duration"]
