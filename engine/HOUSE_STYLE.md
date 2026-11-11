@@ -116,3 +116,8 @@ These rules override the topic lists inside the Shorts and long-video task promp
   App Store / Google Play publishing (the channel's best long video ever) needs real App Store Connect / Play Console
   screens: make it only when the owner sends his own screen recording of those pages.
 - Shorts topics: take them from the formats that worked above (Windows problem + fix, iPhone/Android mistakes and hidden settings, AI prompt tips), 15-35 s.
+
+## TRAILER SHORTS FOR LONG VIDEOS (2026-11-11)
+
+Every long video gets at least one Short cut from one of its fixes (real captures, Team Diamond template), ending on a
+"Fix N of 10" band then a "Full video below" band. The owner links it in Studio (Related video). Reference: shorts/06.
