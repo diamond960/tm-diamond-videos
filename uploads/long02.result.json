@@ -1,0 +1,14 @@
+{
+  "http": 200,
+  "video_id": "dLADjUbEuYs",
+  "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false
+  },
+  "error": null
+}
