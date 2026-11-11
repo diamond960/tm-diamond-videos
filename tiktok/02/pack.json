@@ -1,0 +1,20 @@
+{
+ "topic": "6 ways to make a slow Windows 11 PC faster: Startup apps > Disable, Processes sorted by CPU > End task, Windows Explorer > Restart task, Visual effects off, Storage Sense on + schedule, Installed apps sorted by size > Uninstall",
+ "category": "A",
+ "block": 1,
+ "video_title": "6 ways to make a slow Windows 11 PC faster",
+ "video_file": "videos/tiktok02.mp4",
+ "video_seconds": 74.3,
+ "caption_video": "6 free ways to make a slow Windows 11 PC faster #windows11 #pctips #taskmanager",
+ "carousel_title": "5 free ways to speed up Windows 11 (startup apps, Windows Update, Storage Sense, uninstall unused apps, Adjust for best performance)",
+ "caption_carousel": "5 free ways to speed up Windows 11, no extra apps needed #windows11 #pctips #techtips",
+ "text_post": "Your PC isn't slow. It's crowded.\nPress Ctrl + Shift + Esc to open Task Manager.\nClick Startup apps.\nEverything marked Enabled starts when you sign in.\nSelect what you don't need and click Disable.\nWhich app was hiding in your list? 👇",
+ "text_post_topic": "Your PC isn't slow, it's crowded: open Startup apps (Ctrl+Shift+Esc > Startup apps > Disable)",
+ "post_times_new_york": {
+  "video": "7:00 AM",
+  "carousel": "1:00 PM",
+  "text": "8:00 PM"
+ },
+ "fact_check": "Every video step was performed on a real Windows PC (captures/tiktok02). Carousel and text post checked against Microsoft Support 'Tips to improve PC performance in Windows' (startup apps via Ctrl+Shift+Esc > Startup apps > Disable; Windows Update > Check for updates; Storage Sense deletes temp files automatically; uninstall unused apps; Adjust for best performance) and 'Uninstall or remove apps and programs in Windows'.",
+ "sent_at": "2026-11-11T05:41:00-05:00"
+}

@@ -1,0 +1,13 @@
+{
+ "handle": "TM_Diamond",
+ "accent": "lime",
+ "cover": {"title": "5 free ways to speed up Windows 11", "sub": "Built in, no extra apps needed", "e": "🚀"},
+ "slides": [
+  {"kicker": "1", "title": "Disable startup apps", "body": "Ctrl + Shift + Esc, then Startup apps. Select an app you don't need and click Disable.", "e": "⏱️"},
+  {"kicker": "2", "title": "Install Windows updates", "body": "Settings > Windows Update > Check for updates. Updates can fix bugs that slow your PC.", "e": "🔄"},
+  {"kicker": "3", "title": "Turn on Storage Sense", "body": "Settings > System > Storage > Storage Sense. It deletes temporary files automatically.", "e": "🧹"},
+  {"kicker": "4", "title": "Uninstall unused apps", "body": "Settings > Apps > Installed apps. Sort by size and remove what you never open.", "e": "🗑️"},
+  {"kicker": "5", "title": "Adjust for best performance", "body": "Search \"Adjust the appearance and performance of Windows\" and pick Adjust for best performance.", "e": "⚡"}
+ ],
+ "end": {"title": "Save this for later", "sub": "Follow for daily Windows tips", "e": "🔖"}
+}

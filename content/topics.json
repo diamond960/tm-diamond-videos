@@ -1,6 +1,6 @@
 {
  "about": "TM Diamond topic database. Check before choosing any topic (no repeats by meaning); append every new video. Categories: A Windows/PC, B Mac, C iPhone/Android/apps, D AI, E CMD/PowerShell/coding/dev, F laptops/gaming/hardware, X retired (bypass/unlock/activation - never make again).",
- "updated": "2026-11-06",
+ "updated": "2026-11-11",
  "topics": [
   {
    "topic": "I Connected 9 Apps to Claude and Built an AI Video Studio",
@@ -1298,6 +1298,24 @@
    "category": "A",
    "source": "long/02",
    "url": "https://youtu.be/dLADjUbEuYs"
+  },
+  {
+   "topic": "6 ways to make a slow Windows 11 PC faster: Startup apps > Disable, Processes sorted by CPU > End task, Windows Explorer > Restart task, Visual effects off, Storage Sense on + schedule, Installed apps sorted by size > Uninstall",
+   "category": "A",
+   "source": "tiktok/02 (video)",
+   "date": "2026-11-11"
+  },
+  {
+   "topic": "5 free ways to speed up Windows 11 (startup apps, Windows Update, Storage Sense, uninstall unused apps, Adjust for best performance)",
+   "category": "A",
+   "source": "tiktok/02 (carousel)",
+   "date": "2026-11-11"
+  },
+  {
+   "topic": "Your PC isn't slow, it's crowded: open Startup apps (Ctrl+Shift+Esc > Startup apps > Disable)",
+   "category": "A",
+   "source": "tiktok/02 (text post)",
+   "date": "2026-11-11"
   }
  ]
 }
