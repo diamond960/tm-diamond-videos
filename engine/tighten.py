@@ -63,6 +63,10 @@ def main():
     lines = line_word_counts(open(script_p).read())
     # Kokoro leaves ~1 s between script lines and < 0.5 s inside a line, so each line is one speech part.
     # Words go to the speech part their time falls in (whisper may merge "dot E X E" into ".exe").
+    # a line with a long comma pause can split into two speech parts: join the closest parts until the counts match
+    while len(segs) > len(lines) > 0:
+        k = min(range(len(segs) - 1), key=lambda i: segs[i + 1][0] - segs[i][1])
+        segs[k:k + 2] = [[segs[k][0], segs[k + 1][1]]]
     if len(lines) == len(segs):
         groups = [[] for _ in segs]
         for w in words:

@@ -17,6 +17,7 @@ spec.json:
   "shots": [[t, "002_edge_error.png"], ...],            # which real screen is visible from time t
   "cam":   [[t, cx, cy, h, dur], ...],                  # camera moves: centre + height (screen px), ease over dur s
   "cursor": [[t, x, y], ...],                           # optional cursor path (screen px); omitted = hidden
+  "cursor_on": [[t0, t1], ...],                         # optional: cursor visible only in these spans
   "clicks": [t, ...],                                   # ripple + click sound at the cursor
   "keys":  [[t, ["Win", "R"], dur], ...],               # keycap overlay + key sounds
   "typing": [[t0, t1, n], ...],                         # n key sounds spread over t0..t1
@@ -377,6 +378,9 @@ def cursor_layer(spec, t, cam):
         return layer
     if t < path[0][0]:
         return layer
+    on = spec.get("cursor_on")  # optional [[t0, t1], ...]: show the cursor only inside these spans (long videos)
+    if on and not any(a <= t < b for a, b in on):
+        return layer
     x, y = path[0][1], path[0][2]
     for i in range(1, len(path)):
         t0, x0, y0 = path[i - 1]
@@ -540,6 +544,7 @@ class Cut:
         base = base.convert("RGBA")
         # soft top/bottom shading so captions read on any screen (whole frame stays the real screen)
         base.alpha_composite(self.shade)
+        base.alpha_composite(boxes_layer(self.spec, t, cam))
         base.alpha_composite(callouts_layer(self.spec, t, cam))
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
