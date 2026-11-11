@@ -1,6 +1,6 @@
 # tiktok02: 6 ways to make a slow Windows 11 PC faster (plan block 1) - all steps on a real Windows PC, dark mode.
-# 1 Task Manager > Startup apps > Disable   2 Processes > Windows Explorer > Restart task
-# 3 CPU column sort > End task               4 Settings > Accessibility > Visual effects (animation + transparency off)
+# 1 Task Manager > Startup apps > Disable   2 Processes > CPU column sort > End task
+# 3 Windows Explorer > Restart task              4 Settings > Accessibility > Visual effects (animation + transparency off)
 # 5 Settings > System > Storage > Storage Sense on + schedule   6 Settings > Apps > Installed apps > sort by size > ... > Uninstall (menu only)
 . "$PSScriptRoot/../engine/wincap.ps1"
 Init-Capture 'tiktok02'
@@ -38,25 +38,12 @@ if ($row) {
 $row = Find-RectLike '^HeavyApp'
 Shot 'startup_disabled' @{ row = $row }
 
-# ---------- 2 Restart Windows Explorer
+# ---------- 2 Processes, sort by CPU, End task
 if ($navp) { $c = Center $navp; Click $c[0] $c[1]; Start-Sleep -Seconds 3 }
 Move-To 1300 760
-$wex = Find-RectLike '^Windows Explorer'
 $cpu = Find-RectLike 'CPU' 'HeaderItem'
-Shot 'processes' @{ navp = $navp; wex = $wex; cpu = $cpu }
+Shot 'processes' @{ navp = $navp; cpu = $cpu }
 Dump-Names 'processes'
-if ($wex) {
-  $c = Center $wex; Click ($wex.x + 120) $c[1]; Start-Sleep -Seconds 1
-  $rs = Find-Rect 'Restart task'
-  if (-not $rs) { $rs = Find-RectLike '^Restart' 'Button' }
-  Shot 'wex_selected' @{ wex = $wex; restart = $rs }
-  Dump-Names 'wex_selected'
-  if ($rs) { $c = Center $rs; Click $c[0] $c[1]; Start-Sleep -Seconds 1; Shot 'restarting' @{ restart = $rs }; Start-Sleep -Seconds 4 }
-}
-Shot 'after_restart' @{}
-
-# ---------- 3 Sort by CPU, End task
-$cpu = Find-RectLike 'CPU' 'HeaderItem'
 if ($cpu) { $c = Center $cpu; Click $c[0] $c[1]; Start-Sleep -Seconds 3 }
 Move-To 1300 760
 $hog = Find-RectLike '^HeavyApp'
@@ -71,6 +58,21 @@ if ($hog) {
 Get-Process HeavyApp -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 Start-Sleep -Seconds 2
 Shot 'hog_ended' @{ cpu = $cpu }
+# ---------- 3 Restart Windows Explorer
+Move-To 1300 760
+$wex = Find-RectLike '^Windows Explorer'
+$cpu = Find-RectLike 'CPU' 'HeaderItem'
+Shot 'wex_list' @{ wex = $wex }
+if ($wex) {
+  $c = Center $wex; Click ($wex.x + 120) $c[1]; Start-Sleep -Seconds 1
+  $rs = Find-Rect 'Restart task'
+  if (-not $rs) { $rs = Find-RectLike '^Restart' 'Button' }
+  Shot 'wex_selected' @{ wex = $wex; restart = $rs }
+  Dump-Names 'wex_selected'
+  if ($rs) { $c = Center $rs; Click $c[0] $c[1]; Start-Sleep -Seconds 1; Shot 'restarting' @{ restart = $rs }; Start-Sleep -Seconds 4 }
+}
+Shot 'after_restart' @{}
+
 Get-Process Taskmgr -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 Start-Sleep -Seconds 1
 

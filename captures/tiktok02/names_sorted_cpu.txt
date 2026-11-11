@@ -1,7 +1,0 @@
-﻿ControlType.List | Desktop | 0,0,1920,1080
-ControlType.ListItem | Recycle Bin | 0,5,76,70
-ControlType.ListItem | Firefox | 0,105,76,70
-ControlType.ListItem | Google Chrome | 0,205,76,85
-ControlType.ListItem | Microsoft Edge | 0,305,76,85
-ControlType.ListItem | R 4.6.2 | 0,405,76,70
-ControlType.ListItem | Unity Hub | 0,505,76,70

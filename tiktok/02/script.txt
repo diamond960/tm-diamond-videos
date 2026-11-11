@@ -5,12 +5,12 @@ Fix one: press Control, Shift and Escape to open Task Manager.
 Click Startup apps.
 Select an app you don't need, and click Disable.
 Now it won't launch every time you sign in.
-Fix two: is your taskbar frozen?
-Click Processes, select Windows Explorer, and click Restart task.
-The taskbar reloads without restarting your PC.
-Fix three: click the CPU column.
+Fix two: click Processes, then the CPU column.
 The busiest app jumps to the top.
 If you don't need it, select it and click End task.
+Fix three: is your taskbar frozen?
+Select Windows Explorer, and click Restart task.
+The taskbar reloads without restarting your PC.
 Fix four: open Settings, Accessibility, Visual effects.
 Turn off Animation effects and Transparency effects.
 Menus open without the extra motion.
