@@ -1,9 +1,0 @@
-{
- "out": "fb/08/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Your PC is full of junk files.\nOpen Settings, then System, then Storage.\nClick Temporary files.\nTick the junk you don't need.\nThen click Remove files, and Continue.\nThat space is yours again.\nFollow for more Windows tips."
- }
-}
