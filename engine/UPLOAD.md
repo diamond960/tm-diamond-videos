@@ -59,6 +59,7 @@ Use a unique `job` key every time (e.g. `long02-session`, `short05-session`, `lo
   For a Windows or gadget video, create a matching playlist once (`api_path: "/v3/playlists?part=snippet,status"`, body
   `{"snippet": {"title": "...", "description": "..."}, "status": {"privacyStatus": "public"}}`; the record's
   `session_url` is the new playlist id), note its id in this file, then add videos to it the same way.
+- Playlist "Windows 11 Tutorials" = **PLUAaOs127XpM** (created 2026-11-11). Add every Windows long video to it.
 - End screens can't be set through the API.
 
 ## 3. Instagram Reels (vidIQ, free)
