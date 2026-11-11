@@ -1,9 +1,0 @@
-{
- "out": "tiktok/02/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Your Windows 11 PC is slow, and it's not your fault.\nHere are six free fixes, no extra apps needed.\nStay for fix six, most people skip it.\nFix one: press Control, Shift and Escape to open Task Manager.\nClick Startup apps.\nSelect an app you don't need, and click Disable.\nNow it won't launch every time you sign in.\nFix two: is your taskbar frozen?\nClick Processes, select Windows Explorer, and click Restart task.\nThe taskbar reloads without restarting your PC.\nFix three: click the CPU column.\nThe busiest app jumps to the top.\nIf you don't need it, select it and click End task.\nFix four: open Settings, Accessibility, Visual effects.\nTurn off Animation effects and Transparency effects.\nMenus open without the extra motion.\nFix five: go to System, Storage, Storage Sense.\nTurn it on, and pick how often it runs.\nIt clears temporary files for you, automatically.\nFix six: open Apps, then Installed apps.\nSort by size, large to small.\nClick the three dots on an app you never use, and choose Uninstall.\nSave this so your PC stays fast.\nFollow for more Windows tips.\nAnd if it feels slow again, start over with fix one."
- }
-}
