@@ -4,6 +4,8 @@ Init-Capture 'long02_01'
 Set-DarkMode
 $exe = New-HeavyApp
 # an app that starts with Windows (registered the normal way, in the user's Run key)
+$run = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
+if (-not (Test-Path $run)) { New-Item -Path $run | Out-Null }
 New-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'HeavyApp' -Value "`"$exe`"" -PropertyType String -Force | Out-Null
 Key-Combo @($VK.CTRL, $VK.SHIFT, $VK.ESC); Start-Sleep -Seconds 4
 Place-Foreground 160 110 1560 840; Start-Sleep -Seconds 2

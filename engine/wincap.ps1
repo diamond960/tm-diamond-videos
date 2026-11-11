@@ -46,7 +46,24 @@ $script:Out = $null
 $script:Log = New-Object System.Collections.ArrayList
 $script:N = 0  # NOTE: PowerShell names are case-insensitive - never use $n in capture scripts
 
+function Dismiss-Popups {
+  # the runner sometimes shows a "temporary paging file" warning (System Properties): press its OK button
+  try {
+    $root = [System.Windows.Automation.AutomationElement]::RootElement
+    $wins = $root.FindAll([System.Windows.Automation.TreeScope]::Children, [System.Windows.Automation.Condition]::TrueCondition)
+    foreach ($w in $wins) {
+      if ($w.Current.Name -eq 'System Properties') {
+        $ok = $w.FindFirst([System.Windows.Automation.TreeScope]::Descendants, (New-Object System.Windows.Automation.PropertyCondition([System.Windows.Automation.AutomationElement]::NameProperty, 'OK')))
+        if ($ok) { try { $ok.GetCurrentPattern([System.Windows.Automation.InvokePattern]::Pattern).Invoke() } catch { } }
+      }
+    }
+  } catch { }
+}
+
 function Init-Capture([string]$Name, [int]$Width = 1920, [int]$Height = 1080) {
+  # close windows left open by an earlier capture script in the same run
+  'Taskmgr', 'SystemSettings', 'notepad', 'dfrgui', 'SystemPropertiesPerformance', 'HeavyApp' | ForEach-Object { Get-Process $_ -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue }
+  Dismiss-Popups
   $r = [W]::SetRes($Width, $Height)
   Start-Sleep -Milliseconds 800
   $script:Out = Join-Path (Get-Location) "captures/$Name"
@@ -155,6 +172,7 @@ function Set-DarkMode {
   Set-ItemProperty -Path $p -Name SystemUsesLightTheme -Value 0 -Type DWord
   Get-Process explorer -ErrorAction SilentlyContinue | Stop-Process -Force
   Start-Sleep -Seconds 4
+  Dismiss-Popups; Start-Sleep -Milliseconds 500
   (New-Object -ComObject Shell.Application).MinimizeAll()
   Start-Sleep -Seconds 1
 }

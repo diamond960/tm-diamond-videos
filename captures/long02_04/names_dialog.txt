@@ -1,2 +1,0 @@
-﻿ControlType.Pane | OK | 932,351,75,23
-ControlType.Pane | Windows created a temporary paging file on your computer because of a problem that occurred with your paging file configuration when you started your computer.  The total paging file size for all disk drives may be somewhat larger than the size you specified. | 680,254,312,67
