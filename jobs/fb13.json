@@ -1,9 +1,0 @@
-{
- "out": "fb/13/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "These apps are eating your storage.\nOpen Settings, Apps, then Installed apps.\nSort by size, so the biggest apps are on top.\nClick the three dots next to an app you never use.\nThen choose Uninstall.\nFollow for more Windows fixes."
- }
-}

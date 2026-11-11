@@ -1,0 +1,211 @@
+{
+"duration": 20.37,
+"words": [
+{
+"w": "One",
+"s": 0.0,
+"e": 0.6
+},
+{
+"w": "setting",
+"s": 0.6,
+"e": 0.88
+},
+{
+"w": "makes",
+"s": 0.88,
+"e": 1.16
+},
+{
+"w": "an",
+"s": 1.16,
+"e": 1.32
+},
+{
+"w": "old",
+"s": 1.32,
+"e": 1.62
+},
+{
+"w": "PC",
+"s": 1.62,
+"e": 1.98
+},
+{
+"w": "feel",
+"s": 1.98,
+"e": 2.32
+},
+{
+"w": "faster.",
+"s": 2.32,
+"e": 2.88
+},
+{
+"w": "Open",
+"s": 4.24,
+"e": 4.3
+},
+{
+"w": "Adjust",
+"s": 4.3,
+"e": 4.64
+},
+{
+"w": "the",
+"s": 4.64,
+"e": 4.96
+},
+{
+"w": "Appearance",
+"s": 4.96,
+"e": 5.36
+},
+{
+"w": "and",
+"s": 5.36,
+"e": 5.7
+},
+{
+"w": "Performance",
+"s": 5.7,
+"e": 6.1
+},
+{
+"w": "of",
+"s": 6.1,
+"e": 6.38
+},
+{
+"w": "Windows",
+"s": 6.38,
+"e": 6.84
+},
+{
+"w": "from",
+"s": 6.84,
+"e": 7.44
+},
+{
+"w": "the",
+"s": 7.44,
+"e": 7.58
+},
+{
+"w": "Start",
+"s": 7.58,
+"e": 7.82
+},
+{
+"w": "menu.",
+"s": 7.82,
+"e": 8.2
+},
+{
+"w": "Choose",
+"s": 9.38,
+"e": 9.62
+},
+{
+"w": "Adjust",
+"s": 9.62,
+"e": 9.94
+},
+{
+"w": "for",
+"s": 9.94,
+"e": 10.22
+},
+{
+"w": "Best",
+"s": 10.22,
+"e": 10.44
+},
+{
+"w": "Performance.",
+"s": 10.44,
+"e": 10.9
+},
+{
+"w": "Click",
+"s": 12.06,
+"e": 12.34
+},
+{
+"w": "OK.",
+"s": 12.34,
+"e": 12.72
+},
+{
+"w": "Windows",
+"s": 13.96,
+"e": 14.32
+},
+{
+"w": "looks",
+"s": 14.32,
+"e": 14.66
+},
+{
+"w": "a",
+"s": 14.66,
+"e": 14.8
+},
+{
+"w": "little",
+"s": 14.8,
+"e": 14.96
+},
+{
+"w": "plainer,",
+"s": 14.96,
+"e": 15.56
+},
+{
+"w": "but",
+"s": 15.6,
+"e": 15.76
+},
+{
+"w": "it",
+"s": 15.76,
+"e": 15.88
+},
+{
+"w": "responds",
+"s": 15.88,
+"e": 16.32
+},
+{
+"w": "faster.",
+"s": 16.32,
+"e": 16.98
+},
+{
+"w": "Follow",
+"s": 18.12,
+"e": 18.32
+},
+{
+"w": "for",
+"s": 18.32,
+"e": 18.56
+},
+{
+"w": "more",
+"s": 18.56,
+"e": 18.74
+},
+{
+"w": "Windows",
+"s": 18.74,
+"e": 19.16
+},
+{
+"w": "fixes.",
+"s": 19.16,
+"e": 19.4
+}
+],
+"text": "One setting makes an old PC feel faster.\nOpen Adjust the appearance and performance of Windows from the Start menu.\nChoose Adjust for best performance.\nClick OK.\nWindows looks a little plainer, but it responds faster.\nFollow for more Windows fixes."
+}

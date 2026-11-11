@@ -1,9 +1,0 @@
-{
- "out": "fb/11/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Taskbar frozen? Don't restart your PC.\nPress Control, Shift, Escape to open Task Manager.\nFind Windows Explorer, and select it.\nClick Restart task.\nThe taskbar comes back in a second, and your apps stay open.\nFollow for more Windows fixes."
- }
-}

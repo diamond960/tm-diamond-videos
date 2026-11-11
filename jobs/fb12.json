@@ -1,9 +1,0 @@
-{
- "out": "fb/12/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Your PC can delete junk files by itself.\nOpen Settings, System, Storage, then Storage Sense.\nTurn on automatic cleanup.\nSet it to run every week.\nNow Windows clears temporary files for you.\nFollow for more Windows fixes."
- }
-}
