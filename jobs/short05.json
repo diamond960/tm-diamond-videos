@@ -1,9 +1,0 @@
-{
- "out": "shorts/05/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Turn off these animations for a faster PC.\nOpen Settings, then Accessibility, then Visual effects.\nTurn off Animation effects.\nThen turn off Transparency effects.\nWindows skips the fade and slide animations.\nSo menus and windows feel snappier.\nFollow for more Windows fixes."
- }
-}

@@ -1,5 +1,5 @@
 {
-"duration": 22.665,
+"duration": 22.64,
 "words": [
 {
 "w": "Turn",
@@ -24,11 +24,11 @@
 {
 "w": "for",
 "s": 1.42,
-"e": 1.78
+"e": 1.76
 },
 {
 "w": "a",
-"s": 1.78,
+"s": 1.76,
 "e": 1.92
 },
 {
@@ -49,7 +49,7 @@
 {
 "w": "Settings,",
 "s": 4.2,
-"e": 4.52
+"e": 4.54
 },
 {
 "w": "then",
@@ -63,7 +63,7 @@
 },
 {
 "w": "then",
-"s": 5.98,
+"s": 5.94,
 "e": 6.18
 },
 {
@@ -78,7 +78,7 @@
 },
 {
 "w": "Turn",
-"s": 8.16,
+"s": 8.12,
 "e": 8.36
 },
 {
@@ -98,7 +98,7 @@
 },
 {
 "w": "Then",
-"s": 10.7,
+"s": 10.72,
 "e": 10.8
 },
 {
@@ -127,80 +127,90 @@
 "e": 13.9
 },
 {
-"w": "stops",
+"w": "skips",
 "s": 13.9,
-"e": 14.2
+"e": 14.24
 },
 {
-"w": "spending",
-"s": 14.2,
-"e": 14.58
+"w": "the",
+"s": 14.24,
+"e": 14.44
 },
 {
-"w": "power",
-"s": 14.58,
-"e": 14.96
-},
-{
-"w": "on",
-"s": 14.96,
-"e": 15.18
-},
-{
-"w": "iCandy.",
-"s": 15.18,
-"e": 15.84
-},
-{
-"w": "Menus",
-"s": 17.16,
-"e": 17.38
+"w": "fade",
+"s": 14.44,
+"e": 14.72
 },
 {
 "w": "and",
-"s": 17.38,
-"e": 17.56
+"s": 14.72,
+"e": 14.94
 },
 {
-"w": "Windows",
-"s": 17.56,
-"e": 17.98
+"w": "slide",
+"s": 14.94,
+"e": 15.26
 },
 {
-"w": "open",
-"s": 17.98,
-"e": 18.58
+"w": "animations.",
+"s": 15.26,
+"e": 15.86
 },
 {
-"w": "instantly.",
-"s": 18.58,
-"e": 19.18
+"w": "So",
+"s": 17.04,
+"e": 17.26
+},
+{
+"w": "menus",
+"s": 17.26,
+"e": 17.48
+},
+{
+"w": "and",
+"s": 17.48,
+"e": 17.9
+},
+{
+"w": "windows",
+"s": 17.9,
+"e": 18.22
+},
+{
+"w": "feel",
+"s": 18.22,
+"e": 18.6
+},
+{
+"w": "snappier.",
+"s": 18.6,
+"e": 19.2
 },
 {
 "w": "Follow",
-"s": 20.4,
-"e": 20.62
+"s": 20.32,
+"e": 20.6
 },
 {
 "w": "for",
-"s": 20.62,
-"e": 20.86
+"s": 20.6,
+"e": 20.82
 },
 {
 "w": "more",
-"s": 20.86,
+"s": 20.82,
 "e": 21.04
 },
 {
 "w": "Windows",
 "s": 21.04,
-"e": 21.44
+"e": 21.42
 },
 {
 "w": "fixes.",
-"s": 21.44,
+"s": 21.42,
 "e": 21.68
 }
 ],
-"text": "Turn off these animations for a faster PC.\nOpen Settings, then Accessibility, then Visual effects.\nTurn off Animation effects.\nThen turn off Transparency effects.\nWindows stops spending power on eye candy.\nMenus and windows open instantly.\nFollow for more Windows fixes."
+"text": "Turn off these animations for a faster PC.\nOpen Settings, then Accessibility, then Visual effects.\nTurn off Animation effects.\nThen turn off Transparency effects.\nWindows skips the fade and slide animations.\nSo menus and windows feel snappier.\nFollow for more Windows fixes."
 }
