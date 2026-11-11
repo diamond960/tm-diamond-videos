@@ -1,0 +1,31 @@
+﻿ControlType.Button | OK | 792,751,75,23
+ControlType.Button | Cancel | 873,751,75,23
+ControlType.Button | Apply | 954,751,75,23
+ControlType.TabItem | Visual Effects | 626,220,76,18
+ControlType.Text | Select the settings you want to use for the appearance and performance of Windows on this computer. | 640,251,364,34
+ControlType.RadioButton | Let Windows choose what's best for my computer | 640,300,350,15
+ControlType.RadioButton | Adjust for best appearance | 640,323,350,15
+ControlType.RadioButton | Adjust for best performance | 640,345,350,15
+ControlType.RadioButton | Custom: | 640,368,350,15
+ControlType.Tree | Select the settings you want to use for the appearance and performance of Windows on this computer. | 640,390,373,338
+ControlType.TreeItem | Animate controls and elements inside windows | 661,392,253,18
+ControlType.TreeItem | Animate windows when minimizing and maximizing | 661,410,281,18
+ControlType.TreeItem | Animations in the taskbar | 661,428,139,18
+ControlType.TreeItem | Enable Peek | 661,446,67,18
+ControlType.TreeItem | Fade or slide menus into view | 661,464,160,18
+ControlType.TreeItem | Fade or slide ToolTips into view | 661,482,170,18
+ControlType.TreeItem | Fade out menu items after clicking | 661,500,187,18
+ControlType.TreeItem | Save taskbar thumbnail previews | 661,518,176,18
+ControlType.TreeItem | Show shadows under mouse pointer | 661,536,196,18
+ControlType.TreeItem | Show shadows under windows | 661,554,166,18
+ControlType.TreeItem | Show thumbnails instead of icons | 661,572,182,18
+ControlType.TreeItem | Show translucent selection rectangle | 661,590,197,18
+ControlType.TreeItem | Show window contents while dragging | 661,608,209,18
+ControlType.TreeItem | Slide open combo boxes | 661,626,133,18
+ControlType.TreeItem | Smooth edges of screen fonts | 661,644,161,18
+ControlType.TreeItem | Smooth-scroll list boxes | 661,662,130,18
+ControlType.TreeItem | Use drop shadows for icon labels on the desktop | 661,680,259,18
+ControlType.TabItem | Advanced | 702,220,60,18
+ControlType.TabItem | Data Execution Prevention | 762,220,140,18
+ControlType.TitleBar | Performance Options | 618,188,624,23
+ControlType.Button | Close | 1209,181,34,30

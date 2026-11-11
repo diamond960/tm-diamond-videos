@@ -1,0 +1,147 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  180,
+                   "w":  640,
+                   "h":  720,
+                   "title":  "Performance Options",
+                   "x":  610
+               },
+        "i":  1,
+        "rects":  {
+                      "ok":  {
+                                 "y":  751,
+                                 "w":  75,
+                                 "h":  23,
+                                 "name":  "OK",
+                                 "x":  792
+                             },
+                      "po":  {
+                                 "y":  234,
+                                 "w":  433,
+                                 "h":  609,
+                                 "name":  "Performance Options",
+                                 "x":  234
+                             },
+                      "best":  {
+                                   "y":  345,
+                                   "w":  350,
+                                   "h":  15,
+                                   "name":  "Adjust for best performance",
+                                   "x":  640
+                               }
+                  },
+        "cursor":  [
+                       1500,
+                       800
+                   ],
+        "note":  "",
+        "label":  "dialog",
+        "file":  "001_dialog.png"
+    },
+    {
+        "fg":  {
+                   "y":  180,
+                   "w":  640,
+                   "h":  720,
+                   "title":  "Performance Options",
+                   "x":  610
+               },
+        "i":  2,
+        "rects":  {
+                      "best":  {
+                                   "y":  345,
+                                   "w":  350,
+                                   "h":  15,
+                                   "name":  "Adjust for best performance",
+                                   "x":  640
+                               }
+                  },
+        "cursor":  [
+                       648,
+                       352
+                   ],
+        "note":  "",
+        "label":  "hover_best",
+        "file":  "002_hover_best.png"
+    },
+    {
+        "fg":  {
+                   "y":  180,
+                   "w":  640,
+                   "h":  720,
+                   "title":  "Performance Options",
+                   "x":  610
+               },
+        "i":  3,
+        "rects":  {
+                      "ok":  {
+                                 "y":  751,
+                                 "w":  75,
+                                 "h":  23,
+                                 "name":  "OK",
+                                 "x":  792
+                             },
+                      "best":  {
+                                   "y":  345,
+                                   "w":  350,
+                                   "h":  15,
+                                   "name":  "Adjust for best performance",
+                                   "x":  640
+                               }
+                  },
+        "cursor":  [
+                       648,
+                       352
+                   ],
+        "note":  "",
+        "label":  "best_selected",
+        "file":  "003_best_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  180,
+                   "w":  640,
+                   "h":  720,
+                   "title":  "Performance Options",
+                   "x":  610
+               },
+        "i":  4,
+        "rects":  {
+                      "ok":  {
+                                 "y":  751,
+                                 "w":  75,
+                                 "h":  23,
+                                 "name":  "OK",
+                                 "x":  792
+                             }
+                  },
+        "cursor":  [
+                       830,
+                       762
+                   ],
+        "note":  "",
+        "label":  "hover_ok",
+        "file":  "004_hover_ok.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       830,
+                       762
+                   ],
+        "note":  "",
+        "label":  "applied",
+        "file":  "005_applied.png"
+    }
+]

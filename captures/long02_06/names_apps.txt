@@ -1,0 +1,113 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Apps | 590,162,107,44
+ControlType.Text | Apps | 591,165,65,38
+ControlType.Button | Installed apps | 698,165,176,38
+ControlType.Text | Installed apps | 698,165,176,38
+ControlType.Edit | Search | 591,222,367,32
+ControlType.List | View apps by | 1499,222,92,34
+ControlType.ListItem | List view. | 1500,223,30,32
+ControlType.ListItem | Grid view. | 1530,223,30,32
+ControlType.ListItem | Tile view. | 1560,223,30,32
+ControlType.Text | 64 apps found | 591,289,200,19
+ControlType.Text | Filter by: | 1176,289,53,20
+ControlType.ComboBox | Drive filter options. Currently filtered by:  | 1230,280,138,40
+ControlType.ListItem | All drives | 1246,290,80,19
+ControlType.Text | All drives | 1246,290,80,19
+ControlType.Text | Sort by: | 1401,289,48,20
+ControlType.ComboBox | Sort options. Currently sorted by:  | 1450,280,145,40
+ControlType.ListItem | Name (A to Z) | 1466,290,87,19
+ControlType.Text | Name (A to Z) | 1466,290,87,19
+ControlType.ListItem | 7-Zip 26.05 (x64), 26.05, Igor Pavlov, ‎11/‎3/‎2026 | 593,329,998,69
+ControlType.Group | 7-Zip 26.05 (x64), 26.05, Igor Pavlov, ‎11/‎3/‎2026 | 593,329,998,69
+ControlType.Text | 7-Zip 26.05 (x64) | 650,346,805,19
+ControlType.Text | 26.05 | 650,365,29,16
+ControlType.Text | Igor Pavlov | 698,365,61,16
+ControlType.Text | ‎11/‎3/‎2026 | 778,365,52,16
+ControlType.Text | 5.65 MB | 1475,355,51,19
+ControlType.Button | More options | 1534,344,40,40
+ControlType.ListItem | AWS Command Line Interface v2, 2.39.3.0, Amazon Web Services, ‎11/‎3/‎2026 | 593,401,998,69
+ControlType.Group | AWS Command Line Interface v2, 2.39.3.0, Amazon Web Services, ‎11/‎3/‎2026 | 593,401,998,69
+ControlType.Text | AWS Command Line Interface v2 | 650,418,811,19
+ControlType.Text | 2.39.3.0 | 650,437,41,16
+ControlType.Text | Amazon Web Services | 710,437,120,16
+ControlType.Text | ‎11/‎3/‎2026 | 849,437,52,16
+ControlType.Text | 194 MB | 1481,427,45,19
+ControlType.Button | More options | 1534,416,40,40
+ControlType.ListItem | AWS SAM Command Line Interface, 1.171.0, AWS Serverless Applications, ‎11/‎3/‎2026 | 593,473,998,69
+ControlType.Group | AWS SAM Command Line Interface, 1.171.0, AWS Serverless Applications, ‎11/‎3/‎2026 | 593,473,998,69
+ControlType.Text | AWS SAM Command Line Interface | 650,490,808,19
+ControlType.Text | 1.171.0 | 650,509,33,16
+ControlType.Text | AWS Serverless Applications | 702,509,153,16
+ControlType.Text | ‎11/‎3/‎2026 | 874,509,52,16
+ControlType.Text | 349 MB | 1478,499,48,19
+ControlType.Button | More options | 1534,488,40,40
+ControlType.ListItem | Azure Cosmos DB Emulator, 2.14.28, Microsoft® Corporation, ‎11/‎3/‎2026 | 593,545,998,69
+ControlType.Group | Azure Cosmos DB Emulator, 2.14.28, Microsoft® Corporation, ‎11/‎3/‎2026 | 593,545,998,69
+ControlType.Text | Azure Cosmos DB Emulator | 650,562,808,19
+ControlType.Text | 2.14.28 | 650,581,37,16
+ControlType.Text | Microsoft® Corporation | 706,581,132,16
+ControlType.Text | ‎11/‎3/‎2026 | 857,581,52,16
+ControlType.Text | 2.45 GB | 1478,571,48,19
+ControlType.Button | More options | 1534,560,40,40
+ControlType.ListItem | CMake, 4.4.5, Kitware, ‎11/‎3/‎2026 | 593,617,998,69
+ControlType.Group | CMake, 4.4.5, Kitware, ‎11/‎3/‎2026 | 593,617,998,69
+ControlType.Text | CMake | 650,634,811,19
+ControlType.Text | 4.4.5 | 650,653,26,16
+ControlType.Text | Kitware | 695,653,41,16
+ControlType.Text | ‎11/‎3/‎2026 | 755,653,52,16
+ControlType.Text | 157 MB | 1481,643,45,19
+ControlType.Button | More options | 1534,632,40,40
+ControlType.ListItem | Feedback Hub, Microsoft Corporation, ‎11/‎11/‎2026 | 593,689,998,69
+ControlType.Group | Feedback Hub, Microsoft Corporation, ‎11/‎11/‎2026 | 593,689,998,69
+ControlType.Text | Feedback Hub | 650,706,864,19
+ControlType.Text | Microsoft Corporation | 650,725,121,16
+ControlType.Text | ‎11/‎11/‎2026 | 790,725,55,16
+ControlType.Button | More options | 1534,704,40,40
+ControlType.ListItem | Git, 2.56.0.4, The Git Development Community, ‎11/‎3/‎2026 | 593,761,998,69
+ControlType.Group | Git, 2.56.0.4, The Git Development Community, ‎11/‎3/‎2026 | 593,761,998,69
+ControlType.Text | Git | 650,778,808,19
+ControlType.Text | 2.56.0.4 | 650,797,41,16
+ControlType.Text | The Git Development Community | 710,797,182,16
+ControlType.Text | ‎11/‎3/‎2026 | 911,797,52,16
+ControlType.Text | 342 MB | 1478,787,48,19
+ControlType.Button | More options | 1534,776,40,40
+ControlType.ListItem | GitHub CLI, 2.103.3, GitHub, Inc., ‎11/‎3/‎2026 | 593,833,998,69
+ControlType.Group | GitHub CLI, 2.103.3, GitHub, Inc., ‎11/‎3/‎2026 | 593,833,998,69
+ControlType.Text | GitHub CLI | 650,850,805,19
+ControlType.Text | 2.103.3 | 650,869,37,16
+ControlType.Text | GitHub, Inc. | 706,869,64,16
+ControlType.Text | ‎11/‎3/‎2026 | 789,869,52,16
+ControlType.Text | 39.8 MB | 1475,859,51,19
+ControlType.Button | More options | 1534,848,40,40
+ControlType.ListItem | Google Chrome, 156.0.8078.80, Google LLC, ‎11/‎3/‎2026 | 593,905,998,37
+ControlType.Group | Google Chrome, 156.0.8078.80, Google LLC, ‎11/‎3/‎2026 | 593,905,998,37
+ControlType.Text | Google Chrome | 650,922,808,19
+ControlType.Text | 156.0.8078.80 | 650,941,72,1
+ControlType.Text | Google LLC | 741,941,62,1
+ControlType.Text | ‎11/‎3/‎2026 | 822,941,52,1
+ControlType.Text | 509 MB | 1478,931,48,11
+ControlType.Button | More options | 1534,920,40,22
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

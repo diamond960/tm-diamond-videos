@@ -1,0 +1,165 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "page_off",
+        "file":  "001_page_off.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       627,
+                       387
+                   ],
+        "note":  "",
+        "label":  "hover_toggle",
+        "file":  "002_hover_toggle.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       627,
+                       387
+                   ],
+        "note":  "",
+        "label":  "on",
+        "file":  "003_on.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "combo":  {
+                                    "y":  548,
+                                    "w":  288,
+                                    "h":  40,
+                                    "name":  "Run Storage Sense",
+                                    "x":  587
+                                }
+                  },
+        "cursor":  [
+                       731,
+                       568
+                   ],
+        "note":  "",
+        "label":  "schedule_open",
+        "file":  "004_schedule_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "week":  {
+                                   "y":  479,
+                                   "w":  268,
+                                   "h":  33,
+                                   "name":  "Every week",
+                                   "x":  597
+                               }
+                  },
+        "cursor":  [
+                       731,
+                       496
+                   ],
+        "note":  "",
+        "label":  "hover_week",
+        "file":  "005_hover_week.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  367,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month.",
+                                     "x":  591
+                                 },
+                      "combo":  {
+                                    "y":  548,
+                                    "w":  288,
+                                    "h":  40,
+                                    "name":  "Run Storage Sense",
+                                    "x":  587
+                                }
+                  },
+        "cursor":  [
+                       731,
+                       496
+                   ],
+        "note":  "",
+        "label":  "final",
+        "file":  "006_final.png"
+    }
+]

@@ -1,0 +1,172 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "nav":  {
+                                  "y":  328,
+                                  "w":  40,
+                                  "h":  36,
+                                  "name":  "Startup apps",
+                                  "x":  172
+                              }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "tm_open",
+        "file":  "001_tm_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "nav":  {
+                                  "y":  328,
+                                  "w":  40,
+                                  "h":  36,
+                                  "name":  "Startup apps",
+                                  "x":  172
+                              }
+                  },
+        "cursor":  [
+                       192,
+                       346
+                   ],
+        "note":  "",
+        "label":  "hover_nav",
+        "file":  "002_hover_nav.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "nav":  {
+                                  "y":  328,
+                                  "w":  40,
+                                  "h":  36,
+                                  "name":  "Startup apps",
+                                  "x":  172
+                              },
+                      "row":  {
+                                  "y":  322,
+                                  "w":  1494,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       192,
+                       346
+                   ],
+        "note":  "",
+        "label":  "startup_list",
+        "file":  "003_startup_list.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "disable":  {
+                                      "y":  163,
+                                      "w":  88,
+                                      "h":  48,
+                                      "name":  "Disable",
+                                      "x":  1472
+                                  },
+                      "row":  {
+                                  "y":  322,
+                                  "w":  1494,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       336
+                   ],
+        "note":  "",
+        "label":  "selected",
+        "file":  "004_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "disable":  {
+                                      "y":  163,
+                                      "w":  88,
+                                      "h":  48,
+                                      "name":  "Disable",
+                                      "x":  1472
+                                  }
+                  },
+        "cursor":  [
+                       1516,
+                       187
+                   ],
+        "note":  "",
+        "label":  "hover_disable",
+        "file":  "005_hover_disable.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "row":  {
+                                  "y":  323,
+                                  "w":  1492,
+                                  "h":  28,
+                                  "name":  "HeavyApp",
+                                  "x":  219
+                              }
+                  },
+        "cursor":  [
+                       1516,
+                       187
+                   ],
+        "note":  "",
+        "label":  "disabled",
+        "file":  "006_disabled.png"
+    }
+]

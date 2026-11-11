@@ -1,0 +1,146 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               }
+                  },
+        "cursor":  [
+                       1300,
+                       760
+                   ],
+        "note":  "",
+        "label":  "apps",
+        "file":  "001_apps.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               },
+                      "big":  {
+                                  "y":  396,
+                                  "w":  148,
+                                  "h":  33,
+                                  "name":  "Size (Large to small)",
+                                  "x":  1460
+                              }
+                  },
+        "cursor":  [
+                       1522,
+                       300
+                   ],
+        "note":  "",
+        "label":  "sort_open",
+        "file":  "002_sort_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "sort":  {
+                                   "y":  280,
+                                   "w":  145,
+                                   "h":  40,
+                                   "name":  "Sort options. Currently sorted by: ",
+                                   "x":  1450
+                               }
+                  },
+        "cursor":  [
+                       1534,
+                       412
+                   ],
+        "note":  "",
+        "label":  "sorted",
+        "file":  "003_sorted.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "more":  {
+                                   "y":  344,
+                                   "w":  40,
+                                   "h":  40,
+                                   "name":  "More options",
+                                   "x":  1534
+                               },
+                      "uninstall":  {
+                                        "y":  425,
+                                        "w":  262,
+                                        "h":  28,
+                                        "name":  "Uninstall",
+                                        "x":  1307
+                                    }
+                  },
+        "cursor":  [
+                       1554,
+                       364
+                   ],
+        "note":  "",
+        "label":  "menu",
+        "file":  "004_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "uninstall":  {
+                                        "y":  425,
+                                        "w":  262,
+                                        "h":  28,
+                                        "name":  "Uninstall",
+                                        "x":  1307
+                                    }
+                  },
+        "cursor":  [
+                       1438,
+                       439
+                   ],
+        "note":  "",
+        "label":  "hover_uninstall",
+        "file":  "005_hover_uninstall.png"
+    }
+]
