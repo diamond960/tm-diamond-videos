@@ -442,6 +442,9 @@ def titles_layer(titles, t):
         d = ImageDraw.Draw(layer)
         size = int(max(70, 110 * H / 1920))
         f = font(F_BLACK, size)
+        while size > 40 and d.textlength(text.upper(), font=f) > W * 0.9:
+            size -= 4
+            f = font(F_BLACK, size)
         bh = int(size * 2.1)
         y0 = int(H * 0.5 - bh / 2)
         d.rectangle((0, y0, W, y0 + bh), fill=(10, 12, 18, int(200 * a)))
@@ -573,6 +576,7 @@ class Cut:
         base.alpha_composite(cursor_layer(self.spec, t, cam))
         base.alpha_composite(keycaps_layer(self.spec.get("keys", []), t))
         base.alpha_composite(card_layer(self.spec.get("card"), t))
+        base.alpha_composite(titles_layer(self.spec.get("titles"), t))
         if self.spec.get("captions", False):
             base.alpha_composite(caption_layer(self.words, t, self.hl, self.ends, self.caption_y(t)))
         base.alpha_composite(follow_layer(t, self.spec.get("follow"), self.spec.get("handle", "TM_Diamond")))
