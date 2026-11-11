@@ -3,12 +3,17 @@
  "series": "Windows",
  "caption": "Taskbar frozen? Don't restart your PC, do this 👇 #reels #windows11",
  "length_s": 16.38,
- "status": "queued",
+ "status": "posted",
  "method": "Team Diamond template, full screen, real Windows screens (captures/long02_all)",
  "block": 1,
  "episode": 6,
  "ig_caption": "Taskbar frozen? Don't restart your PC, do this instead #windows11 #pctips",
  "ig_pick": true,
  "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@602fb0b865135b3f291953c0ddd930560b45afd9/videos/fb11.mp4",
- "made_at": "2026-11-11T17:43:47Z"
+ "made_at": "2026-11-11T17:43:47Z",
+ "facebook": {
+  "posted_at": "2026-11-11T20:16:03Z",
+  "video_id": "1614208656399496",
+  "permalink": "https://www.facebook.com/reel/1614208656399496"
+ }
 }
