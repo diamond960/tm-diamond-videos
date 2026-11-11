@@ -1,0 +1,11 @@
+﻿ControlType.Pane | You can optimize your drives to help your computer run more efficiently, or analyze them to find out if they need to be optimized. Only drives on or connected to your computer are shown.
+ | 380,214,628,47
+ControlType.Pane | Status | 380,267,96,15
+ControlType.Pane | Advanced View | 380,456,138,19
+ControlType.Pane | Analyze | 797,456,123,26
+ControlType.Pane | Optimize | 933,456,123,26
+ControlType.Pane | Scheduled optimization | 380,505,149,15
+ControlType.Pane | Off | 401,533,406,15
+ControlType.Pane | Turn on | 907,527,149,26
+ControlType.Pane | Drives are not being analyzed on a scheduled cadence and optimized as needed. | 401,554,499,15
+ControlType.Pane | Close | 967,640,88,26

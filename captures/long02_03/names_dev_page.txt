@@ -1,0 +1,74 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | System | 590,162,134,44
+ControlType.Text | System | 591,165,92,38
+ControlType.Button | For developers | 725,165,188,38
+ControlType.Text | For developers | 725,165,188,38
+ControlType.Text | Informational icon | 608,239,16,16
+ControlType.Text | These settings are intended for development use only. | 638,237,335,19
+ControlType.Hyperlink | Learn more | 1479,231,95,32
+ControlType.Text | Developer Mode | 650,293,104,19
+ControlType.Text | Install apps from any source, including loose files | 650,312,832,16
+ControlType.Button | Developer Mode | 1502,290,72,40
+ControlType.Group | Device discovery | 591,348,1000,70
+ControlType.Text | Device discovery | 650,366,103,19
+ControlType.Text | Make your device visible to USB connections and your local network | 650,385,369,16
+ControlType.Group | Device discovery | 1474,363,72,40
+ControlType.Button | Device discovery | 1474,363,72,40
+ControlType.Button | Show more settings | 1550,367,32,32
+ControlType.Text | End Task | 650,439,53,19
+ControlType.Text | Enable end task in taskbar by right click | 650,458,214,16
+ControlType.Button | End Task | 1502,436,72,40
+ControlType.Group | File Explorer | 591,494,1000,69
+ControlType.Text | File Explorer | 650,511,76,19
+ControlType.Text | Adjust these settings for a more developer-friendly experience using File Explorer | 650,530,441,16
+ControlType.Button | Show more settings | 1550,513,32,32
+ControlType.Group | Remote Desktop | 591,566,1000,69
+ControlType.Text | Remote Desktop | 650,583,103,19
+ControlType.Text | Enable Remote Desktop and ensure machine availability | 650,602,303,16
+ControlType.Button | Remote Desktop | 1550,585,32,32
+ControlType.Text | Terminal | 650,655,53,19
+ControlType.Text | Choose the default terminal app to host command-line apps | 650,674,328,16
+ControlType.ComboBox | Terminal | 1363,651,215,44
+ControlType.ListItem | Let Windows decide | 1379,660,157,24
+ControlType.Group | Let Windows decide | 1379,660,157,24
+ControlType.Group | PowerShell | 591,710,1000,69
+ControlType.Text | PowerShell | 650,727,68,19
+ControlType.Text | Turn on these settings to execute PowerShell scripts | 650,746,281,16
+ControlType.Button | Show more settings | 1550,729,32,32
+ControlType.Group | Dev Drive | 591,799,1000,143
+ControlType.Text | Dev Drive | 591,799,1000,19
+ControlType.Group | Create a Dev Drive | 591,826,1000,69
+ControlType.Text | Create a Dev Drive | 650,843,115,19
+ControlType.Group | Create a Dev Drive | 650,861,328,18
+ControlType.Text | Optimized performance for developer scenarios | 650,862,259,16
+ControlType.Hyperlink | Learn more | 914,861,64,18
+ControlType.Text | Learn more | 915,862,62,16
+ControlType.Button | Create a Dev Drive | 1550,845,32,32
+ControlType.Group | Control antivirus behavior | 591,898,1000,44
+ControlType.Text | Control antivirus behavior | 650,915,160,19
+ControlType.Group | Control antivirus behavior | 650,933,428,9
+ControlType.Text | Control Microsoft Defender Antivirus across all trusted Dev Drives. | 650,934,359,8
+ControlType.Hyperlink | Learn more | 1014,933,64,9
+ControlType.Text | Learn more | 1015,934,62,8
+ControlType.Button | Control antivirus behavior | 1550,917,32,25

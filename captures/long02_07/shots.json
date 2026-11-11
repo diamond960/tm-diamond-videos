@@ -1,0 +1,122 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  170,
+                   "w":  1200,
+                   "h":  760,
+                   "title":  "Optimize Drives",
+                   "x":  360
+               },
+        "i":  1,
+        "rects":  {
+                      "drive":  null,
+                      "optimize":  {
+                                       "y":  456,
+                                       "w":  123,
+                                       "h":  26,
+                                       "name":  "Optimize",
+                                       "x":  933
+                                   }
+                  },
+        "cursor":  [
+                       1300,
+                       860
+                   ],
+        "note":  "",
+        "label":  "window",
+        "file":  "001_window.png"
+    },
+    {
+        "fg":  {
+                   "y":  170,
+                   "w":  1200,
+                   "h":  760,
+                   "title":  "Optimize Drives",
+                   "x":  360
+               },
+        "i":  2,
+        "rects":  {
+                      "drive":  null,
+                      "optimize":  {
+                                       "y":  456,
+                                       "w":  123,
+                                       "h":  26,
+                                       "name":  "Optimize",
+                                       "x":  933
+                                   }
+                  },
+        "cursor":  [
+                       1300,
+                       860
+                   ],
+        "note":  "",
+        "label":  "drive_selected",
+        "file":  "002_drive_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  170,
+                   "w":  1200,
+                   "h":  760,
+                   "title":  "Optimize Drives",
+                   "x":  360
+               },
+        "i":  3,
+        "rects":  {
+                      "optimize":  {
+                                       "y":  456,
+                                       "w":  123,
+                                       "h":  26,
+                                       "name":  "Optimize",
+                                       "x":  933
+                                   }
+                  },
+        "cursor":  [
+                       994,
+                       469
+                   ],
+        "note":  "",
+        "label":  "hover_optimize",
+        "file":  "003_hover_optimize.png"
+    },
+    {
+        "fg":  {
+                   "y":  170,
+                   "w":  1200,
+                   "h":  760,
+                   "title":  "Optimize Drives",
+                   "x":  360
+               },
+        "i":  4,
+        "rects":  {
+                      "drive":  null
+                  },
+        "cursor":  [
+                       994,
+                       469
+                   ],
+        "note":  "",
+        "label":  "optimizing",
+        "file":  "004_optimizing.png"
+    },
+    {
+        "fg":  {
+                   "y":  170,
+                   "w":  1200,
+                   "h":  760,
+                   "title":  "Optimize Drives",
+                   "x":  360
+               },
+        "i":  5,
+        "rects":  {
+                      "drive":  null
+                  },
+        "cursor":  [
+                       994,
+                       469
+                   ],
+        "note":  "",
+        "label":  "done",
+        "file":  "005_done.png"
+    }
+]

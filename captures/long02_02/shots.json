@@ -1,0 +1,153 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "row":  {
+                                  "y":  357,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "Windows Explorer",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "processes",
+        "file":  "001_processes.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "row":  {
+                                  "y":  357,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "Windows Explorer",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       371
+                   ],
+        "note":  "",
+        "label":  "hover_row",
+        "file":  "002_hover_row.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "restart":  {
+                                      "y":  163,
+                                      "w":  111,
+                                      "h":  48,
+                                      "name":  "Restart task",
+                                      "x":  1419
+                                  },
+                      "row":  {
+                                  "y":  357,
+                                  "w":  646,
+                                  "h":  28,
+                                  "name":  "Windows Explorer",
+                                  "x":  218
+                              }
+                  },
+        "cursor":  [
+                       338,
+                       371
+                   ],
+        "note":  "",
+        "label":  "selected",
+        "file":  "003_selected.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Task Manager",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "restart":  {
+                                      "y":  163,
+                                      "w":  111,
+                                      "h":  48,
+                                      "name":  "Restart task",
+                                      "x":  1419
+                                  }
+                  },
+        "cursor":  [
+                       1474,
+                       187
+                   ],
+        "note":  "",
+        "label":  "hover_restart",
+        "file":  "004_hover_restart.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1474,
+                       187
+                   ],
+        "note":  "",
+        "label":  "restarting",
+        "file":  "005_restarting.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1474,
+                       187
+                   ],
+        "note":  "",
+        "label":  "after",
+        "file":  "006_after.png"
+    }
+]

@@ -1,0 +1,46 @@
+﻿ControlType.Window | PopupHost | 902,130,105,41
+ControlType.ToolTip | Storage Sense | 906,131,97,32
+ControlType.Text | Storage Sense | 916,138,77,16
+ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | System | 590,162,134,44
+ControlType.Text | System | 591,165,92,38
+ControlType.Button | Storage | 724,162,141,44
+ControlType.Text | Storage | 725,165,99,38
+ControlType.Button | Storage Sense | 866,165,180,38
+ControlType.Text | Storage Sense | 866,165,180,38
+ControlType.Group | Cleanup of temporary files | 591,227,611,79
+ControlType.Text | Cleanup of temporary files | 591,227,611,27
+ControlType.CheckBox | Keep Windows running smoothly by automatically cleaning up temporary system and app files | 591,274,611,32
+ControlType.Group | Automatic User content cleanup | 587,326,440,516
+ControlType.Text | Automatic User content cleanup | 591,326,436,27
+ControlType.Button | Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month. | 591,367,72,40
+ControlType.Text | Storage Sense runs when disk space is low. We clean up enough space to help your system run its best. We cleaned up 0 bytes of space in the past month. | 591,407,436,56
+ControlType.Text | Configure cleanup schedules | 591,486,436,24
+ControlType.ComboBox | Run Storage Sense | 587,548,288,40
+ControlType.ListItem | During low free disk space (default) | 603,558,230,19
+ControlType.ComboBox | Delete files in my recycle bin if they have been there for over: | 587,635,288,40
+ControlType.ListItem | 30 days (default) | 603,645,230,19
+ControlType.ComboBox | Delete files in my Downloads folder if they haven’t been opened for more than: | 587,741,288,40
+ControlType.ListItem | Never (default) | 603,751,230,19
+ControlType.Button | Run Storage Sense now | 591,810,170,32
