@@ -18,12 +18,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: voice-deps-v1
       - name: Install
+        timeout-minutes: 25
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg >/dev/null
-          pip install -q --index-url https://download.pytorch.org/whl/cpu "torch>=2.6"
-          pip install -q "kokoro>=0.9.4" soundfile faster-whisper==1.1.1
+          # 2026-11-11 the install hung for 30+ min twice: every download now has a time limit and retries
+          ok=0; for i in 1 2 3; do timeout 240 sudo apt-get -o Acquire::http::Timeout=30 -o Acquire::Retries=3 update -qq && timeout 300 sudo apt-get install -y -qq espeak-ng ffmpeg >/dev/null && ok=1 && break; echo "apt retry $i"; sleep 10; done; [ $ok = 1 ]
+          ok=0; for i in 1 2 3; do timeout 600 pip install -q --default-timeout=60 --retries 5 --index-url https://download.pytorch.org/whl/cpu "torch>=2.6" && ok=1 && break; echo "torch retry $i"; sleep 10; done; [ $ok = 1 ]
+          ok=0; for i in 1 2 3; do timeout 600 pip install -q --default-timeout=60 --retries 5 "kokoro>=0.9.4" soundfile faster-whisper==1.1.1 && ok=1 && break; echo "pip retry $i"; sleep 10; done; [ $ok = 1 ]
       - name: Run jobs
+        timeout-minutes: 15
         run: python3 engine/voice_jobs.py
       - name: Commit
         run: |
