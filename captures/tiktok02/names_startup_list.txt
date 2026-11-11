@@ -1,0 +1,57 @@
+﻿ControlType.Button | Open Navigation | 172,168,40,36
+ControlType.ListItem | Processes | 172,208,40,36
+ControlType.ListItem | Performance | 172,248,40,36
+ControlType.ListItem | App history | 172,288,40,36
+ControlType.ListItem | Startup apps | 172,328,40,36
+ControlType.ListItem | Users | 172,368,40,36
+ControlType.ListItem | Details | 172,408,40,36
+ControlType.ListItem | Services | 172,448,40,36
+ControlType.ListItem | Settings | 172,900,40,36
+ControlType.Pane | Filter Control Glass Window | 664,118,520,36
+ControlType.Pane | Glass Window | 1184,118,342,36
+ControlType.Pane | Glass Window | 212,118,452,36
+ControlType.Text | Task Manager | 224,128,99,16
+ControlType.Group | Search box | 665,120,520,32
+ControlType.Edit | Search box | 665,120,520,32
+ControlType.Text | Startup apps | 233,178,81,19
+ControlType.Button | Run new task | 1262,163,120,48
+ControlType.Button | Enable | 1387,163,85,48
+ControlType.Button | Disable | 1472,163,88,48
+ControlType.Button | Properties | 1560,163,104,48
+ControlType.Button | More app bar | 1664,163,48,48
+ControlType.Pane | TaskManagerMain | 218,214,1494,728
+ControlType.Text | Last BIOS time:  | 1545,230,86,15
+ControlType.Text | 1.2 seconds | 1631,230,65,15
+ControlType.Header | Column header | 218,261,1494,32
+ControlType.HeaderItem | Name Sorted (ascending). Press Enter to change sorting. | 218,261,215,32
+ControlType.HeaderItem | Publisher. Press Enter to change sorting. | 433,261,150,32
+ControlType.HeaderItem | Status. Press Enter to change sorting. | 583,261,100,32
+ControlType.HeaderItem | Startup impact. Press Enter to change sorting. | 683,261,100,32
+ControlType.DataGrid | Startup | 218,294,1494,648
+ControlType.TreeItem | AzureArcSysTray | 218,294,1494,28
+ControlType.Text | Name | 270,294,99,28
+ControlType.Text | Enabled | 583,294,99,28
+ControlType.Text | Not measured | 683,294,99,28
+ControlType.TreeItem | HeavyApp | 218,322,1494,28
+ControlType.Text | Name | 270,322,67,28
+ControlType.Text | Enabled | 583,322,99,28
+ControlType.Text | Not measured | 683,322,99,28
+ControlType.TreeItem | SecurityHealthSystray | 218,350,1494,28
+ControlType.Text | Name | 270,350,126,28
+ControlType.Text | Enabled | 583,350,99,28
+ControlType.Text | Not measured | 683,350,99,28
+ControlType.TreeItem | ServiceFabricLocalClusterManager | 218,378,1494,28
+ControlType.Text | Name | 270,378,155,28
+ControlType.Text | Enabled | 583,378,99,28
+ControlType.Text | Not measured | 683,378,99,28
+ControlType.TreeItem | Terminal | 218,406,1494,28
+ControlType.Text | Name | 270,406,58,28
+ControlType.Text | Microsoft Corporation | 433,406,149,28
+ControlType.Text | Disabled | 583,406,99,28
+ControlType.Text | None | 683,406,99,28
+ControlType.TitleBar | Task Manager | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22
+ControlType.Button | Minimize | 1573,111,47,30
+ControlType.Button | Maximize | 1620,111,46,30
+ControlType.Button | Close | 1666,111,47,30
