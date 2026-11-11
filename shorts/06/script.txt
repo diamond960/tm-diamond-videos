@@ -1,0 +1,7 @@
+Windows 11 has a hidden button for frozen apps.
+Open Settings, then System, then For developers.
+Turn on End task.
+Now right-click any app on your taskbar.
+Click End task, and it closes right away, even if it's frozen.
+This is fix four of ten for a slow PC.
+Watch all ten in the full video, linked below.
