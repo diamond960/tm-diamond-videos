@@ -1,0 +1,24 @@
+﻿ControlType.Pane | ChatGPT: Chat, Work, Create & Code with AI - Microsoft Edge | 0,0,1920,1032
+ControlType.Button | Minimize | 1782,0,46,40
+ControlType.Button | Restore | 1828,0,46,40
+ControlType.Button | Close | 1874,0,46,40
+ControlType.ToolBar | App bar | 0,40,1920,40
+ControlType.Button | Back | 0,44,36,32
+ControlType.Button | Refresh | 40,44,32,32
+ControlType.Button | View site information | 80,48,24,24
+ControlType.Edit | Address and search bar | 104,48,1517,24
+ControlType.Button | App available. Install ChatGPT | 1625,48,24,24
+ControlType.Button | Enter Reading mode (F9) | 1653,48,24,24
+ControlType.Button | Add this page to favorites (Ctrl+D) | 1681,48,24,24
+ControlType.Button | Favorites | 1713,44,32,32
+ControlType.Button | Profile 1 Profile, Please sign in | 1749,44,32,32
+ControlType.Button | Settings and more (Alt+F) | 1785,44,36,32
+ControlType.Button | Chat | 1821,44,71,32
+ControlType.Button | Copilot menu | 1892,44,24,32
+ControlType.Text | For quick access, place your favorites here on the favorites bar. | 197,66,386,28
+ControlType.Hyperlink | Manage favorites now | 587,66,122,28
+ControlType.Tab | Tab bar | 2,0,1780,41
+ControlType.Button | Search tabs | 4,0,32,36
+ControlType.TabItem | ChatGPT: Chat, Work, Create & Code with AI - Memory usage - 128 MB | 32,0,256,41
+ControlType.Button | Close tab | 256,12,16,16
+ControlType.Button | New Tab | 284,0,32,41

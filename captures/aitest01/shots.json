@@ -1,0 +1,42 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1936,
+                   "h":  1048,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "loaded",
+        "file":  "001_loaded.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1936,
+                   "h":  1048,
+                   "title":  "ChatGPT: Chat, Work, Create \u0026 Code with AI - Profile 1 - Microsoft​ Edge",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "no chat box found",
+        "label":  "no_chat_box",
+        "file":  "002_no_chat_box.png"
+    }
+]
