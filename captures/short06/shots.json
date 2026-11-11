@@ -1,0 +1,205 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  436,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "End Task",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1300,
+                       700
+                   ],
+        "note":  "",
+        "label":  "dev_page",
+        "file":  "001_dev_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  436,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "End Task",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       456
+                   ],
+        "note":  "",
+        "label":  "hover_toggle",
+        "file":  "002_hover_toggle.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  436,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "End Task",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       456
+                   ],
+        "note":  "",
+        "label":  "toggle_on",
+        "file":  "003_toggle_on.png"
+    },
+    {
+        "fg":  {
+                   "y":  -32000,
+                   "w":  160,
+                   "h":  28,
+                   "title":  "Untitled - Notepad",
+                   "x":  -32000
+               },
+        "i":  4,
+        "rects":  {
+                      "tb":  {
+                                 "y":  1032,
+                                 "w":  44,
+                                 "h":  48,
+                                 "name":  "Notepad - 1 running window",
+                                 "x":  1183
+                             }
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "taskbar",
+        "file":  "004_taskbar.png"
+    },
+    {
+        "fg":  {
+                   "y":  -32000,
+                   "w":  160,
+                   "h":  28,
+                   "title":  "Untitled - Notepad",
+                   "x":  -32000
+               },
+        "i":  5,
+        "rects":  {
+                      "tb":  {
+                                 "y":  1032,
+                                 "w":  44,
+                                 "h":  48,
+                                 "name":  "Notepad - 1 running window",
+                                 "x":  1183
+                             }
+                  },
+        "cursor":  [
+                       1205,
+                       1056
+                   ],
+        "note":  "",
+        "label":  "hover_tb",
+        "file":  "005_hover_tb.png"
+    },
+    {
+        "fg":  {
+                   "y":  875,
+                   "w":  318,
+                   "h":  157,
+                   "title":  "Jump List for Notepad",
+                   "x":  1045
+               },
+        "i":  6,
+        "rects":  {
+                      "tb":  {
+                                 "y":  1032,
+                                 "w":  44,
+                                 "h":  48,
+                                 "name":  "Notepad - 1 running window",
+                                 "x":  1183
+                             },
+                      "endtask":  null
+                  },
+        "cursor":  [
+                       1205,
+                       1056
+                   ],
+        "note":  "",
+        "label":  "jumplist",
+        "file":  "006_jumplist.png"
+    },
+    {
+        "fg":  {
+                   "y":  875,
+                   "w":  318,
+                   "h":  157,
+                   "title":  "Jump List for Notepad",
+                   "x":  1045
+               },
+        "i":  7,
+        "rects":  {
+                      "endtask":  null
+                  },
+        "cursor":  [
+                       1128,
+                       969
+                   ],
+        "note":  "endtask at 1128,969",
+        "label":  "hover_endtask",
+        "file":  "007_hover_endtask.png"
+    },
+    {
+        "fg":  {
+                   "y":  1032,
+                   "w":  1920,
+                   "h":  48,
+                   "title":  "",
+                   "x":  0
+               },
+        "i":  8,
+        "rects":  {
+                      "tb":  {
+                                 "y":  1032,
+                                 "w":  44,
+                                 "h":  48,
+                                 "name":  "Notepad - 1 running window",
+                                 "x":  1183
+                             }
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "notepad processes left: 0",
+        "label":  "closed",
+        "file":  "008_closed.png"
+    }
+]

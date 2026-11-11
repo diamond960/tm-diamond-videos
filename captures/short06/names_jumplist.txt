@@ -1,0 +1,4 @@
+﻿ControlType.ListItem | Notepad | 1061,891,286,28
+ControlType.ListItem | Pin to taskbar | 1061,923,286,28
+ControlType.ListItem | End task | 1061,955,286,28
+ControlType.ListItem | Close window | 1061,987,286,28
