@@ -3,6 +3,12 @@
  "series": "Windows",
  "caption": "These apps are eating your storage 😳 Find them in 10 seconds #reels #windows11",
  "length_s": 14.87,
- "status": "draft",
- "method": "Team Diamond template, full screen, real Windows screens (captures/long02_all)"
+ "status": "queued",
+ "method": "Team Diamond template, full screen, real Windows screens (captures/long02_all)",
+ "block": 1,
+ "episode": 9,
+ "ig_caption": "These apps are eating your storage. Find them fast #windows11 #pctips",
+ "ig_pick": false,
+ "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@602fb0b865135b3f291953c0ddd930560b45afd9/videos/fb13.mp4",
+ "made_at": "2026-11-11T17:43:47Z"
 }

@@ -5,8 +5,17 @@
  "episode": 7,
  "caption": "Frozen app? Windows 11 has a hidden End task button 😮 #reels #windows11",
  "length_s": 20.8,
- "status": "queued",
+ "status": "posted",
  "made_at": "2026-11-11T17:35:00Z",
  "method": "Team Diamond template, full screen, real Windows screens (captures/short06)",
- "source": "shorts/06 spec_fb.json"
+ "source": "shorts/06 spec_fb.json",
+ "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@1f34316e25deabbc707ee249c46535d019bf35d0/videos/fb10.mp4",
+ "facebook": {
+  "posted_at": "2026-11-11T17:32:10Z"
+ },
+ "ig_pick": false,
+ "youtube": {
+  "video_id": "ub6qseGsV9c",
+  "note": "same tip posted as YouTube Short shorts/06"
+ }
 }
