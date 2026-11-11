@@ -1,7 +1,554 @@
 {
- "about": "CURRENT SERIES FIRST (owner rule 2026-11-11: post serially, numbered parts, one series at a time). The first block in this list with unused episodes is the current series. Windows blocks below are paused until the AI series is done. THE content plan for TM_Diamond (owner rule 2026-11-06: no random topics). Everything follows one theme at a time. Each block = one long YouTube video (the pillar) + short 'One-Minute Tech Fixes' episodes taken from it, in order. Shorts, Facebook videos and TikTok all take the NEXT unused episode of the CURRENT block (the first block that still has unused episodes); set used_by to your folder (e.g. 'shorts/03'). The long-video task makes the long video of the first block whose long video is not made. Every episode is shown on real Windows screens in the Team Diamond template (fb/07). Fact-check each one; if an episode can't be shown for real on the Windows runner, mark used_by 'skipped: <reason>' and take the next. When the last block runs low, add the next block from HOUSE_STYLE's long-video order in the same shape.",
+ "about": "OWNER RULE 2026-11-11 (latest): cover Windows, MacBook, iPhone and Android SERIALLY - one device at a time, one topic block at a time, in this list's order. The current block = the first block (not paused) with unused episodes. Blocks with \"paused\" are skipped. Facebook 15-30 s reels (5 a day), Instagram 2 a day (the best reels), TikTok one 61-75 s video a day (5-6 tips of the block), YouTube 1 Short a day + 1 long video a week. See engine/SCHEDULE.md.",
  "series": "One-Minute Tech Fixes",
  "blocks": [
+  {
+   "block": 1,
+   "theme": "Speed up a slow PC",
+   "long": {
+    "title": "Windows 11 Running Slow? 12 Fixes That Actually Work",
+    "used_by": "long/02",
+    "title_made": "Windows 11 Running Slow? 10 Fixes That Actually Work"
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Your PC takes forever to start? Do this",
+     "show": "Task Manager > Startup apps, disable high-impact apps",
+     "used_by": "fb/01"
+    },
+    {
+     "n": 2,
+     "title": "What's slowing your PC? Check this",
+     "show": "Task Manager > Processes, sort by CPU and Memory, End task on a hog",
+     "used_by": "shorts/03"
+    },
+    {
+     "n": 3,
+     "title": "Windows hides a faster power mode",
+     "show": "Settings > System > Power (& battery) > Power mode: Best performance",
+     "used_by": "skipped: Power mode is not shown on the capture PC (virtual machine, no power plans page)"
+    },
+    {
+     "n": 4,
+     "title": "Turn off these animations for a faster PC",
+     "show": "Settings > Accessibility > Visual effects: Animation effects and Transparency off",
+     "used_by": "shorts/05"
+    },
+    {
+     "n": 5,
+     "title": "Free up space without deleting your files",
+     "show": "Settings > System > Storage > Temporary files / Cleanup recommendations",
+     "used_by": "fb/08"
+    },
+    {
+     "n": 6,
+     "title": "Taskbar frozen? Restart this, not your PC",
+     "show": "Task Manager > Windows Explorer > Restart",
+     "used_by": "fb/11"
+    },
+    {
+     "n": 7,
+     "title": "Add End task to your taskbar",
+     "show": "Settings > System > For developers > End task on, then right-click a taskbar app",
+     "used_by": "shorts/06 + fb/10"
+    },
+    {
+     "n": 8,
+     "title": "Delete junk files automatically",
+     "show": "Settings > System > Storage > Storage Sense on + schedule",
+     "used_by": "fb/12"
+    },
+    {
+     "n": 9,
+     "title": "Uninstall apps you never use",
+     "show": "Settings > Apps > Installed apps, sort by size, Uninstall",
+     "used_by": "fb/13"
+    },
+    {
+     "n": 10,
+     "title": "Your PC may be missing driver updates",
+     "show": "Settings > Windows Update > Advanced options > Optional updates",
+     "used_by": null
+    },
+    {
+     "n": 11,
+     "title": "One setting makes an old PC feel faster",
+     "show": "Adjust the appearance and performance of Windows > Adjust for best performance > OK",
+     "used_by": "fb/14"
+    },
+    {
+     "n": 12,
+     "title": "Your drive needs a tune-up",
+     "show": "Defragment and Optimize Drives > C: > Optimize",
+     "used_by": "fb/15"
+    }
+   ],
+   "tiktok": {
+    "video": "6 ways to make a slow Windows 11 PC faster",
+    "carousel": "5 free ways to speed up Windows 11",
+    "text": "Your PC isn't slow, it's crowded: open Startup apps",
+    "used_by": "tiktok/03"
+   },
+   "series": "Windows"
+  },
+  {
+   "block": 2,
+   "theme": "Command Prompt basics",
+   "long": {
+    "title": "15 Command Prompt Commands Every Windows User Should Know",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Website won't load? Try this one command",
+     "show": "ipconfig /flushdns",
+     "used_by": "fb/06"
+    },
+    {
+     "n": 2,
+     "title": "Find your IP address in 2 seconds",
+     "show": "ipconfig",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "Is your internet down? Ping it",
+     "show": "ping google.com",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Fix broken Windows files with one command",
+     "show": "sfc /scannow in an admin terminal",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "See your full PC specs with one command",
+     "show": "systeminfo",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Close a frozen app from Command Prompt",
+     "show": "tasklist, then taskkill /im notepad.exe /f",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Update all your apps with one command",
+     "show": "winget upgrade, then winget upgrade --all",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "title": "Check your drive for errors",
+     "show": "chkdsk C: (read-only scan)",
+     "used_by": null
+    },
+    {
+     "n": 9,
+     "title": "See every driver on your PC",
+     "show": "driverquery",
+     "used_by": null
+    },
+    {
+     "n": 10,
+     "title": "Shut down or restart with a timer",
+     "show": "shutdown /s /t 600, cancel with shutdown /a",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "10 Command Prompt commands everyone should know",
+    "carousel": "7 CMD commands that fix common PC problems",
+    "text": "Which Command Prompt command do you actually use?"
+   },
+   "series": "Windows"
+  },
+  {
+   "block": 3,
+   "theme": "Windows 11 settings to change",
+   "long": {
+    "title": "10 Windows 11 Settings You Should Change Right Now",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "That PDF might be a program",
+     "show": "File Explorer > View > Show > File name extensions",
+     "used_by": "fb/07"
+    },
+    {
+     "n": 2,
+     "title": "Stop losing the things you copy on Windows",
+     "show": "Win + V clipboard history",
+     "used_by": "fb/02"
+    },
+    {
+     "n": 3,
+     "title": "Stop dragging windows around on Windows 11",
+     "show": "Snap layouts",
+     "used_by": "fb/03"
+    },
+    {
+     "n": 4,
+     "title": "Turn on dark mode in Windows 11",
+     "show": "Settings > Personalization > Colors > Dark",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Remove the ads from your Start menu",
+     "show": "Settings > Personalization > Start: recommendations/tips off",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Too many notifications? Fix it in 10 seconds",
+     "show": "Settings > System > Notifications, turn off per app",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Move your taskbar icons to the left",
+     "show": "Settings > Personalization > Taskbar > Taskbar behaviors > Alignment: Left",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "title": "See the hidden files on your PC",
+     "show": "File Explorer > View > Show > Hidden items",
+     "used_by": null
+    },
+    {
+     "n": 9,
+     "title": "Stop Windows from tracking your app launches",
+     "show": "Settings > Privacy & security > General toggles",
+     "used_by": null
+    },
+    {
+     "n": 10,
+     "title": "Make a restore point before something breaks",
+     "show": "Control Panel > System Protection > Create",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "8 Windows 11 settings you should change right now",
+    "carousel": "6 Windows 11 settings to change today",
+    "text": "Changing one Windows setting today? Make it this one"
+   },
+   "series": "Windows"
+  },
+  {
+   "block": 4,
+   "theme": "Free up disk space",
+   "long": {
+    "title": "Free Up Disk Space on Windows 11 (Every Safe Method)",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Your C drive is full? Start here",
+     "show": "Settings > System > Storage, see what uses space",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "title": "Delete temporary files safely",
+     "show": "Settings > System > Storage > Temporary files",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "The old cleanup tool still works",
+     "show": "cleanmgr > Clean up system files",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Empty your Downloads automatically",
+     "show": "Storage Sense > Downloads folder setting",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Find the biggest apps on your PC",
+     "show": "Settings > Apps > Installed apps, sort by size",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Delete old Windows update files",
+     "show": "Disk Cleanup > Windows Update Cleanup",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Find huge files in File Explorer",
+     "show": "Search size:gigantic in File Explorer",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "title": "Empty the Recycle Bin automatically",
+     "show": "Storage Sense > Recycle Bin setting",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "Free up gigabytes on Windows 11 without deleting your files",
+    "carousel": "5 safe ways to free up disk space",
+    "text": "How full is your C drive right now?"
+   },
+   "series": "Windows"
+  },
+  {
+   "block": 5,
+   "theme": "Keyboard shortcuts",
+   "long": {
+    "title": "15 Windows Keyboard Shortcuts That Save Hours",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Lock your PC in one second",
+     "show": "Win + L",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "title": "Hide every window instantly",
+     "show": "Win + D",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "Your PC has an emoji keyboard",
+     "show": "Win + .",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Closed a tab by mistake? Bring it back",
+     "show": "Ctrl + Shift + T in Edge",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Open Task Manager the fast way",
+     "show": "Ctrl + Shift + Esc",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Get a second desktop for free",
+     "show": "Win + Ctrl + D, switch with Win + Ctrl + arrows",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Snap a window with your keyboard",
+     "show": "Win + Left/Right arrow",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "title": "Rename files faster",
+     "show": "F2, Tab to the next file",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "15 Windows shortcuts that save hours",
+    "carousel": "10 Windows shortcuts to learn this week",
+    "text": "What's the one shortcut you use every day?"
+   },
+   "series": "Windows"
+  },
+  {
+   "block": 7,
+   "series": "Windows",
+   "theme": "File Explorer tricks",
+   "long": {
+    "title": "File Explorer Tricks Every Windows 11 User Should Know",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Show file extensions (spot fake PDFs)",
+     "show": "File Explorer > View > Show > File name extensions",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "title": "See hidden files and folders",
+     "show": "View > Show > Hidden items",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "Open File Explorer to This PC",
+     "show": "... > Options > Open File Explorer to: This PC",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Find any file fast with search filters",
+     "show": "search box: kind:, size:, date: filters",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Copy a file's full path in one click",
+     "show": "select file > Ctrl+Shift+C (Copy as path)",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Rename 10 files at once",
+     "show": "select files > F2 > type name > Enter",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Compress a folder into a ZIP",
+     "show": "right-click > Compress to > ZIP File",
+     "used_by": null
+    },
+    {
+     "n": 8,
+     "title": "Pin folders to Quick access",
+     "show": "right-click folder > Pin to Quick access",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "8 File Explorer tricks in one minute",
+    "used_by": null
+   }
+  },
+  {
+   "block": 8,
+   "series": "Windows",
+   "theme": "Taskbar and Start menu",
+   "long": {
+    "title": "Customize the Windows 11 Taskbar and Start Menu (Complete Guide)",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Move the Start button to the left",
+     "show": "Settings > Personalization > Taskbar > Taskbar behaviors > Alignment: Left",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "title": "Hide the search box on your taskbar",
+     "show": "Taskbar items > Search: Hide / Search icon only",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "Auto-hide the taskbar for more space",
+     "show": "Taskbar behaviors > Automatically hide the taskbar",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Pin any app to your taskbar",
+     "show": "Start > right-click app > Pin to taskbar",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Show more pins in Start",
+     "show": "Settings > Personalization > Start > Layout: More pins",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Open apps with Win + number",
+     "show": "Win+1, Win+2 open taskbar apps in order",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Turn off Start menu recommendations",
+     "show": "Start > Show recently added apps / recommended files off",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "7 taskbar and Start menu tweaks in one minute",
+    "used_by": null
+   }
+  },
+  {
+   "block": 9,
+   "series": "Windows",
+   "theme": "Copy, paste and typing tricks",
+   "long": {
+    "title": "Windows 11 Typing and Clipboard Tricks That Save Hours",
+    "used_by": null
+   },
+   "episodes": [
+    {
+     "n": 1,
+     "title": "Windows saves everything you copy",
+     "show": "Win+V clipboard history (turn on)",
+     "used_by": null
+    },
+    {
+     "n": 2,
+     "title": "Paste without the formatting",
+     "show": "Ctrl+Shift+V in apps that support it / Win+V",
+     "used_by": null
+    },
+    {
+     "n": 3,
+     "title": "Type emojis anywhere",
+     "show": "Win+. emoji panel",
+     "used_by": null
+    },
+    {
+     "n": 4,
+     "title": "Take a screenshot of part of the screen",
+     "show": "Win+Shift+S Snipping",
+     "used_by": null
+    },
+    {
+     "n": 5,
+     "title": "Undo closing a browser tab",
+     "show": "Ctrl+Shift+T in Edge",
+     "used_by": null
+    },
+    {
+     "n": 6,
+     "title": "Switch between windows like a pro",
+     "show": "Alt+Tab, Win+Tab",
+     "used_by": null
+    },
+    {
+     "n": 7,
+     "title": "Snap two windows side by side",
+     "show": "Win+Left / Win+Right",
+     "used_by": null
+    }
+   ],
+   "tiktok": {
+    "video": "7 Windows keyboard tricks in one minute",
+    "used_by": null
+   }
+  },
   {
    "block": 6,
    "series": "AI for Creators",
@@ -115,360 +662,15 @@
    "tiktok": {
     "video": "same daily part (TikTok gets the day's video, the owner taps post)",
     "used_by": "n/a"
-   }
-  },
-  {
-   "block": 1,
-   "theme": "Speed up a slow PC",
-   "long": {
-    "title": "Windows 11 Running Slow? 12 Fixes That Actually Work",
-    "used_by": "long/02",
-    "title_made": "Windows 11 Running Slow? 10 Fixes That Actually Work"
    },
-   "episodes": [
-    {
-     "n": 1,
-     "title": "Your PC takes forever to start? Do this",
-     "show": "Task Manager > Startup apps, disable high-impact apps",
-     "used_by": "fb/01"
-    },
-    {
-     "n": 2,
-     "title": "What's slowing your PC? Check this",
-     "show": "Task Manager > Processes, sort by CPU and Memory, End task on a hog",
-     "used_by": "shorts/03"
-    },
-    {
-     "n": 3,
-     "title": "Windows hides a faster power mode",
-     "show": "Settings > System > Power (& battery) > Power mode: Best performance",
-     "used_by": "skipped: Power mode is not shown on the capture PC (virtual machine, no power plans page)"
-    },
-    {
-     "n": 4,
-     "title": "Turn off these animations for a faster PC",
-     "show": "Settings > Accessibility > Visual effects: Animation effects and Transparency off",
-     "used_by": "shorts/05"
-    },
-    {
-     "n": 5,
-     "title": "Free up space without deleting your files",
-     "show": "Settings > System > Storage > Temporary files / Cleanup recommendations",
-     "used_by": "fb/08"
-    },
-    {
-     "n": 6,
-     "title": "Taskbar frozen? Restart this, not your PC",
-     "show": "Task Manager > Windows Explorer > Restart",
-     "used_by": null
-    },
-    {
-     "n": 7,
-     "title": "Add End task to your taskbar",
-     "show": "Settings > System > For developers > End task on, then right-click a taskbar app",
-     "used_by": null
-    },
-    {
-     "n": 8,
-     "title": "Delete junk files automatically",
-     "show": "Settings > System > Storage > Storage Sense on + schedule",
-     "used_by": null
-    },
-    {
-     "n": 9,
-     "title": "Uninstall apps you never use",
-     "show": "Settings > Apps > Installed apps, sort by size, Uninstall",
-     "used_by": null
-    },
-    {
-     "n": 10,
-     "title": "Your PC may be missing driver updates",
-     "show": "Settings > Windows Update > Advanced options > Optional updates",
-     "used_by": null
-    }
-   ],
-   "tiktok": {
-    "video": "6 ways to make a slow Windows 11 PC faster",
-    "carousel": "5 free ways to speed up Windows 11",
-    "text": "Your PC isn't slow, it's crowded: open Startup apps",
-    "used_by": "tiktok/02"
-   }
-  },
-  {
-   "block": 2,
-   "theme": "Command Prompt basics",
-   "long": {
-    "title": "15 Command Prompt Commands Every Windows User Should Know",
-    "used_by": null
-   },
-   "episodes": [
-    {
-     "n": 1,
-     "title": "Website won't load? Try this one command",
-     "show": "ipconfig /flushdns",
-     "used_by": "fb/06"
-    },
-    {
-     "n": 2,
-     "title": "Find your IP address in 2 seconds",
-     "show": "ipconfig",
-     "used_by": null
-    },
-    {
-     "n": 3,
-     "title": "Is your internet down? Ping it",
-     "show": "ping google.com",
-     "used_by": null
-    },
-    {
-     "n": 4,
-     "title": "Fix broken Windows files with one command",
-     "show": "sfc /scannow in an admin terminal",
-     "used_by": null
-    },
-    {
-     "n": 5,
-     "title": "See your full PC specs with one command",
-     "show": "systeminfo",
-     "used_by": null
-    },
-    {
-     "n": 6,
-     "title": "Close a frozen app from Command Prompt",
-     "show": "tasklist, then taskkill /im notepad.exe /f",
-     "used_by": null
-    },
-    {
-     "n": 7,
-     "title": "Update all your apps with one command",
-     "show": "winget upgrade, then winget upgrade --all",
-     "used_by": null
-    },
-    {
-     "n": 8,
-     "title": "Check your drive for errors",
-     "show": "chkdsk C: (read-only scan)",
-     "used_by": null
-    },
-    {
-     "n": 9,
-     "title": "See every driver on your PC",
-     "show": "driverquery",
-     "used_by": null
-    },
-    {
-     "n": 10,
-     "title": "Shut down or restart with a timer",
-     "show": "shutdown /s /t 600, cancel with shutdown /a",
-     "used_by": null
-    }
-   ],
-   "tiktok": {
-    "video": "10 Command Prompt commands everyone should know",
-    "carousel": "7 CMD commands that fix common PC problems",
-    "text": "Which Command Prompt command do you actually use?"
-   }
-  },
-  {
-   "block": 3,
-   "theme": "Windows 11 settings to change",
-   "long": {
-    "title": "10 Windows 11 Settings You Should Change Right Now",
-    "used_by": null
-   },
-   "episodes": [
-    {
-     "n": 1,
-     "title": "That PDF might be a program",
-     "show": "File Explorer > View > Show > File name extensions",
-     "used_by": "fb/07"
-    },
-    {
-     "n": 2,
-     "title": "Stop losing the things you copy on Windows",
-     "show": "Win + V clipboard history",
-     "used_by": "fb/02"
-    },
-    {
-     "n": 3,
-     "title": "Stop dragging windows around on Windows 11",
-     "show": "Snap layouts",
-     "used_by": "fb/03"
-    },
-    {
-     "n": 4,
-     "title": "Turn on dark mode in Windows 11",
-     "show": "Settings > Personalization > Colors > Dark",
-     "used_by": null
-    },
-    {
-     "n": 5,
-     "title": "Remove the ads from your Start menu",
-     "show": "Settings > Personalization > Start: recommendations/tips off",
-     "used_by": null
-    },
-    {
-     "n": 6,
-     "title": "Too many notifications? Fix it in 10 seconds",
-     "show": "Settings > System > Notifications, turn off per app",
-     "used_by": null
-    },
-    {
-     "n": 7,
-     "title": "Move your taskbar icons to the left",
-     "show": "Settings > Personalization > Taskbar > Taskbar behaviors > Alignment: Left",
-     "used_by": null
-    },
-    {
-     "n": 8,
-     "title": "See the hidden files on your PC",
-     "show": "File Explorer > View > Show > Hidden items",
-     "used_by": null
-    },
-    {
-     "n": 9,
-     "title": "Stop Windows from tracking your app launches",
-     "show": "Settings > Privacy & security > General toggles",
-     "used_by": null
-    },
-    {
-     "n": 10,
-     "title": "Make a restore point before something breaks",
-     "show": "Control Panel > System Protection > Create",
-     "used_by": null
-    }
-   ],
-   "tiktok": {
-    "video": "8 Windows 11 settings you should change right now",
-    "carousel": "6 Windows 11 settings to change today",
-    "text": "Changing one Windows setting today? Make it this one"
-   }
-  },
-  {
-   "block": 4,
-   "theme": "Free up disk space",
-   "long": {
-    "title": "Free Up Disk Space on Windows 11 (Every Safe Method)",
-    "used_by": null
-   },
-   "episodes": [
-    {
-     "n": 1,
-     "title": "Your C drive is full? Start here",
-     "show": "Settings > System > Storage, see what uses space",
-     "used_by": null
-    },
-    {
-     "n": 2,
-     "title": "Delete temporary files safely",
-     "show": "Settings > System > Storage > Temporary files",
-     "used_by": null
-    },
-    {
-     "n": 3,
-     "title": "The old cleanup tool still works",
-     "show": "cleanmgr > Clean up system files",
-     "used_by": null
-    },
-    {
-     "n": 4,
-     "title": "Empty your Downloads automatically",
-     "show": "Storage Sense > Downloads folder setting",
-     "used_by": null
-    },
-    {
-     "n": 5,
-     "title": "Find the biggest apps on your PC",
-     "show": "Settings > Apps > Installed apps, sort by size",
-     "used_by": null
-    },
-    {
-     "n": 6,
-     "title": "Delete old Windows update files",
-     "show": "Disk Cleanup > Windows Update Cleanup",
-     "used_by": null
-    },
-    {
-     "n": 7,
-     "title": "Find huge files in File Explorer",
-     "show": "Search size:gigantic in File Explorer",
-     "used_by": null
-    },
-    {
-     "n": 8,
-     "title": "Empty the Recycle Bin automatically",
-     "show": "Storage Sense > Recycle Bin setting",
-     "used_by": null
-    }
-   ],
-   "tiktok": {
-    "video": "Free up gigabytes on Windows 11 without deleting your files",
-    "carousel": "5 safe ways to free up disk space",
-    "text": "How full is your C drive right now?"
-   }
-  },
-  {
-   "block": 5,
-   "theme": "Keyboard shortcuts",
-   "long": {
-    "title": "15 Windows Keyboard Shortcuts That Save Hours",
-    "used_by": null
-   },
-   "episodes": [
-    {
-     "n": 1,
-     "title": "Lock your PC in one second",
-     "show": "Win + L",
-     "used_by": null
-    },
-    {
-     "n": 2,
-     "title": "Hide every window instantly",
-     "show": "Win + D",
-     "used_by": null
-    },
-    {
-     "n": 3,
-     "title": "Your PC has an emoji keyboard",
-     "show": "Win + .",
-     "used_by": null
-    },
-    {
-     "n": 4,
-     "title": "Closed a tab by mistake? Bring it back",
-     "show": "Ctrl + Shift + T in Edge",
-     "used_by": null
-    },
-    {
-     "n": 5,
-     "title": "Open Task Manager the fast way",
-     "show": "Ctrl + Shift + Esc",
-     "used_by": null
-    },
-    {
-     "n": 6,
-     "title": "Get a second desktop for free",
-     "show": "Win + Ctrl + D, switch with Win + Ctrl + arrows",
-     "used_by": null
-    },
-    {
-     "n": 7,
-     "title": "Snap a window with your keyboard",
-     "show": "Win + Left/Right arrow",
-     "used_by": null
-    },
-    {
-     "n": 8,
-     "title": "Rename files faster",
-     "show": "F2, Tab to the next file",
-     "used_by": null
-    }
-   ],
-   "tiktok": {
-    "video": "15 Windows shortcuts that save hours",
-    "carousel": "10 Windows shortcuts to learn this week",
-    "text": "What's the one shortcut you use every day?"
-   }
+   "paused": "owner 2026-11-11: device series first (Windows, then MacBook, iPhone, Android); AI for Creators resumes later (Part 1 posted)"
   }
+ ],
+ "series_order": [
+  "Windows (blocks 1-5, 7-9)",
+  "MacBook (needs a Mac capture test)",
+  "iPhone (needs an iPhone simulator test or owner recordings)",
+  "Android (needs an Android emulator test)",
+  "AI for Creators (paused after Part 1)"
  ]
 }
