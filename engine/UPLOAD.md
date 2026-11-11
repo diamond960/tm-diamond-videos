@@ -94,3 +94,12 @@ which manages the Page; nothing is ever posted to his personal profile).
    Windows + AI tips", then 0-4 specific hashtags only if they help search (SPEC.md). No "AI voice"/AI labels.
 4. Study the Page: run 6912009 `{job: "fb-study-<date>", job_type: "fb_study"}` -> the record lists the last 40
    videos (date | length | title/description). Facebook doesn't give view counts through this route.
+
+## Channel settings (changed 2026-11-11, owner asked)
+
+- Channel trailer for non-subscribers = the newest Windows long video (`brandingSettings.channel.unsubscribedTrailer`).
+  When a new Windows long video beats it, PUT the whole brandingSettings again (description, keywords, country "US",
+  defaultLanguage "en", unsubscribedTrailer, and `image.bannerExternalUrl` copied from a fresh GET so the banner stays).
+- Home tab: "Windows 11 Tutorials" playlist shelf at the top (section UCy7l_3L65Us6BTwlYHwb5Eg.iJLXf_7B368).
+- Every long video gets a trailer Short cut from it; the owner links them in Studio (Short > Related video), which has no API.
+- Before/after values and undo steps: `channel/`.

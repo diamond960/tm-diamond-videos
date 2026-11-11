@@ -1,0 +1,18 @@
+{
+ "date": "2026-11-11",
+ "asked": "Owner: fix my YouTube settings to start getting views on my long videos",
+ "done_via_api": {
+  "channel_description": "rewritten around Windows 11 / PC tutorials (old one said Android repairs, ISO setup); old text in settings_before_2026-11-11.json",
+  "channel_keywords": "\"windows 11\" \"windows 11 tips\" \"windows tutorials\" \"pc tips\" \"speed up pc\" \"slow pc fix\" \"free up disk space\" \"command prompt\" \"tech tutorials\" \"TM Diamond\" \"Team Diamond\" \"claude ai\"",
+  "channel_trailer_for_non_subscribers": "dLADjUbEuYs (Windows 11 Running Slow? 10 Fixes)",
+  "default_language": "en",
+  "homepage_shelf": "Windows 11 Tutorials playlist (PLUAaOs127XpM) added at the top of the Home tab, section id UCy7l_3L65Us6BTwlYHwb5Eg.iJLXf_7B368",
+  "verified": "re-read from YouTube: keywords, trailer, language set; banner unchanged"
+ },
+ "already_fine": "long videos already had chapters, tags, category 28, English, not made for kids; channel not made for kids",
+ "owner_must_do_in_studio": [
+  "Shorts > Related video -> the long video (no API for this)",
+  "End screens on long videos (no API)"
+ ],
+ "undo": "PUT /v3/channels?part=brandingSettings with settings_before values; DELETE /v3/channelSections?id=UCy7l_3L65Us6BTwlYHwb5Eg.iJLXf_7B368"
+}
