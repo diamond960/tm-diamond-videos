@@ -1,0 +1,54 @@
+﻿ControlType.Window | Settings | 1524,91,188,32
+ControlType.Button | Minimize Settings | 1574,91,46,32
+ControlType.Button | Maximize Settings | 1620,91,46,32
+ControlType.Button | Close Settings | 1666,91,46,32
+ControlType.Window | Settings | 168,91,1544,891
+ControlType.Text | Settings | 218,107,1306,16
+ControlType.Edit | Search box, Find a setting | 682,99,516,32
+ControlType.Button | Back | 172,97,40,36
+ControlType.Button | runneradmin Local Account | 173,140,290,75
+ControlType.Image | User profile picture | 184,148,60,60
+ControlType.Text | runneradmin | 256,161,83,19
+ControlType.Text | Local Account | 256,180,83,16
+ControlType.ListItem | System | 184,234,280,36
+ControlType.ListItem | Bluetooth & devices | 184,274,280,36
+ControlType.ListItem | Network & internet | 184,314,280,36
+ControlType.ListItem | Personalization | 184,354,280,36
+ControlType.ListItem | Apps | 184,394,280,36
+ControlType.ListItem | Accounts | 184,434,280,36
+ControlType.ListItem | Time & language | 184,474,280,36
+ControlType.ListItem | Accessibility | 184,514,280,36
+ControlType.ListItem | Privacy & security | 184,554,280,36
+ControlType.ListItem | Windows Update | 184,594,280,36
+ControlType.Button | System | 590,142,134,44
+ControlType.Text | System | 591,145,92,38
+ControlType.Button | Storage | 725,145,99,38
+ControlType.Text | Storage | 725,145,99,38
+ControlType.Text | ‎Windows (C:) - 149 GB | 591,202,1000,38
+ControlType.ProgressBar | 81.8268 percent of disk space used | 591,245,1000,12
+ControlType.Text | 122 GB used | 591,261,934,16
+ControlType.Text | 27.2 GB free | 1525,261,66,16
+ControlType.Group | Temporary files, 1.45 GB out of 122 GB. used | 591,301,1000,69
+ControlType.ProgressBar | Busy  | 764,318,20,20
+ControlType.Text | 1.45 GB/122 GB used | 1436,318,110,24
+ControlType.ProgressBar | Temporary files | 650,342,896,12
+ControlType.Button | Temporary files, 1.45 GB out of 122 GB. used | 1550,320,32,32
+ControlType.Hyperlink | Show more categories | 591,379,123,18
+ControlType.Group | Storage management | 591,429,1000,241
+ControlType.Text | Storage management | 591,429,1000,19
+ControlType.Group | Storage Sense | 591,456,1000,70
+ControlType.Text | Storage Sense | 650,474,88,19
+ControlType.Text | Automatically free up space, delete temporary files, and manage locally available cloud content | 650,493,515,16
+ControlType.Button | Storage Sense | 1474,471,72,40
+ControlType.Button | Storage Sense | 1550,475,32,32
+ControlType.Group | Cleanup recommendations | 591,529,1000,69
+ControlType.Text | Cleanup recommendations | 650,544,167,19
+ControlType.Text | Storage optimized, no action required | 650,565,896,16
+ControlType.Button | Cleanup recommendations | 1550,548,32,32
+ControlType.Group | Advanced storage settings | 591,601,1000,69
+ControlType.Text | Advanced storage settings | 650,618,164,19
+ControlType.Text | Backup options, Storage Spaces, other disks and volumes | 650,637,310,16
+ControlType.Button | Show more settings | 1550,620,32,32
+ControlType.Group | Give feedback | 591,702,121,21
+ControlType.Hyperlink | Give feedback | 623,702,89,21
+ControlType.Text | Give feedback | 624,703,87,19

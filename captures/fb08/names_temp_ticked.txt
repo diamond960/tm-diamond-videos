@@ -1,0 +1,37 @@
+﻿ControlType.Window | Settings | 1524,91,188,32
+ControlType.Button | Minimize Settings | 1574,91,46,32
+ControlType.Button | Maximize Settings | 1620,91,46,32
+ControlType.Button | Close Settings | 1666,91,46,32
+ControlType.Window | Settings | 168,91,1544,891
+ControlType.Text | Settings | 218,107,1306,16
+ControlType.Edit | Search box, Find a setting | 682,99,516,32
+ControlType.Button | Back | 172,97,40,36
+ControlType.Button | runneradmin Local Account | 173,140,290,75
+ControlType.Image | User profile picture | 184,148,60,60
+ControlType.Text | runneradmin | 256,161,83,19
+ControlType.Text | Local Account | 256,180,83,16
+ControlType.ListItem | System | 184,234,280,36
+ControlType.ListItem | Bluetooth & devices | 184,274,280,36
+ControlType.ListItem | Network & internet | 184,314,280,36
+ControlType.ListItem | Personalization | 184,354,280,36
+ControlType.ListItem | Apps | 184,394,280,36
+ControlType.ListItem | Accounts | 184,434,280,36
+ControlType.ListItem | Time & language | 184,474,280,36
+ControlType.ListItem | Accessibility | 184,514,280,36
+ControlType.ListItem | Privacy & security | 184,554,280,36
+ControlType.ListItem | Windows Update | 184,594,280,36
+ControlType.Button | System | 590,142,134,44
+ControlType.Text | System | 591,145,92,38
+ControlType.Button | Storage | 724,142,141,44
+ControlType.Text | Storage | 725,145,99,38
+ControlType.Button | Temporary files | 866,145,195,38
+ControlType.Text | Temporary files | 866,145,195,38
+ControlType.Text | Some temporary files are needed by apps. Below is a list of files you can remove now. | 591,211,448,38
+ControlType.Button | Remove files. Total selected: 417 MB | 591,276,102,32
+ControlType.Hyperlink | Refresh | 703,282,69,21
+ControlType.Text | Last scanned at 11/11/2026 7:17 AM | 591,323,448,19
+ControlType.ListItem | Temporary files Apps can store temporary information in specific folders. These can be cleaned up manually if the app does not do it automatically. 400 MB | 581,347,458,95
+ControlType.ListItem | Microsoft Defender Antivirus Non critical files used by Microsoft Defender Antivirus 13.4 MB | 581,442,458,58
+ControlType.ListItem | Thumbnails Windows keeps a copy of all of your picture, video, and document thumbnails so they can be displayed quickly when you open a folder. If you delete these thumbnails, they will be automatically recreated as needed. 4.01 MB | 581,500,458,114
+ControlType.ListItem | Delivery Optimization Files Delivery Optimization is used to download updates from Microsoft. These files are stored in a dedicated cache to be uploaded to other devices on your local network (if your settings allow such use). You may safely delete these files if you need the space. 48.0 KB | 581,614,458,133
+ControlType.ListItem | DirectX Shader Cache Clean up files created by the graphics system which can speed up application load time and improve responsiveness. They will be re-generated as needed. 8.01 KB | 581,747,458,95

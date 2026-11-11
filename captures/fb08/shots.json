@@ -1,0 +1,225 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "temp":  {
+                                   "y":  301,
+                                   "w":  1000,
+                                   "h":  69,
+                                   "name":  "Temporary files, 1.45 GB out of 122 GB. used",
+                                   "x":  591
+                               },
+                      "storage":  {
+                                      "y":  145,
+                                      "w":  99,
+                                      "h":  38,
+                                      "name":  "Storage",
+                                      "x":  725
+                                  },
+                      "system":  {
+                                     "y":  234,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "System",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       1400,
+                       760
+                   ],
+        "note":  "",
+        "label":  "storage",
+        "file":  "001_storage.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "temp":  {
+                                   "y":  301,
+                                   "w":  1000,
+                                   "h":  69,
+                                   "name":  "Temporary files, 1.45 GB out of 122 GB. used",
+                                   "x":  591
+                               }
+                  },
+        "cursor":  [
+                       1091,
+                       336
+                   ],
+        "note":  "",
+        "label":  "hover_temp",
+        "file":  "002_hover_temp.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "remove":  {
+                                     "y":  276,
+                                     "w":  102,
+                                     "h":  32,
+                                     "name":  "Remove files. Total selected: 417 MB",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1400,
+                       760
+                   ],
+        "note":  "",
+        "label":  "temp_page",
+        "file":  "003_temp_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "remove":  {
+                                     "y":  276,
+                                     "w":  102,
+                                     "h":  32,
+                                     "name":  "Remove files. Total selected: 417 MB",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1400,
+                       760
+                   ],
+        "note":  "",
+        "label":  "ready",
+        "file":  "004_ready.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "remove":  {
+                                     "y":  276,
+                                     "w":  102,
+                                     "h":  32,
+                                     "name":  "Remove files. Total selected: 417 MB",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       642,
+                       292
+                   ],
+        "note":  "",
+        "label":  "hover_remove",
+        "file":  "005_hover_remove.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "cont":  {
+                                   "y":  581,
+                                   "w":  184,
+                                   "h":  32,
+                                   "name":  "Continue",
+                                   "x":  753
+                               },
+                      "remove":  {
+                                     "y":  276,
+                                     "w":  102,
+                                     "h":  32,
+                                     "name":  "Remove files. Total selected: 417 MB",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       642,
+                       292
+                   ],
+        "note":  "",
+        "label":  "confirm",
+        "file":  "006_confirm.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "remove":  {
+                                     "y":  276,
+                                     "w":  102,
+                                     "h":  32,
+                                     "name":  "Remove files. Total selected: 0 bytes",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1400,
+                       760
+                   ],
+        "note":  "",
+        "label":  "done",
+        "file":  "007_done.png"
+    },
+    {
+        "fg":  {
+                   "y":  90,
+                   "w":  1560,
+                   "h":  900,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1400,
+                       760
+                   ],
+        "note":  "",
+        "label":  "done2",
+        "file":  "008_done2.png"
+    }
+]
