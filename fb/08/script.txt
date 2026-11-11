@@ -1,0 +1,7 @@
+Your PC is full of junk files.
+Open Settings, then System, then Storage.
+Click Temporary files.
+Tick the junk you don't need.
+Then click Remove files.
+Your own files stay safe, and the space is back.
+Follow for more Windows tips.
