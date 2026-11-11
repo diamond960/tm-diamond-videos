@@ -1,0 +1,18 @@
+Your Windows PC is slow, and here are six free fixes in one minute.
+Number six is the one most people never find.
+Fix one: press Control, Shift, Escape, and open Startup apps.
+Disable the apps you don't need when your PC starts.
+Fix two: on Processes, sort by CPU.
+If one app is eating your processor, save your work and click End task.
+Fix three: if the taskbar freezes, restart Windows Explorer instead of your PC.
+Your open apps stay open.
+Fix four: in Settings, open Storage Sense and turn on automatic cleanup.
+Set it to run every week, and Windows deletes junk files for you.
+Fix five: in Installed apps, sort by size.
+Uninstall the big apps you never use, but only ones you recognize.
+Fix six: search for performance, and open Adjust the appearance and performance of Windows.
+Choose Adjust for best performance, then click OK.
+Windows looks a little plainer, but it responds faster.
+None of these fixes delete your files.
+Save this video, so you can do it later.
+Follow for more Windows fixes every day.

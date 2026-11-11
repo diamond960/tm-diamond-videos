@@ -1,0 +1,6 @@
+These apps are eating your storage.
+Open Settings, Apps, then Installed apps.
+Sort by size, so the biggest apps are on top.
+Click the three dots next to an app you never use.
+Then choose Uninstall.
+Follow for more Windows fixes.

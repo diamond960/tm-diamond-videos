@@ -1,0 +1,9 @@
+{
+ "out": "fb/14/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "One setting makes an old PC feel faster.\nOpen Adjust the appearance and performance of Windows from the Start menu.\nChoose Adjust for best performance.\nClick OK.\nWindows looks a little plainer, but it responds faster.\nFollow for more Windows fixes."
+ }
+}

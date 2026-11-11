@@ -1,0 +1,6 @@
+Your drive needs a tune-up, and Windows does it for free.
+Open Defragment and Optimize Drives from the Start menu.
+Select your C drive.
+Click Optimize.
+On an SSD, Windows sends a trim command, which keeps it fast.
+Follow for more Windows fixes.

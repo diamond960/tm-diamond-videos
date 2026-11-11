@@ -1,0 +1,6 @@
+Your PC can delete junk files by itself.
+Open Settings, System, Storage, then Storage Sense.
+Turn on automatic cleanup.
+Set it to run every week.
+Now Windows clears temporary files for you.
+Follow for more Windows fixes.

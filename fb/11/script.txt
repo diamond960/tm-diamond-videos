@@ -1,0 +1,6 @@
+Taskbar frozen? Don't restart your PC.
+Press Control, Shift, Escape to open Task Manager.
+Find Windows Explorer, and select it.
+Click Restart task.
+The taskbar comes back in a second, and your apps stay open.
+Follow for more Windows fixes.

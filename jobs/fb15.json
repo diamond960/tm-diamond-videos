@@ -1,0 +1,9 @@
+{
+ "out": "fb/15/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "Your drive needs a tune-up, and Windows does it for free.\nOpen Defragment and Optimize Drives from the Start menu.\nSelect your C drive.\nClick Optimize.\nOn an SSD, Windows sends a trim command, which keeps it fast.\nFollow for more Windows fixes."
+ }
+}
