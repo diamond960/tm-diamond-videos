@@ -1,0 +1,9 @@
+{
+ "out": "fb/21/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "See every driver on your PC with one command.\nPress Windows and R, type C M D, and press Enter.\nType driver query, all one word, and press Enter.\nYou get the full list of drivers on your PC, with each one's name and type.\nHandy when something stops working after an update.\nFollow for more Windows fixes."
+ }
+}

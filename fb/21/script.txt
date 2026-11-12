@@ -1,5 +1,5 @@
 See every driver on your PC with one command.
-Search for C M D, and press Enter.
+Press Windows and R, type C M D, and press Enter.
 Type driver query, all one word, and press Enter.
 You get the full list of drivers on your PC, with each one's name and type.
 Handy when something stops working after an update.

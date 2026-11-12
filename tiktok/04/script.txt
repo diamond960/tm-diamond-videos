@@ -1,6 +1,6 @@
 Six Command Prompt commands every Windows user should know.
 Number six closes a frozen app in one second.
-First, search for C M D, and click Run as administrator.
+First, press Windows and R, type C M D, and press Enter.
 Command one: I P config.
 It shows your PC's address on your home network, on the line that says I P v 4 Address.
 Command two: I P config, slash flush D N S.

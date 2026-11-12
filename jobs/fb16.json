@@ -1,0 +1,9 @@
+{
+ "out": "fb/16/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "Need your PC's IP address? It takes two seconds.\nPress Windows and R, type C M D, and press Enter.\nType I P config, and press Enter.\nLook for the line that says I P v 4 Address.\nThat number is your PC's address on your home network.\nFollow for more Windows fixes."
+ }
+}

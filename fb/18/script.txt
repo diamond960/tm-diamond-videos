@@ -1,5 +1,5 @@
 Want to know exactly what's inside your PC?
-Search for C M D, and press Enter.
+Press Windows and R, type C M D, and press Enter.
 Type system info, and press Enter.
 Now scroll up to the top.
 You'll see your Windows version, your processor, and how much RAM you have.

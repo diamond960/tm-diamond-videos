@@ -1,0 +1,9 @@
+{
+ "out": "fb/20/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "text": "Files acting weird? Check your drive for errors, for free.\nSearch for Command Prompt, and click Run as administrator.\nType C H K disk, space, C colon, and press Enter.\nIt scans your drive, without changing anything.\nIf it says it found no problems, your drive is fine.\nFollow for more Windows fixes."
+ }
+}

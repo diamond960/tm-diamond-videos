@@ -1,0 +1,9 @@
+{
+ "out": "tiktok/04/voice",
+ "tts": {
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "text": "Six Command Prompt commands every Windows user should know.\nNumber six closes a frozen app in one second.\nFirst, press Windows and R, type C M D, and press Enter.\nCommand one: I P config.\nIt shows your PC's address on your home network, on the line that says I P v 4 Address.\nCommand two: I P config, slash flush D N S.\nIf a website won't load, this clears the old saved addresses, so you can try again.\nCommand three: system info.\nScroll up to the top, and you'll see your Windows version and how much RAM you have.\nCommand four: driver query.\nIt lists every driver installed on your PC, by name and type.\nCommand five: task list.\nIt shows every app and process that's running right now, with its name.\nCommand six: task kill.\nType task kill, slash I M, then the app's name, then slash F, and press Enter.\nThe frozen app closes right away, but anything unsaved in it is lost.\nSave this video, so you have these commands when you need them.\nFollow for more Windows fixes every day."
+ }
+}
