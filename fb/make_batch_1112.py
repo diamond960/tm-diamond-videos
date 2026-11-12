@@ -79,6 +79,44 @@ CLIPS = {
         ]),
 }
 
+CAPB = "captures/day20261112b"
+# Start -> type "command prompt" -> Run as administrator (captures/day20261112b)
+ADMIN = dict(shot="adm_start", cam=FULL, keys=(["Win"], 0.0), seq=("adm_search_type", 0.08, 0.42), typing=True,
+             after=[(0.46, "adm_search")], boxes=[([281, 216, 317, 62], GREEN, 0.46, 0.66), ([640, 409, 180, 26], GREEN, 0.64, 0.86)],
+             clicks=[(726, 421, 0.84, "adm_open")], step=("Step 1", "Command Prompt, Run as administrator"))
+
+CLIPS_B = {
+    "fb/17": dict(
+        title="Windows acting strange? Repair it with one command",
+        captures=CAPB,
+        card=dict(title="Command Prompt", sub="Broken Windows files?", big="sfc /scannow"),
+        beats=[
+            dict(shot="b2e4_result", cam=FULL, boxes=[([2, 222, 956, 24], GREEN, 0.3, 1.0)]),
+            dict(ADMIN),
+            dict(shot="b2e4_clean", cam=FULL, seq=("b2e4_type", 0.1, 0.66), typing=True, keys=(["Enter"], 0.8),
+                 after=[(0.86, "b2e4_run:first")], step=("Step 2", "Type sfc /scannow, press Enter")),
+            dict(shot="b2e4_run:first", cam=FULL, seq=("b2e4_run", 0.0, 0.75), after=[(0.82, "b2e4_result")],
+                 boxes=[([2, 222, 956, 24], GREEN, 0.84, 1.1)], step=("Step 3", "It checks and repairs system files")),
+            dict(shot="b2e4_result", cam=FULL, boxes=[([2, 177, 330, 24], GREEN, 0.0, 1.0)], step=("Done", "Keep it open until 100%")),
+            dict(shot="b2e4_result", cam=FULL),
+        ]),
+    "fb/20": dict(
+        title="Check your drive for errors, for free",
+        captures=CAPB,
+        card=dict(title="Command Prompt", sub="Files acting weird?", big="chkdsk C:"),
+        beats=[
+            dict(shot="b2e8_result", cam=FULL, boxes=[([2, 269, 705, 47], GREEN, 0.3, 1.0)]),
+            dict(ADMIN),
+            dict(shot="b2e8_clean", cam=FULL, seq=("b2e8_type", 0.1, 0.62), typing=True, keys=(["Enter"], 0.8),
+                 after=[(0.86, "b2e8_run:first")], step=("Step 2", "Type chkdsk C:, press Enter")),
+            dict(shot="b2e8_run:first", cam=FULL, seq=("b2e8_run", 0.42, 0.97), boxes=[([2, 177, 405, 24], GREEN, 0.02, 0.45)],
+                 step=("Step 3", "Read-only scan: nothing is changed")),
+            dict(shot="b2e8_result", cam=FULL, boxes=[([2, 269, 705, 47], GREEN)], step=("Done", "No problems found = drive is fine")),
+            dict(shot="b2e8_result", cam=FULL),
+        ]),
+}
+CLIPS.update(CLIPS_B)
+
 
 if __name__ == "__main__":
     want = sys.argv[1:] or list(CLIPS)

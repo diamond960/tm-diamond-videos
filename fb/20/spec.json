@@ -1,0 +1,339 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "captures": "captures/day20261112b",
+ "narration": "fb/20/tight.wav",
+ "words": "fb/20/tight.json",
+ "script": "fb/20/script.txt",
+ "duration": 19.74,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "040_b2e8_result.png"
+  ],
+  [
+   3.645,
+   "002_adm_start.png"
+  ],
+  [
+   4.038,
+   "003_adm_search_type.png"
+  ],
+  [
+   4.121,
+   "004_adm_search_type.png"
+  ],
+  [
+   4.204,
+   "005_adm_search_type.png"
+  ],
+  [
+   4.286,
+   "006_adm_search_type.png"
+  ],
+  [
+   4.369,
+   "007_adm_search_type.png"
+  ],
+  [
+   4.452,
+   "008_adm_search_type.png"
+  ],
+  [
+   4.535,
+   "009_adm_search_type.png"
+  ],
+  [
+   4.618,
+   "010_adm_search_type.png"
+  ],
+  [
+   4.7,
+   "011_adm_search_type.png"
+  ],
+  [
+   4.783,
+   "012_adm_search_type.png"
+  ],
+  [
+   4.866,
+   "013_adm_search_type.png"
+  ],
+  [
+   4.949,
+   "014_adm_search_type.png"
+  ],
+  [
+   5.031,
+   "015_adm_search_type.png"
+  ],
+  [
+   5.114,
+   "016_adm_search_type.png"
+  ],
+  [
+   5.334,
+   "017_adm_search.png"
+  ],
+  [
+   6.749,
+   "020_adm_open.png"
+  ],
+  [
+   7.475,
+   "021_b2e8_clean.png"
+  ],
+  [
+   7.942,
+   "022_b2e8_type.png"
+  ],
+  [
+   8.143,
+   "023_b2e8_type.png"
+  ],
+  [
+   8.343,
+   "024_b2e8_type.png"
+  ],
+  [
+   8.544,
+   "025_b2e8_type.png"
+  ],
+  [
+   8.744,
+   "026_b2e8_type.png"
+  ],
+  [
+   8.945,
+   "027_b2e8_type.png"
+  ],
+  [
+   9.145,
+   "028_b2e8_type.png"
+  ],
+  [
+   9.346,
+   "029_b2e8_type.png"
+  ],
+  [
+   9.546,
+   "030_b2e8_type.png"
+  ],
+  [
+   10.58,
+   "031_b2e8_run.png"
+  ],
+  [
+   11.366,
+   "031_b2e8_run.png"
+  ],
+  [
+   12.516,
+   "031_b2e8_run.png"
+  ],
+  [
+   12.666,
+   "032_b2e8_run.png"
+  ],
+  [
+   12.816,
+   "033_b2e8_run.png"
+  ],
+  [
+   12.965,
+   "034_b2e8_run.png"
+  ],
+  [
+   13.115,
+   "035_b2e8_run.png"
+  ],
+  [
+   13.265,
+   "036_b2e8_run.png"
+  ],
+  [
+   13.415,
+   "037_b2e8_run.png"
+  ],
+  [
+   13.564,
+   "038_b2e8_run.png"
+  ],
+  [
+   13.714,
+   "039_b2e8_run.png"
+  ],
+  [
+   14.238,
+   "040_b2e8_result.png"
+  ],
+  [
+   17.546,
+   "040_b2e8_result.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   640,
+   360,
+   720,
+   0
+  ]
+ ],
+ "cursor": [
+  [
+   6.179,
+   726,
+   421
+  ],
+  [
+   6.779,
+   726,
+   421
+  ]
+ ],
+ "cursor_on": [
+  [
+   5.8790000000000004,
+   7.379
+  ]
+ ],
+ "clicks": [
+  6.629
+ ],
+ "keys": [
+  [
+   3.765,
+   [
+    "Win"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   10.372,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ]
+ ],
+ "typing": [
+  [
+   4.038,
+   5.197,
+   14
+  ],
+  [
+   7.942,
+   9.747,
+   9
+  ]
+ ],
+ "boxes": [
+  [
+   1.046,
+   [
+    2,
+    269,
+    705,
+    47
+   ],
+   2.3
+  ],
+  [
+   5.334,
+   [
+    281,
+    216,
+    317,
+    62
+   ],
+   0.68
+  ],
+  [
+   5.947,
+   [
+    640,
+    409,
+    180,
+    26
+   ],
+   0.75
+  ],
+  [
+   11.535,
+   [
+    2,
+    177,
+    405,
+    24
+   ],
+   1.05
+  ],
+  [
+   14.508,
+   [
+    2,
+    269,
+    705,
+    47
+   ],
+   2.99
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 3.65,
+  "title": "Command Prompt",
+  "sub": "Files acting weird?",
+  "big": "chkdsk C:"
+ },
+ "steps": [
+  [
+   3.765,
+   7.475,
+   "Step 1",
+   "Command Prompt, Run as administrator"
+  ],
+  [
+   7.595,
+   11.366,
+   "Step 2",
+   "Type chkdsk C:, press Enter"
+  ],
+  [
+   11.486,
+   14.238,
+   "Step 3",
+   "Read-only scan: nothing is changed"
+  ],
+  [
+   14.358,
+   17.546,
+   "Done",
+   "No problems found = drive is fine"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   6.629,
+   "click"
+  ]
+ ],
+ "follow": 17.67,
+ "hide": [
+  [
+   1082,
+   617,
+   198,
+   54
+  ]
+ ],
+ "drift": 0.01
+}

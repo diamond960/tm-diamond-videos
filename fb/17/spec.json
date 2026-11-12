@@ -1,0 +1,343 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "captures": "captures/day20261112b",
+ "narration": "fb/17/tight.wav",
+ "words": "fb/17/tight.json",
+ "script": "fb/17/script.txt",
+ "duration": 21.3,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "060_b2e4_result.png"
+  ],
+  [
+   3.4,
+   "002_adm_start.png"
+  ],
+  [
+   3.793,
+   "003_adm_search_type.png"
+  ],
+  [
+   3.876,
+   "004_adm_search_type.png"
+  ],
+  [
+   3.959,
+   "005_adm_search_type.png"
+  ],
+  [
+   4.041,
+   "006_adm_search_type.png"
+  ],
+  [
+   4.124,
+   "007_adm_search_type.png"
+  ],
+  [
+   4.207,
+   "008_adm_search_type.png"
+  ],
+  [
+   4.29,
+   "009_adm_search_type.png"
+  ],
+  [
+   4.373,
+   "010_adm_search_type.png"
+  ],
+  [
+   4.455,
+   "011_adm_search_type.png"
+  ],
+  [
+   4.538,
+   "012_adm_search_type.png"
+  ],
+  [
+   4.621,
+   "013_adm_search_type.png"
+  ],
+  [
+   4.704,
+   "014_adm_search_type.png"
+  ],
+  [
+   4.786,
+   "015_adm_search_type.png"
+  ],
+  [
+   4.869,
+   "016_adm_search_type.png"
+  ],
+  [
+   5.089,
+   "017_adm_search.png"
+  ],
+  [
+   6.504,
+   "020_adm_open.png"
+  ],
+  [
+   7.23,
+   "041_b2e4_clean.png"
+  ],
+  [
+   7.694,
+   "042_b2e4_type.png"
+  ],
+  [
+   7.854,
+   "043_b2e4_type.png"
+  ],
+  [
+   8.015,
+   "044_b2e4_type.png"
+  ],
+  [
+   8.175,
+   "045_b2e4_type.png"
+  ],
+  [
+   8.336,
+   "046_b2e4_type.png"
+  ],
+  [
+   8.496,
+   "047_b2e4_type.png"
+  ],
+  [
+   8.657,
+   "048_b2e4_type.png"
+  ],
+  [
+   8.817,
+   "049_b2e4_type.png"
+  ],
+  [
+   8.978,
+   "050_b2e4_type.png"
+  ],
+  [
+   9.138,
+   "051_b2e4_type.png"
+  ],
+  [
+   9.299,
+   "052_b2e4_type.png"
+  ],
+  [
+   9.459,
+   "053_b2e4_type.png"
+  ],
+  [
+   10.308,
+   "054_b2e4_run.png"
+  ],
+  [
+   11.09,
+   "054_b2e4_run.png"
+  ],
+  [
+   11.21,
+   "054_b2e4_run.png"
+  ],
+  [
+   11.695,
+   "055_b2e4_run.png"
+  ],
+  [
+   12.179,
+   "056_b2e4_run.png"
+  ],
+  [
+   12.664,
+   "057_b2e4_run.png"
+  ],
+  [
+   13.149,
+   "058_b2e4_run.png"
+  ],
+  [
+   13.633,
+   "059_b2e4_run.png"
+  ],
+  [
+   14.39,
+   "060_b2e4_result.png"
+  ],
+  [
+   15.388,
+   "060_b2e4_result.png"
+  ],
+  [
+   19.099,
+   "060_b2e4_result.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   640,
+   360,
+   720,
+   0
+  ]
+ ],
+ "cursor": [
+  [
+   5.934,
+   726,
+   421
+  ],
+  [
+   6.534,
+   726,
+   421
+  ]
+ ],
+ "cursor_on": [
+  [
+   5.634,
+   7.1339999999999995
+  ]
+ ],
+ "clicks": [
+  6.384
+ ],
+ "keys": [
+  [
+   3.52,
+   [
+    "Win"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   10.102,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ]
+ ],
+ "typing": [
+  [
+   3.793,
+   4.952,
+   14
+  ],
+  [
+   7.694,
+   9.62,
+   12
+  ]
+ ],
+ "boxes": [
+  [
+   0.972,
+   [
+    2,
+    222,
+    956,
+    24
+   ],
+   2.13
+  ],
+  [
+   5.089,
+   [
+    281,
+    216,
+    317,
+    62
+   ],
+   0.68
+  ],
+  [
+   5.702,
+   [
+    640,
+    409,
+    180,
+    26
+   ],
+   0.75
+  ],
+  [
+   14.468,
+   [
+    2,
+    222,
+    956,
+    24
+   ],
+   1.01
+  ],
+  [
+   15.508,
+   [
+    2,
+    177,
+    330,
+    24
+   ],
+   3.29
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 3.4,
+  "title": "Command Prompt",
+  "sub": "Broken Windows files?",
+  "big": "sfc /scannow"
+ },
+ "steps": [
+  [
+   3.52,
+   7.23,
+   "Step 1",
+   "Command Prompt, Run as administrator"
+  ],
+  [
+   7.35,
+   11.09,
+   "Step 2",
+   "Type sfc /scannow, press Enter"
+  ],
+  [
+   11.21,
+   15.388,
+   "Step 3",
+   "It checks and repairs system files"
+  ],
+  [
+   15.508,
+   19.099,
+   "Done",
+   "Keep it open until 100%"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [
+  [
+   6.384,
+   "click"
+  ]
+ ],
+ "follow": 19.22,
+ "hide": [
+  [
+   1082,
+   617,
+   198,
+   54
+  ]
+ ],
+ "drift": 0.01
+}
