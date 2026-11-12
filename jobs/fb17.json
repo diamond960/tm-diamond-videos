@@ -1,9 +1,0 @@
-{
- "out": "fb/17/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Windows acting strange? Repair it with one command.\nSearch for C M D, and click Run as administrator.\nType S F C, space, slash scan now, and press Enter.\nWindows checks its system files, and repairs any broken ones.\nWait for one hundred percent, then restart your PC.\nFollow for more Windows fixes."
- }
-}
