@@ -8,7 +8,12 @@
  "ig_pick": false,
  "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@58c42b577c59267db1fc59cc0dee0e7d23cc4352/videos/fb17.mp4",
  "length_s": 21.3,
- "status": "queued",
+ "status": "posted",
  "made_at": "2026-11-12T13:39:28Z",
- "method": "Team Diamond template, full screen, real Command Prompt screens (captures/day20261112b)"
+ "method": "Team Diamond template, full screen, real Command Prompt screens (captures/day20261112b)",
+ "facebook": {
+  "posted_at": "2026-11-12T23:16:27Z",
+  "video_id": "2224449461618500",
+  "permalink": "https://www.facebook.com/reel/2224449461618500"
+ }
 }
