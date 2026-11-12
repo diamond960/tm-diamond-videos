@@ -1,0 +1,233 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "captures": "captures/day20261112",
+ "narration": "fb/21/tight.wav",
+ "words": "fb/21/tight.json",
+ "script": "fb/21/script.txt",
+ "duration": 19.81,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "147_b2e9_result.png"
+  ],
+  [
+   2.928,
+   "009_cmd_run.png"
+  ],
+  [
+   4.574,
+   "010_cmd_run_type.png"
+  ],
+  [
+   4.766,
+   "011_cmd_run_type.png"
+  ],
+  [
+   4.958,
+   "012_cmd_run_type.png"
+  ],
+  [
+   6.167,
+   "014_cmd_open.png"
+  ],
+  [
+   6.738,
+   "134_b2e9_clean.png"
+  ],
+  [
+   6.994,
+   "135_b2e9_type.png"
+  ],
+  [
+   7.093,
+   "136_b2e9_type.png"
+  ],
+  [
+   7.193,
+   "137_b2e9_type.png"
+  ],
+  [
+   7.292,
+   "138_b2e9_type.png"
+  ],
+  [
+   7.391,
+   "139_b2e9_type.png"
+  ],
+  [
+   7.49,
+   "140_b2e9_type.png"
+  ],
+  [
+   7.59,
+   "141_b2e9_type.png"
+  ],
+  [
+   7.689,
+   "142_b2e9_type.png"
+  ],
+  [
+   7.788,
+   "143_b2e9_type.png"
+  ],
+  [
+   7.887,
+   "144_b2e9_type.png"
+  ],
+  [
+   7.987,
+   "145_b2e9_type.png"
+  ],
+  [
+   8.66,
+   "146_b2e9_loading.png"
+  ],
+  [
+   9.042,
+   "147_b2e9_result.png"
+  ],
+  [
+   9.888,
+   "147_b2e9_result.png"
+  ],
+  [
+   14.614,
+   "147_b2e9_result.png"
+  ],
+  [
+   17.61,
+   "147_b2e9_result.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   640,
+   360,
+   720,
+   0
+  ]
+ ],
+ "cursor": [],
+ "cursor_on": [],
+ "clicks": [],
+ "keys": [
+  [
+   3.048,
+   [
+    "Win",
+    "R"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   5.896,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   8.551,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ]
+ ],
+ "typing": [
+  [
+   4.574,
+   5.15,
+   3
+  ],
+  [
+   6.994,
+   8.086,
+   11
+  ]
+ ],
+ "boxes": [
+  [
+   4.404,
+   [
+    77,
+    531,
+    323,
+    25
+   ],
+   1.7
+  ],
+  [
+   10.008,
+   [
+    2,
+    38,
+    432,
+    578
+   ],
+   2.37
+  ],
+  [
+   12.376,
+   [
+    436,
+    38,
+    142,
+    578
+   ],
+   2.37
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 2.93,
+  "title": "Command Prompt",
+  "sub": "Every driver, one list",
+  "big": "driverquery"
+ },
+ "steps": [
+  [
+   3.048,
+   6.738,
+   "Step 1",
+   "Win + R, type cmd, Enter"
+  ],
+  [
+   6.858,
+   9.888,
+   "Step 2",
+   "Type driverquery, press Enter"
+  ],
+  [
+   10.008,
+   14.614,
+   "Result",
+   "Every driver: name and type"
+  ],
+  [
+   14.734,
+   17.61,
+   "Tip",
+   "Check here after a bad update"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [],
+ "follow": 17.73,
+ "hide": [
+  [
+   1082,
+   617,
+   198,
+   54
+  ]
+ ],
+ "drift": 0.01
+}

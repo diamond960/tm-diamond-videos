@@ -41,7 +41,7 @@ class Caps:
         return self.frames(name)[-1]
 
 
-def build(out_dir, beats, card, captures, full, hide=None, titles=None, extra_post=None, end_pad=0.35):
+def build(out_dir, beats, card, captures, full, hide=None, titles=None, extra_post=None, end_pad=0.35, drift=None):
     """Writes out_dir/spec.json from out_dir/tight.json and the beats; returns the duration."""
     caps = Caps(captures)
     d = os.path.join(ROOT, out_dir)
@@ -82,8 +82,10 @@ def build(out_dir, beats, card, captures, full, hide=None, titles=None, extra_po
             clicks.append(tc); shots.append([round(tc + 0.12, 3), caps.get(nxt)]); sfx.append([tc, "click"])
         for frac, nxt in b.get("after", []):
             shots.append([at(frac), caps.get(nxt)])
-        if b.get("keys"):
-            ks, frac = b["keys"]
+        kl = b.get("keys") or []
+        if kl and isinstance(kl[1], (int, float)):
+            kl = [kl]
+        for ks, frac in kl + list(b.get("keys2", [])):
             keys.append([at(frac), ks, 0.9, 0.37])
         if b.get("step"):
             steps.append([round(s["s"], 3), round(t1, 3), *b["step"]])
@@ -103,6 +105,8 @@ def build(out_dir, beats, card, captures, full, hide=None, titles=None, extra_po
     }
     if hide:
         spec["hide"] = hide
+    if drift is not None:
+        spec["drift"] = drift
     if titles:
         spec["titles"] = titles
     json.dump(spec, open(os.path.join(d, "spec.json"), "w"), indent=1)

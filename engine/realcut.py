@@ -104,7 +104,8 @@ class Camera:
             cx, cy, h = cx + (kx - cx) * p, cy + (ky - cy) * p, h + (kh - h) * p
             last_t = kt
         # slow push-in between moves: the whole frame (edges included) keeps moving
-        drift = 1.0 - min(0.06, 0.012 * max(0.0, t - last_t))
+        # (spec "drift": max push-in, default 0.06; terminal text at the screen edge needs ~0.01 so nothing is cut)
+        drift = 1.0 - min(getattr(self, "max_drift", 0.06), 0.012 * max(0.0, t - last_t))
         h *= drift
         return self.clamp(cx, cy, h)
 
@@ -545,6 +546,7 @@ class Cut:
         first = next(iter(self.images.values()))
         self.sw, self.sh = first.size
         self.cam = Camera(spec["cam"], self.sw, self.sh)
+        self.cam.max_drift = spec.get("drift", 0.06)
         self.words = json.load(open(os.path.join(base, spec["words"])))["words"] if spec.get("words") else []
         self.hl = set(w.lower() for w in spec.get("highlight", []))
         self.ends = None

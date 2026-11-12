@@ -1,0 +1,283 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "captures": "captures/day20261112",
+ "narration": "fb/18/tight.wav",
+ "words": "fb/18/tight.json",
+ "script": "fb/18/script.txt",
+ "duration": 17.06,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "093_b2e5_top.png"
+  ],
+  [
+   2.581,
+   "009_cmd_run.png"
+  ],
+  [
+   4.226,
+   "010_cmd_run_type.png"
+  ],
+  [
+   4.418,
+   "011_cmd_run_type.png"
+  ],
+  [
+   4.611,
+   "012_cmd_run_type.png"
+  ],
+  [
+   5.82,
+   "014_cmd_open.png"
+  ],
+  [
+   6.391,
+   "069_b2e5_clean.png"
+  ],
+  [
+   6.703,
+   "070_b2e5_type.png"
+  ],
+  [
+   6.78,
+   "071_b2e5_type.png"
+  ],
+  [
+   6.857,
+   "072_b2e5_type.png"
+  ],
+  [
+   6.934,
+   "073_b2e5_type.png"
+  ],
+  [
+   7.011,
+   "074_b2e5_type.png"
+  ],
+  [
+   7.088,
+   "075_b2e5_type.png"
+  ],
+  [
+   7.165,
+   "076_b2e5_type.png"
+  ],
+  [
+   7.242,
+   "077_b2e5_type.png"
+  ],
+  [
+   7.319,
+   "078_b2e5_type.png"
+  ],
+  [
+   7.396,
+   "079_b2e5_type.png"
+  ],
+  [
+   7.781,
+   "080_b2e5_loading.png"
+  ],
+  [
+   8.146,
+   "081_b2e5_loading.png"
+  ],
+  [
+   8.735,
+   "082_b2e5_result.png"
+  ],
+  [
+   8.922,
+   "083_b2e5_scroll.png"
+  ],
+  [
+   9.016,
+   "084_b2e5_scroll.png"
+  ],
+  [
+   9.111,
+   "085_b2e5_scroll.png"
+  ],
+  [
+   9.205,
+   "086_b2e5_scroll.png"
+  ],
+  [
+   9.3,
+   "087_b2e5_scroll.png"
+  ],
+  [
+   9.394,
+   "088_b2e5_scroll.png"
+  ],
+  [
+   9.488,
+   "089_b2e5_scroll.png"
+  ],
+  [
+   9.583,
+   "090_b2e5_scroll.png"
+  ],
+  [
+   9.677,
+   "091_b2e5_scroll.png"
+  ],
+  [
+   9.772,
+   "092_b2e5_scroll.png"
+  ],
+  [
+   10.001,
+   "093_b2e5_top.png"
+  ],
+  [
+   10.503,
+   "093_b2e5_top.png"
+  ],
+  [
+   14.858,
+   "093_b2e5_top.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   640,
+   360,
+   720,
+   0
+  ]
+ ],
+ "cursor": [],
+ "cursor_on": [],
+ "clicks": [],
+ "keys": [
+  [
+   2.701,
+   [
+    "Win",
+    "R"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   5.549,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   7.704,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ]
+ ],
+ "typing": [
+  [
+   4.226,
+   4.803,
+   3
+  ],
+  [
+   6.703,
+   7.473,
+   10
+  ]
+ ],
+ "boxes": [
+  [
+   4.057,
+   [
+    77,
+    531,
+    323,
+    25
+   ],
+   1.69
+  ],
+  [
+   10.623,
+   [
+    2,
+    131,
+    862,
+    24
+   ],
+   1.5
+  ],
+  [
+   12.118,
+   [
+    2,
+    430,
+    1138,
+    47
+   ],
+   1.18
+  ],
+  [
+   13.299,
+   [
+    2,
+    637,
+    490,
+    24
+   ],
+   2.05
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 2.58,
+  "title": "Command Prompt",
+  "sub": "Windows version, processor, RAM",
+  "big": "What's in my PC?"
+ },
+ "steps": [
+  [
+   2.701,
+   6.391,
+   "Step 1",
+   "Win + R, type cmd, Enter"
+  ],
+  [
+   6.511,
+   8.735,
+   "Step 2",
+   "Type systeminfo, press Enter"
+  ],
+  [
+   8.855,
+   10.503,
+   "Step 3",
+   "Scroll up to the top"
+  ],
+  [
+   10.623,
+   14.858,
+   "Result",
+   "Windows version, processor, RAM"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [],
+ "follow": 14.98,
+ "hide": [
+  [
+   1082,
+   617,
+   198,
+   54
+  ]
+ ],
+ "drift": 0.01
+}

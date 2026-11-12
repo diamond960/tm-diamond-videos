@@ -1,0 +1,241 @@
+{
+ "layout": "tmd",
+ "framing": "full",
+ "captures": "captures/day20261112",
+ "narration": "fb/16/tight.wav",
+ "words": "fb/16/tight.json",
+ "script": "fb/16/script.txt",
+ "duration": 18.25,
+ "handle": "TM_Diamond",
+ "captions": false,
+ "shots": [
+  [
+   0.06,
+   "024_b2e2_result.png"
+  ],
+  [
+   3.498,
+   "009_cmd_run.png"
+  ],
+  [
+   5.145,
+   "010_cmd_run_type.png"
+  ],
+  [
+   5.337,
+   "011_cmd_run_type.png"
+  ],
+  [
+   5.53,
+   "012_cmd_run_type.png"
+  ],
+  [
+   6.74,
+   "014_cmd_open.png"
+  ],
+  [
+   7.311,
+   "015_b2e2_clean.png"
+  ],
+  [
+   7.697,
+   "016_b2e2_type.png"
+  ],
+  [
+   7.786,
+   "017_b2e2_type.png"
+  ],
+  [
+   7.875,
+   "018_b2e2_type.png"
+  ],
+  [
+   7.964,
+   "019_b2e2_type.png"
+  ],
+  [
+   8.053,
+   "020_b2e2_type.png"
+  ],
+  [
+   8.141,
+   "021_b2e2_type.png"
+  ],
+  [
+   8.23,
+   "022_b2e2_type.png"
+  ],
+  [
+   8.319,
+   "023_b2e2_type.png"
+  ],
+  [
+   8.745,
+   "024_b2e2_result.png"
+  ],
+  [
+   9.507,
+   "024_b2e2_result.png"
+  ],
+  [
+   12.616,
+   "024_b2e2_result.png"
+  ],
+  [
+   16.047,
+   "024_b2e2_result.png"
+  ]
+ ],
+ "cam": [
+  [
+   0.06,
+   640,
+   360,
+   720,
+   0
+  ],
+  [
+   9.507,
+   440,
+   290,
+   500,
+   0.5
+  ],
+  [
+   16.047,
+   640,
+   360,
+   720,
+   0.5
+  ]
+ ],
+ "cursor": [],
+ "cursor_on": [],
+ "clicks": [],
+ "keys": [
+  [
+   3.618,
+   [
+    "Win",
+    "R"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   6.468,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ],
+  [
+   8.674,
+   [
+    "Enter"
+   ],
+   0.9,
+   0.37
+  ]
+ ],
+ "typing": [
+  [
+   5.145,
+   5.722,
+   3
+  ],
+  [
+   7.697,
+   8.408,
+   8
+  ]
+ ],
+ "boxes": [
+  [
+   1.001,
+   [
+    2,
+    269,
+    600,
+    24
+   ],
+   2.2
+  ],
+  [
+   4.975,
+   [
+    77,
+    531,
+    323,
+    25
+   ],
+   1.7
+  ],
+  [
+   9.777,
+   [
+    2,
+    269,
+    600,
+    24
+   ],
+   2.79
+  ],
+  [
+   12.886,
+   [
+    470,
+    269,
+    132,
+    24
+   ],
+   3.11
+  ]
+ ],
+ "card": {
+  "t0": 0.0,
+  "t1": 3.5,
+  "title": "Command Prompt",
+  "sub": "No apps needed",
+  "big": "Your IP address"
+ },
+ "steps": [
+  [
+   3.618,
+   7.311,
+   "Step 1",
+   "Win + R, type cmd, Enter"
+  ],
+  [
+   7.431,
+   9.507,
+   "Step 2",
+   "Type ipconfig, press Enter"
+  ],
+  [
+   9.627,
+   12.616,
+   "Step 3",
+   "Find IPv4 Address"
+  ],
+  [
+   12.736,
+   16.047,
+   "Done",
+   "Your PC's address on your network"
+  ]
+ ],
+ "highlight": [],
+ "sfx": [],
+ "follow": 16.17,
+ "hide": [
+  [
+   1082,
+   617,
+   198,
+   54
+  ]
+ ],
+ "drift": 0.01
+}
