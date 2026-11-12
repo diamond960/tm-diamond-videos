@@ -2,5 +2,5 @@ Windows acting strange? Repair it with one command.
 Search for C M D, and click Run as administrator.
 Type S F C, space, slash scan now, and press Enter.
 Windows checks its system files, and repairs any broken ones.
-Wait for one hundred percent, then restart your PC.
+Keep the window open until it reaches one hundred percent.
 Follow for more Windows fixes.
