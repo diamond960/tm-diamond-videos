@@ -3,12 +3,17 @@
  "series": "Windows",
  "caption": "Your drive needs a tune-up, and Windows does it free 🔧 #reels #windows11",
  "length_s": 16.79,
- "status": "queued",
+ "status": "posted",
  "method": "Team Diamond template, full screen, real Windows screens (captures/long02_all)",
  "block": 1,
  "episode": 12,
  "ig_caption": "Your drive needs a tune-up, and Windows does it free #windows11 #pctips",
  "ig_pick": false,
  "file_url": "https://cdn.jsdelivr.net/gh/diamond960/tm-diamond-videos@602fb0b865135b3f291953c0ddd930560b45afd9/videos/fb15.mp4",
- "made_at": "2026-11-11T17:43:47Z"
+ "made_at": "2026-11-11T17:43:47Z",
+ "facebook": {
+  "posted_at": "2026-11-12T17:17:06Z",
+  "video_id": "2330831721036723",
+  "permalink": "https://www.facebook.com/reel/2330831721036723"
+ }
 }
