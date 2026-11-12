@@ -1,0 +1,3 @@
+﻿ControlType.Edit | Search box | 276,79,728,32
+ControlType.Pane | "Search" | 253,122,774,537
+ControlType.Pane | CoreInput | 253,122,774,537

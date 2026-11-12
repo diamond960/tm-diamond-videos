@@ -1,0 +1,3629 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Settings",
+                   "x":  -8
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b1e10_wu",
+        "file":  "001_b1e10_wu.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Settings",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b1e10_optional",
+        "file":  "002_b1e10_optional.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1280,
+                   "h":  720,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_desktop",
+        "file":  "003_cmd_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  34,
+                   "w":  800,
+                   "h":  638,
+                   "title":  "Search",
+                   "x":  240
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_start",
+        "file":  "004_cmd_start.png"
+    },
+    {
+        "fg":  {
+                   "y":  34,
+                   "w":  800,
+                   "h":  638,
+                   "title":  "Search",
+                   "x":  240
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:c",
+        "label":  "cmd_search_type",
+        "file":  "005_cmd_search_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  34,
+                   "w":  800,
+                   "h":  638,
+                   "title":  "Search",
+                   "x":  240
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:m",
+        "label":  "cmd_search_type",
+        "file":  "006_cmd_search_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  34,
+                   "w":  800,
+                   "h":  638,
+                   "title":  "Search",
+                   "x":  240
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:d",
+        "label":  "cmd_search_type",
+        "file":  "007_cmd_search_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  34,
+                   "w":  800,
+                   "h":  638,
+                   "title":  "Search",
+                   "x":  240
+               },
+        "i":  8,
+        "rects":  {
+                      "runas":  null,
+                      "best":  null
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_search",
+        "file":  "008_cmd_search.png"
+    },
+    {
+        "fg":  {
+                   "y":  432,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_run",
+        "file":  "009_cmd_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  432,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:c",
+        "label":  "cmd_run_type",
+        "file":  "010_cmd_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  432,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:m",
+        "label":  "cmd_run_type",
+        "file":  "011_cmd_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  432,
+                   "w":  427,
+                   "h":  236,
+                   "title":  "Run",
+                   "x":  8
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:d",
+        "label":  "cmd_run_type",
+        "file":  "012_cmd_run_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_open_small",
+        "file":  "013_cmd_open_small.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "cmd_open",
+        "file":  "014_cmd_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e2_clean",
+        "file":  "015_b2e2_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  16,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e2_type",
+        "file":  "016_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "b2e2_type",
+        "file":  "017_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e2_type",
+        "file":  "018_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e2_type",
+        "file":  "019_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e2_type",
+        "file":  "020_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e2_type",
+        "file":  "021_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e2_type",
+        "file":  "022_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "b2e2_type",
+        "file":  "023_b2e2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e2_result",
+        "file":  "024_b2e2_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e1_clean",
+        "file":  "025_b2e1_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e1_type",
+        "file":  "026_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "b2e1_type",
+        "file":  "027_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  28,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e1_type",
+        "file":  "028_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  29,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e1_type",
+        "file":  "029_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  30,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e1_type",
+        "file":  "030_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  31,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e1_type",
+        "file":  "031_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  32,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e1_type",
+        "file":  "032_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  33,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "b2e1_type",
+        "file":  "033_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  34,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e1_type",
+        "file":  "034_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  35,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:/",
+        "label":  "b2e1_type",
+        "file":  "035_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  36,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e1_type",
+        "file":  "036_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  37,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:l",
+        "label":  "b2e1_type",
+        "file":  "037_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  38,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:u",
+        "label":  "b2e1_type",
+        "file":  "038_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  39,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e1_type",
+        "file":  "039_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  40,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:h",
+        "label":  "b2e1_type",
+        "file":  "040_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  41,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:d",
+        "label":  "b2e1_type",
+        "file":  "041_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  42,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e1_type",
+        "file":  "042_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  43,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e1_type",
+        "file":  "043_b2e1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  44,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e1_result",
+        "file":  "044_b2e1_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  45,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e3_clean",
+        "file":  "045_b2e3_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  46,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "b2e3_type",
+        "file":  "046_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  47,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e3_type",
+        "file":  "047_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  48,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e3_type",
+        "file":  "048_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  49,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "b2e3_type",
+        "file":  "049_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  50,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e3_type",
+        "file":  "050_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  51,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "b2e3_type",
+        "file":  "051_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  52,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e3_type",
+        "file":  "052_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  53,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e3_type",
+        "file":  "053_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  54,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "b2e3_type",
+        "file":  "054_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  55,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:l",
+        "label":  "b2e3_type",
+        "file":  "055_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  56,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e3_type",
+        "file":  "056_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  57,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "b2e3_type",
+        "file":  "057_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  58,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e3_type",
+        "file":  "058_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  59,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e3_type",
+        "file":  "059_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  60,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:m",
+        "label":  "b2e3_type",
+        "file":  "060_b2e3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  61,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=1",
+        "label":  "b2e3_ping",
+        "file":  "061_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  62,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=2",
+        "label":  "b2e3_ping",
+        "file":  "062_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  63,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=3",
+        "label":  "b2e3_ping",
+        "file":  "063_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  64,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=5",
+        "label":  "b2e3_ping",
+        "file":  "064_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  65,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=8",
+        "label":  "b2e3_ping",
+        "file":  "065_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  66,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=12",
+        "label":  "b2e3_ping",
+        "file":  "066_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  google.com",
+                   "x":  -8
+               },
+        "i":  67,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=18",
+        "label":  "b2e3_ping",
+        "file":  "067_b2e3_ping.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  68,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e3_result",
+        "file":  "068_b2e3_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  69,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e5_clean",
+        "file":  "069_b2e5_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  70,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e5_type",
+        "file":  "070_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  71,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:y",
+        "label":  "b2e5_type",
+        "file":  "071_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  72,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e5_type",
+        "file":  "072_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  73,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:t",
+        "label":  "b2e5_type",
+        "file":  "073_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  74,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e5_type",
+        "file":  "074_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  75,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:m",
+        "label":  "b2e5_type",
+        "file":  "075_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  76,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e5_type",
+        "file":  "076_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  77,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e5_type",
+        "file":  "077_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  78,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e5_type",
+        "file":  "078_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  79,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e5_type",
+        "file":  "079_b2e5_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - systeminfo",
+                   "x":  -8
+               },
+        "i":  80,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e5_loading",
+        "file":  "080_b2e5_loading.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - systeminfo",
+                   "x":  -8
+               },
+        "i":  81,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "t=3",
+        "label":  "b2e5_loading",
+        "file":  "081_b2e5_loading.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  82,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "b2e5_result",
+        "file":  "082_b2e5_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  83,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "083_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  84,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "084_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  85,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "085_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  86,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "086_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  87,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "087_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  88,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "088_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  89,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "089_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  90,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "090_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  91,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "091_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  92,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_scroll",
+        "file":  "092_b2e5_scroll.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  93,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e5_top",
+        "file":  "093_b2e5_top.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  620,
+                   "h":  420,
+                   "title":  "Untitled - Notepad",
+                   "x":  330
+               },
+        "i":  94,
+        "rects":  {
+                      "notepad":  {
+                                      "y":  672,
+                                      "w":  44,
+                                      "h":  48,
+                                      "name":  "Notepad - 1 running window",
+                                      "x":  841
+                                  }
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e6_notepad",
+        "file":  "094_b2e6_notepad.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  95,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e6_back",
+        "file":  "095_b2e6_back.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  96,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:t",
+        "label":  "b2e6_type1",
+        "file":  "096_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  97,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:a",
+        "label":  "b2e6_type1",
+        "file":  "097_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  98,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e6_type1",
+        "file":  "098_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  99,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:k",
+        "label":  "b2e6_type1",
+        "file":  "099_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  100,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:l",
+        "label":  "b2e6_type1",
+        "file":  "100_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  101,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e6_type1",
+        "file":  "101_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  102,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e6_type1",
+        "file":  "102_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  103,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:t",
+        "label":  "b2e6_type1",
+        "file":  "103_b2e6_type1.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  104,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e6_list",
+        "file":  "104_b2e6_list.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  105,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:t",
+        "label":  "b2e6_type2",
+        "file":  "105_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  106,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:a",
+        "label":  "b2e6_type2",
+        "file":  "106_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  107,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e6_type2",
+        "file":  "107_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  108,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:k",
+        "label":  "b2e6_type2",
+        "file":  "108_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  109,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:k",
+        "label":  "b2e6_type2",
+        "file":  "109_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  110,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e6_type2",
+        "file":  "110_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  111,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:l",
+        "label":  "b2e6_type2",
+        "file":  "111_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  112,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:l",
+        "label":  "b2e6_type2",
+        "file":  "112_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  113,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e6_type2",
+        "file":  "113_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  114,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:/",
+        "label":  "b2e6_type2",
+        "file":  "114_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  115,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e6_type2",
+        "file":  "115_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  116,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:m",
+        "label":  "b2e6_type2",
+        "file":  "116_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  117,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e6_type2",
+        "file":  "117_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  118,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e6_type2",
+        "file":  "118_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  119,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e6_type2",
+        "file":  "119_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  120,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:t",
+        "label":  "b2e6_type2",
+        "file":  "120_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  121,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e6_type2",
+        "file":  "121_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  122,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:p",
+        "label":  "b2e6_type2",
+        "file":  "122_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  123,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:a",
+        "label":  "b2e6_type2",
+        "file":  "123_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  124,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:d",
+        "label":  "b2e6_type2",
+        "file":  "124_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  125,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:.",
+        "label":  "b2e6_type2",
+        "file":  "125_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  126,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e6_type2",
+        "file":  "126_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  127,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:x",
+        "label":  "b2e6_type2",
+        "file":  "127_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  128,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e6_type2",
+        "file":  "128_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  129,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e6_type2",
+        "file":  "129_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  130,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:/",
+        "label":  "b2e6_type2",
+        "file":  "130_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  131,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e6_type2",
+        "file":  "131_b2e6_type2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  132,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e6_result",
+        "file":  "132_b2e6_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  133,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e6_result2",
+        "file":  "133_b2e6_result2.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  134,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e9_clean",
+        "file":  "134_b2e9_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  135,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:d",
+        "label":  "b2e9_type",
+        "file":  "135_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  136,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:r",
+        "label":  "b2e9_type",
+        "file":  "136_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  137,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:i",
+        "label":  "b2e9_type",
+        "file":  "137_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  138,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:v",
+        "label":  "b2e9_type",
+        "file":  "138_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  139,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e9_type",
+        "file":  "139_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  140,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:r",
+        "label":  "b2e9_type",
+        "file":  "140_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  141,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:q",
+        "label":  "b2e9_type",
+        "file":  "141_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  142,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:u",
+        "label":  "b2e9_type",
+        "file":  "142_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  143,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:e",
+        "label":  "b2e9_type",
+        "file":  "143_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  144,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:r",
+        "label":  "b2e9_type",
+        "file":  "144_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  145,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:y",
+        "label":  "b2e9_type",
+        "file":  "145_b2e9_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - driverquery",
+                   "x":  -8
+               },
+        "i":  146,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e9_loading",
+        "file":  "146_b2e9_loading.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  147,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e9_result",
+        "file":  "147_b2e9_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  148,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e8_clean",
+        "file":  "148_b2e8_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  149,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e8_type",
+        "file":  "149_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  150,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:h",
+        "label":  "b2e8_type",
+        "file":  "150_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  151,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:k",
+        "label":  "b2e8_type",
+        "file":  "151_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  152,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:d",
+        "label":  "b2e8_type",
+        "file":  "152_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  153,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e8_type",
+        "file":  "153_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  154,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:k",
+        "label":  "b2e8_type",
+        "file":  "154_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  155,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e8_type",
+        "file":  "155_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  156,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:C",
+        "label":  "b2e8_type",
+        "file":  "156_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  157,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed::",
+        "label":  "b2e8_type",
+        "file":  "157_b2e8_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  158,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=2",
+        "label":  "b2e8_run",
+        "file":  "158_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  159,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=5",
+        "label":  "b2e8_run",
+        "file":  "159_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  160,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=10",
+        "label":  "b2e8_run",
+        "file":  "160_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  161,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=20",
+        "label":  "b2e8_run",
+        "file":  "161_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  162,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=40",
+        "label":  "b2e8_run",
+        "file":  "162_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  163,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=80",
+        "label":  "b2e8_run",
+        "file":  "163_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  164,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=160",
+        "label":  "b2e8_run",
+        "file":  "164_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  165,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=240",
+        "label":  "b2e8_run",
+        "file":  "165_b2e8_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  166,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e8_result",
+        "file":  "166_b2e8_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  167,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e4_clean",
+        "file":  "167_b2e4_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  168,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e4_type",
+        "file":  "168_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  169,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:f",
+        "label":  "b2e4_type",
+        "file":  "169_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  170,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e4_type",
+        "file":  "170_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  171,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed: ",
+        "label":  "b2e4_type",
+        "file":  "171_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  172,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:/",
+        "label":  "b2e4_type",
+        "file":  "172_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  173,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:s",
+        "label":  "b2e4_type",
+        "file":  "173_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  174,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:c",
+        "label":  "b2e4_type",
+        "file":  "174_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  175,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:a",
+        "label":  "b2e4_type",
+        "file":  "175_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  176,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e4_type",
+        "file":  "176_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  177,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:n",
+        "label":  "b2e4_type",
+        "file":  "177_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  178,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:o",
+        "label":  "b2e4_type",
+        "file":  "178_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  179,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "typed:w",
+        "label":  "b2e4_type",
+        "file":  "179_b2e4_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  180,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "t=3",
+        "label":  "b2e4_run",
+        "file":  "180_b2e4_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - chkdsk  C:",
+                   "x":  -8
+               },
+        "i":  181,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       380
+                   ],
+        "note":  "",
+        "label":  "b2e4_result",
+        "file":  "181_b2e4_result.png"
+    }
+]

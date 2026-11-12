@@ -1,0 +1,30 @@
+﻿ControlType.Window | Settings | 1092,0,188,32
+ControlType.Button | Minimize Settings | 1142,0,46,32
+ControlType.Button | Restore Settings | 1188,0,46,32
+ControlType.Button | Close Settings | 1234,0,46,32
+ControlType.Window | Settings | 0,0,1280,672
+ControlType.Text | Settings | 50,16,1042,16
+ControlType.Edit | Search box, Find a setting | 382,8,516,32
+ControlType.Button | Back | 4,6,40,36
+ControlType.Button | runneradmin Local Account | 5,49,290,75
+ControlType.Image | User profile picture | 16,57,60,60
+ControlType.Text | runneradmin | 88,70,83,19
+ControlType.Text | Local Account | 88,89,83,16
+ControlType.ListItem | System | 16,143,280,36
+ControlType.ListItem | Bluetooth & devices | 16,183,280,36
+ControlType.ListItem | Network & internet | 16,223,280,36
+ControlType.ListItem | Personalization | 16,263,280,36
+ControlType.ListItem | Apps | 16,303,280,36
+ControlType.ListItem | Accounts | 16,343,280,36
+ControlType.ListItem | Time & language | 16,383,280,36
+ControlType.ListItem | Accessibility | 16,423,280,36
+ControlType.ListItem | Privacy & security | 16,463,280,36
+ControlType.ListItem | Windows Update | 16,503,280,36
+ControlType.Button | Windows Update | 324,51,260,44
+ControlType.Text | Windows Update | 325,54,218,38
+ControlType.Button | Optional updates | 585,54,220,38
+ControlType.Text | Optional updates | 585,54,220,38
+ControlType.Text | There are no optional updates available at this time. | 326,112,930,19
+ControlType.TitleBar | Settings | 0,0,1280,23
+ControlType.MenuBar | System Menu Bar | 0,0,22,22
+ControlType.MenuItem | System | 0,0,22,22

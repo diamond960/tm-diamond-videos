@@ -1,0 +1,54 @@
+﻿ControlType.Window | Settings | 1092,0,188,32
+ControlType.Button | Minimize Settings | 1142,0,46,32
+ControlType.Button | Restore Settings | 1188,0,46,32
+ControlType.Button | Close Settings | 1234,0,46,32
+ControlType.Window | Settings | 0,0,1280,672
+ControlType.Text | Settings | 50,16,1042,16
+ControlType.Edit | Search box, Find a setting | 382,8,516,32
+ControlType.Button | Back | 4,6,40,36
+ControlType.Button | runneradmin Local Account | 5,49,290,75
+ControlType.Image | User profile picture | 16,57,60,60
+ControlType.Text | runneradmin | 88,70,83,19
+ControlType.Text | Local Account | 88,89,83,16
+ControlType.ListItem | System | 16,143,280,36
+ControlType.ListItem | Bluetooth & devices | 16,183,280,36
+ControlType.ListItem | Network & internet | 16,223,280,36
+ControlType.ListItem | Personalization | 16,263,280,36
+ControlType.ListItem | Apps | 16,303,280,36
+ControlType.ListItem | Accounts | 16,343,280,36
+ControlType.ListItem | Time & language | 16,383,280,36
+ControlType.ListItem | Accessibility | 16,423,280,36
+ControlType.ListItem | Privacy & security | 16,463,280,36
+ControlType.ListItem | Windows Update | 16,503,280,36
+ControlType.Button | Windows Update | 325,54,218,38
+ControlType.Text | Windows Update | 325,54,218,38
+ControlType.Text | You're up to date | 440,137,660,24
+ControlType.Text | Last checked: ‎11/‎3/‎2026, ‏‎6:29 PM 
+ | 440,161,660,20
+ControlType.Button | Check for updates | 1120,152,136,32
+ControlType.Group | More options | 326,221,930,385
+ControlType.Text | More options | 326,221,930,19
+ControlType.Text | Get the latest updates as soon as they're available | 385,265,308,19
+ControlType.Hyperlink | Be among the first to get the latest non-security updates, fixes, and improvements as they roll out. Learn more | 920,285,64,18
+ControlType.Text | Learn more | 921,286,62,16
+ControlType.Button | Get the latest updates as soon as they're available | 1167,263,72,40
+ControlType.Group | Pause updates | 326,321,930,69
+ControlType.Text | Pause updates | 385,346,90,19
+ControlType.SplitButton | Pause for 1 week | 1079,341,160,30
+ControlType.Group | Update history | 326,393,930,69
+ControlType.Text | Update history | 385,418,91,19
+ControlType.Button | Update history | 1215,412,32,32
+ControlType.Group | Advanced options | 326,465,930,69
+ControlType.Text | Advanced options | 385,482,112,19
+ControlType.Text | Delivery optimization, optional updates, active hours, other update settings | 385,501,408,16
+ControlType.Button | Advanced options | 1215,484,32,32
+ControlType.Group | Windows Insider Program | 326,537,930,69
+ControlType.Text | Windows Insider Program | 385,554,160,19
+ControlType.Text | Get preview builds of Windows to share feedback on new features and updates | 385,573,429,16
+ControlType.Button | Windows Insider Program | 1215,556,32,32
+ControlType.Group | Give feedback | 326,638,121,21
+ControlType.Hyperlink | Give feedback | 358,638,89,21
+ControlType.Text | Give feedback | 359,639,87,19
+ControlType.TitleBar | Settings | 0,0,1280,23
+ControlType.MenuBar | System Menu Bar | 0,0,22,22
+ControlType.MenuItem | System | 0,0,22,22
