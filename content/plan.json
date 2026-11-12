@@ -140,7 +140,8 @@
      "n": 7,
      "title": "Update all your apps with one command",
      "show": "winget upgrade, then winget upgrade --all",
-     "used_by": null
+     "used_by": null,
+     "note": "winget's first run asks to agree to the Microsoft Store source terms - don't accept terms on the owner's behalf; skip this one if the capture shows that prompt"
     },
     {
      "n": 8,
