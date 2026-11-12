@@ -1,0 +1,6 @@
+Need your PC's IP address? It takes two seconds.
+Search for C M D, and press Enter.
+Type I P config, and press Enter.
+Look for the line that says I P v 4 Address.
+That number is your PC's address on your home network.
+Follow for more Windows fixes.

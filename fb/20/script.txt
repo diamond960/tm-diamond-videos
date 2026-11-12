@@ -1,0 +1,6 @@
+Files acting weird? Check your drive for errors, for free.
+Search for C M D, and click Run as administrator.
+Type C H K disk, space, C colon, and press Enter.
+It scans your drive, without changing anything.
+If it says it found no problems, your drive is fine.
+Follow for more Windows fixes.

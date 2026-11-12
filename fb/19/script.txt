@@ -1,0 +1,6 @@
+App frozen and won't close? Force it shut with one command.
+Open Command Prompt, type task list, and press Enter.
+Find the app's name in the list, like notepad dot exe.
+Now type task kill, slash I M, notepad dot exe, slash F, and press Enter.
+The app closes right away, but anything unsaved in it is lost.
+Follow for more Windows fixes.
