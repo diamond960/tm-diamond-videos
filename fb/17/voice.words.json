@@ -14,7 +14,7 @@
 {
 "w": "strange,",
 "s": 1.16,
-"e": 1.58
+"e": 1.6
 },
 {
 "w": "repair",
@@ -39,71 +39,76 @@
 {
 "w": "command.",
 "s": 3.02,
-"e": 3.48
+"e": 3.46
 },
 {
 "w": "Search",
-"s": 4.6,
-"e": 4.86
+"s": 4.78,
+"e": 4.88
 },
 {
 "w": "for",
-"s": 4.86,
-"e": 5.14
+"s": 4.88,
+"e": 5.12
 },
 {
-"w": "CMD",
-"s": 5.14,
+"w": "command",
+"s": 5.12,
+"e": 5.46
+},
+{
+"w": "prompt",
+"s": 5.46,
 "e": 5.86
 },
 {
 "w": "and",
 "s": 5.86,
-"e": 6.5
+"e": 6.44
 },
 {
 "w": "click",
-"s": 6.5,
-"e": 6.72
+"s": 6.44,
+"e": 6.68
 },
 {
-"w": "Run",
-"s": 6.72,
-"e": 7.04
+"w": "run",
+"s": 6.68,
+"e": 6.98
 },
 {
 "w": "as",
-"s": 7.04,
-"e": 7.34
+"s": 6.98,
+"e": 7.28
 },
 {
 "w": "administrator.",
-"s": 7.34,
+"s": 7.28,
 "e": 7.94
 },
 {
 "w": "Type",
-"s": 9.32,
+"s": 9.28,
 "e": 9.36
 },
 {
-"w": "SFC",
+"w": "sfc",
 "s": 9.36,
-"e": 10.02
+"e": 9.98
 },
 {
 "w": "space",
-"s": 10.02,
-"e": 10.6
+"s": 9.98,
+"e": 10.62
 },
 {
 "w": "slash",
-"s": 10.6,
-"e": 11.26
+"s": 10.62,
+"e": 11.24
 },
 {
 "w": "scan",
-"s": 11.26,
+"s": 11.24,
 "e": 11.64
 },
 {
@@ -114,26 +119,26 @@
 {
 "w": "and",
 "s": 11.9,
-"e": 12.08
+"e": 12.06
 },
 {
 "w": "press",
-"s": 12.08,
-"e": 12.3
+"s": 12.06,
+"e": 12.28
 },
 {
 "w": "enter.",
-"s": 12.3,
+"s": 12.28,
 "e": 12.66
 },
 {
 "w": "Windows",
 "s": 13.86,
-"e": 14.18
+"e": 14.16
 },
 {
 "w": "checks",
-"s": 14.18,
+"s": 14.16,
 "e": 14.5
 },
 {
@@ -159,11 +164,11 @@
 {
 "w": "repairs",
 "s": 16.1,
-"e": 16.5
+"e": 16.48
 },
 {
 "w": "any",
-"s": 16.5,
+"s": 16.48,
 "e": 16.8
 },
 {
@@ -174,11 +179,11 @@
 {
 "w": "ones.",
 "s": 17.16,
-"e": 17.66
+"e": 17.68
 },
 {
 "w": "Keep",
-"s": 18.7,
+"s": 18.72,
 "e": 18.86
 },
 {
@@ -214,11 +219,11 @@
 {
 "w": "100%.",
 "s": 20.96,
-"e": 22.46
+"e": 22.62
 },
 {
 "w": "Follow",
-"s": 23.0,
+"s": 22.62,
 "e": 23.44
 },
 {
@@ -234,13 +239,13 @@
 {
 "w": "Windows",
 "s": 23.86,
-"e": 24.24
+"e": 24.22
 },
 {
 "w": "fixes.",
-"s": 24.24,
+"s": 24.22,
 "e": 24.52
 }
 ],
-"text": "Windows acting strange? Repair it with one command.\nSearch for C M D, and click Run as administrator.\nType S F C, space, slash scan now, and press Enter.\nWindows checks its system files, and repairs any broken ones.\nKeep the window open until it reaches one hundred percent.\nFollow for more Windows fixes."
+"text": "Windows acting strange? Repair it with one command.\nSearch for Command Prompt, and click Run as administrator.\nType S F C, space, slash scan now, and press Enter.\nWindows checks its system files, and repairs any broken ones.\nKeep the window open until it reaches one hundred percent.\nFollow for more Windows fixes."
 }

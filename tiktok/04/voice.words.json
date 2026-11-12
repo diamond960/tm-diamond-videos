@@ -19,21 +19,21 @@
 {
 "w": "commands",
 "s": 1.44,
-"e": 2.04
+"e": 2.02
 },
 {
 "w": "every",
-"s": 2.04,
+"s": 2.02,
 "e": 2.72
 },
 {
 "w": "Windows",
 "s": 2.72,
-"e": 3.08
+"e": 3.1
 },
 {
 "w": "user",
-"s": 3.08,
+"s": 3.1,
 "e": 3.42
 },
 {
@@ -48,12 +48,12 @@
 },
 {
 "w": "Number",
-"s": 5.42,
-"e": 5.42
+"s": 5.4,
+"e": 5.4
 },
 {
 "w": "6",
-"s": 5.42,
+"s": 5.4,
 "e": 5.72
 },
 {
@@ -93,48 +93,53 @@
 },
 {
 "w": "First,",
-"s": 9.26,
+"s": 9.28,
 "e": 9.54
 },
 {
-"w": "search",
-"s": 9.66,
-"e": 9.84
+"w": "press",
+"s": 9.64,
+"e": 9.82
 },
 {
-"w": "for",
-"s": 9.84,
-"e": 10.12
+"w": "Windows",
+"s": 9.82,
+"e": 10.2
+},
+{
+"w": "in",
+"s": 10.2,
+"e": 10.4
+},
+{
+"w": "R,",
+"s": 10.4,
+"e": 10.78
+},
+{
+"w": "type",
+"s": 11.28,
+"e": 11.44
 },
 {
 "w": "CMD",
-"s": 10.12,
-"e": 10.8
+"s": 11.44,
+"e": 12.12
 },
 {
 "w": "and",
-"s": 10.8,
-"e": 11.54
+"s": 12.12,
+"e": 12.56
 },
 {
-"w": "click",
-"s": 11.54,
-"e": 11.78
+"w": "press",
+"s": 12.56,
+"e": 12.82
 },
 {
-"w": "Run",
-"s": 11.78,
-"e": 12.1
-},
-{
-"w": "as",
-"s": 12.1,
-"e": 12.38
-},
-{
-"w": "administrator.",
-"s": 12.38,
-"e": 13.04
+"w": "Enter.",
+"s": 12.82,
+"e": 13.2
 },
 {
 "w": "Command",
@@ -148,12 +153,12 @@
 },
 {
 "w": "ipconfig.",
-"s": 15.42,
-"e": 15.9
+"s": 15.26,
+"e": 15.92
 },
 {
 "w": "It",
-"s": 16.86,
+"s": 16.98,
 "e": 17.28
 },
 {
@@ -192,13 +197,13 @@
 "e": 19.2
 },
 {
-"w": "network",
+"w": "network,",
 "s": 19.2,
-"e": 19.68
+"e": 19.66
 },
 {
 "w": "on",
-"s": 19.68,
+"s": 20.06,
 "e": 20.32
 },
 {
@@ -209,21 +214,21 @@
 {
 "w": "line",
 "s": 20.46,
-"e": 20.76
+"e": 20.74
 },
 {
 "w": "that",
-"s": 20.76,
+"s": 20.74,
 "e": 21.0
 },
 {
 "w": "says",
 "s": 21.0,
-"e": 21.3
+"e": 21.28
 },
 {
 "w": "ipv4",
-"s": 21.3,
+"s": 21.28,
 "e": 22.46
 },
 {
@@ -233,7 +238,7 @@
 },
 {
 "w": "Command",
-"s": 24.18,
+"s": 24.16,
 "e": 24.34
 },
 {
@@ -334,17 +339,17 @@
 {
 "w": "again.",
 "s": 33.22,
-"e": 33.74
+"e": 33.72
 },
 {
 "w": "Command",
-"s": 35.04,
-"e": 35.04
+"s": 35.02,
+"e": 35.02
 },
 {
 "w": "-3,",
-"s": 35.04,
-"e": 35.48
+"s": 35.02,
+"e": 35.46
 },
 {
 "w": "system",
@@ -358,12 +363,12 @@
 },
 {
 "w": "Scroll",
-"s": 37.62,
-"e": 37.98
+"s": 37.6,
+"e": 37.96
 },
 {
 "w": "up",
-"s": 37.98,
+"s": 37.96,
 "e": 38.2
 },
 {
@@ -374,11 +379,11 @@
 {
 "w": "the",
 "s": 38.36,
-"e": 38.5
+"e": 38.48
 },
 {
 "w": "top",
-"s": 38.5,
+"s": 38.48,
 "e": 38.78
 },
 {
@@ -399,11 +404,11 @@
 {
 "w": "your",
 "s": 39.7,
-"e": 39.9
+"e": 39.92
 },
 {
 "w": "Windows",
-"s": 39.9,
+"s": 39.92,
 "e": 40.3
 },
 {
@@ -443,7 +448,7 @@
 },
 {
 "w": "Command",
-"s": 43.82,
+"s": 43.84,
 "e": 43.88
 },
 {
@@ -533,7 +538,7 @@
 },
 {
 "w": "task",
-"s": 52.56,
+"s": 52.54,
 "e": 52.78
 },
 {
@@ -543,7 +548,7 @@
 },
 {
 "w": "It",
-"s": 54.03,
+"s": 54.04,
 "e": 54.38
 },
 {
@@ -653,7 +658,7 @@
 },
 {
 "w": "then",
-"s": 64.6,
+"s": 64.58,
 "e": 64.76
 },
 {
@@ -764,7 +769,7 @@
 {
 "w": "lost.",
 "s": 72.52,
-"e": 72.92
+"e": 72.9
 },
 {
 "w": "Save",
@@ -828,7 +833,7 @@
 },
 {
 "w": "Follow",
-"s": 78.48,
+"s": 78.5,
 "e": 78.82
 },
 {
@@ -849,11 +854,11 @@
 {
 "w": "fixes",
 "s": 79.66,
-"e": 80.02
+"e": 80.0
 },
 {
 "w": "every",
-"s": 80.02,
+"s": 80.0,
 "e": 80.56
 },
 {
@@ -862,5 +867,5 @@
 "e": 80.86
 }
 ],
-"text": "Six Command Prompt commands every Windows user should know.\nNumber six closes a frozen app in one second.\nFirst, search for C M D, and click Run as administrator.\nCommand one: I P config.\nIt shows your PC's address on your home network, on the line that says I P v 4 Address.\nCommand two: I P config, slash flush D N S.\nIf a website won't load, this clears the old saved addresses, so you can try again.\nCommand three: system info.\nScroll up to the top, and you'll see your Windows version and how much RAM you have.\nCommand four: driver query.\nIt lists every driver installed on your PC, by name and type.\nCommand five: task list.\nIt shows every app and process that's running right now, with its name.\nCommand six: task kill.\nType task kill, slash I M, then the app's name, then slash F, and press Enter.\nThe frozen app closes right away, but anything unsaved in it is lost.\nSave this video, so you have these commands when you need them.\nFollow for more Windows fixes every day."
+"text": "Six Command Prompt commands every Windows user should know.\nNumber six closes a frozen app in one second.\nFirst, press Windows and R, type C M D, and press Enter.\nCommand one: I P config.\nIt shows your PC's address on your home network, on the line that says I P v 4 Address.\nCommand two: I P config, slash flush D N S.\nIf a website won't load, this clears the old saved addresses, so you can try again.\nCommand three: system info.\nScroll up to the top, and you'll see your Windows version and how much RAM you have.\nCommand four: driver query.\nIt lists every driver installed on your PC, by name and type.\nCommand five: task list.\nIt shows every app and process that's running right now, with its name.\nCommand six: task kill.\nType task kill, slash I M, then the app's name, then slash F, and press Enter.\nThe frozen app closes right away, but anything unsaved in it is lost.\nSave this video, so you have these commands when you need them.\nFollow for more Windows fixes every day."
 }

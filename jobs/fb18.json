@@ -1,9 +1,0 @@
-{
- "out": "fb/18/voice",
- "tts": {
-  "engine": "kokoro",
-  "voice": "am_michael",
-  "speed": 1.05,
-  "text": "Want to know exactly what's inside your PC?\nPress Windows and R, type C M D, and press Enter.\nType system info, and press Enter.\nNow scroll up to the top.\nYou'll see your Windows version, your processor, and how much RAM you have.\nFollow for more Windows fixes."
- }
-}
