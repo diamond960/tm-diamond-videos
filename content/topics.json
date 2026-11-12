@@ -1,6 +1,6 @@
 {
  "about": "TM Diamond topic database. Check before choosing any topic (no repeats by meaning); append every new video. Categories: A Windows/PC, B Mac, C iPhone/Android/apps, D AI, E CMD/PowerShell/coding/dev, F laptops/gaming/hardware, X retired (bypass/unlock/activation - never make again).",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "topics": [
   {
    "topic": "I Connected 9 Apps to Claude and Built an AI Video Studio",
@@ -1377,6 +1377,36 @@
    "category": "A",
    "source": "tiktok/03",
    "date": "2026-11-11"
+  },
+  {
+   "topic": "ipconfig: find your PC's IP address",
+   "category": "E",
+   "source": "fb/16",
+   "date": "2026-11-12"
+  },
+  {
+   "topic": "systeminfo: Windows version, processor, RAM",
+   "category": "E",
+   "source": "fb/18",
+   "date": "2026-11-12"
+  },
+  {
+   "topic": "tasklist + taskkill: force-close a frozen app",
+   "category": "E",
+   "source": "fb/19",
+   "date": "2026-11-12"
+  },
+  {
+   "topic": "driverquery: list every driver",
+   "category": "E",
+   "source": "fb/21",
+   "date": "2026-11-12"
+  },
+  {
+   "topic": "TikTok: 6 Command Prompt commands every Windows user should know",
+   "category": "E",
+   "source": "tiktok/04",
+   "date": "2026-11-12"
   }
  ]
 }
