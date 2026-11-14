@@ -1,0 +1,94 @@
+these 10 command prompt commands can fix your internet, repair broken windows files, and close a frozen app in seconds.
+you don't need to be a programmer, and you don't need to install anything.
+i'll run every single one on a real windows pc, so you can see exactly what you type and what you get back.
+i'll also tell you which ones need administrator rights, and which ones you should be careful with.
+and stay to the end, because one command can update almost every app on your pc at once.
+first, let's open command prompt.
+the fastest way is to press windows and r together.
+type c -m -d, then press enter.
+for a few commands in this video, you need command prompt as an administrator.
+for those, open start and search for command prompt.
+then click run as administrator on the right.
+if windows asks for permission, click yes.
+command number one is for when a website won't load, but everything else works.
+windows keeps a list of website addresses it has looked up before, called the dns cache.
+if an entry in that list is old or wrong, a site can fail to open.
+type ipconfig space slash flushdens and press enter.
+windows replies that it successfully flushed the dns resolver cache.
+now try the website again.
+this is completely safe, because windows simply looks the addresses up again.
+command number two shows your pc's network address.
+just type ipconfig and press enter.
+look for the line that says ip4 address.
+that number is your pc's address on your local network.
+right under it, you can also see the subnet mask and the default gateway.
+the default gateway is usually the address of your router.
+you will need these numbers when you set up a printer, or when someone helps you fix your network.
+command number three tells you whether your pc can reach another device.
+type ping a space, then an address and press enter.
+let's start with 127 .0 .0 .1.
+that special address is your own computer, so it is a quick test of your pc's network software.
+every line that says reply from means the message came back.
+at the bottom, you see how many were sent, how many came back, and how long they took.
+now look at a ping to google .com.
+here, every line says request timed out, and 100 pct of the packets were lost.
+that means no replies came back.
+your connection could be down, but some networks and firewalls also block ping on purpose, like this one.
+so use ping as a clue, not as the final answer.
+to keep pinging non -stop, add space, dash t and press control and c to stop it.
+command number four repairs broken windows system files.
+if windows crashes, freezes, or acts strangely, this is the one to try.
+it needs command prompt as an administrator.
+type sfc space slash scano and press enter.
+windows checks every protected system file and replaces the damaged ones.
+it can take a while, so keep the window open until verification reaches 100%.
+on this pc, it found corrupt files and successfully repaired them.
+if it repaired anything, restart your pc. if
+you're finding this useful, tap subscribe, because this channel is all real windows screens, step by step.
+okay, we're halfway, and the next command shows everything about your pc in one screen.
+command number five is system info.
+type system info and press enter, then wait a few seconds while it collects the details.
+you get your windows version and build number, your processor, and when windows was installed.
+further down, you see your total physical memory and your network cards.
+this is perfect when you want to check if your pc can run a game or an app.
+command number six is really two commands, and they close an app that won't respond.
+here, notepad is open.
+type task list and press enter, and you get every program running on your pc.
+find the name of the app, here it is notepad .exe.
+now type task, space, slash im, space, the app name, then space, slash f.
+slash f means force, so windows closes it even if it's frozen.
+windows says the process has been terminated and notepad is gone.
+be careful, because anything you didn't save in that app is lost.
+command number seven is the one i promised at the start.
+type wingit, space, upgrade and press enter.
+the first time, it may ask you to accept the source agreements, so type y and press enter.
+wingit is the windows package manager, and it lists the apps on your pc that have a newer version.
+you see the name, the version you have, and the version that is available.
+to update all of them in one go, type wingit upgrade, space, dash dash all.
+wingit then downloads and installs each update, one after another.
+some apps may ask for permission or need to be closed first, so save your work before you run it.
+command number eight checks your drive for errors.
+open command prompt as an administrator, type chkdsk, space, c colon and press enter.
+without any extra options, it only scans and reports, it doesn't change anything.
+on this pc, it took a little over five minutes.
+at the end, it says windows has scanned the file system and found no problems.
+you can also see zero kilobytes in bad sectors, which is what you want to see.
+if it does find errors, run chkdsk c colon slash f to fix them.
+for your main drive, windows will offer to run it the next time you restart.
+command number nine is driver query.
+type driver query and press enter.
+you get a list of every driver installed on your pc.
+drivers are the small programs that let windows talk to your hardware, like your graphics card or wi -fi.
+each line shows the driver's name, its type and its date.
+it's a quick way to check what is installed before you update or troubleshoot a device.
+command number ten turns your pc off on a timer.
+type shutdown space slash s space slash t space and then the number of seconds.
+here, 3600 seconds is one hour.
+windows schedules the shutdown and you can keep working until then.
+change your mind.
+type shutdown space slash a and press enter.
+slash a means abort and the scheduled shutdown is cancelled.
+if you run it a second time, windows says there is no shutdown in progress, so you know it worked.
+that's all ten commands and every one of them is already built into windows.
+next week, i'll show you ten windows 11 settings you should change right now.
+subscribe so you don't miss it and tell me in the comments which command you'll try first.
