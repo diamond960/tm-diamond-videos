@@ -1,0 +1,1342 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_clean",
+        "file":  "001_p1_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "p1_type",
+        "file":  "002_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "p1_type",
+        "file":  "003_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "p1_type",
+        "file":  "004_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "p1_type",
+        "file":  "005_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "p1_type",
+        "file":  "006_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p1_type",
+        "file":  "007_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:2",
+        "label":  "p1_type",
+        "file":  "008_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:7",
+        "label":  "p1_type",
+        "file":  "009_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p1_type",
+        "file":  "010_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p1_type",
+        "file":  "011_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p1_type",
+        "file":  "012_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p1_type",
+        "file":  "013_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p1_type",
+        "file":  "014_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p1_type",
+        "file":  "015_p1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  127.0.0.1",
+                   "x":  -8
+               },
+        "i":  16,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_run",
+        "file":  "016_p1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  127.0.0.1",
+                   "x":  -8
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_run",
+        "file":  "017_p1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_run",
+        "file":  "018_p1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_run",
+        "file":  "019_p1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p1_result",
+        "file":  "020_p1_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_clean",
+        "file":  "021_p2_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "p2_type",
+        "file":  "022_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "p2_type",
+        "file":  "023_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "p2_type",
+        "file":  "024_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "p2_type",
+        "file":  "025_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "p2_type",
+        "file":  "026_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p2_type",
+        "file":  "027_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  28,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p2_type",
+        "file":  "028_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  29,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p2_type",
+        "file":  "029_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  30,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p2_type",
+        "file":  "030_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  31,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p2_type",
+        "file":  "031_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  32,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p2_type",
+        "file":  "032_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  33,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p2_type",
+        "file":  "033_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  34,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p2_type",
+        "file":  "034_p2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  35,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "035_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  36,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "036_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  37,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "037_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  38,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "038_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  39,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "039_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  40,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "040_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  41,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_run",
+        "file":  "041_p2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  42,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p2_result",
+        "file":  "042_p2_result.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  43,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_clean",
+        "file":  "043_p3_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  44,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:p",
+        "label":  "p3_type",
+        "file":  "044_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  45,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:i",
+        "label":  "p3_type",
+        "file":  "045_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  46,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "p3_type",
+        "file":  "046_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  47,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:g",
+        "label":  "p3_type",
+        "file":  "047_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  48,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "p3_type",
+        "file":  "048_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  49,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:-",
+        "label":  "p3_type",
+        "file":  "049_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  50,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:t",
+        "label":  "p3_type",
+        "file":  "050_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  51,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "p3_type",
+        "file":  "051_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  52,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p3_type",
+        "file":  "052_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  53,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:2",
+        "label":  "p3_type",
+        "file":  "053_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  54,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:7",
+        "label":  "p3_type",
+        "file":  "054_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  55,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p3_type",
+        "file":  "055_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  56,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p3_type",
+        "file":  "056_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  57,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p3_type",
+        "file":  "057_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  58,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "p3_type",
+        "file":  "058_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  59,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:.",
+        "label":  "p3_type",
+        "file":  "059_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  60,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:1",
+        "label":  "p3_type",
+        "file":  "060_p3_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  61,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "061_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  62,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "062_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  63,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "063_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  64,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "064_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  10.1.0.1",
+                   "x":  -8
+               },
+        "i":  65,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "065_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe - ping  -t 127.0.0.1",
+                   "x":  -8
+               },
+        "i":  66,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_run",
+        "file":  "066_p3_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  67,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "p3_stopped",
+        "file":  "067_p3_stopped.png"
+    }
+]

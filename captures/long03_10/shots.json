@@ -1,0 +1,822 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_clean",
+        "file":  "001_s1_clean.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "s1_type",
+        "file":  "002_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:h",
+        "label":  "s1_type",
+        "file":  "003_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:u",
+        "label":  "s1_type",
+        "file":  "004_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:t",
+        "label":  "s1_type",
+        "file":  "005_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:d",
+        "label":  "s1_type",
+        "file":  "006_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "s1_type",
+        "file":  "007_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:w",
+        "label":  "s1_type",
+        "file":  "008_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "s1_type",
+        "file":  "009_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "s1_type",
+        "file":  "010_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:/",
+        "label":  "s1_type",
+        "file":  "011_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  12,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "s1_type",
+        "file":  "012_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "s1_type",
+        "file":  "013_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:/",
+        "label":  "s1_type",
+        "file":  "014_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:t",
+        "label":  "s1_type",
+        "file":  "015_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  16,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "s1_type",
+        "file":  "016_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  17,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:3",
+        "label":  "s1_type",
+        "file":  "017_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  18,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:6",
+        "label":  "s1_type",
+        "file":  "018_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  19,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "s1_type",
+        "file":  "019_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  20,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:0",
+        "label":  "s1_type",
+        "file":  "020_s1_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  21,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_run",
+        "file":  "021_s1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "OpenSSL (64-bit) Uninstall",
+                   "x":  388
+               },
+        "i":  22,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_run",
+        "file":  "022_s1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "OpenSSL (64-bit) Uninstall",
+                   "x":  388
+               },
+        "i":  23,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_run",
+        "file":  "023_s1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  24,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_run",
+        "file":  "024_s1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  25,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s1_run",
+        "file":  "025_s1_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  26,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:s",
+        "label":  "s2_type",
+        "file":  "026_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  27,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:h",
+        "label":  "s2_type",
+        "file":  "027_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  28,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:u",
+        "label":  "s2_type",
+        "file":  "028_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  29,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:t",
+        "label":  "s2_type",
+        "file":  "029_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  30,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:d",
+        "label":  "s2_type",
+        "file":  "030_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  -8,
+                   "w":  1296,
+                   "h":  688,
+                   "title":  "Administrator: C:\\Windows\\system32\\cmd.exe",
+                   "x":  -8
+               },
+        "i":  31,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:o",
+        "label":  "s2_type",
+        "file":  "031_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  360,
+                   "w":  0,
+                   "h":  0,
+                   "title":  "Win64openssl-4_1_0",
+                   "x":  640
+               },
+        "i":  32,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:w",
+        "label":  "s2_type",
+        "file":  "032_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  360,
+                   "w":  0,
+                   "h":  0,
+                   "title":  "Setup",
+                   "x":  640
+               },
+        "i":  33,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:n",
+        "label":  "s2_type",
+        "file":  "033_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  258,
+                   "w":  407,
+                   "h":  208,
+                   "title":  "Exit Setup",
+                   "x":  440
+               },
+        "i":  34,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed: ",
+        "label":  "s2_type",
+        "file":  "034_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  258,
+                   "w":  407,
+                   "h":  208,
+                   "title":  "Exit Setup",
+                   "x":  440
+               },
+        "i":  35,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:/",
+        "label":  "s2_type",
+        "file":  "035_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  258,
+                   "w":  407,
+                   "h":  208,
+                   "title":  "Exit Setup",
+                   "x":  440
+               },
+        "i":  36,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "typed:a",
+        "label":  "s2_type",
+        "file":  "036_s2_type.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "Setup - OpenSSL 4.1.0 (64-bit)",
+                   "x":  388
+               },
+        "i":  37,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s2_run",
+        "file":  "037_s2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "Setup - OpenSSL 4.1.0 (64-bit)",
+                   "x":  388
+               },
+        "i":  38,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s2_run",
+        "file":  "038_s2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "Setup - OpenSSL 4.1.0 (64-bit)",
+                   "x":  388
+               },
+        "i":  39,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s2_run",
+        "file":  "039_s2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "Setup - OpenSSL 4.1.0 (64-bit)",
+                   "x":  388
+               },
+        "i":  40,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s2_run",
+        "file":  "040_s2_run.png"
+    },
+    {
+        "fg":  {
+                   "y":  141,
+                   "w":  503,
+                   "h":  389,
+                   "title":  "Setup - OpenSSL 4.1.0 (64-bit)",
+                   "x":  388
+               },
+        "i":  41,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       640,
+                       360
+                   ],
+        "note":  "",
+        "label":  "s2_run",
+        "file":  "041_s2_run.png"
+    }
+]
