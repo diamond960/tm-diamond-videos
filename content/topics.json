@@ -1,6 +1,6 @@
 {
  "about": "TM Diamond topic database. Check before choosing any topic (no repeats by meaning); append every new video. Categories: A Windows/PC, B Mac, C iPhone/Android/apps, D AI, E CMD/PowerShell/coding/dev, F laptops/gaming/hardware, X retired (bypass/unlock/activation - never make again).",
- "updated": "2026-11-14",
+ "updated": "2026-11-21",
  "topics": [
   {
    "topic": "I Connected 9 Apps to Claude and Built an AI Video Studio",
@@ -1428,6 +1428,15 @@
    "platform": "youtube long",
    "youtube": "https://youtu.be/t9MlHkuYjNE",
    "publish_at": "2026-11-15T15:00:00Z"
+  },
+  {
+   "topic": "9 Windows 11 settings to change: file name extensions, snap layouts (Win+Z), dark mode, Start menu recommendations off, notifications / Do not disturb, taskbar alignment left, hidden items, privacy General switches, Sticky Keys shortcut off",
+   "category": "A",
+   "source": "long/04",
+   "date": "2026-11-21",
+   "platform": "youtube long",
+   "youtube": "https://youtu.be/Z8FzxIdxEAE",
+   "publish_at": "2026-11-22T15:00:00Z"
   }
  ]
 }
