@@ -1,0 +1,89 @@
+Windows 11 comes with a few default settings that make your PC more annoying, less private, and even less safe.
+In this video, I'll show you 9 settings you should change right now, and each one takes less than a minute.
+I'm doing every step on a real Windows PC, so you can follow along click by click.
+These are simple switches, but together they make a real difference every day.
+And stay to the end, because setting number 9 stops a pop -up that has ruined a lot of games.
+Setting number 1 helps you spot a fake file before you open it.
+By default, Windows hides the end of every file name, the part called the file extension.
+Look at this file in my downloads folder.
+It looks like a normal PDF called invoice.
+To see the truth, open File Explorer and click View at the top.
+Click Show, then click File Name Extensions.
+Now the full name appears, and this invoice is really invoice .pdf .exe.
+That means it's a program, not a document.
+Never open a file like this from an email, or a website you don't trust.
+With extensions turned on, you'll always know what you're about to open.
+To hide extensions again later, just click the same option one more time.
+Setting number 2 is a faster way to put two windows side by side.
+Here I have Notepad and File Explorer, and they're overlapping.
+Click on the window you want to arrange.
+Then press the Windows key and Z together.
+Windows shows you a set of layouts, and each one has a number.
+Press the number of the layout you want, or just click it.
+Windows snaps the window into place, and fills the other side with your open window.
+Now both windows fill the screen perfectly, with no dragging and no resizing.
+This is great for comparing two documents, or copying from one window into another.
+To undo it, just drag a window away from the edge of the screen.
+Setting number 3 is easier on your eyes, especially at night.
+Open Settings by pressing Windows and I.
+Click Personalization, then click Colors.
+Next to choose your mode, open the list.
+Pick dark.
+The Settings app, File Explorer, the start menu and the task bar all switch to dark right away.
+If you change your mind, pick light in the same list.
+Setting number 4 cleans up your start menu.
+By default, windows can fill start with recently added apps, recent files, tips and suggestions.
+Go to Settings, then Personalization, then Start.
+Here you'll find a group of switches that all start with the word Show.
+Turn off Show Recently Added Apps.
+Turn off Show Recommended Files in Start, Recent Files in File Explorer and Items in Jump Lists.
+Turn off Show Recommendations for Tips, Shortcuts, New Apps and more.
+And turn off Show Account -related Notifications.
+Open Start again, and the recommended area is empty, with only your pinned apps on top.
+Your pinned apps stay exactly where they are.
+Quick favor before setting number 5.
+If these settings are helping you, subscribe to TM Diamond so you don't miss the next Windows tutorial.
+Now, the next setting is the one most people wish they'd changed years ago.
+Setting number 5 stops the endless pop -ups.
+Go to Setting, then System, then Notifications.
+To silence everything for a while, turn on Do Not Disturb.
+Your notifications still go to the Notification Center, so you can read them later.
+Right below, you can also have Windows turn on Do Not Disturb automatically at certain times.
+For a calmer PC every day, look at the list of apps and other senders below.
+Every app has its own switch.
+Turn off the switch for any app that keeps interrupting you.
+You keep the useful ones, and the noisy ones go quiet.
+Setting number 6 is for anyone who misses the Start button on the left.
+Go to Settings, then Personalization, then Taskbar.
+Click Taskbar Behaviors to open more options.
+Next to Taskbar Alignment, open the list.
+Change Center to Left.
+The Start button in your apps move to the left corner, just like older versions of Windows.
+And when you open Start, it opens from the left side too.
+To move everything back, choose Center in the same list.
+Setting number 7 shows you the files Windows hides.
+Open File Explorer, and go to your User folder.
+Click View, then Show, then Hidden Items.
+Now you can see folders like AppData, where many apps keep their settings.
+Hidden items look a little faded, so you can tell them apart.
+This helps when a guide tells you to find a file inside a hidden folder.
+Be careful here, and don't delete anything in these folders unless you know exactly what it is.
+To hide them again, click Hidden Items one more time.
+Setting number 8 gives you a little more privacy.
+Go to Settings, then Privacy and Security, then General.
+These switches control your advertising ID, relevant content based on your language list, and tracking of the apps you launch.
+Turn off the switches you don't want.
+On this PC, I'm turning off the language list and the app launch tracking.
+Turning these off doesn't break anything, and you can turn them back on at any time.
+And setting number 9 is the one I promised.
+If you press the Shift key five times, Windows asks if you want to turn on Sticky Keys.
+In the middle of a game, that pop -up can be a disaster.
+Go to Settings, then Accessibility, then Keyboard.
+Click Sticky Keys.
+Sticky Keys lets you press shortcut keys one key at a time, which really helps some people.
+But if you don't use it, turn off keyboard shortcut for Sticky Keys.
+Now pressing Shift five times won't bring up that pop -up, and Sticky Keys is still here if you ever need it.
+That's nine settings that make Windows 11 cleaner, safer and easier to use.
+If you changed even one of them, tell me in the comments which one helped you most.
+Next week, I'll show you every safe way to free up disk space on Windows 11 without deleting your files.
+Subscribe to TM Diamond so you don't miss it.
