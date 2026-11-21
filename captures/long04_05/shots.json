@@ -1,0 +1,374 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  282,
+                   "w":  800,
+                   "h":  750,
+                   "title":  "Search",
+                   "x":  560
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1509,
+                       498
+                   ],
+        "note":  "",
+        "label":  "start_before",
+        "file":  "001_start_before.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "hover_personalization",
+        "file":  "002_hover_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "personalization",
+        "file":  "003_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Start",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "hover_start_page",
+        "file":  "004_hover_start_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Start",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "start_page",
+        "file":  "005_start_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  551,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recently added apps",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       571
+                   ],
+        "note":  "state:On",
+        "label":  "before_s1",
+        "file":  "006_before_s1.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  551,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recently added apps",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       571
+                   ],
+        "note":  "state:Off",
+        "label":  "after_s1",
+        "file":  "007_after_s1.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  697,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recommended files in Start, recent files in File Explorer, and items in Jump Lists",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       717
+                   ],
+        "note":  "state:On",
+        "label":  "before_s2",
+        "file":  "008_before_s2.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  697,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recommended files in Start, recent files in File Explorer, and items in Jump Lists",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       717
+                   ],
+        "note":  "state:Off",
+        "label":  "after_s2",
+        "file":  "009_after_s2.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  770,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recommendations for tips, shortcuts, new apps, and more",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       790
+                   ],
+        "note":  "state:On",
+        "label":  "before_s3",
+        "file":  "010_before_s3.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  11,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  770,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show recommendations for tips, shortcuts, new apps, and more",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       790
+                   ],
+        "note":  "state:Off",
+        "label":  "after_s3",
+        "file":  "011_after_s3.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  12,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  843,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show account-related notifications",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       863
+                   ],
+        "note":  "state:On",
+        "label":  "before_s4",
+        "file":  "012_before_s4.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  13,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  843,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Show account-related notifications",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       863
+                   ],
+        "note":  "state:Off",
+        "label":  "after_s4",
+        "file":  "013_after_s4.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1538,
+                       863
+                   ],
+        "note":  "",
+        "label":  "start_page_done",
+        "file":  "014_start_page_done.png"
+    },
+    {
+        "fg":  {
+                   "y":  282,
+                   "w":  800,
+                   "h":  750,
+                   "title":  "Search",
+                   "x":  560
+               },
+        "i":  15,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1538,
+                       863
+                   ],
+        "note":  "",
+        "label":  "start_after",
+        "file":  "015_start_after.png"
+    }
+]

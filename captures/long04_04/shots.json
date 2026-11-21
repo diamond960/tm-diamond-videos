@@ -1,0 +1,270 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1440,
+                       520
+                   ],
+        "note":  "",
+        "label":  "light_desktop",
+        "file":  "001_light_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1440,
+                       520
+                   ],
+        "note":  "",
+        "label":  "settings_open",
+        "file":  "002_settings_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "hover_personalization",
+        "file":  "003_hover_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "personalization",
+        "file":  "004_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "target":  {
+                                     "y":  535,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "Colors",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       570
+                   ],
+        "note":  "",
+        "label":  "hover_colors",
+        "file":  "005_hover_colors.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "target":  {
+                                     "y":  535,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "Colors",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       570
+                   ],
+        "note":  "",
+        "label":  "colors",
+        "file":  "006_colors.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "combo":  {
+                                    "y":  439,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Choose your mode",
+                                    "x":  1440
+                                }
+                  },
+        "cursor":  [
+                       1509,
+                       459
+                   ],
+        "note":  "",
+        "label":  "hover_mode",
+        "file":  "007_hover_mode.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "combo":  {
+                                    "y":  439,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Choose your mode",
+                                    "x":  1440
+                                }
+                  },
+        "cursor":  [
+                       1509,
+                       459
+                   ],
+        "note":  "",
+        "label":  "mode_open",
+        "file":  "008_mode_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "dark":  {
+                                   "y":  481,
+                                   "w":  118,
+                                   "h":  33,
+                                   "name":  "Dark",
+                                   "x":  1450
+                               }
+                  },
+        "cursor":  [
+                       1509,
+                       498
+                   ],
+        "note":  "",
+        "label":  "hover_dark",
+        "file":  "009_hover_dark.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+                      "combo":  {
+                                    "y":  439,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Choose your mode",
+                                    "x":  1440
+                                }
+                  },
+        "cursor":  [
+                       1509,
+                       498
+                   ],
+        "note":  "",
+        "label":  "dark",
+        "file":  "010_dark.png"
+    },
+    {
+        "fg":  {
+                   "y":  -32000,
+                   "w":  160,
+                   "h":  28,
+                   "title":  "Settings",
+                   "x":  -32000
+               },
+        "i":  11,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1509,
+                       498
+                   ],
+        "note":  "",
+        "label":  "dark_desktop",
+        "file":  "011_dark_desktop.png"
+    }
+]

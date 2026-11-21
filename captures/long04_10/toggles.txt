@@ -1,0 +1,5 @@
+﻿Keyboard shortcut for Sticky keys = On
+Show the Sticky keys icon on the taskbar = On
+Lock shortcut keys when pressed twice in a row = On
+Turn off Sticky keys when two keys are pressed at the same time = On
+Play a sound when shortcut keys are pressed and released = On

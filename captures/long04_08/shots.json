@@ -1,0 +1,172 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       1481,
+                       394
+                   ],
+        "note":  "",
+        "label":  "before",
+        "file":  "001_before.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "hid_hover_view",
+        "file":  "002_hid_hover_view.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               },
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "hid_view_menu",
+        "file":  "003_hid_view_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "item":  {
+                                   "y":  719,
+                                   "w":  207,
+                                   "h":  28,
+                                   "name":  "Hidden items",
+                                   "x":  788
+                               },
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       596
+                   ],
+        "note":  "",
+        "label":  "hid_show_menu",
+        "file":  "004_hid_show_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "item":  {
+                                   "y":  719,
+                                   "w":  207,
+                                   "h":  28,
+                                   "name":  "Hidden items",
+                                   "x":  788
+                               }
+                  },
+        "cursor":  [
+                       848,
+                       733
+                   ],
+        "note":  "",
+        "label":  "hid_hover_item",
+        "file":  "005_hid_hover_item.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "runneradmin - File Explorer",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "appdata":  {
+                                      "y":  417,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "AppData",
+                                      "x":  342
+                                  }
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "shown",
+        "file":  "006_shown.png"
+    }
+]

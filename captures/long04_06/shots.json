@@ -1,0 +1,244 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "target":  {
+                                     "y":  254,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "System",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       272
+                   ],
+        "note":  "",
+        "label":  "hover_system",
+        "file":  "001_hover_system.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "target":  {
+                                     "y":  254,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "System",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       272
+                   ],
+        "note":  "",
+        "label":  "system",
+        "file":  "002_system.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  476,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "Notifications",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       512
+                   ],
+        "note":  "",
+        "label":  "hover_notifications",
+        "file":  "003_hover_notifications.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  476,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "Notifications",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       512
+                   ],
+        "note":  "",
+        "label":  "notifications",
+        "file":  "004_notifications.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  310,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Do not disturb",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       330
+                   ],
+        "note":  "state:On",
+        "label":  "before_dnd",
+        "file":  "005_before_dnd.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  310,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Do not disturb",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       330
+                   ],
+        "note":  "state:Off",
+        "label":  "after_dnd",
+        "file":  "006_after_dnd.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1100,
+                       700
+                   ],
+        "note":  "",
+        "label":  "app_list",
+        "file":  "007_app_list.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  650,
+                                     "w":  1000,
+                                     "h":  70,
+                                     "name":  "ServiceFabricLocalClusterManager",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1091,
+                       685
+                   ],
+        "note":  "state:",
+        "label":  "before_app",
+        "file":  "008_before_app.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "toggle":  null
+                  },
+        "cursor":  [
+                       1091,
+                       685
+                   ],
+        "note":  "state:",
+        "label":  "after_app",
+        "file":  "009_after_app.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1091,
+                       685
+                   ],
+        "note":  "",
+        "label":  "done",
+        "file":  "010_done.png"
+    }
+]

@@ -1,0 +1,71 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 591,165,193,38
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Image | Desktop preview | 598,249,319,172
+ControlType.Text | Select a theme to apply | 973,222,360,19
+ControlType.List | Select a theme to apply | 973,253,360,206
+ControlType.ListItem | Windows (light), 1 images | 973,253,116,94
+ControlType.Group | Windows (light), 1 images | 975,255,112,90
+ControlType.ListItem | Windows (dark), 1 images | 1093,253,116,94
+ControlType.Group | Windows (dark), 1 images | 1095,255,112,90
+ControlType.ListItem | Windows spotlight, dynamic images | 1213,253,116,94
+ControlType.Group | Windows spotlight, dynamic images | 1215,255,112,90
+ControlType.Image | Windows Spotlight Icon | 1299,259,24,24
+ControlType.ListItem | Glow, 4 images | 973,351,116,94
+ControlType.Group | Glow, 4 images | 975,353,112,90
+ControlType.ListItem | Captured Motion, 4 images | 1093,351,116,94
+ControlType.Group | Captured Motion, 4 images | 1095,353,112,90
+ControlType.ListItem | Sunrise, 4 images | 1213,351,116,94
+ControlType.Group | Sunrise, 4 images | 1215,353,112,90
+ControlType.ListItem | Background | 587,463,1006,71
+ControlType.Group | Background | 590,464,1000,69
+ControlType.Text | Background | 649,481,74,19
+ControlType.Text | Background image, color, slideshow | 649,500,195,16
+ControlType.ListItem | Colors | 587,535,1006,71
+ControlType.Group | Colors | 590,536,1000,69
+ControlType.Text | Colors | 649,553,40,19
+ControlType.Text | Accent color, transparency effects, color theme | 649,572,254,16
+ControlType.ListItem | Themes | 587,607,1006,71
+ControlType.Group | Themes | 590,608,1000,69
+ControlType.Text | Themes | 649,625,48,19
+ControlType.Text | Install, create, manage | 649,644,121,16
+ControlType.ListItem | Dynamic Lighting | 587,679,1006,71
+ControlType.Group | Dynamic Lighting | 590,680,1000,69
+ControlType.Text | Dynamic Lighting | 649,697,108,19
+ControlType.Text | Connected devices, effects, app settings | 649,716,217,16
+ControlType.ListItem | Lock screen | 587,751,1006,71
+ControlType.Group | Lock screen | 590,752,1000,69
+ControlType.Text | Lock screen | 649,769,72,19
+ControlType.Text | Lock screen images, apps, animations | 649,788,203,16
+ControlType.ListItem | Text input | 587,823,1006,71
+ControlType.Group | Text input | 590,824,1000,69
+ControlType.Text | Text input | 649,841,61,19
+ControlType.Text | Voice typing, emoji and more, input method editor | 649,860,275,16
+ControlType.ListItem | Start | 587,895,1006,47
+ControlType.Group | Start | 590,896,1000,46
+ControlType.Text | Start | 649,913,29,19
+ControlType.Text | Recent apps and items, folders | 649,932,166,10
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

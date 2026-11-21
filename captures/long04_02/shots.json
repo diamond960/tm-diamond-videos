@@ -1,0 +1,162 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "notes",
+        "file":  "001_notes.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  2,
+        "rects":  {
+                      "turnon":  null
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "winv_off",
+        "file":  "002_winv_off.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "settings_clipboard",
+        "file":  "003_settings_clipboard.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "sel1",
+        "file":  "004_sel1.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "sel2",
+        "file":  "005_sel2.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  6,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "ready",
+        "file":  "006_ready.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "history",
+        "file":  "007_history.png"
+    },
+    {
+        "fg":  {
+                   "y":  130,
+                   "w":  1400,
+                   "h":  760,
+                   "title":  "*Untitled - Notepad",
+                   "x":  260
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "pasted",
+        "file":  "008_pasted.png"
+    }
+]

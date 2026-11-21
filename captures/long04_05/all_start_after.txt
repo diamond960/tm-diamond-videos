@@ -1,0 +1,24 @@
+﻿ControlType.Window | Default | -32000,-32000,160,28
+ControlType.TabItem | Default | -31973,-31991,248,32
+ControlType.Text | Default | -31934,-31983,40,16
+ControlType.Button | Close Tab | -31766,-31987,32,24
+ControlType.SplitButton | New Tab | -31723,-31987,63,24
+ControlType.Text | Default | -32000,-31959,1028,586
+ControlType.ScrollBar | Vertical | -30988,-31959,16,586
+ControlType.Button | Vertical Small Decrease | -30988,-31959,16,16
+ControlType.Button | Vertical Large Decrease | -30988,-31943,16,448
+ControlType.Button | Vertical Small Increase | -30988,-31389,16,16
+ControlType.TitleBar | Default | -31992,-31992,144,23
+ControlType.MenuBar | System Menu Bar | -31992,-31992,22,22
+ControlType.MenuItem | System | -31992,-31992,22,22
+ControlType.Button | Restore | -31987,-31999,47,27
+ControlType.Button | Maximize | -31940,-31999,46,27
+ControlType.Button | Close | -31894,-31999,47,27
+ControlType.Pane | Program Manager | 0,0,1920,1080
+ControlType.List | Desktop | 0,0,1920,1080
+ControlType.ListItem | Recycle Bin | 0,5,76,70
+ControlType.ListItem | Firefox | 0,105,76,70
+ControlType.ListItem | Google Chrome | 0,205,76,85
+ControlType.ListItem | Microsoft Edge | 0,305,76,85
+ControlType.ListItem | R 4.6.2 | 0,405,76,70
+ControlType.ListItem | Unity Hub | 0,505,76,70

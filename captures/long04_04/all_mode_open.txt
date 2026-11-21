@@ -1,0 +1,137 @@
+﻿ControlType.Button | Start | 716,1032,45,48
+ControlType.Button | Search | 763,1040,220,32
+ControlType.Text | Search | 800,1046,42,19
+ControlType.Button | Task View | 985,1032,44,48
+ControlType.Button | File Explorer pinned | 1029,1032,44,48
+ControlType.Button | Microsoft Edge pinned | 1073,1032,44,48
+ControlType.Button | Terminal - 1 running window | 1117,1032,44,48
+ControlType.Button | Settings - 1 running window | 1161,1032,44,48
+ControlType.Button | Show Hidden Icons | 1718,1032,32,48
+ControlType.Button | Network Network
+Internet access
+
+Connecting to Ethernet... | 1750,1032,28,48
+ControlType.Button | Volume No audio device is installed | 1778,1032,28,48
+ControlType.Button | Clock 4:48 PM
+‎11/‎21/‎2026 | 1806,1032,74,48
+ControlType.Button | Notifications No new notifications (Do not disturb on) | 1880,1032,28,48
+ControlType.Button | Show Desktop | 1908,1032,12,48
+ControlType.Window | Settings | 160,110,1560,840
+ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 590,162,235,44
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Button | Colors | 826,165,82,38
+ControlType.Text | Colors | 826,165,82,38
+ControlType.Image | Desktop preview | 599,230,319,172
+ControlType.Group | Choose your mode | 591,424,1000,69
+ControlType.Text | Choose your mode | 650,441,118,19
+ControlType.Text | Change the colors that appear in Windows and your apps | 650,460,312,16
+ControlType.ComboBox | Choose your mode | 1440,439,138,40
+ControlType.ListItem | Light | 1450,444,118,33
+ControlType.ListItem | Dark | 1450,481,118,33
+ControlType.ListItem | Custom | 1450,518,118,33
+ControlType.Button | Close | 168,105,1544,799
+ControlType.Text | Transparency effects | 650,514,126,19
+ControlType.Text | Windows and surfaces appear translucent | 650,533,226,16
+ControlType.Button | Transparency effects | 1502,511,72,40
+ControlType.Group | Accent color | 591,569,1000,373
+ControlType.Text | Accent color | 650,594,77,19
+ControlType.ComboBox | Accent color | 1412,584,138,40
+ControlType.ListItem | Manual | 1428,594,80,19
+ControlType.Button | Show more settings | 1550,588,32,32
+ControlType.Text | Recent colors | 650,647,83,19
+ControlType.List | Recent colors | 650,672,896,63
+ControlType.ListItem | Seafoam | 650,672,50,50
+ControlType.ListItem | Storm | 703,672,50,50
+ControlType.ListItem | Red | 756,672,50,50
+ControlType.ListItem | Rose bright | 809,672,50,50
+ControlType.Text | Windows colors | 650,753,98,19
+ControlType.List | Windows colors | 650,778,896,164
+ControlType.ListItem | Yellow gold | 650,778,50,50
+ControlType.ListItem | Gold | 703,778,50,50
+ControlType.ListItem | Orange bright | 756,778,50,50
+ControlType.ListItem | Orange dark | 809,778,50,50
+ControlType.ListItem | Rust | 862,778,50,50
+ControlType.ListItem | Pale rust | 915,778,50,50
+ControlType.ListItem | Brick red | 968,778,50,50
+ControlType.ListItem | Mod red | 1021,778,50,50
+ControlType.ListItem | Pale red | 1074,778,50,50
+ControlType.ListItem | Red | 650,831,50,50
+ControlType.ListItem | Rose bright | 703,831,50,50
+ControlType.ListItem | Rose | 756,831,50,50
+ControlType.ListItem | Plum light | 809,831,50,50
+ControlType.ListItem | Plum | 862,831,50,50
+ControlType.ListItem | Orchid light | 915,831,50,50
+ControlType.ListItem | Orchid | 968,831,50,50
+ControlType.ListItem | Blue | 1021,831,50,50
+ControlType.ListItem | Navy blue | 1074,831,50,50
+ControlType.ListItem | Purple shadow | 650,884,50,50
+ControlType.ListItem | Purple shadow dark | 703,884,50,50
+ControlType.ListItem | Iris pastel | 756,884,50,50
+ControlType.ListItem | Iris Spring | 809,884,50,50
+ControlType.ListItem | Violet red light | 862,884,50,50
+ControlType.ListItem | Violet red | 915,884,50,50
+ControlType.ListItem | Cool blue bright | 968,884,50,50
+ControlType.ListItem | Cool blue | 1021,884,50,50
+ControlType.ListItem | Seafoam | 1074,884,50,50
+ControlType.ListItem | Seafoam teal | 650,937,50,5
+ControlType.ListItem | Mint light | 703,937,50,5
+ControlType.ListItem | Mint dark | 756,937,50,5
+ControlType.ListItem | Turf green | 809,937,50,5
+ControlType.ListItem | Sport green | 862,937,50,5
+ControlType.ListItem | Gray | 915,937,50,5
+ControlType.ListItem | Gray brown | 968,937,50,5
+ControlType.ListItem | Steel blue | 1021,937,50,5
+ControlType.ListItem | Metal blue | 1074,937,50,5
+ControlType.ScrollBar | Vertical | 1700,217,12,725
+ControlType.Button | Vertical Small Decrease | 1700,217,12,12
+ControlType.Button | Vertical Large Increase | 1700,628,12,302
+ControlType.Button | Vertical Small Increase | 1700,930,12,12
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22
+ControlType.Window | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -32000,-32000,160,28
+ControlType.TabItem | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31973,-31991,248,32
+ControlType.Text | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31934,-31983,164,16
+ControlType.Button | Close Tab | -31766,-31987,32,24
+ControlType.SplitButton | New Tab | -31723,-31987,63,24
+ControlType.Text | Default | -32000,-31959,1028,586
+ControlType.ScrollBar | Vertical | -30988,-31959,16,586
+ControlType.Button | Vertical Small Decrease | -30988,-31959,16,16
+ControlType.Button | Vertical Large Decrease | -30988,-31943,16,448
+ControlType.Button | Vertical Small Increase | -30988,-31389,16,16
+ControlType.TitleBar | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31992,-31992,144,23
+ControlType.MenuBar | System Menu Bar | -31992,-31992,22,22
+ControlType.MenuItem | System | -31992,-31992,22,22
+ControlType.Button | Restore | -31987,-31999,47,27
+ControlType.Button | Maximize | -31940,-31999,46,27
+ControlType.Button | Close | -31894,-31999,47,27
+ControlType.Pane | Program Manager | 0,0,1920,1080
+ControlType.List | Desktop | 0,0,1920,1080
+ControlType.ListItem | Recycle Bin | 0,5,76,70
+ControlType.ListItem | Firefox | 0,105,76,70
+ControlType.ListItem | Google Chrome | 0,205,76,85
+ControlType.ListItem | Microsoft Edge | 0,305,76,85
+ControlType.ListItem | R 4.6.2 | 0,405,76,70
+ControlType.ListItem | Unity Hub | 0,505,76,70

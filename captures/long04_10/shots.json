@@ -1,0 +1,250 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  78,
+                   "w":  420,
+                   "h":  475,
+                   "title":  "System Properties",
+                   "x":  78
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1450,
+                       900
+                   ],
+        "note":  "",
+        "label":  "protection",
+        "file":  "001_protection.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "target":  {
+                                     "y":  534,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Accessibility",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       552
+                   ],
+        "note":  "",
+        "label":  "hover_accessibility",
+        "file":  "002_hover_accessibility.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  534,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Accessibility",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       552
+                   ],
+        "note":  "",
+        "label":  "accessibility",
+        "file":  "003_accessibility.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Keyboard",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "hover_keyboard",
+        "file":  "004_hover_keyboard.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Keyboard",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "keyboard",
+        "file":  "005_keyboard.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "target":  {
+                                     "y":  300,
+                                     "w":  1000,
+                                     "h":  70,
+                                     "name":  "Sticky keys",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1091,
+                       335
+                   ],
+        "note":  "",
+        "label":  "hover_sticky",
+        "file":  "006_hover_sticky.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "target":  {
+                                     "y":  300,
+                                     "w":  1000,
+                                     "h":  70,
+                                     "name":  "Sticky keys",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1091,
+                       335
+                   ],
+        "note":  "",
+        "label":  "sticky",
+        "file":  "007_sticky.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1091,
+                       335
+                   ],
+        "note":  "",
+        "label":  "sticky_page",
+        "file":  "008_sticky_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  289,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Keyboard shortcut for Sticky keys",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       309
+                   ],
+        "note":  "state:On",
+        "label":  "before_shortcut",
+        "file":  "009_before_shortcut.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  289,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Keyboard shortcut for Sticky keys",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       309
+                   ],
+        "note":  "state:Off",
+        "label":  "after_shortcut",
+        "file":  "010_after_shortcut.png"
+    }
+]

@@ -1,0 +1,48 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Accessibility | 590,162,199,44
+ControlType.Text | Accessibility | 591,165,157,38
+ControlType.Button | Keyboard | 789,162,163,44
+ControlType.Text | Keyboard | 790,165,121,38
+ControlType.Button | Sticky keys | 953,165,140,38
+ControlType.Text | Sticky keys | 953,165,140,38
+ControlType.Text | Make keyboard shortcuts easier by pressing each key individually, so you don't have to hold multiple keys at once. | 591,223,1000,19
+ControlType.Text | Keyboard shortcut for Sticky keys | 608,292,205,19
+ControlType.Text | Press the Shift key 5 times to turn Sticky keys on or off | 608,311,294,16
+ControlType.Button | Keyboard shortcut for Sticky keys | 1502,289,72,40
+ControlType.Text | Show the Sticky keys icon on the taskbar | 608,373,250,19
+ControlType.Button | Show the Sticky keys icon on the taskbar | 1502,362,72,40
+ControlType.Text | Lock shortcut keys when pressed twice in a row | 608,438,292,19
+ControlType.Text | Shortcut keys include Shift, Ctrl, Alt and Windows logo key | 608,457,317,16
+ControlType.Button | Lock shortcut keys when pressed twice in a row | 1502,435,72,40
+ControlType.Text | Turn off Sticky keys when two keys are pressed at the same time | 608,519,396,19
+ControlType.Button | Turn off Sticky keys when two keys are pressed at the same time | 1502,508,72,40
+ControlType.Text | Play a sound when shortcut keys are pressed and released | 608,584,359,19
+ControlType.Text | Shortcut keys include Shift, Ctrl, Alt, and the Windows logo key | 608,603,340,16
+ControlType.Button | Play a sound when shortcut keys are pressed and released | 1502,581,72,40
+ControlType.Group | Give feedback | 591,668,121,21
+ControlType.Hyperlink | Give feedback | 623,668,89,21
+ControlType.Text | Give feedback | 624,669,87,19
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

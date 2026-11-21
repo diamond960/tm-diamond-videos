@@ -1,0 +1,3 @@
+﻿Let apps show me personalized ads by using my advertising ID = Off enabled=True
+Let websites show me locally relevant content by accessing my language list = On enabled=True
+Let Windows improve Start and search results by tracking app launches = On enabled=True

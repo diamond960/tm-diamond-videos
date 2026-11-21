@@ -1,0 +1,140 @@
+﻿ControlType.Button | Start | 716,1032,45,48
+ControlType.Button | Search | 763,1040,220,32
+ControlType.Text | Search | 800,1046,42,19
+ControlType.Button | Task View | 985,1032,44,48
+ControlType.Button | File Explorer - 1 running window and 1 group pinned | 1029,1032,44,48
+ControlType.Button | Microsoft Edge pinned | 1073,1032,44,48
+ControlType.Button | Terminal - 1 running window | 1117,1032,44,48
+ControlType.Button | Notepad - 1 running window and 1 group | 1161,1032,44,48
+ControlType.Button | Show Hidden Icons | 1718,1032,32,48
+ControlType.Button | Network Network
+Internet access
+
+Connecting to Ethernet... | 1750,1032,28,48
+ControlType.Button | Volume No audio device is installed | 1778,1032,28,48
+ControlType.Button | Clock 4:48 PM
+‎11/‎21/‎2026 | 1806,1032,74,48
+ControlType.Button | Notifications No new notifications (Do not disturb on) | 1880,1032,28,48
+ControlType.Button | Show Desktop | 1908,1032,12,48
+ControlType.Window | *Untitled - Notepad | -7,0,974,1039
+ControlType.Document | Text Editor | 1,51,958,957
+ControlType.ScrollBar | Horizontal Scroll Bar | 1,991,941,17
+ControlType.Button | Back by small amount | 1,991,17,17
+ControlType.Button | Forward by small amount | 925,991,17,17
+ControlType.ScrollBar | Vertical Scroll Bar | 942,51,17,940
+ControlType.Button | Back by small amount | 942,51,17,17
+ControlType.Button | Forward by small amount | 942,974,17,17
+ControlType.StatusBar | Status Bar | 1,1008,958,23
+ControlType.Edit |   Ln 2, Col 2 | 531,1010,138,21
+ControlType.Edit |  100% | 671,1010,48,21
+ControlType.Edit |  Windows (CRLF) | 721,1010,118,21
+ControlType.Edit |  UTF-8 | 841,1010,102,21
+ControlType.TitleBar | *Untitled - Notepad | 1,8,958,23
+ControlType.MenuBar | System Menu Bar | 1,8,22,22
+ControlType.MenuItem | System | 1,8,22,22
+ControlType.Button | Minimize | 820,1,47,30
+ControlType.Button | Maximize | 867,1,46,30
+ControlType.Button | Close | 913,1,47,30
+ControlType.MenuBar | Application | 1,31,958,19
+ControlType.MenuItem | File | 1,31,32,19
+ControlType.MenuItem | Edit | 33,31,34,19
+ControlType.MenuItem | Format | 67,31,52,19
+ControlType.MenuItem | View | 119,31,39,19
+ControlType.MenuItem | Help | 158,31,39,19
+ControlType.Window | Documents - File Explorer | 953,0,974,1039
+ControlType.Pane | Documents | 961,136,958,895
+ControlType.StatusBar | Status bar | 961,1007,958,24
+ControlType.Group | Property Field | 968,1007,47,24
+ControlType.Text | 1 item | 973,1007,37,24
+ControlType.Group | View Modes | 1867,1007,48,24
+ControlType.RadioButton | Details | 1867,1007,24,24
+ControlType.RadioButton | Large Icons | 1891,1007,24,24
+ControlType.Pane | Control Host | 963,136,154,871
+ControlType.Tree | Namespace Tree Control | 963,136,154,871
+ControlType.TreeItem | Home | 1014,142,37,32
+ControlType.TreeItem | Gallery | 1014,174,40,32
+ControlType.TreeItem | Desktop | 1014,238,47,32
+ControlType.TreeItem | Downloads | 1014,270,63,32
+ControlType.TreeItem | Documents | 1014,302,65,32
+ControlType.TreeItem | Pictures | 1014,334,46,32
+ControlType.TreeItem | Music | 1014,366,36,32
+ControlType.TreeItem | Videos | 1014,398,39,32
+ControlType.TreeItem | This PC | 1014,462,44,32
+ControlType.TreeItem | Network | 1014,494,49,32
+ControlType.TreeItem | Linux | 1014,526,32,32
+ControlType.Pane | Shell Folder View | 1121,136,798,871
+ControlType.List | Items View | 1121,136,798,871
+ControlType.Header | Header | 1121,136,798,25
+ControlType.SplitButton | Name | 1121,136,272,25
+ControlType.Button | Filter dropdown | 1377,136,15,25
+ControlType.SplitButton | Date modified | 1393,136,144,25
+ControlType.Button | Filter dropdown | 1521,136,15,25
+ControlType.SplitButton | Type | 1537,136,120,25
+ControlType.Button | Filter dropdown | 1641,136,15,25
+ControlType.SplitButton | Size | 1657,136,80,25
+ControlType.Button | Filter dropdown | 1721,136,15,25
+ControlType.ListItem | Visual Studio 18 | 1135,167,598,24
+ControlType.Edit | Name | 1157,170,236,19
+ControlType.Edit | Date modified | 1393,170,144,19
+ControlType.Edit | Type | 1537,170,120,19
+ControlType.Edit | Size | 1657,170,80,19
+ControlType.TabItem | Documents | 965,8,248,32
+ControlType.Text | Documents | 1004,16,63,15
+ControlType.Button | Close Tab | 1172,12,32,24
+ControlType.Button | Add New Tab | 1216,13,32,24
+ControlType.Button | Back | 972,48,32,32
+ControlType.Button | Forward | 1020,48,32,32
+ControlType.Button | Up to "runneradmin" (Alt + Up Arrow) | 1068,48,32,32
+ControlType.Button | Refresh "Documents" (F5) | 1116,48,32,32
+ControlType.Edit | Address Bar | 1162,48,528,32
+ControlType.SplitButton | This PC | 1175,52,51,24
+ControlType.SplitButton | More | 1226,52,31,24
+ControlType.SplitButton | Users | 1257,52,75,24
+ControlType.Text | Users | 1266,54,34,19
+ControlType.SplitButton | runneradmin | 1332,52,121,24
+ControlType.Text | runneradmin | 1341,54,80,19
+ControlType.SplitButton | Documents | 1453,52,113,24
+ControlType.Text | Documents | 1462,54,71,19
+ControlType.Edit |  Search Documents | 1698,48,210,32
+ControlType.Text |  Search Documents | 1709,54,120,19
+ControlType.Button | New | 967,89,86,46
+ControlType.Button | Cut | 1064,89,40,46
+ControlType.Button | Copy | 1112,89,40,46
+ControlType.Button | Paste | 1160,89,40,46
+ControlType.Button | Rename | 1208,89,40,46
+ControlType.Button | Share | 1256,89,40,46
+ControlType.Button | Delete | 1304,89,40,46
+ControlType.Button | Sort | 1355,89,84,46
+ControlType.Button | View | 1443,89,87,46
+ControlType.Button | More options | 1537,89,48,46
+ControlType.Button | Details | 1824,89,85,46
+ControlType.TitleBar | Documents - File Explorer | 961,8,958,23
+ControlType.MenuBar | System Menu Bar | 961,8,22,22
+ControlType.MenuItem | System | 961,8,22,22
+ControlType.Button | Minimize | 1780,1,47,30
+ControlType.Button | Maximize | 1827,1,46,30
+ControlType.Button | Close | 1873,1,47,30
+ControlType.Window | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -32000,-32000,160,28
+ControlType.TabItem | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31973,-31991,248,32
+ControlType.Text | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31934,-31983,164,16
+ControlType.Button | Close Tab | -31766,-31987,32,24
+ControlType.SplitButton | New Tab | -31723,-31987,63,24
+ControlType.Text | Default | -32000,-31959,1028,586
+ControlType.ScrollBar | Vertical | -30988,-31959,16,586
+ControlType.Button | Vertical Small Decrease | -30988,-31959,16,16
+ControlType.Button | Vertical Large Decrease | -30988,-31943,16,448
+ControlType.Button | Vertical Small Increase | -30988,-31389,16,16
+ControlType.TitleBar | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31992,-31992,144,23
+ControlType.MenuBar | System Menu Bar | -31992,-31992,22,22
+ControlType.MenuItem | System | -31992,-31992,22,22
+ControlType.Button | Restore | -31987,-31999,47,27
+ControlType.Button | Maximize | -31940,-31999,46,27
+ControlType.Button | Close | -31894,-31999,47,27
+ControlType.Pane | Program Manager | 0,0,1920,1080
+ControlType.List | Desktop | 0,0,1920,1080
+ControlType.ListItem | Recycle Bin | 0,5,76,70
+ControlType.ListItem | Firefox | 0,105,76,70
+ControlType.ListItem | Google Chrome | 0,205,76,85
+ControlType.ListItem | Microsoft Edge | 0,305,76,85
+ControlType.ListItem | R 4.6.2 | 0,405,76,70
+ControlType.ListItem | Unity Hub | 0,505,76,70

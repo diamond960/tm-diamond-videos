@@ -1,0 +1,19 @@
+﻿ControlType.Button | OK | 247,515,75,23
+ControlType.Button | Cancel | 328,515,75,23
+ControlType.Button | Apply | 409,515,75,23
+ControlType.TabItem | Computer Name | 94,118,88,18
+ControlType.Text | Computer description: | 107,195,116,13
+ControlType.Edit | Computer description: | 231,192,233,20
+ControlType.Text | For example: "IIS Production Server" or "Accounting Server". | 231,219,233,28
+ControlType.Text | Full computer name: | 107,252,116,13
+ControlType.Edit | Full computer name: | 231,252,233,20
+ControlType.Text | Workgroup: | 107,276,116,13
+ControlType.Edit | Workgroup: | 231,276,233,20
+ControlType.Text | To rename this computer or change its domain or workgroup, click Change. | 107,310,267,29
+ControlType.Button | Change... | 389,310,75,23
+ControlType.Text | Windows uses the following information to identify your computer on the network. | 156,153,308,26
+ControlType.TabItem | Hardware | 182,118,58,18
+ControlType.TabItem | Advanced | 240,118,61,18
+ControlType.TabItem | Remote | 301,118,49,18
+ControlType.TitleBar | System Properties | 86,86,404,23
+ControlType.Button | Close | 457,79,34,30

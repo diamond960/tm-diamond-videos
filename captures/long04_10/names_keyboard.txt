@@ -1,0 +1,67 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Accessibility | 590,162,199,44
+ControlType.Text | Accessibility | 591,165,157,38
+ControlType.Button | Keyboard | 790,165,121,38
+ControlType.Text | Keyboard | 790,165,121,38
+ControlType.Text | Make it easier to type and use keyboard shortcuts. | 591,222,1000,19
+ControlType.Group | Sticky, Filter, and Toggle keys | 591,273,1000,315
+ControlType.Text | Sticky, Filter, and Toggle keys | 591,273,1000,19
+ControlType.Group | Sticky keys | 591,300,1000,70
+ControlType.Text | Sticky keys | 650,318,67,19
+ControlType.Text | Press keyboard shortcuts that use multiple keys (such as Ctrl + S) one key at a time | 650,337,448,16
+ControlType.Button | Sticky keys | 1474,315,72,40
+ControlType.Button | Sticky keys | 1550,319,32,32
+ControlType.Group | Filter keys | 591,373,1000,70
+ControlType.Text | Filter keys | 650,391,62,19
+ControlType.Text | Set the sensitivity of the keyboard so it can ignore brief or repeated keystrokes | 650,410,427,16
+ControlType.Button | Filter keys | 1474,388,72,40
+ControlType.Button | Filter keys | 1550,392,32,32
+ControlType.Text | Toggle keys | 650,464,73,19
+ControlType.Text | Play a sound when you press caps, num, or scroll lock | 650,483,289,16
+ControlType.Button | Toggle keys | 1502,461,72,40
+ControlType.Group | Notification preferences | 591,519,1000,69
+ControlType.Text | Notification preferences | 650,544,149,19
+ControlType.Button | Show more settings | 1550,538,32,32
+ControlType.Group | On-screen keyboard, access keys, and Print screen | 591,620,1000,243
+ControlType.Text | On-screen keyboard, access keys, and Print screen | 591,620,1000,19
+ControlType.Text | On-screen keyboard | 608,667,126,19
+ControlType.Text | Press the Windows logo key  + Ctrl + O to turn the on-screen keyboard on or off | 608,686,874,12
+ControlType.Button | On-screen keyboard | 1502,662,72,40
+ControlType.Text | Underline access keys | 608,738,134,19
+ControlType.Text | Access keys will be underlined even when not holding Alt | 608,757,310,16
+ControlType.Button | Underline access keys | 1502,735,72,40
+ControlType.Text | Use the Print screen key to open screen capture | 608,819,295,19
+ControlType.Button | Use the Print screen key to open screen capture | 1502,808,72,40
+ControlType.Group | Related settings | 591,895,1000,47
+ControlType.Text | Related settings | 591,895,1000,19
+ControlType.Group | Typing | 591,922,1000,20
+ControlType.Text | Typing | 650,939,42,3
+ControlType.Button | Typing | 1550,941,32,1
+ControlType.ScrollBar | Vertical | 1700,217,12,725
+ControlType.Button | Vertical Small Decrease | 1700,217,12,12
+ControlType.Button | Vertical Large Increase | 1700,780,12,150
+ControlType.Button | Vertical Small Increase | 1700,930,12,12
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

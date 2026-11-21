@@ -1,0 +1,68 @@
+﻿ControlType.Button | Start | 716,1032,45,48
+ControlType.Button | Search | 763,1040,220,32
+ControlType.Text | Search | 800,1046,42,19
+ControlType.Button | Task View | 985,1032,44,48
+ControlType.Button | File Explorer pinned | 1029,1032,44,48
+ControlType.Button | Microsoft Edge pinned | 1073,1032,44,48
+ControlType.Button | Terminal - 1 running window | 1117,1032,44,48
+ControlType.Button | Notepad - 1 running window | 1161,1032,44,48
+ControlType.Button | Show Hidden Icons | 1718,1032,32,48
+ControlType.Button | Network Network
+Internet access
+
+Ethernet 4
+No internet access | 1750,1032,28,48
+ControlType.Button | Volume No audio device is installed | 1778,1032,28,48
+ControlType.Button | Clock 4:47 PM
+‎11/‎21/‎2026 | 1806,1032,74,48
+ControlType.Button | Notifications No new notifications (Do not disturb on) | 1880,1032,28,48
+ControlType.Button | Show Desktop | 1908,1032,12,48
+ControlType.Window | *Untitled - Notepad | 260,130,1400,760
+ControlType.Document | Text Editor | 268,181,1384,678
+ControlType.ScrollBar | Horizontal Scroll Bar | 268,842,1367,17
+ControlType.Button | Back by small amount | 268,842,17,17
+ControlType.Button | Forward by small amount | 1618,842,17,17
+ControlType.ScrollBar | Vertical Scroll Bar | 1635,181,17,661
+ControlType.Button | Back by small amount | 1635,181,17,17
+ControlType.Button | Forward by small amount | 1635,825,17,17
+ControlType.StatusBar | Status Bar | 268,859,1384,23
+ControlType.Edit |   Ln 4, Col 1 | 1224,861,138,21
+ControlType.Edit |  100% | 1364,861,48,21
+ControlType.Edit |  Windows (CRLF) | 1414,861,118,21
+ControlType.Edit |  UTF-8 | 1534,861,102,21
+ControlType.TitleBar | *Untitled - Notepad | 268,138,1384,23
+ControlType.MenuBar | System Menu Bar | 268,138,22,22
+ControlType.MenuItem | System | 268,138,22,22
+ControlType.Button | Minimize | 1513,131,47,30
+ControlType.Button | Maximize | 1560,131,46,30
+ControlType.Button | Close | 1606,131,47,30
+ControlType.MenuBar | Application | 268,161,1384,19
+ControlType.MenuItem | File | 268,161,32,19
+ControlType.MenuItem | Edit | 300,161,34,19
+ControlType.MenuItem | Format | 334,161,52,19
+ControlType.MenuItem | View | 386,161,39,19
+ControlType.MenuItem | Help | 425,161,39,19
+ControlType.Window | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -32000,-32000,160,28
+ControlType.TabItem | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31973,-31991,248,32
+ControlType.Text | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31934,-31983,164,16
+ControlType.Button | Close Tab | -31766,-31987,32,24
+ControlType.SplitButton | New Tab | -31723,-31987,63,24
+ControlType.Text | Default | -32000,-31959,1028,586
+ControlType.ScrollBar | Vertical | -30988,-31959,16,586
+ControlType.Button | Vertical Small Decrease | -30988,-31959,16,16
+ControlType.Button | Vertical Large Decrease | -30988,-31943,16,448
+ControlType.Button | Vertical Small Increase | -30988,-31389,16,16
+ControlType.TitleBar | C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent | -31992,-31992,144,23
+ControlType.MenuBar | System Menu Bar | -31992,-31992,22,22
+ControlType.MenuItem | System | -31992,-31992,22,22
+ControlType.Button | Restore | -31987,-31999,47,27
+ControlType.Button | Maximize | -31940,-31999,46,27
+ControlType.Button | Close | -31894,-31999,47,27
+ControlType.Pane | Program Manager | 0,0,1920,1080
+ControlType.List | Desktop | 0,0,1920,1080
+ControlType.ListItem | Recycle Bin | 0,5,76,70
+ControlType.ListItem | Firefox | 0,105,76,70
+ControlType.ListItem | Google Chrome | 0,205,76,85
+ControlType.ListItem | Microsoft Edge | 0,305,76,85
+ControlType.ListItem | R 4.6.2 | 0,405,76,70
+ControlType.ListItem | Unity Hub | 0,505,76,70

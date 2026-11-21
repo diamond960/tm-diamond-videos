@@ -1,0 +1,87 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 590,162,235,44
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Button | Colors | 826,165,82,38
+ControlType.Text | Colors | 826,165,82,38
+ControlType.Image | Desktop preview | 599,230,319,172
+ControlType.Group | Choose your mode | 591,424,1000,69
+ControlType.Text | Choose your mode | 650,441,118,19
+ControlType.Text | Change the colors that appear in Windows and your apps | 650,460,312,16
+ControlType.ComboBox | Choose your mode | 1440,439,138,40
+ControlType.ListItem | Dark | 1456,449,80,19
+ControlType.Text | Transparency effects | 650,514,126,19
+ControlType.Text | Windows and surfaces appear translucent | 650,533,226,16
+ControlType.Button | Transparency effects | 1502,511,72,40
+ControlType.Group | Accent color | 591,569,1000,373
+ControlType.Text | Accent color | 650,594,77,19
+ControlType.ComboBox | Accent color | 1412,584,138,40
+ControlType.ListItem | Manual | 1428,594,80,19
+ControlType.Button | Show more settings | 1550,588,32,32
+ControlType.Text | Recent colors | 650,647,83,19
+ControlType.List | Recent colors | 650,672,896,63
+ControlType.ListItem | Seafoam | 650,672,50,50
+ControlType.ListItem | Storm | 703,672,50,50
+ControlType.ListItem | Red | 756,672,50,50
+ControlType.ListItem | Rose bright | 809,672,50,50
+ControlType.Text | Windows colors | 650,753,98,19
+ControlType.List | Windows colors | 650,778,896,164
+ControlType.ListItem | Yellow gold | 650,778,50,50
+ControlType.ListItem | Gold | 703,778,50,50
+ControlType.ListItem | Orange bright | 756,778,50,50
+ControlType.ListItem | Orange dark | 809,778,50,50
+ControlType.ListItem | Rust | 862,778,50,50
+ControlType.ListItem | Pale rust | 915,778,50,50
+ControlType.ListItem | Brick red | 968,778,50,50
+ControlType.ListItem | Mod red | 1021,778,50,50
+ControlType.ListItem | Pale red | 1074,778,50,50
+ControlType.ListItem | Red | 650,831,50,50
+ControlType.ListItem | Rose bright | 703,831,50,50
+ControlType.ListItem | Rose | 756,831,50,50
+ControlType.ListItem | Plum light | 809,831,50,50
+ControlType.ListItem | Plum | 862,831,50,50
+ControlType.ListItem | Orchid light | 915,831,50,50
+ControlType.ListItem | Orchid | 968,831,50,50
+ControlType.ListItem | Blue | 1021,831,50,50
+ControlType.ListItem | Navy blue | 1074,831,50,50
+ControlType.ListItem | Purple shadow | 650,884,50,50
+ControlType.ListItem | Purple shadow dark | 703,884,50,50
+ControlType.ListItem | Iris pastel | 756,884,50,50
+ControlType.ListItem | Iris Spring | 809,884,50,50
+ControlType.ListItem | Violet red light | 862,884,50,50
+ControlType.ListItem | Violet red | 915,884,50,50
+ControlType.ListItem | Cool blue bright | 968,884,50,50
+ControlType.ListItem | Cool blue | 1021,884,50,50
+ControlType.ListItem | Seafoam | 1074,884,50,50
+ControlType.ListItem | Seafoam teal | 650,937,50,5
+ControlType.ListItem | Mint light | 703,937,50,5
+ControlType.ListItem | Mint dark | 756,937,50,5
+ControlType.ListItem | Turf green | 809,937,50,5
+ControlType.ListItem | Sport green | 862,937,50,5
+ControlType.ListItem | Gray | 915,937,50,5
+ControlType.ListItem | Gray brown | 968,937,50,5
+ControlType.ListItem | Steel blue | 1021,937,50,5
+ControlType.ListItem | Metal blue | 1074,937,50,5
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

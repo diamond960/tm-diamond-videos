@@ -1,0 +1,179 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "invoice":  {
+                                      "y":  416,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "invoice.pdf",
+                                      "x":  342
+                                  },
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       960,
+                       540
+                   ],
+        "note":  "",
+        "label":  "hidden",
+        "file":  "001_hidden.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "ext_hover_view",
+        "file":  "002_ext_hover_view.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "view":  {
+                                   "y":  199,
+                                   "w":  87,
+                                   "h":  46,
+                                   "name":  "View",
+                                   "x":  650
+                               },
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       222
+                   ],
+        "note":  "",
+        "label":  "ext_view_menu",
+        "file":  "003_ext_view_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "item":  {
+                                   "y":  687,
+                                   "w":  207,
+                                   "h":  28,
+                                   "name":  "File name extensions",
+                                   "x":  788
+                               },
+                      "show":  {
+                                   "y":  582,
+                                   "w":  179,
+                                   "h":  28,
+                                   "name":  "Show",
+                                   "x":  604
+                               }
+                  },
+        "cursor":  [
+                       694,
+                       596
+                   ],
+        "note":  "",
+        "label":  "ext_show_menu",
+        "file":  "004_ext_show_menu.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "item":  {
+                                   "y":  687,
+                                   "w":  207,
+                                   "h":  28,
+                                   "name":  "File name extensions",
+                                   "x":  788
+                               }
+                  },
+        "cursor":  [
+                       848,
+                       701
+                   ],
+        "note":  "",
+        "label":  "ext_hover_item",
+        "file":  "005_ext_hover_item.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Downloads - File Explorer",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "invoice":  {
+                                      "y":  416,
+                                      "w":  598,
+                                      "h":  24,
+                                      "name":  "invoice.pdf.exe",
+                                      "x":  342
+                                  }
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "shown",
+        "file":  "006_shown.png"
+    }
+]

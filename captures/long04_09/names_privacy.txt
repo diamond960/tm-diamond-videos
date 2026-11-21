@@ -1,0 +1,66 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Privacy & security | 591,165,227,38
+ControlType.Text | Privacy & security | 591,165,227,38
+ControlType.Group | Security | 587,227,1006,97
+ControlType.Text | Security | 592,227,998,19
+ControlType.ListItem | Windows Security | 587,253,1006,71
+ControlType.Group | Windows Security | 590,254,1000,69
+ControlType.Text | Windows Security | 649,271,110,19
+ControlType.Text | Antivirus, browser, firewall, and network protection for your device | 649,290,361,16
+ControlType.Group | Windows permissions | 587,339,1006,385
+ControlType.Text | Windows permissions | 592,339,998,19
+ControlType.ListItem | General | 587,365,1006,71
+ControlType.Group | General | 590,366,1000,69
+ControlType.Text | General | 649,383,48,19
+ControlType.Text | Advertising ID, local content, app launches, settings suggestions, productivity tools | 649,402,449,16
+ControlType.ListItem | Speech | 587,437,1006,71
+ControlType.Group | Speech | 590,438,1000,69
+ControlType.Text | Speech | 649,455,45,19
+ControlType.Text | Online speech recognition for dictation and other voice-based interactions  | 649,474,404,16
+ControlType.ListItem | Inking & typing personalization | 587,509,1006,71
+ControlType.Group | Inking & typing personalization | 590,510,1000,69
+ControlType.Text | Inking & typing personalization | 649,527,195,19
+ControlType.Text | Custom dictionary, words in your dictionary | 649,546,237,16
+ControlType.ListItem | Diagnostics & feedback | 587,581,1006,71
+ControlType.Group | Diagnostics & feedback | 590,582,1000,69
+ControlType.Text | Diagnostics & feedback | 649,599,147,19
+ControlType.Text | Diagnostic data, inking and typing data, tailored experiences, feedback frequency | 649,618,441,16
+ControlType.ListItem | Search | 587,653,1006,71
+ControlType.Group | Search | 590,654,1000,69
+ControlType.Text | Search | 649,671,42,19
+ControlType.Text | Search history, search apps, cloud content search, search indexing | 649,690,357,16
+ControlType.Group | App permissions | 587,739,1006,203
+ControlType.Text | App permissions | 592,739,998,19
+ControlType.ListItem | Location | 587,765,1006,71
+ControlType.Group | Location | 590,766,1000,69
+ControlType.Text | Location | 649,791,53,19
+ControlType.ListItem | Camera | 587,837,1006,71
+ControlType.Group | Camera | 590,838,1000,69
+ControlType.Text | Camera | 649,863,48,19
+ControlType.ListItem | Microphone | 587,909,1006,33
+ControlType.Group | Microphone | 590,910,1000,32
+ControlType.Text | Microphone | 649,935,76,7
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

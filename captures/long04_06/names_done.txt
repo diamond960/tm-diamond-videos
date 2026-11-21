@@ -1,0 +1,45 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | More | 590,164,76,40
+ControlType.Button | Notifications | 666,162,206,44
+ControlType.Text | Notifications | 667,165,164,38
+ControlType.Button | NotifyIconGeneratedAumid_10424715813738905968 | 873,165,662,38
+ControlType.Text | NotifyIconGeneratedAumid_10424715813738905968 | 873,165,662,38
+ControlType.Button | Notifications | 591,231,79,63
+ControlType.CheckBox | Show notification banners | 591,467,189,32
+ControlType.CheckBox | Show notifications in notification center | 831,467,157,43
+ControlType.Button | Hide content when notifications are on lock screen | 591,535,313,63
+ControlType.Button | Play a sound when a notification arrives | 591,608,245,63
+ControlType.Text | Priority of notifications in notification center | 591,681,410,19
+ControlType.RadioButton | Top priority in notification center, show at the top of notification center | 591,708,259,52
+ControlType.Text | Top | 619,714,231,19
+ControlType.Text | Show at the top of notification center | 619,741,231,19
+ControlType.RadioButton | High priority in notification center, show above normal priority notifications in notification center | 591,777,410,52
+ControlType.Text | High | 619,783,382,19
+ControlType.Text | Show above normal priority notifications in notification center | 619,810,382,19
+ControlType.RadioButton | Normal priority in notification center, show below high priority notifications in notification center | 591,846,394,52
+ControlType.Text | Normal | 619,852,366,19
+ControlType.Text | Show below high priority notifications in notification center | 619,879,366,19
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

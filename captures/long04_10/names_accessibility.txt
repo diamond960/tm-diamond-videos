@@ -1,0 +1,68 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Accessibility | 591,165,157,38
+ControlType.Text | Accessibility | 591,165,157,38
+ControlType.Group | Vision | 587,227,1006,601
+ControlType.Text | Vision | 592,227,998,19
+ControlType.ListItem | Text size | 587,253,1006,71
+ControlType.Group | Text size | 590,254,1000,69
+ControlType.Text | Text size | 649,271,52,19
+ControlType.Text | Text size that appears throughout Windows and your apps | 649,290,316,16
+ControlType.ListItem | Visual effects | 587,325,1006,71
+ControlType.Group | Visual effects | 590,326,1000,69
+ControlType.Text | Visual effects | 649,343,81,19
+ControlType.Text | Scroll bars, transparency, animations, notification timeout | 649,362,312,16
+ControlType.ListItem | Mouse pointer and touch | 587,397,1006,71
+ControlType.Group | Mouse pointer and touch | 590,398,1000,69
+ControlType.Text | Mouse pointer and touch | 649,415,157,19
+ControlType.Text | Mouse pointer color, size | 649,434,137,16
+ControlType.ListItem | Text cursor | 587,469,1006,71
+ControlType.Group | Text cursor | 590,470,1000,69
+ControlType.Text | Text cursor | 649,487,67,19
+ControlType.Text | Appearance and thickness, text cursor indicator | 649,506,257,16
+ControlType.ListItem | Magnifier | 587,541,1006,71
+ControlType.Group | Magnifier | 590,542,1000,69
+ControlType.Text | Magnifier | 649,559,60,19
+ControlType.Text | Magnifier reading, zoom increment | 649,578,192,16
+ControlType.ListItem | Color filters | 587,613,1006,71
+ControlType.Group | Color filters | 590,614,1000,69
+ControlType.Text | Color filters | 649,631,72,19
+ControlType.Text | Colorblindness filters, grayscale, inverted | 649,650,221,16
+ControlType.ListItem | Contrast themes | 587,685,1006,71
+ControlType.Group | Contrast themes | 590,686,1000,69
+ControlType.Text | Contrast themes | 649,703,102,19
+ControlType.Text | Color themes for low vision, light sensitivity | 649,722,236,16
+ControlType.ListItem | Narrator | 587,757,1006,71
+ControlType.Group | Narrator | 590,758,1000,69
+ControlType.Text | Narrator | 649,775,53,19
+ControlType.Text | Voice, verbosity, keyboard, braille | 649,794,181,16
+ControlType.Group | Hearing | 587,843,1006,99
+ControlType.Text | Hearing | 592,843,998,19
+ControlType.ListItem | Audio | 587,869,1006,71
+ControlType.Group | Audio | 590,870,1000,69
+ControlType.Text | Audio | 649,887,37,19
+ControlType.Text | Mono audio, audio notifications | 649,906,174,16
+ControlType.ListItem | Hearing devices | 587,941,1006,1
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

@@ -1,0 +1,180 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1000,
+                   "h":  640,
+                   "title":  "*Untitled - Notepad",
+                   "x":  300
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       700
+                   ],
+        "note":  "",
+        "label":  "two_windows",
+        "file":  "001_two_windows.png"
+    },
+    {
+        "fg":  {
+                   "y":  160,
+                   "w":  1000,
+                   "h":  640,
+                   "title":  "*Untitled - Notepad",
+                   "x":  300
+               },
+        "i":  2,
+        "rects":  {
+                      "max":  {
+                                  "y":  161,
+                                  "w":  46,
+                                  "h":  30,
+                                  "name":  "Maximize",
+                                  "x":  1200
+                              }
+                  },
+        "cursor":  [
+                       1224,
+                       176
+                   ],
+        "note":  "",
+        "label":  "hover_max",
+        "file":  "002_hover_max.png"
+    },
+    {
+        "fg":  {
+                   "y":  191,
+                   "w":  344,
+                   "h":  244,
+                   "title":  "",
+                   "x":  1051
+               },
+        "i":  3,
+        "rects":  {
+                      "max":  {
+                                  "y":  161,
+                                  "w":  46,
+                                  "h":  30,
+                                  "name":  "Maximize",
+                                  "x":  1200
+                              }
+                  },
+        "cursor":  [
+                       1500,
+                       900
+                   ],
+        "note":  "",
+        "label":  "winz",
+        "file":  "003_winz.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  974,
+                   "h":  1039,
+                   "title":  "*Untitled - Notepad",
+                   "x":  -7
+               },
+        "i":  4,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       900
+                   ],
+        "note":  "",
+        "label":  "winz_layout1",
+        "file":  "004_winz_layout1.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  974,
+                   "h":  1039,
+                   "title":  "*Untitled - Notepad",
+                   "x":  -7
+               },
+        "i":  5,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1500,
+                       900
+                   ],
+        "note":  "",
+        "label":  "snapped_left",
+        "file":  "005_snapped_left.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  974,
+                   "h":  1039,
+                   "title":  "*Untitled - Notepad",
+                   "x":  -7
+               },
+        "i":  6,
+        "rects":  {
+                      "item":  {
+                                   "y":  0,
+                                   "w":  974,
+                                   "h":  1039,
+                                   "name":  "Documents - File Explorer",
+                                   "x":  953
+                               }
+                  },
+        "cursor":  [
+                       1440,
+                       520
+                   ],
+        "note":  "",
+        "label":  "hover_assist",
+        "file":  "006_hover_assist.png"
+    },
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  974,
+                   "h":  1039,
+                   "title":  "Documents - File Explorer",
+                   "x":  953
+               },
+        "i":  7,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1440,
+                       520
+                   ],
+        "note":  "",
+        "label":  "side_by_side",
+        "file":  "007_side_by_side.png"
+    },
+    {
+        "fg":  {
+                   "y":  240,
+                   "w":  900,
+                   "h":  600,
+                   "title":  "Documents - File Explorer",
+                   "x":  700
+               },
+        "i":  8,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1440,
+                       520
+                   ],
+        "note":  "",
+        "label":  "win_left",
+        "file":  "008_win_left.png"
+    }
+]

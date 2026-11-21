@@ -1,0 +1,70 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | System | 591,165,92,38
+ControlType.Text | System | 591,165,92,38
+ControlType.Image | Desktop preview | 594,238,112,59
+ControlType.Group | runnervmbpeip | 726,239,127,64
+ControlType.Text | runnervmbpeip | 726,239,127,24
+ControlType.Text | Virtual Machine | 726,263,127,19
+ControlType.Hyperlink | Rename | 726,282,51,21
+ControlType.Button | Windows Update Last checked: 4 days ago | 1404,242,186,52
+ControlType.Text | Windows Update | 1448,248,134,20
+ControlType.Text | Last checked: 4 days ago | 1448,270,134,16
+ControlType.ListItem | Display | 587,332,1006,71
+ControlType.Group | Display | 590,333,1000,69
+ControlType.Text | Display | 649,350,45,19
+ControlType.Text | Monitors, brightness, night light, display profile | 649,369,257,16
+ControlType.ListItem | Sound | 587,404,1006,71
+ControlType.Group | Sound | 590,405,1000,69
+ControlType.Text | Sound | 649,422,40,19
+ControlType.Text | Volume levels, output, input, sound devices | 649,441,235,16
+ControlType.ListItem | Notifications | 587,476,1006,71
+ControlType.Group | Notifications | 590,477,1000,69
+ControlType.Text | Notifications | 649,494,79,19
+ControlType.Text | Alerts from apps and system, do not disturb | 649,513,238,16
+ControlType.ListItem | Focus | 587,548,1006,71
+ControlType.Group | Focus | 590,549,1000,69
+ControlType.Text | Focus | 649,566,36,19
+ControlType.Text | Reduce distractions | 649,585,106,16
+ControlType.ListItem | Power | 587,620,1006,71
+ControlType.Group | Power | 590,621,1000,69
+ControlType.Text | Power | 649,638,38,19
+ControlType.Text | Screen and sleep, power mode, energy saver | 649,657,242,16
+ControlType.ListItem | Storage | 587,692,1006,71
+ControlType.Group | Storage | 590,693,1000,69
+ControlType.Text | Storage | 649,710,48,19
+ControlType.Text | Storage space, drives, configuration rules | 649,729,223,16
+ControlType.ListItem | Multitasking | 587,764,1006,71
+ControlType.Group | Multitasking | 590,765,1000,69
+ControlType.Text | Multitasking | 649,782,77,19
+ControlType.Text | Snap windows, desktops, task switching | 649,801,215,16
+ControlType.ListItem | For developers | 587,836,1006,71
+ControlType.Group | For developers | 590,837,1000,69
+ControlType.Text | For developers | 649,854,92,19
+ControlType.Text | These settings are intended for development use only | 649,873,292,16
+ControlType.ListItem | Activation | 587,908,1006,34
+ControlType.Group | Activation | 590,909,1000,33
+ControlType.Text | Activation | 649,926,62,16
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

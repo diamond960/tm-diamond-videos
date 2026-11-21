@@ -1,0 +1,75 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 590,162,235,44
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Button | Taskbar | 826,165,96,38
+ControlType.Text | Taskbar | 826,165,96,38
+ControlType.Group | Taskbar items | 591,222,1000,179
+ControlType.Text | Taskbar items | 608,239,84,19
+ControlType.Text | Show or hide buttons that appear on the taskbar | 608,258,264,16
+ControlType.Button | Show more settings | 1550,241,32,32
+ControlType.Group | Search | 592,291,998,50
+ControlType.Text | Search | 682,307,42,19
+ControlType.ComboBox | Search | 1412,296,138,40
+ControlType.ListItem | Search box | 1428,306,80,19
+ControlType.Group | Task view | 592,342,998,58
+ControlType.Text | Task view | 682,362,58,19
+ControlType.Button | Task view | 1474,351,72,40
+ControlType.Group | System tray icons | 591,404,1000,182
+ControlType.Text | System tray icons | 608,421,107,19
+ControlType.Text | Choose which icons can appear in the system tray | 608,440,270,16
+ControlType.Button | Show more settings | 1550,423,32,32
+ControlType.Group | Pen Menu | 592,473,998,58
+ControlType.Text | Pen Menu | 682,485,63,19
+ControlType.Text | Show pen menu icon when pen is in use | 682,504,217,16
+ControlType.Button | Pen Menu | 1474,482,72,40
+ControlType.Group | Touch keyboard | 592,532,998,53
+ControlType.Text | Touch keyboard | 682,541,99,19
+ControlType.Text | Show touch keyboard icon | 682,560,145,16
+ControlType.ComboBox | Touch keyboard | 1316,539,234,40
+ControlType.ListItem | When no keyboard attached | 1332,549,176,19
+ControlType.Group | Other system tray icons | 591,589,1000,69
+ControlType.Text | Other system tray icons | 608,606,146,19
+ControlType.Text | Show or hide additional system tray icons | 608,625,226,16
+ControlType.Button | Show more settings | 1550,608,32,32
+ControlType.Group | Taskbar behaviors | 591,661,1000,69
+ControlType.Text | Taskbar behaviors | 608,678,110,19
+ControlType.Text | Taskbar alignment, badging, automatically hide, and multiple displays | 608,697,376,16
+ControlType.Button | Show more settings | 1550,680,32,32
+ControlType.Group | Related settings | 591,762,1000,168
+ControlType.Text | Related settings | 591,762,1000,19
+ControlType.Group | Date & time | 591,789,1000,69
+ControlType.Text | Date & time | 650,806,76,19
+ControlType.Text | Time zones, automatic clock settings, calendar display | 650,825,292,16
+ControlType.Button | Date & time | 1550,808,32,32
+ControlType.Group | Notifications | 591,861,1000,69
+ControlType.Text | Notifications | 650,878,79,19
+ControlType.Text | Alerts from apps and system, do not disturb | 650,897,238,16
+ControlType.Button | Notifications | 1550,880,32,32
+ControlType.ScrollBar | Vertical | 1700,217,12,725
+ControlType.Button | Vertical Small Decrease | 1700,217,12,12
+ControlType.Button | Vertical Large Increase | 1700,872,12,58
+ControlType.Button | Vertical Small Increase | 1700,930,12,12
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

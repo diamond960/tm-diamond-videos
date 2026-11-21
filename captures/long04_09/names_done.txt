@@ -1,0 +1,46 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Privacy & security | 590,162,269,44
+ControlType.Text | Privacy & security | 591,165,227,38
+ControlType.Button | General | 860,165,98,38
+ControlType.Text | General | 860,165,98,38
+ControlType.Text | Let apps show me personalized ads by using my advertising ID | 608,248,387,19
+ControlType.Button | Let apps show me personalized ads by using my advertising ID | 1502,237,72,40
+ControlType.Text | Let websites show me locally relevant content by accessing my language list | 608,321,469,19
+ControlType.Button | Let websites show me locally relevant content by accessing my language list | 1502,310,72,40
+ControlType.Text | Let Windows improve Start and search results by tracking app launches | 608,394,439,19
+ControlType.Button | Let Windows improve Start and search results by tracking app launches | 1502,383,72,40
+ControlType.Group | Privacy resources | 591,446,1000,73
+ControlType.Text | Privacy resources | 650,461,106,19
+ControlType.Hyperlink | About these settings and your privacy | 650,483,236,21
+ControlType.Text | About these settings and your privacy | 651,484,234,19
+ControlType.Hyperlink | Privacy dashboard | 895,483,115,21
+ControlType.Text | Privacy dashboard | 896,484,113,19
+ControlType.Hyperlink | Privacy Statement | 1019,483,112,21
+ControlType.Text | Privacy Statement | 1020,484,110,19
+ControlType.Group | Give feedback | 591,551,121,21
+ControlType.Hyperlink | Give feedback | 623,551,89,21
+ControlType.Text | Give feedback | 624,552,87,19
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

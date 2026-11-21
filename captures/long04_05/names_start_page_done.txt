@@ -1,0 +1,49 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 590,162,235,44
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Button | Start | 826,165,61,38
+ControlType.Text | Start | 826,165,61,38
+ControlType.Group | Layout | 591,222,1000,295
+ControlType.Text | Layout | 591,222,1000,19
+ControlType.RadioButton | More pins | 591,265,312,252
+ControlType.RadioButton | Default | 935,265,312,252
+ControlType.RadioButton | More recommendations | 1279,265,312,252
+ControlType.Text | Show recently added apps | 650,562,163,19
+ControlType.Button | Show recently added apps | 1502,551,72,40
+ControlType.Text | Show most used apps | 650,635,136,19
+ControlType.Button | Show most used apps | 1502,624,72,40
+ControlType.Text | Show recommended files in Start, recent files in File Explorer, and items in Jump Lists | 650,708,522,19
+ControlType.Button | Show recommended files in Start, recent files in File Explorer, and items in Jump Lists | 1502,697,72,40
+ControlType.Text | Show recommendations for tips, shortcuts, new apps, and more | 650,781,393,19
+ControlType.Button | Show recommendations for tips, shortcuts, new apps, and more | 1502,770,72,40
+ControlType.Text | Show account-related notifications | 650,846,215,19
+ControlType.Text | When off, required notifications are still shown | 650,865,253,16
+ControlType.Button | Show account-related notifications | 1502,843,72,40
+ControlType.Group | Folders | 591,901,1000,41
+ControlType.Text | Folders | 650,918,45,19
+ControlType.Text | These folders appear on Start next to the Power button | 650,937,298,5
+ControlType.Button | Folders | 1550,920,32,22
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

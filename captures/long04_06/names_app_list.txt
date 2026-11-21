@@ -1,0 +1,73 @@
+﻿ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | System | 590,162,134,44
+ControlType.Text | System | 591,165,92,38
+ControlType.Button | Notifications | 725,165,164,38
+ControlType.Text | Notifications | 725,165,164,38
+ControlType.Group | Notifications | 591,217,1000,45
+ControlType.Text | Notifications | 650,217,79,12
+ControlType.Text | Get notifications from apps and other senders | 650,229,249,16
+ControlType.Button | Notifications | 1474,217,72,30
+ControlType.Button | Show more settings | 1550,217,32,26
+ControlType.Text | Do not disturb | 650,283,90,19
+ControlType.Text | Notifications will be sent directly to notification center | 650,302,294,16
+ControlType.Button | Do not disturb | 1502,280,72,40
+ControlType.Group | Turn on do not disturb automatically | 591,338,1000,69
+ControlType.Text | Turn on do not disturb automatically | 650,363,227,19
+ControlType.Button | Show more settings | 1550,357,32,32
+ControlType.Group | Set priority notifications | 591,410,1000,69
+ControlType.Text | Set priority notifications | 650,435,148,19
+ControlType.Button | Set priority notifications | 1550,429,32,32
+ControlType.Group | Focus | 591,482,1000,69
+ControlType.Text | Focus | 650,499,36,19
+ControlType.Text | Session duration, hide badges on apps | 650,518,210,16
+ControlType.Button | Focus | 1550,501,32,32
+ControlType.Group | Notifications from apps and other senders | 591,583,1000,282
+ControlType.Text | Notifications from apps and other senders | 591,583,1000,19
+ControlType.Text | Sort by: | 591,615,48,20
+ControlType.ComboBox | Sort by: | 640,606,138,40
+ControlType.ListItem | Most recent | 656,616,80,19
+ControlType.Text | Most recent | 656,616,80,19
+ControlType.Group | ServiceFabricLocalClusterManager | 591,650,1000,70
+ControlType.Button | ServiceFabricLocalClusterManager | 591,650,1000,70
+ControlType.Text | ServiceFabricLocalClusterManager | 650,668,210,19
+ControlType.Text | Banners, Sounds | 650,687,90,16
+ControlType.Button | ServiceFabricLocalClusterManager | 1474,665,72,40
+ControlType.Group | Startup App Notification | 591,723,1000,70
+ControlType.Button | Startup App Notification | 591,723,1000,70
+ControlType.Text | Startup App Notification | 650,741,151,19
+ControlType.Text | Off | 650,760,17,16
+ControlType.Button | Startup App Notification | 1474,738,72,40
+ControlType.Group | Additional settings | 591,796,1000,69
+ControlType.Text | Additional settings | 650,821,116,19
+ControlType.Button | Show more settings | 1550,815,32,32
+ControlType.Group | Give feedback | 591,897,121,21
+ControlType.Hyperlink | Give feedback | 623,897,89,21
+ControlType.Text | Give feedback | 624,898,87,19
+ControlType.ScrollBar | Vertical | 1700,217,12,725
+ControlType.Button | Vertical Small Decrease | 1700,217,12,12
+ControlType.Button | Vertical Large Decrease | 1700,229,12,28
+ControlType.Button | Vertical Small Increase | 1700,930,12,12
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22

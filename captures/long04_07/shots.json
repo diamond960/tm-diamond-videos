@@ -1,0 +1,348 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  0,
+                   "w":  1920,
+                   "h":  1080,
+                   "title":  "Program Manager",
+                   "x":  0
+               },
+        "i":  1,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1091,
+                       685
+                   ],
+        "note":  "",
+        "label":  "centered_desktop",
+        "file":  "001_centered_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "hover_personalization",
+        "file":  "002_hover_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  374,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Personalization",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       392
+                   ],
+        "note":  "",
+        "label":  "personalization",
+        "file":  "003_personalization.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Taskbar",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "hover_taskbar_page",
+        "file":  "004_hover_taskbar_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "target":  {
+                                     "y":  872,
+                                     "w":  1006,
+                                     "h":  70,
+                                     "name":  "Taskbar",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       907
+                   ],
+        "note":  "",
+        "label":  "taskbar_page",
+        "file":  "005_taskbar_page.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "target":  {
+                                     "y":  661,
+                                     "w":  1000,
+                                     "h":  69,
+                                     "name":  "Taskbar behaviors",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1091,
+                       696
+                   ],
+        "note":  "",
+        "label":  "hover_behaviors",
+        "file":  "006_hover_behaviors.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "target":  {
+                                     "y":  661,
+                                     "w":  1000,
+                                     "h":  69,
+                                     "name":  "Taskbar behaviors",
+                                     "x":  591
+                                 }
+                  },
+        "cursor":  [
+                       1091,
+                       696
+                   ],
+        "note":  "",
+        "label":  "behaviors",
+        "file":  "007_behaviors.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "combo":  {
+                                    "y":  409,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Taskbar alignment",
+                                    "x":  1412
+                                }
+                  },
+        "cursor":  [
+                       1100,
+                       700
+                   ],
+        "note":  "",
+        "label":  "behaviors_open",
+        "file":  "008_behaviors_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+                      "combo":  {
+                                    "y":  409,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Taskbar alignment",
+                                    "x":  1412
+                                }
+                  },
+        "cursor":  [
+                       1481,
+                       429
+                   ],
+        "note":  "",
+        "label":  "hover_align",
+        "file":  "009_hover_align.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  10,
+        "rects":  {
+                      "combo":  {
+                                    "y":  409,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Taskbar alignment",
+                                    "x":  1412
+                                }
+                  },
+        "cursor":  [
+                       1481,
+                       429
+                   ],
+        "note":  "",
+        "label":  "align_open",
+        "file":  "010_align_open.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  11,
+        "rects":  {
+                      "left":  {
+                                   "y":  377,
+                                   "w":  118,
+                                   "h":  33,
+                                   "name":  "Left",
+                                   "x":  1422
+                               }
+                  },
+        "cursor":  [
+                       1481,
+                       394
+                   ],
+        "note":  "",
+        "label":  "hover_left",
+        "file":  "011_hover_left.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  12,
+        "rects":  {
+                      "combo":  {
+                                    "y":  409,
+                                    "w":  138,
+                                    "h":  40,
+                                    "name":  "Taskbar alignment",
+                                    "x":  1412
+                                }
+                  },
+        "cursor":  [
+                       1481,
+                       394
+                   ],
+        "note":  "",
+        "label":  "left",
+        "file":  "012_left.png"
+    },
+    {
+        "fg":  {
+                   "y":  -32000,
+                   "w":  160,
+                   "h":  28,
+                   "title":  "Settings",
+                   "x":  -32000
+               },
+        "i":  13,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1481,
+                       394
+                   ],
+        "note":  "",
+        "label":  "left_desktop",
+        "file":  "013_left_desktop.png"
+    },
+    {
+        "fg":  {
+                   "y":  282,
+                   "w":  800,
+                   "h":  750,
+                   "title":  "Search",
+                   "x":  0
+               },
+        "i":  14,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1481,
+                       394
+                   ],
+        "note":  "",
+        "label":  "left_start",
+        "file":  "014_left_start.png"
+    }
+]

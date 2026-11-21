@@ -1,0 +1,113 @@
+﻿ControlType.Button | Start | 716,1032,45,48
+ControlType.Button | Search | 763,1040,220,32
+ControlType.Text | Search | 800,1046,42,19
+ControlType.Button | Task View | 985,1032,44,48
+ControlType.Button | File Explorer pinned | 1029,1032,44,48
+ControlType.Button | Microsoft Edge pinned | 1073,1032,44,48
+ControlType.Button | Terminal - 1 running window | 1117,1032,44,48
+ControlType.Button | Settings - 1 running window | 1161,1032,44,48
+ControlType.Button | Show Hidden Icons | 1742,1032,32,48
+ControlType.Button | Network Network
+Internet access
+
+Connecting to Ethernet... | 1774,1032,28,48
+ControlType.Button | Volume No audio device is installed | 1802,1032,28,48
+ControlType.Button | Clock 4:50 PM
+‎11/‎21/‎2026 | 1830,1032,78,48
+ControlType.Button | Show Desktop | 1908,1032,12,48
+ControlType.Window | Settings | 160,110,1560,840
+ControlType.Window | Settings | 1524,111,188,32
+ControlType.Button | Minimize Settings | 1574,111,46,32
+ControlType.Button | Maximize Settings | 1620,111,46,32
+ControlType.Button | Close Settings | 1666,111,46,32
+ControlType.Window | Settings | 168,111,1544,831
+ControlType.Text | Settings | 218,127,1306,16
+ControlType.Edit | Search box, Find a setting | 682,119,516,32
+ControlType.Button | Back | 172,117,40,36
+ControlType.Button | runneradmin Local Account | 173,160,290,75
+ControlType.Image | User profile picture | 184,168,60,60
+ControlType.Text | runneradmin | 256,181,83,19
+ControlType.Text | Local Account | 256,200,83,16
+ControlType.ListItem | System | 184,254,280,36
+ControlType.ListItem | Bluetooth & devices | 184,294,280,36
+ControlType.ListItem | Network & internet | 184,334,280,36
+ControlType.ListItem | Personalization | 184,374,280,36
+ControlType.ListItem | Apps | 184,414,280,36
+ControlType.ListItem | Accounts | 184,454,280,36
+ControlType.ListItem | Time & language | 184,494,280,36
+ControlType.ListItem | Accessibility | 184,534,280,36
+ControlType.ListItem | Privacy & security | 184,574,280,36
+ControlType.ListItem | Windows Update | 184,614,280,36
+ControlType.Button | Personalization | 590,162,235,44
+ControlType.Text | Personalization | 591,165,193,38
+ControlType.Button | Taskbar | 826,165,96,38
+ControlType.Text | Taskbar | 826,165,96,38
+ControlType.Group | System tray icons | 591,217,1000,43
+ControlType.Group | Touch keyboard | 592,217,998,42
+ControlType.Text | Touch keyboard | 682,217,99,17
+ControlType.Text | Show touch keyboard icon | 682,234,145,16
+ControlType.ComboBox | Touch keyboard | 1316,217,234,36
+ControlType.ListItem | When no keyboard attached | 1332,223,176,19
+ControlType.Group | Other system tray icons | 591,263,1000,69
+ControlType.Text | Other system tray icons | 608,280,146,19
+ControlType.Text | Show or hide additional system tray icons | 608,299,226,16
+ControlType.Button | Show more settings | 1550,282,32,32
+ControlType.Group | Taskbar behaviors | 591,335,1000,607
+ControlType.Text | Taskbar behaviors | 608,352,110,19
+ControlType.Text | Taskbar alignment, badging, automatically hide, and multiple displays | 608,371,376,16
+ControlType.Button | Show more settings | 1550,354,32,32
+ControlType.Text | Taskbar alignment | 650,420,112,19
+ControlType.ComboBox | Taskbar alignment | 1412,409,138,40
+ControlType.ListItem | Left | 1422,377,118,33
+ControlType.ListItem | Center | 1422,414,118,33
+ControlType.Button | Close | 168,68,1544,799
+ControlType.CheckBox | Automatically hide the taskbar | 650,464,216,32
+ControlType.CheckBox | Show badges on taskbar apps | 650,515,213,32
+ControlType.CheckBox | Show flashing on taskbar apps | 650,566,216,32
+ControlType.CheckBox | Show my taskbar on all displays | 650,617,224,32
+ControlType.Text | When using multiple displays, show my taskbar apps on | 650,675,345,19
+ControlType.ComboBox | When using multiple displays, show my taskbar apps on | 1412,664,138,40
+ControlType.ListItem | All taskbars | 1428,674,80,19
+ControlType.CheckBox | Share any window from my taskbar | 650,719,245,32
+ControlType.CheckBox | Select the far corner of the taskbar to show the desktop | 650,770,372,32
+ControlType.Text | Combine taskbar buttons and hide labels | 650,828,254,19
+ControlType.ComboBox | Combine taskbar buttons and hide labels | 1412,817,138,40
+ControlType.ListItem | Always | 1428,827,80,19
+ControlType.Text | Combine taskbar buttons and hide labels on other taskbars | 650,879,365,19
+ControlType.ComboBox | Combine taskbar buttons and hide labels on other taskbars | 1412,868,138,40
+ControlType.ListItem | Always | 1428,878,80,19
+ControlType.Text | Show smaller taskbar buttons | 650,930,182,12
+ControlType.ComboBox | Show smaller taskbar buttons | 1370,919,180,23
+ControlType.ListItem | When taskbar is full | 1386,929,122,13
+ControlType.ScrollBar | Vertical | 1700,217,12,725
+ControlType.Button | Vertical Small Decrease | 1700,217,12,12
+ControlType.Button | Vertical Large Decrease | 1700,229,12,169
+ControlType.Button | Vertical Large Increase | 1700,774,12,156
+ControlType.Button | Vertical Small Increase | 1700,930,12,12
+ControlType.TitleBar | Settings | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22
+ControlType.Window | Default | -32000,-32000,160,28
+ControlType.TabItem | Default | -31973,-31991,248,32
+ControlType.Text | Default | -31934,-31983,40,16
+ControlType.Button | Close Tab | -31766,-31987,32,24
+ControlType.SplitButton | New Tab | -31723,-31987,63,24
+ControlType.Text | Default | -32000,-31959,1028,586
+ControlType.ScrollBar | Vertical | -30988,-31959,16,586
+ControlType.Button | Vertical Small Decrease | -30988,-31959,16,16
+ControlType.Button | Vertical Large Decrease | -30988,-31943,16,448
+ControlType.Button | Vertical Small Increase | -30988,-31389,16,16
+ControlType.TitleBar | Default | -31992,-31992,144,23
+ControlType.MenuBar | System Menu Bar | -31992,-31992,22,22
+ControlType.MenuItem | System | -31992,-31992,22,22
+ControlType.Button | Restore | -31987,-31999,47,27
+ControlType.Button | Maximize | -31940,-31999,46,27
+ControlType.Button | Close | -31894,-31999,47,27
+ControlType.Pane | Program Manager | 0,0,1920,1080
+ControlType.List | Desktop | 0,0,1920,1080
+ControlType.ListItem | Recycle Bin | 0,5,76,70
+ControlType.ListItem | Firefox | 0,105,76,70
+ControlType.ListItem | Google Chrome | 0,205,76,85
+ControlType.ListItem | Microsoft Edge | 0,305,76,85
+ControlType.ListItem | R 4.6.2 | 0,405,76,70
+ControlType.ListItem | Unity Hub | 0,505,76,70

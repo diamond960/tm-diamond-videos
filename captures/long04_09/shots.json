@@ -1,0 +1,230 @@
+﻿[
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  1,
+        "rects":  {
+                      "target":  {
+                                     "y":  574,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Privacy \u0026 security",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       592
+                   ],
+        "note":  "",
+        "label":  "hover_privacy",
+        "file":  "001_hover_privacy.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  2,
+        "rects":  {
+                      "target":  {
+                                     "y":  574,
+                                     "w":  280,
+                                     "h":  36,
+                                     "name":  "Privacy \u0026 security",
+                                     "x":  184
+                                 }
+                  },
+        "cursor":  [
+                       324,
+                       592
+                   ],
+        "note":  "",
+        "label":  "privacy",
+        "file":  "002_privacy.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  3,
+        "rects":  {
+                      "target":  {
+                                     "y":  365,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "General",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       400
+                   ],
+        "note":  "",
+        "label":  "hover_general",
+        "file":  "003_hover_general.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  4,
+        "rects":  {
+                      "target":  {
+                                     "y":  365,
+                                     "w":  1006,
+                                     "h":  71,
+                                     "name":  "General",
+                                     "x":  587
+                                 }
+                  },
+        "cursor":  [
+                       1090,
+                       400
+                   ],
+        "note":  "",
+        "label":  "general",
+        "file":  "004_general.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  5,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  310,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Let websites show me locally relevant content by accessing my language list",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       330
+                   ],
+        "note":  "state:On",
+        "label":  "before_p1",
+        "file":  "005_before_p1.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  6,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  310,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Let websites show me locally relevant content by accessing my language list",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       330
+                   ],
+        "note":  "state:Off",
+        "label":  "after_p1",
+        "file":  "006_after_p1.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  7,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  383,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Let Windows improve Start and search results by tracking app launches",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       403
+                   ],
+        "note":  "state:On",
+        "label":  "before_p2",
+        "file":  "007_before_p2.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  8,
+        "rects":  {
+                      "toggle":  {
+                                     "y":  383,
+                                     "w":  72,
+                                     "h":  40,
+                                     "name":  "Let Windows improve Start and search results by tracking app launches",
+                                     "x":  1502
+                                 }
+                  },
+        "cursor":  [
+                       1538,
+                       403
+                   ],
+        "note":  "state:Off",
+        "label":  "after_p2",
+        "file":  "008_after_p2.png"
+    },
+    {
+        "fg":  {
+                   "y":  110,
+                   "w":  1560,
+                   "h":  840,
+                   "title":  "Settings",
+                   "x":  160
+               },
+        "i":  9,
+        "rects":  {
+
+                  },
+        "cursor":  [
+                       1450,
+                       900
+                   ],
+        "note":  "",
+        "label":  "done",
+        "file":  "009_done.png"
+    }
+]

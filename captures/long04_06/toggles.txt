@@ -1,0 +1,4 @@
+﻿Notifications = On
+Do not disturb = On
+ServiceFabricLocalClusterManager = On
+Startup App Notification = Off

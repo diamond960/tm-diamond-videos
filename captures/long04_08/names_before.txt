@@ -1,0 +1,158 @@
+﻿ControlType.Pane | runneradmin | 168,246,1544,696
+ControlType.StatusBar | Status bar | 168,918,1544,24
+ControlType.Group | Property Field | 175,918,58,24
+ControlType.Text | 18 items | 180,918,48,24
+ControlType.Group | View Modes | 1660,918,48,24
+ControlType.RadioButton | Details | 1660,918,24,24
+ControlType.RadioButton | Large Icons | 1684,918,24,24
+ControlType.Pane | Control Host | 170,246,154,672
+ControlType.Tree | Namespace Tree Control | 170,246,154,672
+ControlType.TreeItem | Home | 221,252,37,32
+ControlType.TreeItem | Gallery | 221,284,40,32
+ControlType.TreeItem | Desktop | 221,348,47,32
+ControlType.TreeItem | Downloads | 221,380,63,32
+ControlType.TreeItem | Documents | 221,412,65,32
+ControlType.TreeItem | Pictures | 221,444,46,32
+ControlType.TreeItem | Music | 221,476,36,32
+ControlType.TreeItem | Videos | 221,508,39,32
+ControlType.TreeItem | This PC | 221,572,44,32
+ControlType.TreeItem | Network | 221,604,49,32
+ControlType.TreeItem | Linux | 221,636,32,32
+ControlType.Pane | Shell Folder View | 328,246,1384,672
+ControlType.List | Items View | 328,246,1384,672
+ControlType.Header | Header | 328,246,1384,25
+ControlType.SplitButton | Name | 328,246,272,25
+ControlType.Button | Filter dropdown | 584,246,15,25
+ControlType.SplitButton | Date modified | 600,246,144,25
+ControlType.Button | Filter dropdown | 728,246,15,25
+ControlType.SplitButton | Type | 744,246,120,25
+ControlType.Button | Filter dropdown | 848,246,15,25
+ControlType.SplitButton | Size | 864,246,80,25
+ControlType.Button | Filter dropdown | 928,246,15,25
+ControlType.ListItem | .cargo | 342,277,598,24
+ControlType.Edit | Name | 364,280,236,19
+ControlType.Edit | Date modified | 600,280,144,19
+ControlType.Edit | Type | 744,280,120,19
+ControlType.Edit | Size | 864,280,80,19
+ControlType.ListItem | .docker | 342,305,598,24
+ControlType.Edit | Name | 364,308,236,19
+ControlType.Edit | Date modified | 600,308,144,19
+ControlType.Edit | Type | 744,308,120,19
+ControlType.Edit | Size | 864,308,80,19
+ControlType.ListItem | .dotnet | 342,333,598,24
+ControlType.Edit | Name | 364,336,236,19
+ControlType.Edit | Date modified | 600,336,144,19
+ControlType.Edit | Type | 744,336,120,19
+ControlType.Edit | Size | 864,336,80,19
+ControlType.ListItem | .rustup | 342,361,598,24
+ControlType.Edit | Name | 364,364,236,19
+ControlType.Edit | Date modified | 600,364,144,19
+ControlType.Edit | Type | 744,364,120,19
+ControlType.Edit | Size | 864,364,80,19
+ControlType.ListItem | .templateengine | 342,389,598,24
+ControlType.Edit | Name | 364,392,236,19
+ControlType.Edit | Date modified | 600,392,144,19
+ControlType.Edit | Type | 744,392,120,19
+ControlType.Edit | Size | 864,392,80,19
+ControlType.ListItem | Contacts | 342,417,598,24
+ControlType.Edit | Name | 364,420,236,19
+ControlType.Edit | Date modified | 600,420,144,19
+ControlType.Edit | Type | 744,420,120,19
+ControlType.Edit | Size | 864,420,80,19
+ControlType.ListItem | Desktop | 342,445,598,24
+ControlType.Edit | Name | 364,448,236,19
+ControlType.Edit | Date modified | 600,448,144,19
+ControlType.Edit | Type | 744,448,120,19
+ControlType.Edit | Size | 864,448,80,19
+ControlType.ListItem | Documents | 342,473,598,24
+ControlType.Edit | Name | 364,476,236,19
+ControlType.Edit | Date modified | 600,476,144,19
+ControlType.Edit | Type | 744,476,120,19
+ControlType.Edit | Size | 864,476,80,19
+ControlType.ListItem | Downloads | 342,501,598,24
+ControlType.Edit | Name | 364,504,236,19
+ControlType.Edit | Date modified | 600,504,144,19
+ControlType.Edit | Type | 744,504,120,19
+ControlType.Edit | Size | 864,504,80,19
+ControlType.ListItem | Favorites | 342,529,598,24
+ControlType.Edit | Name | 364,532,236,19
+ControlType.Edit | Date modified | 600,532,144,19
+ControlType.Edit | Type | 744,532,120,19
+ControlType.Edit | Size | 864,532,80,19
+ControlType.ListItem | Links | 342,557,598,24
+ControlType.Edit | Name | 364,560,236,19
+ControlType.Edit | Date modified | 600,560,144,19
+ControlType.Edit | Type | 744,560,120,19
+ControlType.Edit | Size | 864,560,80,19
+ControlType.ListItem | Music | 342,585,598,24
+ControlType.Edit | Name | 364,588,236,19
+ControlType.Edit | Date modified | 600,588,144,19
+ControlType.Edit | Type | 744,588,120,19
+ControlType.Edit | Size | 864,588,80,19
+ControlType.ListItem | Pictures | 342,613,598,24
+ControlType.Edit | Name | 364,616,236,19
+ControlType.Edit | Date modified | 600,616,144,19
+ControlType.Edit | Type | 744,616,120,19
+ControlType.Edit | Size | 864,616,80,19
+ControlType.ListItem | Saved Games | 342,641,598,24
+ControlType.Edit | Name | 364,644,236,19
+ControlType.Edit | Date modified | 600,644,144,19
+ControlType.Edit | Type | 744,644,120,19
+ControlType.Edit | Size | 864,644,80,19
+ControlType.ListItem | Searches | 342,669,598,24
+ControlType.Edit | Name | 364,672,236,19
+ControlType.Edit | Date modified | 600,672,144,19
+ControlType.Edit | Type | 744,672,120,19
+ControlType.Edit | Size | 864,672,80,19
+ControlType.ListItem | source | 342,697,598,24
+ControlType.Edit | Name | 364,700,236,19
+ControlType.Edit | Date modified | 600,700,144,19
+ControlType.Edit | Type | 744,700,120,19
+ControlType.Edit | Size | 864,700,80,19
+ControlType.ListItem | Videos | 342,725,598,24
+ControlType.Edit | Name | 364,728,236,19
+ControlType.Edit | Date modified | 600,728,144,19
+ControlType.Edit | Type | 744,728,120,19
+ControlType.Edit | Size | 864,728,80,19
+ControlType.ListItem | query | 342,753,598,24
+ControlType.Edit | Name | 364,756,236,19
+ControlType.Edit | Date modified | 600,756,144,19
+ControlType.Edit | Type | 744,756,120,19
+ControlType.Edit | Size | 864,756,80,19
+ControlType.TabItem | runneradmin | 172,118,248,32
+ControlType.Text | runneradmin | 211,126,72,15
+ControlType.Button | Close Tab | 379,122,32,24
+ControlType.Button | Add New Tab | 423,123,32,24
+ControlType.Button | Back | 179,158,32,32
+ControlType.Button | Forward | 227,158,32,32
+ControlType.Button | Up to "Users" (Alt + Up Arrow) | 275,158,32,32
+ControlType.Button | Refresh "runneradmin" (F5) | 323,158,32,32
+ControlType.Edit | Address Bar | 369,158,938,32
+ControlType.SplitButton | This PC | 382,162,51,24
+ControlType.SplitButton | This PC | 433,162,86,24
+ControlType.Text | This PC | 442,164,45,19
+ControlType.SplitButton | Windows (C:) | 519,162,122,24
+ControlType.Text | Windows (C:) | 528,164,81,19
+ControlType.SplitButton | Users | 641,162,75,24
+ControlType.Text | Users | 650,164,34,19
+ControlType.SplitButton | runneradmin | 716,162,122,24
+ControlType.Text | runneradmin | 725,164,80,19
+ControlType.Edit |  Search runneradmin | 1315,158,386,32
+ControlType.Text |  Search runneradmin | 1326,164,129,19
+ControlType.Button | New | 174,199,86,46
+ControlType.Button | Cut | 271,199,40,46
+ControlType.Button | Copy | 319,199,40,46
+ControlType.Button | Paste | 367,199,40,46
+ControlType.Button | Rename | 415,199,40,46
+ControlType.Button | Share | 463,199,40,46
+ControlType.Button | Delete | 511,199,40,46
+ControlType.Button | Sort | 562,199,84,46
+ControlType.Button | View | 650,199,87,46
+ControlType.Button | More options | 744,199,48,46
+ControlType.Button | Details | 1617,199,85,46
+ControlType.TitleBar | runneradmin - File Explorer | 168,118,1544,23
+ControlType.MenuBar | System Menu Bar | 168,118,22,22
+ControlType.MenuItem | System | 168,118,22,22
+ControlType.Button | Minimize | 1573,111,47,30
+ControlType.Button | Maximize | 1620,111,46,30
+ControlType.Button | Close | 1666,111,47,30
